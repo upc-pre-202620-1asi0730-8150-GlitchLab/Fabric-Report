@@ -134,3 +134,54 @@
 - [5.4. Video About the Product]().
 
 #### Relación de integrantes
+
+# **Student Outcome**
+
+El curso contribuye al cumplimiento del Student Outcome **ABET: ABET – EAC - Student Outcome 5**
+
+Criterio: *La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+<div align="center">
+
+# **Tabla de contenidos**
+
+| **Criterio Específico** | **Acciones realizadas** | **Conclusiones** |
+|--------------------------|-------------------------------|------------------|
+| **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Tello Palacios, Fabrizio Rafael**<br> **AV1** |
+| **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Tello Palacios, Fabrizio Rafael**<br> **AV1**<br>  |  El equipo logró establecer un entorno de trabajo colaborativo donde cada integrante aportó de acuerdo a sus habilidades. La claridad en los objetivos permitió alcanzar de manera efectiva los resultados planteados para el primer entregable, demostrando una adecuada organización y coordinación entre todos los miembros del grupo. | 
+
+| Integrante                           | Código     |
+|--------------------------------------|------------|
+| Tello Palacios, Fabrizio Rafael      | U202113310 |
+| nombre y apellidos                   | codigo alumno |
+| nombre y apellidos                   | codigo alumno |
+| nombre y apellidos                   | codigo alumno |
+| nombre y apellidos                   | codigo alumno |
+
+
+
+
+
+**Mes y año:** Setiembre 2026
+
+</div>
+
+# **Registro de Versiones del Informe**
+
+| **Versión** | **Fecha** | **Autor**  |   **Descripción**  |
+| ----------- | --------- |----------- |--------------------|
+| AV1 | 20/04/2026 | Tello Palacios, Fabrizio Rafael <br> |  Creacion de estructura de informe en github |
+
+<hr>
+
+# **Project Report Collaborations Insights**
+
+Nuestro proyecto fue hecho en el repositorio "Fabric-report" dentro de la organización "upc-pre-202620-1asi0730-8150-GlitchLab".
+
+**Enlaze de la organización en GitHub:** https://github.com/upc-pre-202620-1asi0730-8150-GlitchLab
+
+**Enlaze del repositorio:** https://github.com/upc-pre-202620-1asi0730-8150-GlitchLab/Fabric-Report.git
+
+<hr>
