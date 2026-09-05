@@ -28,8 +28,8 @@
 |--------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
 | Flores Martinez, Ricardo Andres | U202423162
-| Estupiñan Olortegui, Juan Sebastian | U202223405 |
-| Reategui Galarcep, Diego Sebastian | U20201F165 |
+| Estupiñan Olortegui, Juan Sebastián | U202223405 |
+| Reátegui Galarcep, Diego Sebastián | U20201F165 |
 | nombres apellidos      | codigo alumno |
 
 
