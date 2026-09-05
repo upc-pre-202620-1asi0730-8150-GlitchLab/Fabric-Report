@@ -28,7 +28,7 @@
 |--------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
 | nombres apellidos | codigo alumno
-| nombres apellidos | codigo alumno |
+| Estupiñan Olortegui, Juan Sebastian | U202223405 |
 | nombres apellidos       | codigo alumno |
 | nombres apellidos      | codigo alumno |
 
