@@ -27,7 +27,7 @@
 | Integrante                           | Código     |
 |--------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
-| nombres apellidos | codigo alumno
+| Flores Martinez, Ricardo Andres | U202423162
 | nombres apellidos | codigo alumno |
 | nombres apellidos       | codigo alumno |
 | nombres apellidos      | codigo alumno |
@@ -155,7 +155,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Integrante                           | Código     |
 |--------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
-| nombre y apellidos                   | codigo alumno |
+| Flores Martinez, Ricardo Andres                   | U202423162 |
 | nombre y apellidos                   | codigo alumno |
 | nombre y apellidos                   | codigo alumno |
 | nombre y apellidos                   | codigo alumno |
@@ -173,6 +173,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | **Versión** | **Fecha** | **Autor**  |   **Descripción**  |
 | ----------- | --------- |----------- |--------------------|
 | AV1 | 20/04/2026 | Tello Palacios, Fabrizio Rafael <br> |  Creacion de estructura de informe en github |
+| AV1 | 06/09/2026 | Flores Martinez, Ricardo Andres <br> |  Edicion en la estructura del informe |
 
 <hr>
 
