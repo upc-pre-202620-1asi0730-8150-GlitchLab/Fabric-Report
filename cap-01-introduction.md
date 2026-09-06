@@ -27,7 +27,7 @@
 | Integrante                           | Código     |
 |--------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
-| nombres apellidos | codigo alumno
+| Flores Martinez, Ricardo Andres | U202423162
 | Estupiñan Olortegui, Juan Sebastian | U202223405 |
 | Reategui Galarcep, Diego Sebastian | U20201F165 |
 | nombres apellidos      | codigo alumno |
@@ -155,7 +155,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Integrante                           | Código     |
 |--------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
-| nombre y apellidos                   | codigo alumno |
+| Flores Martinez, Ricardo Andres                   | U202423162 |
 | nombre y apellidos                   | codigo alumno |
 | nombre y apellidos                   | codigo alumno |
 | nombre y apellidos                   | codigo alumno |
