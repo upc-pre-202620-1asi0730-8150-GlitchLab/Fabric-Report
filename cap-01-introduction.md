@@ -210,5 +210,16 @@ Ser una startup reconocida por desarrollar productos de software innovadores que
 ![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
 ![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
 
+# 1.2. Solution Profile
 
+## 1.2.1. Antecedentes y problemática
 
+Según [Javier Borda (2022)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source), las empresas del sector textil y confecciones en el Perú (sobre todo MYPES) enfrentan dificultades para mantener un control eficiente de sus procesos productivos y de calidad, evidenciándose brechas de calidad dentro del sector. La falta de una gestión digital y centralizada de la información puede dificultar el seguimiento de rendimiento de las máquinas, asi como el registro de control de calidad de las telas y trazabilidad de lotes producidos. Esto puede generar dificultades para identificar problemas durante la producción, aumentar los tiempos y costos asociados a errores y limitar la disponibilidad de información para una adecuada toma de decisiones [(INEI, 2023)](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.inei.gob.pe/media/inei_en_los_medios/06-jun-el-peruano-8-9.pdf?utm_source).
+
+Ante esta problemática, proponemos **Fabric**, una aplicación web que centraliza la información de producción y calidad, permitiendo realizar el seguimiento de lotes, registrar controles de calidad de las telas y consultar indicadores relacionados con la productividad de las máquinas de confección.
+
+A continuación, plantearemos la problemática usando la técnica de 5´W´s y 2´h´s.
+
+### What (¿Cuál es el problema?)
+
+En el sector textil y de confecciones peruano existen dificultades en el control de calidad y la gestión de sus procesos productivos. 
