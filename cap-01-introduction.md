@@ -27,7 +27,7 @@
 | Integrante                           | Código     |
 |--------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
-| nombres apellidos | codigo alumno
+| Flores Martinez, Ricardo Andres | U202423162
 | nombres apellidos | codigo alumno |
 | nombres apellidos       | codigo alumno |
 | nombres apellidos      | codigo alumno |
@@ -155,7 +155,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Integrante                           | Código     |
 |--------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
-| nombre y apellidos                   | codigo alumno |
+| Flores Martinez, Ricardo Andres                   | U202423162 |
 | nombre y apellidos                   | codigo alumno |
 | nombre y apellidos                   | codigo alumno |
 | nombre y apellidos                   | codigo alumno |
@@ -173,6 +173,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | **Versión** | **Fecha** | **Autor**  |   **Descripción**  |
 | ----------- | --------- |----------- |--------------------|
 | AV1 | 20/04/2026 | Tello Palacios, Fabrizio Rafael <br> |  Creacion de estructura de informe en github |
+| AV1 | 06/09/2026 | Flores Martinez, Ricardo Andres <br> |  Edicion en la estructura del informe |
 
 <hr>
 
@@ -185,28 +186,3 @@ Nuestro proyecto fue hecho en el repositorio "Fabric-report" dentro de la organi
 **Enlaze del repositorio:** https://github.com/upc-pre-202620-1asi0730-8150-GlitchLab/Fabric-Report.git
 
 <hr>
-
-
-# 1.1. Startup Profile
-
-## 1.1.1. Descripción de la Startup 
-Somos **GlitchLab**, una startup tecnológica formada por estudiantes de Ingeniería de Software de la UPC. Estamos enfocados en el desarrollo de soluciones mediante software para resolver problemas y mejorar diferentes procesos en empresas y organizaciones. Nuestro objetivo es identificar necesidades reales y transformarlas en aplicaciones y herramientas digitales que sean prácticas, accesibles y fáciles de utilizar. Buscamos aprovechar las diferentes tecnologías y metodologías de desarrollo de software para crear soluciones que permitan optimizar procesos, organizar información, reducir tareas manuales y facilitar la toma de decisiones. Actualmente, nuestro primer proyecto es **Fabric**, una aplicación web orientada al sector textil peruano, que busca mejorar la gestión y el seguimiento de los procesos de producción. A futuro, GlitchLab busca continuar desarrollando soluciones de software para diferentes sectores, adaptándonos a las necesidades de cada usuario y generando un impacto positivo mediante la tecnología.
-
-### Misión
-
-Desarrollar soluciones tecnológicas innovadoras que ayuden a las empresas y personas a mejorar sus procesos, optimizar sus recursos y tomar mejores decisiones mediante el uso de la tecnología.
-
-### Visión
-
-Ser una startup reconocida por desarrollar productos de software innovadores que impulsen la transformación digital y el crecimiento de diferentes sectores, adaptándonos a las necesidades de nuestros usuarios.
-
-## 1.1.2. Perfiles de integrantes del equipo
-
-| Foto | Apellido y Nombre | Descripción|
-|------|---------------------------------|------|
-![Fabrizio](assets/images/cap-01/Fabrizio.png) | *Tello Palacios, Fabrizio Rafael U202113310* | Soy estudiante de la carrera de Ingeniería de Software. Considero que soy una persona comprometida en cada trabajo y tarea y siempre trato de dar lo mejor de mi en cada situación. Tengo experiencia en el desarrollo UX/UI diseñando interfaces y prototipos en Figma. Además, mi conocimiento en html, css y javascript son muy sólidos y puedo apoyar al equipo en el desarrollo de interfaces funcionales e intuitivas. 
-
-# 1.2. Solution Profile
-
-## 1.2.1. Antecedentes y problemática
-
