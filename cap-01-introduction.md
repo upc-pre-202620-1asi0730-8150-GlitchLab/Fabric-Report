@@ -133,7 +133,6 @@
 
 - [5.4. Video About the Product]().
 
-#### Relación de integrantes
 
 # **Student Outcome**
 
