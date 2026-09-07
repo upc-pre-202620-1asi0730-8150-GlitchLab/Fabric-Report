@@ -24,13 +24,13 @@
 
 #### Relación de integrantes
 
-| Integrante                           | Código     |
-|--------------------------------------|------------|
-| Tello Palacios, Fabrizio Rafael      | U202113310 |
-| Flores Martinez, Ricardo Andres | U202423162
+| Integrante                          | Código     |
+|-------------------------------------|------------|
+| Tello Palacios, Fabrizio Rafael     | U202113310 |
+| Flores Martinez, Ricardo Andres     | U202423162 
 | Estupiñan Olortegui, Juan Sebastian | U202223405 |
-| Reategui Galarcep, Diego Sebastian | U20201F165 |
-| nombres apellidos      | codigo alumno |
+| Reategui Galarcep, Diego Sebastian  | U20201F165 |
+| Silva Hualpa, Rosangela Karen       | U20241B885 |
 
 
 
@@ -152,13 +152,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Tello Palacios, Fabrizio Rafael**<br> **AV1** |
 | **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Tello Palacios, Fabrizio Rafael**<br> **AV1**<br>  |  El equipo logró establecer un entorno de trabajo colaborativo donde cada integrante aportó de acuerdo a sus habilidades. La claridad en los objetivos permitió alcanzar de manera efectiva los resultados planteados para el primer entregable, demostrando una adecuada organización y coordinación entre todos los miembros del grupo. | 
 
-| Integrante                           | Código     |
-|--------------------------------------|------------|
-| Tello Palacios, Fabrizio Rafael      | U202113310 |
-| Flores Martinez, Ricardo Andres                   | U202423162 |
-| nombre y apellidos                   | codigo alumno |
-| nombre y apellidos                   | codigo alumno |
-| nombre y apellidos                   | codigo alumno |
+| Integrante                      | Código        |
+|---------------------------------|---------------|
+| Tello Palacios, Fabrizio Rafael | U202113310    |
+| Flores Martinez, Ricardo Andres | U202423162    |
+| nombre y apellidos              | codigo alumno |
+| nombre y apellidos              | codigo alumno |
+| Silva Hualpa, Rosangela Karen   | U20241B885    |
 
 
 
