@@ -186,3 +186,18 @@ Nuestro proyecto fue hecho en el repositorio "Fabric-report" dentro de la organi
 **Enlaze del repositorio:** https://github.com/upc-pre-202620-1asi0730-8150-GlitchLab/Fabric-Report.git
 
 <hr>
+
+# 1.1. Startup profile
+
+## 1.1.1. Descripción de la StartUp
+
+Somos **GlitchLab**,una startup tecnológica formada por estudiantes de Ingeniería de Software de la UPC, nos enfocamos en el desarrollo de soluciones mediante software para resolver problemas y mejorar diferentes procesos en empresas y organizaciones. Nuestro objetivo es identificar necesidades reales y transformarlas en aplicaciones y herramientas digitales que sean prácticas, accesibles y fáciles de utilizar. Buscamos aprovechar las diferentes tecnologías y metodologías de desarrollo de software para crear soluciones que permitan optimizar procesos, organizar información, reducir tareas manuales y facilitar la toma de decisiones. Actualmente, nuestro primer proyecto es **Fabric**, una aplicación web orientada al sector textil peruano, que busca mejorar la gestión y el seguimiento de los procesos de producción. A largo plazo, GlitchLab busca continuar desarrollando soluciones de software para diferentes sectores, adaptándonos a las necesidades de cada usuario y generando un impacto positivo mediante la tecnología.
+
+### Misión
+
+Desarrollar soluciones tecnológicas innovadoras que ayuden a las empresas y personas a mejorar sus procesos, optimizar sus recursos y tomar mejores decisiones mediante el uso de la tecnología.
+
+### Visión
+
+Ser una startup reconocida por desarrollar productos de software innovadores que impulsen la transformación digital y el crecimiento de diferentes sectores, adaptándonos a las necesidades de nuestros usuarios.
+
