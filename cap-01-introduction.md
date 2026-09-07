@@ -201,3 +201,15 @@ Desarrollar soluciones tecnológicas innovadoras que ayuden a las empresas y per
 
 Ser una startup reconocida por desarrollar productos de software innovadores que impulsen la transformación digital y el crecimiento de diferentes sectores, adaptándonos a las necesidades de nuestros usuarios.
 
+## 1.1.2. Perfiles de integrantes del equipo
+
+| Foto | Apellido y Nombre | Descripción|
+|------|---------------------------------|------|
+![Fabrizio](assets/images/cap-01//Fabrizio.png)| *Tello Palacios, Fabrizio Rafael  u202113310*|Soy estudiante de la carrera de Ingeniería de Software. Considero que soy una persona comprometida en cada trabajo y tarea y siempre trato de dar lo mejor de mi en cada situación. Tengo experiencia en el desarrollo UX/UI, enfocándome en el diseño de interfaces y prototipos utilizando Figma. Además, cuento con sólidos conocimientos en HTML, CSS y JavaScript, lo que me permite aportar al equipo con el desarrollo de interfaces funcionales e intuitivas.
+![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
+![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
+![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
+![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
+
+
+
