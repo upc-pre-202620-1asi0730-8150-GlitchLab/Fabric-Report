@@ -28,7 +28,7 @@
 |--------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
 | Flores Martinez, Ricardo Andres | U202423162
-| nombres apellidos | codigo alumno |
+| Reátegui Galarcep, Diego Sebastián | U20201F165 |
 | nombres apellidos       | codigo alumno |
 | nombres apellidos      | codigo alumno |
 

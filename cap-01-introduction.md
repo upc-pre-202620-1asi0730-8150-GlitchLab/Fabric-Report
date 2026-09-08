@@ -28,7 +28,7 @@
 |--------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
 | Flores Martinez, Ricardo Andres | U202423162
-| nombres apellidos | codigo alumno |
+| Reátegui Galarcep, Diego Sebastián | U20201F165 |
 | nombres apellidos       | codigo alumno |
 | nombres apellidos      | codigo alumno |
 
@@ -205,7 +205,7 @@ Ser una startup reconocida por desarrollar productos de software innovadores que
 | Foto | Apellido y Nombre | Descripción|
 |------|---------------------------------|------|
 ![Fabrizio](assets/images/cap-01//Fabrizio.png)| *Tello Palacios, Fabrizio Rafael  u202113310*|Soy estudiante de la carrera de Ingeniería de Software. Considero que soy una persona comprometida en cada trabajo y tarea y siempre trato de dar lo mejor de mi en cada situación. Tengo experiencia en el desarrollo UX/UI, enfocándome en el diseño de interfaces y prototipos utilizando Figma. Además, cuento con sólidos conocimientos en HTML, CSS y JavaScript, lo que me permite aportar al equipo con el desarrollo de interfaces funcionales e intuitivas.
-![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
+![Foto alumno]() |  *Diego Sebastián Reátegui Galarcep u20201f165*  |   habilidades tecnicas de integrante
 ![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
 ![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
 ![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
@@ -214,12 +214,36 @@ Ser una startup reconocida por desarrollar productos de software innovadores que
 
 ## 1.2.1. Antecedentes y problemática
 
-Según [Javier Borda (2022)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source), las empresas del sector textil y confecciones en el Perú (sobre todo MYPES) enfrentan dificultades para mantener un control eficiente de sus procesos productivos y de calidad, evidenciándose brechas de calidad dentro del sector. La falta de una gestión digital y centralizada de la información puede dificultar el seguimiento de rendimiento de las máquinas, asi como el registro de control de calidad de las telas y trazabilidad de lotes producidos. Esto puede generar dificultades para identificar problemas durante la producción, aumentar los tiempos y costos asociados a errores y limitar la disponibilidad de información para una adecuada toma de decisiones [(INEI, 2023)](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.inei.gob.pe/media/inei_en_los_medios/06-jun-el-peruano-8-9.pdf?utm_source).
+Según [Javier Borda (2012)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source), las empresas del sector textil y confecciones en el Perú (sobre todo MYPES) enfrentan dificultades para mantener un control eficiente de sus procesos productivos y de calidad, evidenciándose brechas de calidad dentro del sector. La falta de una gestión digital y centralizada de la información puede dificultar el seguimiento de rendimiento de las máquinas, asi como el registro de control de calidad de las telas y trazabilidad de lotes producidos. Esto puede generar dificultades para identificar problemas durante la producción, aumentar los tiempos y costos asociados a errores y limitar la disponibilidad de información para una adecuada toma de decisiones [(INEI, 2023)](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.inei.gob.pe/media/inei_en_los_medios/06-jun-el-peruano-8-9.pdf?utm_source).
 
 Ante esta problemática, proponemos **Fabric**, una aplicación web que centraliza la información de producción y calidad, permitiendo realizar el seguimiento de lotes, registrar controles de calidad de las telas y consultar indicadores relacionados con la productividad de las máquinas de confección.
 
 A continuación, plantearemos la problemática usando la técnica de 5´W´s y 2´h´s.
 
-### What (¿Cuál es el problema?)
+### What? (¿Cuál es el problema?)
 
-En el sector textil y de confecciones peruano existen dificultades en el control de calidad y la gestión de sus procesos productivos. 
+En el sector textil y de confecciones peruano existen dificultades en la gestión del control y aseguramiento de la calidad de los procesos productivos, especialmente en el seguimiento y control de las actividades relacionadas con la calidad [(Javier Borda, 2012)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source).
+
+### Why?
+
+Esta problemática se relaciona con factores como tecnología deficiente, escaso conocimiento de TIC y tecnologías productivas, baja innovación tecnológica y prácticas empresariales poco modernizadas ([Rosales & Urbano, 2020](http://hdl.handle.net/20.500.12404/19374)).
+
+### Who?
+
+Las pequeñas empresas y MYPES del sector textil y de confecciones peruano, involucrando a operarios, supervisores y áreas de control de calidad.
+
+### Where?
+
+El problema se produce en las empresas del sector textil y de confecciones.
+
+### When?
+
+Durante el desarrollo de los procesos productivos, particularmente en las actividades relacionadas con el control y aseguramiento de la calidad.
+
+### How?
+
+El problema se refleja en que los departamentos de control de calidad tienen una participación limitada dentro del flujo productivo, sumado a las dificultades que existen para clasificar adecuadamente los defectos, lo cual repercute directamente en los indicadores fundamentales de los materiales [(Javier Borda, 2012)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source).
+
+### How Much?
+
+De las 60 principales plantas textiles, solo 4 contaban con un sistema de gestión de calidad certificado bajo ISO 9001:2008, mientras que las áreas de control de calidad representaban alrededor del 10 % de la fuerza laboral [(Javier Borda, 2012)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source).
