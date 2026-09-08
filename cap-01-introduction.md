@@ -222,17 +222,19 @@ A continuación, plantearemos la problemática usando la técnica de 5´W´s y 2
 
 ### What? (¿Cuál es el problema?)
 
-En el sector textil y de confecciones peruano existen dificultades para gestionar y controlar adecuadamente la calidad durante los procesos productivos, especialmente en el registro, seguimiento y clasificación de los problemas detectados durante la producción. Estas dificultades pueden limitar la disponibilidad de información organizada sobre los procesos y productos, dificultando la identificación oportuna de errores y el seguimiento de los lotes producidos [(Borda, 2012)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source).
+En el sector textil y de confecciones peruano existen dificultades para llevar un control adecuado de los procesos de producción y calidad. Durante la fabricación se genera información sobre las máquinas, los lotes producidos, la cantidad elaborada y los problemas de calidad encontrados, pero estos datos pueden registrarse de forma manual, en diferentes documentos o sin una estructura que facilite su consulta. Esto hace más difícil conocer el estado de la producción y relacionar los problemas encontrados con el lote, la máquina o la etapa en la que ocurrieron.
+
+En consecuencia, los responsables pueden tener dificultades para detectar errores a tiempo, hacer seguimiento de los lotes y conocer qué procesos están generando más problemas. Esto limita el uso de la información para mejorar la producción y puede contribuir a generar desperdicios, reprocesos y mayores costos para la empresa [(Borda, 2012)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source).
 
 ### Why? (¿Por qué ocurre?)
 
 La problemática ocurre debido a que muchas empresas del sector textil, especialmente las MYPES, todavía presentan un nivel limitado de digitalización y modernización en sus procesos productivos. Esto puede generar que la información relacionada con la producción, el rendimiento de las máquinas y los controles de calidad se registre de manera manual, en diferentes formatos o incluso que no se encuentre centralizada [(Rosales & Urbano, 2020)](http://hdl.handle.net/20.500.12404/19374). Por eso, los responsables de producción y calidad pueden tener dificultades para consultar rápidamente el historial de un lote, identificar los defectos más frecuentes o conocer el rendimiento de las máquinas.
 
-Además, la limitada incorporación de tecnologías de información reduce la capacidad de las empresas para obtener información oportuna y utilizarla como apoyo para la toma de decisiones. Esto afecta especialmente relevante en procesos donde un defecto detectado tarde puede implicar reprocesos, desperdicio de materiales (mermas), retrasos en la producción y mayores costos.
+Además, la limitada incorporación de tecnologías de información reduce la capacidad de las empresas para obtener información oportuna y utilizarla como apoyo para la toma de decisiones. Esto resulta especialmente relevante en procesos donde un defecto detectado tardíamente puede generar reprocesos, desperdicio de materiales (mermas), retrasos en la producción y mayores costos.
 
 ### Who? (¿A quiénes afecta?)
 
-Esta problemática afecta principalmente a pequeñas empresas y MYPES del sector textil y de confecciones, involucrando directamente a los trabajadores responsables de la producción, supervisores y personal encargado del control de calidad. Asimismo, puede afectar a otros actores de la cadena de suministro que necesitan consultar información sobre los productos y lotes fabricados.
+Esta problemática afecta principalmente las MYPES del sector textil y de confecciones, involucrando directamente a propietarios y administradores, supervisores y responsables de producción, personal encargado del control de calidad y operarios que participan directamente en los procesos productivos. Asimismo, puede agectar a otros actores relacionados con la cadena de suministro, como proveedores, distribuidores y clientes, debido a problemas asociados con retrasos, defectos de calidad o dificultades en el seguimiento de los productos y lotes fabricados.
 
 ### Where? (¿Dónde ocurre?)
 
@@ -248,9 +250,9 @@ La problemática se presenta durante el desarrollo y seguimiento de los procesos
 
 ### How? (¿Cómo?)
 
-El problema se presenta durante el proceso productivo cuando los defectos de calidad no se registran ni relacionan adecuadamente con el lote, etapa o máquina donde fueron detectados. Esto dificulta identificar oportunamente las causas de los problemas y realizar un seguimiento adecuado de las incidencias.
+ El problema se manifiesta cuando la información relacionada con la producción, el rendimiento de las máquinas y los controles de calidad se registra de manera manual, dispersa o sin una adecuada relación con los lotes y etapas del proceso productivo. Esto dificulta conocer oportunamente el estado de la producción, identificar problemas de rendimiento y determinar dónde y cuándo se originan los defectos.
 
-Como consecuencia, las empresas pueden presentar reprocesos, mermas y mayores costos de producción. Además, la falta de información organizada limita la capacidad de analizar los problemas y tomar acciones correctivas oportunamente.
+Como consecuencia, las empresas pueden presentar reprocesos, mermas, retrasos y mayores costos de producción. Además, la falta de información organizada limita la capacidad de analizar los problemas y tomar acciones correctivas oportunamente.
 
 ### How Much? (¿Cúanto afecta?)
 
@@ -260,7 +262,10 @@ La problemática puede generar un impacto económico en las MYPE textiles, princ
 
 ### 1.2.2.1. Lean UX Problem Statement
 
-En el sector textil y de confecciones de Lima, especialmente en las MYPE, los responsables de producción y control de calidad tienen dificultades para registrar y organizar la información sobre lotes, defectos y rendimiento de las máquinas, debido a que estos datos pueden encontrarse dispersos o registrarse manualmente. Esto dificulta detectar problemas a tiempo y puede generar desperdicios, reprocesos, retrasos y mayores costos. Ante esta situación, proponemos **Fabric**, una aplicación web que centralice esta información, permita hacer seguimiento de los lotes, registrar defectos y consultar indicadores para facilitar la toma de decisiones. Inicialmente, nuestra solución estará dirigida a MYPE textiles y de confecciones en Lima, especialmente aquellas ubicadas en Gamarra.
+Actualmente, en el sector textil y de confecciones de Lima, especialmente en las MYPE, el control de la producción y la calidad se centra en registrar información sobre lotes, defectos y rendimiento de las máquinas, pero estos datos pueden encontrarse dispersos o registrarse manualmente, dificultando su seguimiento y análisis. Las soluciones existentes no siempre permiten reunir esta información en un solo lugar y relacionarla para identificar problemas a tiempo. **Fabric** busca cubrir esta necesidad mediante una aplicación web que centralice los registros, permita hacer seguimiento de los lotes, registrar defectos y consultar indicadores para facilitar la toma de decisiones. Nuestro enfoque inicial estará dirigido a MYPE textiles y de confecciones de Lima, especialmente aquellas ubicadas en Gamarra. Sabremos que la solución es exitosa cuando los usuarios registren de forma constante sus procesos y controles de calidad, consulten los indicadores para detectar problemas y logren reducir la cantidad de defectos, desperdicios y reprocesos.
 
 ### 1.2.2.2. Lean UX Assumptions
+
+Business Assumptions: <br>
+> * Creemos que 
 
