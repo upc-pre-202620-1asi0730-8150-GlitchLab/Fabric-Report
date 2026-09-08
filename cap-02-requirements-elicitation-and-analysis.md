@@ -224,3 +224,16 @@ El análisis competitivo realizado ha permitido identificar las principales fort
 14. ¿De qué manera le ayudaría contar con alertas e información centralizada sobre incidencias, defectos y rendimiento de las máquinas?
 
 15. ¿Qué funciones considera indispensables en una plataforma digital para facilitar su trabajo como supervisor o responsable de producción y calidad?
+
+### 2.2.2. Registro de entrevistas
+
+**Segmento Objetivo 2**
+
+**Nombre:** Betsabé
+**Edad:** 52
+**Ciudad:** Chancay
+
+Mira la entrevista completa [aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223405_upc_edu_pe/IQBCECavpqvwSrBSHyJaf8b0ARLKjbNLtTMtxAAm5XAoTSo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w1WlMq)
+
+**Resumen de la entrevista:**
+Betsabé nos cuenta la constante lucha de los supervisores textiles contra la poca eficiencia operativa al seguir utilizando soluciones muy anticuadas como el papel, las pizarras y la información desfasada. Aquí se pone en evidencia la urgencia de pasar de una supervisión reactiva a un control preventivo más modernizado, buscando herramientas ágiles que frenen las ineficiencia antes de que afecte la rentabilidad del taller.
