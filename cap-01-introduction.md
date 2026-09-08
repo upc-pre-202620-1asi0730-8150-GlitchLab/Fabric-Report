@@ -267,5 +267,39 @@ Actualmente, en el sector textil y de confecciones de Lima, especialmente en las
 ### 1.2.2.2. Lean UX Assumptions
 
 Business Assumptions: <br>
-> * Creemos que 
+> * Creemos que las MYPE textiles de Lima Metropolitana, especialmente las ubicadas en Gamarra, enfrentan problemas operativos relacionados con el seguimiento de producción y control de calidad, y que estarían abiertas a adoptar una solución digital si esta se adapta a sus necesidades y capacidades técnicas.
+> * Creemos que un modelo de negocio basado en suscripción mensual es viable para Fabric, siempre que el precio sea accesible para el presupuesto de una MYPE textil y el valor justifique el costo.
+> * Creemos que las empresas del sector textil valorarán una herramienta que centralice la información de producción y calidad, reduciendo la dependencia de registros físicos o archivos separados.
+
+Business Outcomes Assumptions:<br>
+> * Creemos que las empresas que utilicen Fabric de manera constante podrán reducir sus costos operativos asociados a desperdicios, reprocesos y retrasos en la producción.
+> * Creemos que los usuarios mantendrán un uso activo de la plataforma (al menos 3 veces por semana) si encuentran valor en la información que pueden consultar y registrar.
+> * Creemos que una parte de las empresas que prueben Fabric estará dispuesta a contratar una suscripción mensual después de comprobar sus beneficios.
+> * Creemos que Fabric permitirá a los equipos de producción reducir el tiempo dedicado a recopilar y organizar información manualmente, liberando tiempo para tareas de mayor valor.
+
+User Assumptions:<br>
+> * Creemos que las MYPE textiles cuentan con al menos una persona responsable de supervisar la producción y otra encargada del control de calidad, quienes son los principales usuarios potenciales de Fabric.
+> * Creemos que estos usuarios necesitan acceder a información actualizada sobre el estado de los lotes, el rendimiento de las máquinas y los defectos detectados durante su jornada laboral.
+> *  Creemos que actualmente los usuarios registran esta información en formatos físicos (como planillas o cuadernos) o en herramientas digitales no especializadas (como Excel o Google Sheets), lo que dificulta su análisis y seguimiento.
+> * Creemos que los usuarios pueden adaptarse a una aplicación web siempre que la interfaz sea simple, clara y fácil de utilizar.
+
+User Outcome and Benefit Assumptions: <br>
+> * Creemos que los usuarios podrán conocer rápidamente el estado de los lotes y detectar retrasos o problemas durante su elaboración.
+> * Creemos que podrán identificar los defectos más frecuentes y relacionarlos con los lotes o procesos donde fueron encontrados.
+> * Creemos que los usuarios percibirán un impacto positivo en su trabajo diario al contar con un historial claro y consultable de cada lote y sus incidencias.
+
+Feature Assumptions:<br>
+> * Creemos que una funcionalidad que permita crear lotes, registrar cantidades, fechas clave, etapa actual y estado del lote será suficiente para que los supervisores realicen un seguimiento ordenado y completo de la producción.
+> * Creemos que una función de consulta y filtrado (por fecha, lote, máquina, etapa o tipo de defecto) permitirá a los usuarios analizar el historial de producción y calidad, identificando patrones o causas raíz de problemas recurrentes.
+> * Creemos que la visualización de indicadores clave (como porcentaje de defectos, eficiencia por máquina o cumplimiento de plazos) será útil para que los usuarios tomen decisiones basadas en datos concretos.
+> * Creemos que un módulo de control de calidad que permita registrar inspecciones, seleccionar tipos de defecto (falla de material, falla de medida, falla en accesorios), cantidades afectadas y asociarlos a un lote específico ayudará a los encargados a mantener un registro detallado y trazable de los problemas de calidad.
+
+### 1.2.2.3. Lean UX Hyphotesis Statement
+
+> * Creemos que lograremos una reducción de al menos un 20% en los retrasos de producción y una mejor trazabilidad de los lotes si los supervisores de producción y control de calidad logran conocer el estado actual de cada lote, identificar retrasos o desviaciones en las fechas de entrega, y mantener un registro organizado de todos los lotes de producción con un módulo que permita crear lotes, registrar cantidades, fechas de inicio y entrega, etapa actual y actualizar el estado a lo largo del proceso productivo.
+> * Creemos que lograremos un mejor seguimiento de los problemas de calidad y una reducción de los costos por reprocesos si el personal de control de calidad y los supervisores de producción logran registrar inspecciones, asociar defectos a lotes específicos y mantener un historial de calidad trazable con una función de control de calidad que permita registrar inspecciones, seleccionar tipos de defecto y agregar observaciones.
+> * Creemos que lograremos la identificación de problemas recurrentes y el análisis de causa raíz si los supervisores de producción y los gerentes de calidad logran consultar registros de producción anteriores, detectar patrones en los defectos, identificar qué máquinas o procesos generan más problemas y analizar el historial para tomar decisiones informadas con una función de consulta y filtrado que permita revisar registros anteriores y filtrar por fecha, lote, etapa o tipo de defecto.
+> * Creemos que lograremos una toma de decisiones basada en datos precisos y una detección más rápida de problemas si los gerentes de producción y dueños de negocio logran visualizar indicadores clave de rendimiento y monitorear tendencias de calidad con un dashboard que muestre porcentaje de defectos, eficiencia por máquina y cumplimiento de plazos de entrega. 
+
+### 1.2.2.4. Lean UX Canvas
 
