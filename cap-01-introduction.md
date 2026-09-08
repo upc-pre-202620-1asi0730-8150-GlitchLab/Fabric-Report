@@ -222,28 +222,36 @@ A continuación, plantearemos la problemática usando la técnica de 5´W´s y 2
 
 ### What? (¿Cuál es el problema?)
 
-En el sector textil y de confecciones peruano existen dificultades en la gestión del control y aseguramiento de la calidad de los procesos productivos, especialmente en el seguimiento y control de las actividades relacionadas con la calidad [(Javier Borda, 2012)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source).
+En el sector textil y de confecciones peruano existen dificultades para gestionar y controlar adecuadamente la calidad durante los procesos productivos, especialmente en el registro, seguimiento y clasificación de los problemas detectados durante la producción. Estas dificultades pueden limitar la disponibilidad de información organizada sobre los procesos y productos, dificultando la identificación oportuna de errores y el seguimiento de los lotes producidos [(Borda, 2012)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source).
 
-### Why?
+### Why? (¿Por qué ocurre?)
 
-Esta problemática se relaciona con factores como tecnología deficiente, escaso conocimiento de TIC y tecnologías productivas, baja innovación tecnológica y prácticas empresariales poco modernizadas ([Rosales & Urbano, 2020](http://hdl.handle.net/20.500.12404/19374)).
+La problemática ocurre debido a que muchas empresas del sector textil, especialmente las MYPES, todavía presentan un nivel limitado de digitalización y modernización en sus procesos productivos. Esto puede generar que la información relacionada con la producción, el rendimiento de las máquinas y los controles de calidad se registre de manera manual, en diferentes formatos o incluso que no se encuentre centralizada [(Rosales & Urbano, 2020)](http://hdl.handle.net/20.500.12404/19374). Por eso, los responsables de producción y calidad pueden tener dificultades para consultar rápidamente el historial de un lote, identificar los defectos más frecuentes o conocer el rendimiento de las máquinas.
 
-### Who?
+Además, la limitada incorporación de tecnologías de información reduce la capacidad de las empresas para obtener información oportuna y utilizarla como apoyo para la toma de decisiones. Esto afecta especialmente relevante en procesos donde un defecto detectado tarde puede implicar reprocesos, desperdicio de materiales (mermas), retrasos en la producción y mayores costos.
 
-Las pequeñas empresas y MYPES del sector textil y de confecciones peruano, involucrando a operarios, supervisores y áreas de control de calidad.
+### Who? (¿A quiénes afecta?)
 
-### Where?
+Esta problemática afecta principalmente a pequeñas empresas y MYPES del sector textil y de confecciones, involucrando directamente a los trabajadores responsables de la producción, supervisores y personal encargado del control de calidad. Asimismo, puede afectar a otros actores de la cadena de suministro que necesitan consultar información sobre los productos y lotes fabricados.
 
-El problema se produce en las empresas del sector textil y de confecciones.
+### Where? (¿Dónde ocurre?)
 
-### When?
+La problemática se presenta principalmente en las empresas dedicadas a la producción textil y de confecciones, con una mayor concentración en Lima Metropolitana. Esta ubicación resulta importante debido a que Lima concentra el 63.9 % de las empresas formales del sector textil y de confecciones del país, y el 99.4 % de estas empresas corresponde a MYPEs [(PRODUCE, 2026)](https://www.gob.pe/institucion/produce/noticias/1410729-ministro-de-la-produccion-industria-textil-y-de-confecciones-sostiene-411-mil-puestos-de-trabajo-con-participacion-femenina-del-63-7).
 
-Durante el desarrollo de los procesos productivos, particularmente en las actividades relacionadas con el control y aseguramiento de la calidad.
+Dentro de Lima, uno de los principales puntos de concentración de esta actividad es el **Emporio Comercial de Gamarra**, ubicado en el distrito de La Victoria, reconocido por ser uno de los principales centros de producción y comercialización textil del Perú. En 2024, [PRODUCE](https://www.gob.pe/institucion/produce/noticias/1069804-gobierno-impulsa-campana-navidena-2024-segura-para-reactivar-la-economia-de-gamarra) señaló que Gamarra reunía cerca de 50 000 emprendedores dedicados a la confección y comercialización de productos textiles.
 
-### How?
+Por ello, **Fabric** se enfocará inicialmente en las MYPE textiles y de confecciones de Lima, tomando como principal contexto de aplicación el Emporio Comercial de Gamarra, donde existe una alta concentración de empresas y una necesidad de mejorar la gestión de los procesos productivos y de calidad.
 
-El problema se refleja en que los departamentos de control de calidad tienen una participación limitada dentro del flujo productivo, sumado a las dificultades que existen para clasificar adecuadamente los defectos, lo cual repercute directamente en los indicadores fundamentales de los materiales [(Javier Borda, 2012)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source).
+### When? (¿Cuándo ocurre?)
 
-### How Much?
+La problemática se presenta durante el desarrollo y seguimiento de los procesos productivos, especialmente en las etapas donde se requiere controlar la calidad, registrar información de producción y verificar el estado de los productos. Esta necesidad se mantiene durante la operación de las empresas, ya que en 2024 el ITP brindó 2,640 servicios especializados a 891 unidades productivas del sector textil, siendo el control de calidad, el control de inventarios y el planeamiento de la producción [(ITP, 2025)](https://www.gob.pe/institucion/itp/noticias/1091822-durante-el-2024-mas-de-2-600-empresas-del-rubro-indumentaria-fueron-asistidas-por-la-unidad-tecnica-textil-y-confecciones-del-itp), entre algunos de los temas más demandados dentro de la industria.
 
-De las 60 principales plantas textiles, solo 4 contaban con un sistema de gestión de calidad certificado bajo ISO 9001:2008, mientras que las áreas de control de calidad representaban alrededor del 10 % de la fuerza laboral [(Javier Borda, 2012)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source).
+### How? (¿Cómo?)
+
+El problema se presenta durante el proceso productivo cuando los defectos de calidad no se registran ni relacionan adecuadamente con el lote, etapa o máquina donde fueron detectados. Esto dificulta identificar oportunamente las causas de los problemas y realizar un seguimiento adecuado de las incidencias.
+
+Como consecuencia, las empresas pueden presentar reprocesos, mermas y mayores costos de producción. Además, la falta de información organizada limita la capacidad de analizar los problemas y tomar acciones correctivas oportunamente.
+
+### How Much? (¿Cúanto afecta?)
+
+La problemática puede generar un impacto económico en las MYPE textiles, principalmente por los gastos relacionados con desperdicios y productos que necesitan ser corregidos. Según [Elsie Bonilla (2017)](https://repositorio.ulima.edu.pe/item/8e63e69e-f96c-ce8d-e050-007f0100075d), quien analizó 27 MYPE de confección textil de Lima y Callao, existe una relación entre una mejor gestión de calidad y una reducción de los costos por desechos y desperdicios. Este estudio encontró que por cada 1 % de mejora en la gestión de calidad, los costos de producción podían disminuir aproximadamente 0.08 %.
