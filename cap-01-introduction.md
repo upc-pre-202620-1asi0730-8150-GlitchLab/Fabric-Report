@@ -154,8 +154,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Integrante                           | Código     |
 |--------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
-| Flores Martinez, Ricardo Andres                   | U202423162 |
-| nombre y apellidos                   | codigo alumno |
+| Flores Martinez, Ricardo Andres      | U202423162 |
+| Reátegui Galarcep, Diego Sebastián   | U20201F165 |
 | nombre y apellidos                   | codigo alumno |
 | nombre y apellidos                   | codigo alumno |
 
@@ -205,7 +205,7 @@ Ser una startup reconocida por desarrollar productos de software innovadores que
 | Foto | Apellido y Nombre | Descripción|
 |------|---------------------------------|------|
 ![Fabrizio](assets/images/cap-01//Fabrizio.png)| *Tello Palacios, Fabrizio Rafael  u202113310*|Soy estudiante de la carrera de Ingeniería de Software. Considero que soy una persona comprometida en cada trabajo y tarea y siempre trato de dar lo mejor de mi en cada situación. Tengo experiencia en el desarrollo UX/UI, enfocándome en el diseño de interfaces y prototipos utilizando Figma. Además, cuento con sólidos conocimientos en HTML, CSS y JavaScript, lo que me permite aportar al equipo con el desarrollo de interfaces funcionales e intuitivas.
-![Foto alumno]() |  *Diego Sebastián Reátegui Galarcep u20201f165*  |   habilidades tecnicas de integrante
+![Diego](assets/images/cap-01/Diego.jpg) |  *Diego Sebastián Reátegui Galarcep u20201f165*  | Soy estudiante de Ingeniería de Software. Tengo habilidades en Python, JavaScript y Diseño de Soluciones de Software, lo cual me permite brindar soluciones sólidas y rápidas. Considero que soy una persona que minuciosa al trabajar y que al trabajar en equipo aumenta mi sentido de responsabilidad.
 ![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
 ![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
 ![Foto alumno]() |  Nombre completo y código alumno  |   habilidades tecnicas de integrante
