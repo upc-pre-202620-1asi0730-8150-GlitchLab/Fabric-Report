@@ -255,3 +255,12 @@ Como consecuencia, las empresas pueden presentar reprocesos, mermas y mayores co
 ### How Much? (¿Cúanto afecta?)
 
 La problemática puede generar un impacto económico en las MYPE textiles, principalmente por los gastos relacionados con desperdicios y productos que necesitan ser corregidos. Según [Elsie Bonilla (2017)](https://repositorio.ulima.edu.pe/item/8e63e69e-f96c-ce8d-e050-007f0100075d), quien analizó 27 MYPE de confección textil de Lima y Callao, existe una relación entre una mejor gestión de calidad y una reducción de los costos por desechos y desperdicios. Este estudio encontró que por cada 1 % de mejora en la gestión de calidad, los costos de producción podían disminuir aproximadamente 0.08 %.
+
+## 1.2.2. Lean UX Process
+
+### 1.2.2.1. Lean UX Problem Statement
+
+En el sector textil y de confecciones de Lima, especialmente en las MYPE, los responsables de producción y control de calidad tienen dificultades para registrar y organizar la información sobre lotes, defectos y rendimiento de las máquinas, debido a que estos datos pueden encontrarse dispersos o registrarse manualmente. Esto dificulta detectar problemas a tiempo y puede generar desperdicios, reprocesos, retrasos y mayores costos. Ante esta situación, proponemos **Fabric**, una aplicación web que centralice esta información, permita hacer seguimiento de los lotes, registrar defectos y consultar indicadores para facilitar la toma de decisiones. Inicialmente, nuestra solución estará dirigida a MYPE textiles y de confecciones en Lima, especialmente aquellas ubicadas en Gamarra.
+
+### 1.2.2.2. Lean UX Assumptions
+
