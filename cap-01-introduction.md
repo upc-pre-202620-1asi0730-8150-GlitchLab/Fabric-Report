@@ -156,7 +156,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
 | Flores Martinez, Ricardo Andres      | U202423162 |
 | Reátegui Galarcep, Diego Sebastián   | U20201F165 |
-| nombre y apellidos                   | codigo alumno |
+| Estupiñan Olortegui, Juan Sebastian  | U202223405 |
 | nombre y apellidos                   | codigo alumno |
 
 
