@@ -19,4 +19,16 @@ Los supervisores de producción necesitan conocer rápidamente el estado actual 
 
 ### Segmento objetivo 2: Encargados de control de calidad
 
-**Perfil demográfico y operativo:** Es el personal responsable de realizar inspecciones y verificar la calidad de las prendas. Para cumplir este rol, se requiere de 2 a 3 años de experiencia  en control de calidad en confecciones o industria textil, y debe conocer fichas técnicas del producto y control de producto terminado. 
+**Perfil demográfico y operativo:** Es el personal responsable de realizar inspecciones y verificar la calidad de las prendas. Para cumplir este rol, se requiere de 2 a 3 años de experiencia  en control de calidad en confecciones o industria textil, y debe conocer fichas técnicas del producto y control de producto terminado. Las responsabilidades principales de este segmento son el de definir y ejecutar el plan de auditorías de producción de los talleres, documentar cada incidencia detectada en las visitas de auditoría y reducir las fallas de calidad detectadas tardíamente anticipando el control durante el proceso.
+
+Estadísticas del sustento:
+
+* El 60% de empleos en talleres y fábricas textiles en Gamarra son ocupados por personal femenino, mayormente en tiendas de puntos de venta. Además, tambien participan en labores de control de calidad y el acabado de prendas.
+
+* El 80% de las unidades productivas de Gamarra se dedica al rubro textil o manufacturero, lo que evidencia la alta demanda de personal especializado en control de calidad de telas y acabados de prendas.
+
+* Los principales problemas de calidad en la confección textil están relacionados con la costura, acabado y medidas, lo que requiere de personal capacitado para su detección y corrección oportuna.
+
+**Oportunidad :**
+
+ Los encargados de control de calidad necesitan registrar inspecciones, identificar los defectos más frecuentes y mantener un historial de calidad detallado y trazable para focalizar acciones correctivas en los problemas que generan mayores pérdidas y reducir los costos por reprocesos.
