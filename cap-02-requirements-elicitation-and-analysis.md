@@ -237,3 +237,13 @@ Mira la entrevista completa [aquí](https://upcedupe-my.sharepoint.com/:v:/g/per
 
 **Resumen de la entrevista:**
 Betsabé nos cuenta la constante lucha de los supervisores textiles contra la poca eficiencia operativa al seguir utilizando soluciones muy anticuadas como el papel, las pizarras y la información desfasada. Aquí se pone en evidencia la urgencia de pasar de una supervisión reactiva a un control preventivo más modernizado, buscando herramientas ágiles que frenen las ineficiencia antes de que afecte la rentabilidad del taller.
+
+
+**Nombre:** Luciana
+**Edad:** 19
+**Ciudad:** Lima
+
+Mira la entrevista completa [aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223405_upc_edu_pe/IQD0lPUhdUifTIG8ujt3qpIoAauq6Yzjzo3coqyEuXg_CBE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gVBCqJ)
+
+**Resumen de la entrevista:**
+Luciana nos cuenta la necesidad de conectar la trazabilidad de los rollos de tela con las prendas terminadas en tiempo real, transformando el control de calidad en un filtro preventivo capaz de transparentar las discrepancias entre áreas y frenar a tiempo el alto costo de los reprocesos.
