@@ -236,7 +236,11 @@ El análisis competitivo realizado ha permitido identificar las principales fort
 Mira la entrevista completa [aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223405_upc_edu_pe/IQBCECavpqvwSrBSHyJaf8b0ARLKjbNLtTMtxAAm5XAoTSo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w1WlMq)
 
 **Resumen de la entrevista:**
-Betsabé nos cuenta la constante lucha de los supervisores textiles contra la poca eficiencia operativa al seguir utilizando soluciones muy anticuadas como el papel, las pizarras y la información desfasada. Aquí se pone en evidencia la urgencia de pasar de una supervisión reactiva a un control preventivo más modernizado, buscando herramientas ágiles que frenen las ineficiencia antes de que afecte la rentabilidad del taller.
+Betsabé, supervisora de planta y encargada del control de calidad en un taller de confecciones, coordina las labores de confección, acabados y operarios, además de verificar que las prendas cumplan con las medidas y fichas técnicas. Para el seguimiento de la producción utiliza hojas de control, pizarras acrílicas y registros manuales, junto con recorridos periódicos por las estaciones para revisar el avance, detectar operaciones críticas y verificar el estado de las máquinas.
+
+Entre las principales dificultades destacan la dependencia de registros físicos, la información desactualizada, la pérdida o deterioro de documentos y la necesidad de recopilar datos de distintas fuentes para investigar problemas. La detección de fallas en las máquinas se apoya principalmente en la observación visual, la comunicación con los operarios y la revisión de los defectos producidos. Ante una incidencia, recopilar la información necesaria puede tomar entre 40 minutos y 2 horas, debido a la búsqueda de hojas de corte, archivadores y consultas al personal.
+
+Betsabé considera clave indicadores como el porcentaje de merma y reproceso por lote, las prendas aprobadas por hora y el tiempo muerto por fallas mecánicas. Por ello, estima que una herramienta digital debería permitir registrar rápidamente fallas asociadas a máquinas o lotes, hacer seguimiento visual de las incidencias, recibir alertas tempranas sobre cuellos de botella y paradas de máquinas, y consultar métricas claras del día. Para ella, la herramienta debe ser rápida, sencilla y funcionar bien en las computadoras disponibles en el piso de planta.
 
 
 **Nombre:** Luciana
