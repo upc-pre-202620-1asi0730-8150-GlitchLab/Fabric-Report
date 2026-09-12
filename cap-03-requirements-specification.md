@@ -64,5 +64,786 @@
 
 * **User Stories**
 
+<table>
 
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
+
+<table>
+
+  <tr>
+    <td><b>User Story ID</b></td>
+    <td>[Completar]</td>
+    <td><b>Epic ID</b></td>
+    <td>[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">[Completar]</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de Aceptación:</b>
+      <ul>
+        <li>Dado que... [Completar]</li>
+        <li>Cuando... [Completar]</li>
+        <li>Entonces... [Completar]</li>
+      </ul>
+    </td>
+  </tr>
+  
+</table>
 
