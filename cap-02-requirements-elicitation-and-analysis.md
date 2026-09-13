@@ -201,7 +201,7 @@ Se ha desarrollado un User Persona representativo para cada uno de los segmentos
 
 #### Segmento 1: MYPES textiles y de confecciones de Lima
 
-![User Persona - Segmento 2](assets/images/cap-02/user-persona1.png)
+![User Persona - Segmento 1](assets/images/cap-02/user-persona1.png)
 
 #### Segmento 2: Supervisores y responsables de producción y calidad
 
@@ -231,13 +231,14 @@ En esta sección se presentan los User Journey Maps en su versión "As-Is", elab
 ### 2.3.4. Empathy Mapping
 Para la elaboración de los Empathy Maps, se analizaron las entrevistas de cada User Persona considerando qué piensa y siente, qué oye, qué ve y qué dice y hace durante sus actividades. A partir de este análisis, se identificaron sus principales Pains, relacionados con los registros manuales, la información desactualizada y la dificultad para detectar incidencias, así como sus Gains, enfocados en mejorar el acceso a la información y el seguimiento de la producción.
 #### User Persona 1:
+![Empathy Mapping - Segmento 1](assets/images/cap-02/empathy-map1.png)
 
 #### User Persona 2: Betsabé
 ![Empathy Mapping - Segmento 2](assets/images/cap-02/empathy-map2.png)
 
 ### 2.3.5. As-Is Scenario Mapping
 
-#### User Persona 1:
+#### User Persona 1: 
 
 #### User Persona 2: Betsabé
 
