@@ -129,7 +129,7 @@ El análisis competitivo realizado ha permitido identificar las principales fort
 **Edad:** 41
 **Ciudad:** Lima
 
-Mira la entrevista completa [aquí](https://drive.google.com/drive/folders/1SHhdQLp2caKN74q0L_VfGBiq5rttl__L?usp=sharing)
+Entrevista completa: [https://shorturl.at/bXqB4](https://shorturl.at/bXqB4)
 
 **Resumen de la entrevista:**
 Maribel, encargada de la empresa Creaciones Flores, dedicada a la confección de prendas de vestir como poleras, polos, pantalonetas y shorts, explicó que su proceso productivo inicia con el corte de las telas, continúa con la confección mediante las máquinas y finaliza con la distribución de las prendas a las tiendas.
@@ -146,7 +146,7 @@ Maribel considera que una plataforma digital podría facilitar la gestión de la
 **Edad:** 40
 **Ciudad:** Lima
 
-Mira la entrevista completa [aquí](https://drive.google.com/drive/folders/1SHhdQLp2caKN74q0L_VfGBiq5rttl__L?usp=sharing)
+Entrevista completa: [https://shorturl.at/fr8yY](https://shorturl.at/fr8yY)
 
 **Resumen de la entrevista:**
 José del Carmen, indicó que su empresa se dedica principalmente a la confección de pantalones de vestir. El proceso de producción se encuentra organizado de manera familiar y el seguimiento de los productos se realiza de acuerdo con los pedidos que reciben de los clientes. Del mismo modo, las órdenes de producción se gestionan según las cantidades solicitadas.
@@ -165,7 +165,7 @@ Como principal indicador para verificar que el proceso funciona adecuadamente, c
 **Edad:** 52
 **Ciudad:** Chancay
 
-Mira la entrevista completa [aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223405_upc_edu_pe/IQBCECavpqvwSrBSHyJaf8b0ARLKjbNLtTMtxAAm5XAoTSo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w1WlMq)
+Entrevista completa: [https://shorturl.at/mHlW6](https://shorturl.at/mHlW6)
 
 **Resumen de la entrevista:**
 Betsabé, supervisora de planta y encargada del control de calidad en un taller de confecciones, coordina las labores de confección, acabados y operarios, además de verificar que las prendas cumplan con las medidas y fichas técnicas. Para el seguimiento de la producción utiliza hojas de control, pizarras acrílicas y registros manuales, junto con recorridos periódicos por las estaciones para revisar el avance, detectar operaciones críticas y verificar el estado de las máquinas.
@@ -179,7 +179,7 @@ Betsabé considera clave indicadores como el porcentaje de merma y reproceso por
 **Edad:** 19
 **Ciudad:** Lima
 
-Mira la entrevista completa [aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223405_upc_edu_pe/IQD0lPUhdUifTIG8ujt3qpIoAauq6Yzjzo3coqyEuXg_CBE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gVBCqJ)
+Entrevista completa: [https://shorturl.at/ZPY8m](https://shorturl.at/ZPY8m)
 
 **Resumen de la entrevista:**
 Luciana, supervisora de calidad en un taller de confecciones de Lima, participa en el control del proceso desde la recepción de los rollos de tela hasta el empaque final. Entre sus responsabilidades están revisar el tono y encogimiento de las telas, auditar las primeras piezas de cada lote, verificar las medidas de las fichas técnicas y aprobar las prendas antes del planchado y despacho. Para supervisar la producción realiza rondas continuas por las mesas de trabajo y zonas de acabado, usando hojas de ruta y registros físicos para verificar el avance de las órdenes y detectar acumulaciones.
