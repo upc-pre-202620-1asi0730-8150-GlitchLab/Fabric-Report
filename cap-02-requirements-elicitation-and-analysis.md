@@ -144,7 +144,7 @@ Maribel considera que una plataforma digital podría facilitar la gestión de la
 
 **Nombre:** José del Carmen
 **Edad:** 40
-**Ciudad:** Nueva Cajamarca
+**Ciudad:** Lima
 
 Mira la entrevista completa [aquí](https://drive.google.com/drive/folders/1SHhdQLp2caKN74q0L_VfGBiq5rttl__L?usp=sharing)
 
@@ -201,6 +201,7 @@ Se ha desarrollado un User Persona representativo para cada uno de los segmentos
 
 #### Segmento 1: MYPES textiles y de confecciones de Lima
 
+![User Persona - Segmento 2](assets/images/cap-02/user-persona1.png)
 
 #### Segmento 2: Supervisores y responsables de producción y calidad
 
