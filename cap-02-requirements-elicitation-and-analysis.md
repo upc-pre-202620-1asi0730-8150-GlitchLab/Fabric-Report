@@ -10,128 +10,24 @@
 
 ### 2.1.1. Análisis competitivo
 
-Para este análisis competitivo se realizó un benchmark parcial enfocado en identificar soluciones digitales orientadas a la gestión, monitoreo y control de los procesos productivos dentro de la industria textil y de confecciones. La evaluación considera tres competidores directos: SI-TEXT Perú, como solución local enfocada en talleres y empresas textiles; Datatex - CAMS, como solución internacional especializada en el monitoreo de información de producción; y Coats Digital - FastReactPlan, como solución internacional especializada en la planificación y control de la producción de prendas.
+El análisis competitivo presentado a continuación emplea una matriz de variables del mercado (Landscape) junto con un análisis FODA (SWOT) para evaluar el posicionamiento de Fabric frente a soluciones del sector textil e identificar oportunidades de diferenciación orientadas a las MYPES textiles y de confecciones de Lima.
 
-Las métricas analizadas incluyen el perfil del producto, mercado objetivo, estrategias de marketing, productos y servicios, precios, canales de distribución y análisis FODA. Se seleccionaron estos competidores debido a que presentan diferentes enfoques para resolver problemas relacionados con el control de la producción textil. Esto permite identificar oportunidades de diferenciación para **Fabric**, principalmente mediante una plataforma orientada a las necesidades de las MYPES textiles y de confecciones de Lima que facilite el seguimiento de la producción, rendimiento de las máquinas, trazabilidad de lotes y registro de incidencias de calidad.
+| ¿Por qué llevar a cabo este análisis? | SI-TEXT Perú | Datatex - CAMS | Trama | Fabric |
+| :--- | :--- | :--- | :--- | :--- |
+| Identificar las características y fortalezas de soluciones existentes en el sector textil y de confecciones para determinar oportunidades de diferenciación y desarrollar una propuesta accesible, sencilla y adaptada a las necesidades de las MYPES textiles de Lima. | <img src="assets/images/cap-02/logo-sitext.png" width="150"> | <img src="assets/images/cap-02/logo-datatex.png" width="100"> | <img src="assets/images/cap-02/logo-coats.png" width="120"> | <img src="assets/images/cap-02/logo-fabric.png" width="100"> |
+| Overview / Perfil | SI-TEXT Perú es un ERP especializado en la industria textil y de confecciones peruana que permite centralizar información de producción, inventarios, ventas, fichas técnicas, insumos y reportes. | Datatex - CAMS es una solución especializada en la gestión del piso de producción que permite recopilar y analizar información relacionada con máquinas, operarios y procesos productivos textiles. | Trama es una plataforma ERP especializada en empresas de confecciones y maquila que integra la gestión de producción, calidad, inventarios y fichas técnicas. | Fabric es una aplicación web orientada a las MYPES textiles y de confecciones de Lima que busca centralizar información relacionada con la producción, rendimiento de máquinas, trazabilidad de lotes y controles de calidad. |
+| Ventaja competitiva | Adaptación al mercado textil peruano e integración de diferentes procesos empresariales dentro de una plataforma Cloud/SaaS. | Capacidad para recopilar información del proceso productivo y monitorear máquinas, cantidades producidas, tiempos de inactividad, defectos y productividad. | Integración de la gestión de producción y calidad dentro de una solución especializada para empresas de confecciones. | Solución sencilla y enfocada específicamente en las necesidades de las MYPES textiles, integrando producción, rendimiento de máquinas, trazabilidad y control de calidad. |
+| ¿Qué valor ofrece a los clientes? | Permite centralizar diferentes procesos de una empresa textil, facilitando la gestión de producción, inventarios, ventas e insumos. | Proporciona información detallada del piso de producción para mejorar el seguimiento del rendimiento de máquinas, operarios y procesos. | Facilita la administración de procesos de confección mediante herramientas de producción, inventario y control de calidad. | Permite organizar y visualizar información productiva que normalmente se encuentra registrada de manera manual o dispersa, facilitando la identificación de problemas y la toma de decisiones. |
+| Mercado objetivo | Talleres de confección, fábricas de ropa, marcas y empresas de servicios textiles del mercado peruano. | Empresas fabricantes del sector textil y de confecciones que requieren monitorear y controlar sus operaciones productivas. | Empresas de confecciones y maquila que requieren gestionar sus procesos productivos y controles de calidad. | MYPES textiles y de confecciones de Lima, especialmente talleres que necesitan mejorar el control de producción, rendimiento y calidad. |
+| Estrategias de marketing | Contacto comercial directo, demostraciones personalizadas y promoción digital de soluciones para empresas textiles. | Marketing B2B, demostraciones de soluciones empresariales y promoción de herramientas especializadas para la industria textil. | Promoción digital y contacto con empresas del sector de confecciones interesadas en digitalizar sus procesos. | Marketing digital, acercamiento directo a MYPES textiles, demostraciones de la plataforma y enfoque inicial en empresas ubicadas en Lima y el Emporio Comercial de Gamarra. |
+| Productos & Servicios | Gestión de inventarios, órdenes de producción, fichas técnicas, telas e insumos, mermas, ventas y reportes. | Seguimiento de producción, cantidades producidas, máquinas, operarios, tiempos de inactividad, defectos y parámetros del proceso productivo. | Gestión de producción, órdenes de trabajo, fichas técnicas, inventarios, controles de calidad, revisión de prendas y registro de defectos. | Seguimiento de producción, monitoreo del rendimiento de máquinas, trazabilidad de lotes, registro de incidencias de calidad e indicadores para apoyar la toma de decisiones. |
+| Precios & Costos | Ofrece planes de suscripción de acuerdo con las funcionalidades y necesidades de cada empresa. | No presenta públicamente una tarifa estándar; el acceso a la solución requiere contacto comercial. | No presenta públicamente una tarifa estándar; requiere contacto con la empresa para conocer sus planes y costos. | Modelo de suscripción accesible orientado a MYPES textiles y de confecciones, sujeto a validación durante el desarrollo del modelo de negocio. |
+| Canales de distribución | Plataforma Cloud/SaaS accesible mediante dispositivos conectados a Internet. | Plataforma empresarial integrada con sistemas de gestión y dispositivos utilizados dentro del proceso productivo. | Plataforma digital orientada a la gestión de empresas de confecciones. | Aplicación web accesible desde dispositivos con conexión a Internet. |
+| Análisis SWOT: Fortalezas | Conocimiento del mercado peruano, variedad de funcionalidades y especialización en empresas textiles y de confecciones. | Monitoreo detallado de producción, máquinas, operarios, tiempos de inactividad y defectos. | Integración de producción y control de calidad dentro de una plataforma especializada en confecciones. | Enfoque específico en MYPES textiles de Lima, facilidad de uso propuesta e integración del seguimiento de producción, máquinas, lotes y calidad. |
+| Análisis SWOT: Debilidades | Su amplitud como ERP puede incluir funcionalidades que una MYPE pequeña no necesariamente necesita para controlar únicamente sus procesos productivos. | Su alcance empresarial y variedad de funcionalidades pueden implicar una implementación más compleja para pequeñas empresas. | Su enfoque amplio de gestión empresarial puede incorporar funcionalidades adicionales frente a las necesidades específicas de pequeñas empresas textiles. | Producto nuevo, sin posicionamiento inicial en el mercado y con funcionalidades que todavía deben ser validadas con los usuarios objetivo. |
+| Análisis SWOT: Oportunidades | Crecimiento de la digitalización de talleres y empresas textiles peruanas. | Mayor adopción de tecnologías para digitalizar y automatizar los procesos de producción textil. | Creciente necesidad de mejorar la trazabilidad y el control de calidad en empresas de confecciones. | Alta concentración de MYPES textiles y de confecciones en Lima y necesidad de digitalizar procesos productivos actualmente registrados de manera manual o dispersa. |
+| Análisis SWOT: Amenazas | Aparición de nuevas soluciones especializadas y de menor costo dirigidas a pequeñas empresas textiles. | Aparición de soluciones locales más sencillas y económicas orientadas específicamente a MYPES. | Aparición de soluciones especializadas con mayor automatización del seguimiento de producción y calidad. | Presencia de competidores especializados ya establecidos y resistencia al cambio tecnológico por parte de algunas MYPES textiles. |
 
-<table style="border-collapse: collapse; width: 100%;">
-<tr>
-<th colspan="6" style="vertical-align: top;">Competitive Analysis Landscape</th>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">¿Por qué llevar a cabo este análisis?</td>
-<td colspan="4" style="vertical-align: top;">El objetivo de este análisis es identificar las características de los competidores y encontrar maneras de diferenciarnos.</td>
-</tr>
-
-<tr>
-<td colspan="2" rowspan="2" style="vertical-align: top;">Startup y Competidores</td>
-<td style="vertical-align: top;">Nuestra Startup</td>
-<td style="vertical-align: top;">SI-TEXT Perú</td>
-<td style="vertical-align: top;">Datatex - CAMS</td>
-<td style="vertical-align: top;">Trama</td>
-</tr>
-
-<tr>
-<td style="vertical-align: top;"><img src="assets/images/cap-02/logo-fabric.png" alt="Logo Fabric" style="height: 50px ; width: 80px;"></td>
-<td style="vertical-align: top;"><img src="assets/images/cap-02/logo-sitext.png" alt="Logo SI-TEXT Perú" style="height: 50px ; width: 150px;"></td>
-<td style="vertical-align: top;"><img src="assets/images/cap-02/logo-datatex.png" alt="Logo Datatex" style="height: 50px ; width: 80px;"></td>
-<td style="vertical-align: top;"><img src="assets/images/cap-02/logo-coats.png" alt="Logo Trama" style="height: 50px ; width: 100px;"></td>
-</tr>
-
-<tr>
-<td rowspan="2" style="vertical-align: top;">Perfil</td>
-<td style="vertical-align: top;">Overview</td>
-<td style="vertical-align: top;">Fabric es una aplicación web orientada a las MYPES textiles y de confecciones de Lima que busca centralizar información relacionada con la producción, rendimiento de máquinas, trazabilidad de lotes y controles de calidad.</td>
-<td style="vertical-align: top;">SI-TEXT Perú es un ERP especializado en la industria textil y de confecciones peruana que permite centralizar información de producción, inventarios, ventas, fichas técnicas, insumos y reportes.</td>
-<td style="vertical-align: top;">Datatex - CAMS es una solución especializada en la gestión del piso de producción que permite recopilar y analizar información relacionada con máquinas, operarios y procesos productivos textiles.</td>
-<td style="vertical-align: top;">Trama es una plataforma ERP especializada en empresas de confecciones y maquila que integra la gestión de producción, calidad, inventarios y fichas técnicas.</td>
-</tr>
-
-<tr>
-<td style="vertical-align: top;">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
-<td style="vertical-align: top;">Fabric busca ofrecer una solución sencilla y adaptada a las MYPES textiles y de confecciones de Lima, integrando el seguimiento de la producción, rendimiento de máquinas, trazabilidad de lotes y registro de incidencias de calidad.</td>
-<td style="vertical-align: top;">Su principal ventaja es su adaptación al mercado textil peruano y la integración de diferentes procesos empresariales dentro de una plataforma Cloud/SaaS.</td>
-<td style="vertical-align: top;">Destaca por su capacidad para recopilar información del proceso productivo y monitorear máquinas, cantidades producidas, tiempos de inactividad, defectos y productividad.</td>
-<td style="vertical-align: top;">Su principal valor es integrar la gestión de producción y calidad dentro de una solución especializada para empresas de confecciones.</td>
-</tr>
-
-<tr>
-<td rowspan="2" style="vertical-align: top;">Perfil de Marketing</td>
-<td style="vertical-align: top;">Mercado objetivo</td>
-<td style="vertical-align: top;">MYPES textiles y de confecciones de Lima, especialmente aquellas que requieren mejorar el control de sus procesos productivos y de calidad.</td>
-<td style="vertical-align: top;">Talleres de confección, fábricas de ropa, marcas y empresas de servicios textiles del mercado peruano.</td>
-<td style="vertical-align: top;">Empresas fabricantes del sector textil y de confecciones que requieren monitorear y controlar sus operaciones productivas.</td>
-<td style="vertical-align: top;">Empresas de confecciones y maquila que requieren gestionar sus procesos productivos y controles de calidad.</td>
-</tr>
-
-<tr>
-<td style="vertical-align: top;">Estrategias de marketing</td>
-<td style="vertical-align: top;">Marketing digital, acercamiento directo a MYPES textiles, demostraciones de la plataforma y enfoque inicial en empresas ubicadas en Lima y Gamarra.</td>
-<td style="vertical-align: top;">Contacto comercial directo, demostraciones personalizadas y promoción digital de sus soluciones para empresas textiles.</td>
-<td style="vertical-align: top;">Marketing B2B, demostraciones de soluciones empresariales y promoción de herramientas especializadas para la industria textil.</td>
-<td style="vertical-align: top;">Promoción digital de su plataforma y contacto con empresas del sector de confecciones interesadas en digitalizar sus procesos.</td>
-</tr>
-
-<tr>
-<td rowspan="3" style="vertical-align: top;">Perfil de Producto</td>
-<td style="vertical-align: top;">Productos & Servicios</td>
-<td style="vertical-align: top;">Seguimiento de producción, monitoreo del rendimiento de máquinas, trazabilidad de lotes, registro de defectos de calidad e indicadores para apoyar la toma de decisiones.</td>
-<td style="vertical-align: top;">Inventarios, órdenes de producción, fichas técnicas, telas e insumos, mermas, ventas y reportes.</td>
-<td style="vertical-align: top;">Seguimiento de producción, cantidades producidas, máquinas, operarios, tiempos de inactividad, defectos y parámetros relacionados con el proceso productivo.</td>
-<td style="vertical-align: top;">Gestión de producción, órdenes de trabajo, fichas técnicas, inventarios, controles de calidad, revisión de prendas y registro de defectos.</td>
-</tr>
-
-<tr>
-<td style="vertical-align: top;">Precios & Costos</td>
-<td style="vertical-align: top;">Fabric plantea un modelo de suscripción accesible orientado a las MYPES textiles y de confecciones, sujeto a validación durante el desarrollo del modelo de negocio.</td>
-<td style="vertical-align: top;">Ofrece diferentes planes de suscripción mensual de acuerdo con las funcionalidades y necesidades de la empresa.</td>
-<td style="vertical-align: top;">No presenta públicamente una tarifa estándar; el acceso a la solución requiere contacto comercial.</td>
-<td style="vertical-align: top;">No presenta públicamente una tarifa estándar; requiere contacto con la empresa para conocer sus planes y costos.</td>
-</tr>
-
-<tr>
-<td style="vertical-align: top;">Canales de distribución (Web y/o Móvil)</td>
-<td style="vertical-align: top;">Aplicación web accesible mediante dispositivos con conexión a Internet.</td>
-<td style="vertical-align: top;">Plataforma Cloud/SaaS accesible desde computadora, tablet y dispositivos móviles.</td>
-<td style="vertical-align: top;">Plataforma empresarial integrada con sistemas de gestión y dispositivos utilizados dentro del proceso productivo.</td>
-<td style="vertical-align: top;">Plataforma digital orientada a la gestión de empresas de confecciones.</td>
-</tr>
-
-<tr>
-<td rowspan="4" style="vertical-align: top;">Análisis SWOT</td>
-<td style="vertical-align: top;">Fortalezas</td>
-<td style="vertical-align: top;">Enfoque específico en MYPES textiles y de confecciones de Lima, facilidad de uso propuesta e integración del seguimiento de producción, máquinas, lotes y calidad.</td>
-<td style="vertical-align: top;">Conocimiento del mercado peruano, variedad de funcionalidades y especialización en empresas textiles y de confecciones.</td>
-<td style="vertical-align: top;">Monitoreo detallado de producción, máquinas, operarios, tiempos de inactividad y defectos.</td>
-<td style="vertical-align: top;">Integración de producción y control de calidad dentro de una plataforma especializada en confecciones.</td>
-</tr>
-
-<tr>
-<td style="vertical-align: top;">Debilidades</td>
-<td style="vertical-align: top;">Producto nuevo, sin posicionamiento inicial en el mercado y con funcionalidades que todavía deben ser validadas con los usuarios objetivo.</td>
-<td style="vertical-align: top;">Su amplitud como ERP puede incluir funcionalidades que una MYPE pequeña no necesariamente requiere para controlar únicamente sus procesos productivos.</td>
-<td style="vertical-align: top;">Su alcance empresarial y variedad de funcionalidades pueden implicar una implementación más compleja para pequeñas empresas.</td>
-<td style="vertical-align: top;">Su enfoque amplio de gestión empresarial puede incorporar funcionalidades adicionales frente a una solución enfocada específicamente en producción, máquinas, lotes y calidad.</td>
-</tr>
-
-<tr>
-<td style="vertical-align: top;">Oportunidades</td>
-<td style="vertical-align: top;">Alta concentración de MYPES textiles y de confecciones en Lima y creciente necesidad de digitalizar procesos productivos actualmente registrados de manera manual o dispersa.</td>
-<td style="vertical-align: top;">Crecimiento de la digitalización de talleres y empresas textiles peruanas.</td>
-<td style="vertical-align: top;">Mayor adopción de tecnologías para digitalizar y automatizar los procesos de producción textil.</td>
-<td style="vertical-align: top;">Crecimiento de la digitalización y necesidad de mejorar la trazabilidad y el control de calidad en empresas de confecciones.</td>
-</tr>
-
-<tr>
-<td style="vertical-align: top;">Amenazas</td>
-<td style="vertical-align: top;">Presencia de competidores especializados ya establecidos y resistencia al cambio tecnológico por parte de algunas MYPES.</td>
-<td style="vertical-align: top;">Ingreso de nuevas soluciones especializadas y de menor costo dirigidas a pequeñas empresas textiles.</td>
-<td style="vertical-align: top;">Aparición de soluciones locales más sencillas y económicas orientadas específicamente a MYPES.</td>
-<td style="vertical-align: top;">Aparición de soluciones especializadas con mayor automatización del seguimiento de producción y calidad.</td>
-</tr>
-
-</table>
 
 El análisis competitivo realizado ha permitido identificar las principales fortalezas, debilidades, oportunidades y amenazas del mercado, lo que nos ha llevado a definir las siguientes estrategias y tácticas para posicionar a Fabric de manera competitiva frente a SI-TEXT Perú, Datatex y Trama.
 
@@ -255,3 +151,24 @@ Luciana, supervisora de calidad en un taller de confecciones de Lima, participa 
 Actualmente, gran parte del seguimiento se hace de forma manual. Los defectos se registran en hojas de auditoría físicas y se identifican con etiquetas adhesivas, mientras que la trazabilidad depende de tarjetas de lote y fichas de corte que acompañan los paquetes. Para consultar información utiliza cuadernos, fotografías por WhatsApp y hojas compartidas en Google Sheets. Esto genera desfases de información, errores de conteo, documentos extraviados o ilegibles y dificultades para ubicar dónde se produjo una desviación. Investigar un problema puede tomar entre una y dos horas debido a la revisión de archivos, muestras, fichas técnicas y consultas a distintos trabajadores.
 
 Los indicadores que considera más relevantes son el porcentaje de reprocesos por lote, la merma irrecuperable de tela y el tiempo de inactividad de las máquinas críticas, ya que permiten medir el impacto de los problemas en la rentabilidad del lote. Luciana considera que una plataforma digital permitiría pasar de una reacción posterior a un control preventivo, sobre todo mediante alertas cuando una máquina o rollo acumula múltiples prendas observadas. Entre las funciones indispensables están el registro de inspecciones de tela, la trazabilidad entre rollos y lotes, el registro rápido de fallas, un tablero visual con el avance de las órdenes y la información sobre las paradas de máquinas.
+
+FALTA 
+## 2.3. Needfinding
+
+En esta sección se presentan los artefactos obtenidos a partir del análisis de la información recolectada mediante las entrevistas realizadas a los segmentos objetivo de Fabric. Este proceso permite identificar las principales necesidades, dificultades, comportamientos y expectativas de los usuarios respecto al control de la producción y la calidad dentro de los talleres textiles y de confecciones. A continuación, se presentan los User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Maps.
+
+### 2.3.1. User Personas
+
+En esta sección se presentan los User Personas elaborados a partir de los principales hallazgos obtenidos durante las entrevistas. Estos arquetipos representan las características, necesidades, objetivos y dificultades de los usuarios involucrados en la gestión y supervisión de los procesos productivos textiles.
+
+Se ha desarrollado un User Persona representativo para cada uno de los segmentos objetivo de Fabric: las MYPES textiles y de confecciones, y los supervisores o encargados de producción y calidad.
+
+#### Segmento 1: MYPES textiles y de confecciones de Lima
+
+
+#### Segmento 2: Supervisores y responsables de producción y calidad
+
+![User Persona - Segmento 2](assets/images/cap-02/user-persona2.png)
+
+### 2.3.2. Task Matrix
+
