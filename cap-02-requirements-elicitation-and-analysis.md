@@ -122,6 +122,23 @@ El análisis competitivo realizado ha permitido identificar las principales fort
 15. ¿Qué funciones considera indispensables en una plataforma digital para facilitar su trabajo como supervisor o responsable de producción y calidad?
 
 ### 2.2.2. Registro de entrevistas
+**Segmento Objetivo 1**
+**Nombre:** Maribel
+**Edad:** 41
+**Ciudad:** Lima
+
+Mira la entrevista completa [aquí](https://drive.google.com/drive/folders/1SHhdQLp2caKN74q0L_VfGBiq5rttl__L?usp=sharing)
+
+**Resumen de la entrevista:**
+Maribel, encargada de la empresa Creaciones Flores, dedicada a la confección de prendas de vestir como poleras, polos, pantalonetas y shorts, explicó que su proceso productivo inicia con el corte de las telas, continúa con la confección mediante las máquinas y finaliza con la distribución de las prendas a las tiendas.
+
+Actualmente, el seguimiento de la producción se realiza principalmente mediante agendas, cuadernos y hojas de cálculo, donde registran la cantidad de prendas producidas y las que salen hacia las tiendas. El mantenimiento de las máquinas se realiza aproximadamente cada seis meses e incluye cambio de aceite y revisiones generales. Cuando una máquina presenta una falla, se contacta a un técnico para evitar retrasos en la producción.
+
+Entre los principales problemas identificados se encuentran las fallas en el garfio, motores y agujas, además de problemas ocasionados por una incorrecta manipulación de las máquinas. En cuanto al control de calidad, se cuenta con una persona encargada de revisar las costuras, puntadas y estado de las prendas. Los defectos más frecuentes son las telas manchadas y las costuras incorrectas, como puntadas abiertas o demasiado cerradas. Las prendas defectuosas son separadas y no se incluyen en la venta, lo que representa una pérdida económica para la empresa.
+
+Una de las principales dificultades es el manejo de grandes cantidades de producción y mercadería, especialmente cuando no se cuenta con suficiente personal para realizar los conteos. Esto puede ocasionar diferencias entre las cantidades registradas y las que finalmente llegan a las tiendas. Para evaluar el funcionamiento de la producción, consideran importantes los pedidos y opiniones de los clientes, ya que una buena calidad permite recibir nuevos pedidos y aumentar la producción.
+
+Maribel considera que una plataforma digital podría facilitar la gestión de la producción y el control de calidad, siempre que sea sencilla de utilizar. También considera importante contar con información clara y un manual que explique cómo acceder y utilizar correctamente el software dentro del taller.
 
 **Segmento Objetivo 2**
 
