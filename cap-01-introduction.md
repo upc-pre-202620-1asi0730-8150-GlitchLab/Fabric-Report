@@ -24,13 +24,13 @@
 
 #### Relación de integrantes
 
-| Integrante                           | Código     |
-|--------------------------------------|------------|
-| Tello Palacios, Fabrizio Rafael      | U202113310 |
-| Flores Martinez, Ricardo Andres | U202423162
-| Reátegui Galarcep, Diego Sebastián | U20201F165 |
+| Integrante                          | Código     |
+|-------------------------------------|------------|
+| Tello Palacios, Fabrizio Rafael     | U202113310 |
+| Flores Martinez, Ricardo Andres     | U202423162 
+| Reátegui Galarcep, Diego Sebastián  | U20201F165 |
 | Estupiñan Olortegui, Juan Sebastian | U202223405 |
-| nombres apellidos      | codigo alumno |
+| Silva Hualpa, Rosangela Karen       | U20241B885 |
 
 
 
