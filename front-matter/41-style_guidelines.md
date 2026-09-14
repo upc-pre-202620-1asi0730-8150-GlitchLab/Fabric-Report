@@ -8,7 +8,7 @@ A continuación, definiremos los estándares de diseño de nuestro producto.
 
 ### 4.1.1. General Style Guidelines
 
-### Branding
+ **Branding**
 
  La identidad de **Fabric** nace del concepto **"Trazabilidad textil inteligente"**. Buscamos proyectar una imagen de tecnología aplicada directamente a la realidad operativa del taller textil. El logo es la materialización de este concepto: la fusión del hilo (producción/artesanía) y el nodo (tecnología/centralización).
 
@@ -48,7 +48,91 @@ La tipografía de **Fabric** con tres condiciones: ser legible en pantallas pequ
 
 **Colores**
 
+**Colores principales**
+
 El color verde oliva `(#4B5320)` es el color principal de Fabric.Se eligió porque es un tono sobrio, industrial y fácil de leer en pantalla, y porque no se asocia a ninguna marca tecnológica conocida. Se usa en el logotipo, en los encabezados y en los botones principales.
 
 El beige arena `(#C9A87C)` es el color secundario. Representa la tela cruda y el trabajo del taller. Se usa en fondos suaves, íconos secundarios y detalles del logo.
 
+**Colores funcionales**
+
+Estos colores no forman parte de la identidad de marca, pero sí del lenguaje visual del producto. Se usan exclusivamente para comunicar estados operativos:
+
+- **Verde éxito (#27AE60)** - lote completado, inspección aprobada, indicador en rango.
+
+- **Amarillo alerta (#F2C94C)** - lote en riesgo, advertencia, desviación leve.
+
+- **Rojo error (#EB5757)** - lote retrasado, defecto crítico, incidencia grave.
+
+<br>
+
+<div align="center">
+    <img src="../assets/landing_page/color-funcional.png" alt="colores funcionales" width="500">
+</div>
+
+<br>
+
+**Colores neutros**
+
+Los colores neutros son la base visual de toda la interfaz de Fabric. Se eligieron tonos con una ligera inclinación al frío (levemente azulados) para dar sensación de orden, limpieza y calma visual, algo importante en una herramienta que se usa durante toda la jornada laboral en planta.
+
+<div align="center">
+    <img src="../assets/landing_page/neutral-colors.png" alt="colores funcionales" width="300">
+</div>
+<br>
+
+- **White (#FFFFFF):**  Es el fondo por defecto de la aplicación. Se usa en pantallas principales y como color de texto cuando va sobre fondos oscuros. No se debe usar en bloques grandes dentro de tarjetas; para eso está el color **Platinum**.
+
+- **Platinum (#F5F7FA):** Se usa en tarjetas, filas alternas de tabla, paneles laterales y cualquier bloque que necesite diferenciarse del fondo principal sin usar bordes. Será el color más usado después del blanco.
+
+- **Alabaster Grey (#EAEAEA):** Se usa para separadores finos entre secciones, fondos de estado inactivo (botones deshabilitados) y zonas donde se necesita un contraste muy suave.
+
+- **Cool Steel (#8892A0):** Se usa para textos de apoyo, placeholders, íconos inactivos, bordes de inputs, líneas divisorias.
+
+- **Carbon Black (#1A1A1A):** Es el color del texto principal y los títulos. Se eligió en lugar del **Negro Puro (#000000)** porque reduce la fatiga visual en pantallas y genera un contraste más natural y menos agresivo.
+
+<br>
+
+**Espaciado**
+
+Nos regimos por un espaciado funcional y no decorativo. Como la aplicación web se usará en planta y por muchas horas continuas, entonces el espaciado debe separar sin confundir, ordenar la información sin saturar la vista del usuario.
+
+
+**Sistema base**
+
+En la aplicación usamos un sistema de espaciado basado en múltiplos de **8px**. Es el estándar más usado en diseño de interfaces porque facilita la consistencia y evita medidas arbitrarias.
+
+| Token | Valor | Uso |
+|---|---|---|
+| `xs` | 4 px | Espacio entre ícono y texto |
+| `sm` | 8 px | Padding interno de botones pequeños |
+| `md` | 16 px | Separación entre campos de formulario |
+| `lg` | 24 px | Padding de tarjetas, separación entre secciones |
+| `xl` | 32 px | Separación entre bloques grandes |
+| `2xl` | 48 px | Márgenes de página |
+| `3xl` | 64 px | Separación entre secciones principales |
+
+**Como usar**
+
+- Todo espaciado debe ser múltiplo de **8 px** (excepto detalles como bordes o íconos inline, que pueden ser de 4 px).
+- El espacio entre elementos relacionados debe ser menor que el espacio entre grupos distintos. 
+- Los formularios usan `md` entre campos y `lg` entre secciones.
+- Las tarjetas usan `lg` de padding interno.
+- Las tablas usan `sm` entre celdas y `md` entre filas.
+- Nunca usar espaciados aleatorios (13 px, 17 px, 22 px). Siempre múltiplos de 8.
+
+**Tono de comunicación**
+
+El tono de Fabric es cercano, claro y directo. Hablamos como uno más del taller, no como un sistema corporativo. El usuario no es **"el cliente"** ni **"el usuario final"**: es el supervisor, el encargado de calidad, el operario. Personas reales, con prisa, en un entorno ruidoso, que necesitan respuestas rápidas.
+
+> Principios de comunicación:
+> - **Claridad antes que simpatia:** Decimos "Registrar lote" en vez de "Registremos tu lote".
+> - **Frases cortas:** Maximo 12 palabras por oración en la interfaz.
+> - **Tuteo:** "Tus lotes" en vez de "Sus lotes".
+> - **Verbos imperativos para acciones:** "Guardar", "Crear lote", "Ver historial".
+> - **Consistencia total:** Si el boton dice "Crea lote", el mensaje de éxito dice "Lote creado" y no "Lote registrado" o "Lote guardado".
+
+
+### 4.1.2. Web Style Guidelines
+
+A continuación definiremos los estándares de diseño visual y estructura de la Aplicación Web. 
