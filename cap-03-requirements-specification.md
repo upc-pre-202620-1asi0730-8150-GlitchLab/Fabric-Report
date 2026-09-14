@@ -13,33 +13,33 @@
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">Ep001</td>
-<td colspan="4" style="vertical-align: top;">Titulo</td>
-<td colspan="2" style="vertical-align: top;">Descripcion</td>
+<td colspan="2" style="vertical-align: top;">EP001</td>
+<td colspan="4" style="vertical-align: top;">Production Batch Tracking and Traceability</td>
+<td colspan="2" style="vertical-align: top;">Como supervisor, quiero generar IDs únicos para cada lote y monitorear su avance en todas las etapas para mantener la trazabilidad y evitar descuadres de mercadería.</td>
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">Ep002</td>
-<td colspan="4" style="vertical-align: top;">Titulo</td>
-<td colspan="2" style="vertical-align: top;">Descripcion</td>
+<td colspan="2" style="vertical-align: top;">EP002</td>
+<td colspan="4" style="vertical-align: top;">Quality Inspection</td>
+<td colspan="2" style="vertical-align: top;">Como inspector de calidad, quiero hacer un registro de las inspecciones de los rollos de tela que recibimos antes del tendido y corte para asegurar la calidad de los materiales.</td>
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">Ep003</td>
-<td colspan="4" style="vertical-align: top;">Titulo</td>
-<td colspan="2" style="vertical-align: top;">Descripcion</td>
+<td colspan="2" style="vertical-align: top;">EP003</td>
+<td colspan="4" style="vertical-align: top;">Quality Assurance and Defect Management</td>
+<td colspan="2" style="vertical-align: top;">Como supervisor de calidad, quiero registrar, clasificar y vincular los defectos encontrados en las prendas a lotes, máquinas y operarios para agilizar las búsquedas de problemas y evitar rehacer los productos.</td>
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">Ep004</td>
-<td colspan="4" style="vertical-align: top;">Titulo</td>
-<td colspan="2" style="vertical-align: top;">Descripcion</td>
+<td colspan="2" style="vertical-align: top;">EP004</td>
+<td colspan="4" style="vertical-align: top;">Sewing Machinery Tracking</td>
+<td colspan="2" style="vertical-align: top;">Como supervisor en producción, quiero registrar las fallas en la maquinaria y calcular los tiempos muertos acumulados para evitar cuellos de botella y gestionar los mantenimientos preventivos de forma adecuada.</td>
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">Ep005</td>
-<td colspan="4" style="vertical-align: top;">Titulo</td>
-<td colspan="2" style="vertical-align: top;">Descripcion</td>
+<td colspan="2" style="vertical-align: top;">EP005</td>
+<td colspan="4" style="vertical-align: top;">Dashboard and Alerts</td>
+<td colspan="2" style="vertical-align: top;">Como dueño o supervisor, quiero contar con un dashboard con parámetros clave y alertas visuales para detectar desviaciones a tiempo y facilitar la toma de decisiones en el momento.</td>
 </tr>
 
 <tr>
