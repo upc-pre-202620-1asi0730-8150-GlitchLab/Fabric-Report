@@ -33,7 +33,7 @@ Las métricas analizadas incluyen el perfil del producto, mercado objetivo, estr
 </tr>
 
 <tr>
-<td style="vertical-align: top;"><img src="../assets/logos/logo-fabric.png" alt="Logo Fabric" style="height: 50px ; width: 80px;"></td>
+<td style="vertical-align: top;"><img src="../assets/logos/fabric-logo.png" alt="Logo Fabric" style="height: 50px ; width: 80px;"></td>
 <td style="vertical-align: top;"><img src="../assets/logos/logo-sitext.png" alt="Logo SI-TEXT Perú" style="height: 50px ; width: 150px;"></td>
 <td style="vertical-align: top;"><img src="../assets/logos/logo-datatex.png" alt="Logo Datatex" style="height: 50px ; width: 80px;"></td>
 <td style="vertical-align: top;"><img src="../assets/logos/logo-coats.png" alt="Logo Trama" style="height: 50px ; width: 100px;"></td>
