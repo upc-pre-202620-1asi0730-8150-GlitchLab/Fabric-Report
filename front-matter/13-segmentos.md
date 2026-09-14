@@ -1,4 +1,4 @@
-# 1.3. Segmentos Objetivo
+## 1.3. Segmentos Objetivo
 
 Nuestra aplicación esta dirigida a las micro y pequeñas empresas textiles en el emporio comercial de Gamarra. Esta decisión se justifica por las siguientes razones. 
 
