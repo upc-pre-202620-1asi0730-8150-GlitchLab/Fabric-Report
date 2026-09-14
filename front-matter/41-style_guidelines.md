@@ -26,11 +26,6 @@ A continuación, definiremos los estándares de diseño de nuestro producto.
  </div>
  <br>
 
-**Colores de logo**
-
-El color verde oliva `(#4B5320)` es el color principal de Fabric.Se eligió porque es un tono sobrio, industrial y fácil de leer en pantalla, y porque no se asocia a ninguna marca tecnológica conocida. Se usa en el logotipo, en los encabezados y en los botones principales.
-
-El beige arena `(#C9A87C)` es el color secundario. Representa la tela cruda y el trabajo del taller. Se usa en fondos suaves, íconos secundarios y detalles del logo.
 
 **Tipogragía**
 
@@ -51,6 +46,9 @@ La tipografía de **Fabric** con tres condiciones: ser legible en pantallas pequ
 </div>
 <br>
 
-**Colores de App Web**
+**Colores**
 
+El color verde oliva `(#4B5320)` es el color principal de Fabric.Se eligió porque es un tono sobrio, industrial y fácil de leer en pantalla, y porque no se asocia a ninguna marca tecnológica conocida. Se usa en el logotipo, en los encabezados y en los botones principales.
+
+El beige arena `(#C9A87C)` es el color secundario. Representa la tela cruda y el trabajo del taller. Se usa en fondos suaves, íconos secundarios y detalles del logo.
 
