@@ -190,8 +190,8 @@
     <td colspan="3">Registro y clasificación de defectos en prendas confeccionadas</td>
   </tr>
   <tr>
-    <td colspan="4">
-      <b>Descripción:</b> Como auditor de calidad, quiero registrar las prendas con fallas detectadas en línea vinculándolas al lote y máquina responsable para identificar rápidamente la causa del defecto.
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como auditor de calidad, quiero registrar las prendas con fallas detectadas en línea vinculándolas al lote y máquina responsable para identificar rápidamente la causa del defecto.</td>
     </td>
   </tr>
   <tr>
@@ -219,8 +219,9 @@
     <td colspan="3">Destino de prendas defectuosas a reproceso o merma definitiva</td>
   </tr>
   <tr>
-    <td colspan="3"><b>Descripción:</b> Como supervisor de calidad, quiero dictaminar si una prenda observada puede ser reparada o quede para descarte para cuantificar los costos de corrección y ajustar la liquidación final del lote.</td>
-    <td></td>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como supervisor de calidad, quiero dictaminar si una prenda observada puede ser reparada o quede para descarte para cuantificar los costos de corrección y ajustar la liquidación final del lote.</td>
+    </td>
   </tr>
   <tr>
     <td colspan="4">
@@ -247,8 +248,9 @@
     <td colspan="3">Reporte de averías e interrupción operativa de máquinas de confección</td>
   </tr>
   <tr>
-    <td colspan="3"><b>Descripción:</b> Como supervisor de producción, quiero registrar la detención de una máquina de coser especificando el código de máquina, tipo de falla o avería y hora de paro para solicitar asistencia técnica inmediata.</td>
-    <td></td>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como supervisor de producción, quiero registrar la detención de una máquina de coser especificando el código de máquina, tipo de falla o avería y hora de paro para solicitar asistencia técnica inmediata.</td>
+    </td>
   </tr>
   <tr>
     <td colspan="4">
@@ -275,8 +277,9 @@
     <td colspan="3">Reanudación de operatividad y registro del tiempo muerto de máquina</td>
   </tr>
   <tr>
-    <td colspan="3"><b>Descripción:</b> Como supervisor, quiero registrar la reanudación de actividades de una máquina intervenida indicando las piezas sustituidas o calibradas para calcular el tiempo muerto acumulado y evaluar el rendimiento mecánico.</td>
-    <td></td>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como supervisor, quiero registrar la reanudación de actividades de una máquina intervenida indicando las piezas sustituidas o calibradas para calcular el tiempo muerto acumulado y evaluar el rendimiento mecánico.</td>
+    </td>
   </tr>
   <tr>
     <td colspan="4">
@@ -303,8 +306,9 @@
     <td colspan="3">Visualización de métricas de avance y productividad diaria en Dashboard</td>
   </tr>
   <tr>
-    <td colspan="3"><b>Descripción:</b> Como administrador del taller o supervisor general, quiero visualizar en un panel centralizado las prendas producidas por hora, el avance de lotes y el porcentaje de cumplimiento diario para tomar decisiones operativas sin recurrir a cuadernos o conteos físicos.</td>
-    <td></td>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como administrador del taller o supervisor general, quiero visualizar en un panel centralizado las prendas producidas por hora, el avance de lotes y el porcentaje de cumplimiento diario para tomar decisiones operativas sin recurrir a cuadernos o conteos físicos.</td>
+    <</td>
   </tr>
   <tr>
     <td colspan="4">
@@ -331,8 +335,9 @@
     <td colspan="3">Alertas visuales de mermas y cuellos de botella</td>
   </tr>
   <tr>
-    <td colspan="3"><b>Descripción:</b> Como supervisor de planta, quiero recibir alertas visuales cuando la tasa de reprocesos, mermas o tiempos muertos supere los umbrales de tolerancia para intervenir a tiempo en la línea productiva.</td>
-    <td></td>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como supervisor de planta, quiero recibir alertas visuales cuando la tasa de reprocesos, mermas o tiempos muertos supere los umbrales de tolerancia para intervenir a tiempo en la línea productiva.</td>
+    </td>
   </tr>
   <tr>
     <td colspan="4">
