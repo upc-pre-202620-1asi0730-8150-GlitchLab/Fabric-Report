@@ -204,5 +204,10 @@ Usamos esta tipografía porque ofrece facilidad de leer la interfaz. En Fabric, 
 | Cool Steel | `#8892A0` | Texto secundario, bordes |
 | Carbon Black | `#1A1A1A` | Texto principal |
 
+<br>
+
+**Grid y Layout**
+
+El layout de Fabric se construye sobre una grilla de 12 columnas porque permite dividir el espacio en mitades, tercios, cuartos y sextos sin cálculos complicados. Todo el contenido se alinea a esa grilla, con un ancho máximo de 1280 px para que las líneas de texto no se vuelvan incómodas de leer en pantallas muy anchas, y márgenes laterales que se adaptan al tamaño del dispositivo. Esto garantiza que una misma pantalla se vea ordenada en un celular, en una tablet y en un monitor grande, sin que el equipo tenga que inventar medidas nuevas cada vez.
 
 
