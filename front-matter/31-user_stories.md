@@ -44,8 +44,8 @@
 
 <tr>
 <td colspan="2" style="vertical-align: top;">Ep006</td>
-<td colspan="4" style="vertical-align: top;">Titulo</td>
-<td colspan="2" style="vertical-align: top;">Descripcion</td>
+<td colspan="4" style="vertical-align: top;">Landing Page</td>
+<td colspan="2" style="vertical-align: top;">Como visitante, quiero conocer la propuesta de valor, funcionalidades y beneficios de Fabric, para comprender cómo la plataforma puede ayudar a mejorar la gestión de producción y calidad de una empresa textil.</td>
 </tr>
 
 <tr>
@@ -344,103 +344,103 @@
 
 <tr>
 <td colspan="2" style="vertical-align: top;">US021</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="4" style="vertical-align: top;">Visualización de Hero Section</td>
+<td colspan="2" style="vertical-align: top;">Como visitante, deseo visualizar un mensaje claro sobre el valor de Fabric acompañado de una imagen representativa, para comprender rápidamente qué ofrece la solución.</td>
 <td colspan="2" style="vertical-align: top;">
   <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
+    <li><b>Escenario 1 - Visualización del mensaje principal </b>Dado que el visitante ingresa a la Landing Page, cuando se carga el Hero Section, entonces se muestra un mensaje claro sobre el valor de Fabric.</li>
+    <li><b>Escenario 2 - Visualización de imagen representativa </b>Dado que el visitante visualiza el Hero Section, cuando se presenta el mensaje principal, entonces se muestra una imagen representativa de Fabric al costado del mensaje.</li>
   </ul>
 </td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="2" style="vertical-align: top;">EP006</td>
 </tr>
 
 <tr>
 <td colspan="2" style="vertical-align: top;">US022</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="4" style="vertical-align: top;">Visualización de la propuesta de valor</td>
+<td colspan="2" style="vertical-align: top;">Como visitante, quiero conocer la propuesta de valor de Fabric, para comprender cómo puede ayudar a mejorar la gestión de producción y calidad en una empresa textil.</td>
 <td colspan="2" style="vertical-align: top;">
   <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
+    <li><b>Escenario 1 - Visualización de la propuesta de valor </b>Dado que el visitante accede a la Landing Page de Fabric, cuando visualiza la sección principal, entonces la página muestra de forma clara el nombre de Fabric y su propuesta de valor.</li>
+    <li><b>Escenario 2 - Comprensión de la solución </b>Dado que el visitante se encuentra en la sección principal, cuando continúa explorando el contenido, entonces puede visualizar información que explique cómo Fabric contribuye al seguimiento de la producción, control de calidad y trazabilidad.</li>
   </ul>
 </td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="2" style="vertical-align: top;">EP006</td>
 </tr>
 
 <tr>
 <td colspan="2" style="vertical-align: top;">US023</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="4" style="vertical-align: top;">Visualización de funcionalidades</td>
+<td colspan="2" style="vertical-align: top;">Como visitante, quiero conocer las principales funcionalidades de Fabric, para identificar las herramientas que ofrece la plataforma para la gestión de los procesos textiles.</td>
 <td colspan="2" style="vertical-align: top;">
   <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
+    <li><b>Escenario 1 - Visualización de funcionalidades principales </b>Dado que el visitante llega a la sección de funcionalidades, cuando visualiza su contenido, entonces se muestran las principales funcionalidades de Fabric.</li>
+    <li><b>Escenario 2 - Información de cada funcionalidad </b>Dado que el visitante revisa las funcionalidades, cuando visualiza cada una, entonces se muestra su nombre acompañado de una breve descripción.</li>
   </ul>
 </td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="2" style="vertical-align: top;">EP006</td>
 </tr>
 
 <tr>
 <td colspan="2" style="vertical-align: top;">US024</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="4" style="vertical-align: top;">Visualización de beneficios</td>
+<td colspan="2" style="vertical-align: top;">Como visitante, deseo conocer los principales beneficios de Fabric, para comprender cómo la solución puede contribuir a la gestión de una empresa textil.</td>
 <td colspan="2" style="vertical-align: top;">
   <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
+    <li><b>Escenario 1 - Visualización de beneficios</b>Dado que el visitante llega a la sección de beneficios, cuando visualiza su contenido, entonces se muestran los principales beneficios de Fabric.</li>
+    <li><b>Escenario 2 - Apoyo visual de los beneficios </b>Dado que el visitante se encuentra en la sección de beneficios, cuando revisa la información presentada, entonces cada beneficio se muestra acompañado de un ícono o imagen representativa que facilite su comprensión.</li>
   </ul>
 </td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="2" style="vertical-align: top;">EP006</td>
 </tr>
 
 <tr>
 <td colspan="2" style="vertical-align: top;">US025</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="4" style="vertical-align: top;">Navegación por la Landing Page</td>
+<td colspan="2" style="vertical-align: top;">Como visitante, deseo navegar fácilmente por las secciones de la Landing Page, para encontrar rápidamente la información que deseo conocer sobre Fabric.</td>
 <td colspan="2" style="vertical-align: top;">
   <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
+    <li><b>Escenario 1 - Navegación mediante el menú </b>Dado que el visitante se encuentra en la Landing Page, cuando selecciona una opción del menú de navegación, entonces la página lo dirige a la sección correspondiente.</li>
+    <li><b>Escenario 2 - Navegación entre secciones </b>Dado que el visitante se encuentra visualizando una sección, cuando selecciona otra opción del menú, entonces la página se desplaza hacia la sección seleccionada.</li>
   </ul>
 </td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="2" style="vertical-align: top;">EP006</td>
 </tr>
 
 <tr>
 <td colspan="2" style="vertical-align: top;">US026</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="4" style="vertical-align: top;">Visualización del equipo</td>
+<td colspan="2" style="vertical-align: top;">Como visitante, deseo conocer al equipo detrás de Fabric, para identificar a las personas responsables del desarrollo de la solución.</td>
 <td colspan="2" style="vertical-align: top;">
   <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
+    <li><b>Escenario 1 - Visualización del equipo</b>Dado que el visitante llega a la sección del equipo, cuando visualiza su contenido, entonces se muestran los integrantes de GlitchLab.</li>
+    <li><b>Escenario 2 - Información de los integrantes </b>Dado que el visitante revisa la sección del equipo, cuando visualiza a cada integrante, entonces se muestra su nombre acompañado de la información definida para su presentación.</li>
   </ul>
 </td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="2" style="vertical-align: top;">EP006</td>
 </tr>
 
 <tr>
 <td colspan="2" style="vertical-align: top;">US027</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="4" style="vertical-align: top;">Envío de Formulario de Solicitud de Demo</td>
+<td colspan="2" style="vertical-align: top;">Como visitante, deseo completar un formulario para solicitar una demostración, para recibir información personalizada sobre Fabric y conocer cómo puede aplicarse en una empresa textil.</td>
 <td colspan="2" style="vertical-align: top;">
   <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
+    <li><b>Escenario 1 - Envío exitoso de solicitud </b>Dado que el visitante accede al formulario de solicitud de demo, cuando completa los campos obligatorios Nombre, Correo electrónico, Teléfono y Empresa y hace clic en “Enviar”, entonces el sistema registra la solicitud y muestra el mensaje “Gracias, nos contactaremos pronto”.</li>
+    <li><b>Escenario 2 - Validación de campos obligatorios </b>Dado que el visitante se encuentra en el formulario de solicitud de demo, cuando intenta enviarlo sin completar uno o más campos obligatorios, entonces el sistema no permite el envío y muestra un mensaje indicando que debe completar los campos requeridos.</li>
   </ul>
 </td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="2" style="vertical-align: top;">EP006</td>
 </tr>
 
 <tr>
 <td colspan="2" style="vertical-align: top;">US028</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
+<td colspan="4" style="vertical-align: top;">Acceso a Términos y Condiciones</td>
+<td colspan="2" style="vertical-align: top;">Como visitante, deseo acceder a los Términos y Condiciones de Fabric, para conocer las condiciones de uso de la plataforma.</td>
 <td colspan="2" style="vertical-align: top;">
   <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
+    <li><b>Escenario 1 - Acceso desde el Footer </b>Dado que el visitante se encuentra en la Landing Page, cuando llega al Footer, entonces visualiza el enlace “Términos y Condiciones” disponible para su acceso.</li>
+    <li><b>Escenario 2 - Visualización de Términos y Condiciones </b>Dado que el visitante visualiza el enlace “Términos y Condiciones” en el Footer, cuando hace clic en él, entonces se muestra el contenido completo de los Términos y Condiciones de Fabric.</li>
   </ul>
 </td>
 <td colspan="2" style="vertical-align: top;"></td>
