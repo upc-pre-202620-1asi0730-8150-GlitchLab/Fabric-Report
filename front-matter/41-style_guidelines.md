@@ -136,3 +136,73 @@ El tono de Fabric es cercano, claro y directo. Hablamos como uno más del taller
 ### 4.1.2. Web Style Guidelines
 
 A continuación definiremos los estándares de diseño visual y estructura de la Aplicación Web. 
+
+**Tipografía**
+
+Como mencionamos anteriormente en **General Style Guidelines**, la tipografía que se usa para la interfaz de Fabric será **Poppins SemiBold** para títulos y subtítulos porque tiene presencia y se lee bien en tamaños grandes, **Inter Regular** para el texto, formulario, tablas y menús porque tiene una buena legibilidad en textos pequeños, por último usaremos **JetBrains Mono** para los códigos de lote, IDs, fechas y cifras técnicas porque al ser monoespaciada alinea los números en columnas y evita confusiones entre caracteres parecidos como el `0` y `o`.
+
+En la siguiente tabla se especificará a detalle el correcto uso de cada tipografía y su propósito.
+
+| Uso | Fuente | Peso| 
+|-----------|--------|-------------|
+|Títulos |   Poppins | SemiBold (600)|
+|Subtítulos  | Poppins | Medium (500)|
+|Texto |  Inter | Regular (400)|
+|Énfasis en texto | Inter | SemiBold (600)|
+|Datos numéricos/IDs | JetBrains Mono | Regular (400)|
+
+Usamos esta tipografía porque ofrece facilidad de leer la interfaz. En Fabric, el usuario trabaja muchas horas frente a la pantalla, y una tipografía mal elegida cansa la vista y genera errores de lectura.
+
+**Paleta de colores**
+
+ La paleta de colores que usaremos en la interfaz está dividida en tres grupos con funciones distintas. Los colores de marca (verde oliva y beige arena) dan identidad y evocan el taller textil; los colores funcionales (verde, amarillo, rojo) comunican estados operativos de un vistazo, sin que el usuario tenga que leer; y los colores neutros sostienen toda la interfaz, desde los fondos hasta los textos, con una ligera inclinación al frío para dar sensación de orden y limpieza.
+
+ **Colores de marca**
+
+ <div align="center">
+    <img src="../assets/landing_page/main-color.png" alt="color identidad" width="380">
+</div>
+
+<br>
+
+| Color | HEX | Uso |
+|---|---|---|
+| Verde oliva | `#4B5320` | Logo, encabezados, botones primarios |
+| Beige arena | `#C9A87C` | Acentos, íconos secundarios |
+
+<br>
+
+**Colores funcionales**
+
+<div align="center">
+    <img src="../assets/landing_page/funcion.png" alt="color identidad" width="350">
+</div>
+
+<br>
+
+| Color | HEX | Uso |
+|---|---|---|
+| Verde éxito | `#27AE60` | Lote completado, inspección aprobada |
+| Amarillo alerta | `#F2C94C` | Lote en riesgo |
+| Rojo error | `#EB5757` | Cancelar, defectos críticos |
+
+<br>
+
+**Colores neutros**
+
+<div align="center">
+    <img src="../assets/landing_page/neutral-colors.png" alt="color identidad" width="350">
+</div>
+
+<br>
+
+| Color | HEX | Uso |
+|---|---|---|
+| Blanco | `#FFFFFF` | Fondos principales |
+| Platinum | `#F5F7FA` | Fondos alternos, tarjetas |
+| Alabaster Grey | `#EAEAEA` | Separadores, estados inactivos |
+| Cool Steel | `#8892A0` | Texto secundario, bordes |
+| Carbon Black | `#1A1A1A` | Texto principal |
+
+
+
