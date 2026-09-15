@@ -133,6 +133,8 @@ El tono de Fabric es cercano, claro y directo. Hablamos como uno más del taller
 > - **Consistencia total:** Si el boton dice "Crea lote", el mensaje de éxito dice "Lote creado" y no "Lote registrado" o "Lote guardado".
 
 
+
+
 ### 4.1.2. Web Style Guidelines
 
 A continuación definiremos los estándares de diseño visual y estructura de la Aplicación Web. 
@@ -210,4 +212,82 @@ Usamos esta tipografía porque ofrece facilidad de leer la interfaz. En Fabric, 
 
 El layout de Fabric se construye sobre una grilla de 12 columnas porque permite dividir el espacio en mitades, tercios, cuartos y sextos sin cálculos complicados. Todo el contenido se alinea a esa grilla, con un ancho máximo de 1280 px para que las líneas de texto no se vuelvan incómodas de leer en pantallas muy anchas, y márgenes laterales que se adaptan al tamaño del dispositivo. Esto garantiza que una misma pantalla se vea ordenada en un celular, en una tablet y en un monitor grande, sin que el equipo tenga que inventar medidas nuevas cada vez.
 
+**Grilla Base**
 
+| Elemento  | Valor  |
+|----|---|
+|  Columnas| 12|
+| Ancho Máximo | 1280px|
+|Espacio entre columnas | 24 px (`lg`)
+|  Margen lateral desktop  |  48 px (`2xl`) |
+| Margen lateral tablet  | 32 px (`xl`) |
+|  Margen lateral movil|   16 px (`md`)|
+
+<br>
+
+**Breakpoints**
+
+|  Token |  Ancho   |  Dispositivo  |  Columnas activas |
+|-------|-------|----|---|
+|  `sm`|  640 px  | Movil horizontal  |   4  |
+| `md`  | 768 px  | Tablet vertical  |    8 |
+| `lg`  | 1024 px  |  Laptop  |  12 |
+| `xl`  | 1280 px  | Desktop  |  12 |
+| `2xl`  | 1536 px  | Desktop grande  | 12  |
+
+<br>
+
+
+**Distribucion de columnas**
+
+| Uso | Columnas | Resultado visual |
+|---|---|---|
+| Contenido principal | 8 | Ocupa dos tercios del ancho |
+| Panel lateral | 4 | Ocupa un tercio del ancho |
+| Tres tarjetas | 4 + 4 + 4 | Tres bloques iguales |
+| Cuatro tarjetas | 3 + 3 + 3 + 3 | Cuatro bloques iguales |
+| Contenido centrado | 6 | Con 3 columnas de margen a cada lado |
+| Formulario | 6 a 8 | Centrado, sin estirarse demasiado |
+| Dashboard | 12 | Ocupa todo el ancho |
+| Login | 4 | Tarjeta centrada y compacta |
+
+<br>
+
+**Componentes UI**
+
+Estas son las piezas reutilizables con las que se construye toda la interfaz de **Fabric**. Cada uno está definido con sus variantes, estados, tokens aplicados y reglas de uso, para que cualquier miembro del equipo pueda construir pantallas nuevas sin reinventar nada ni romper la coherencia visual. Todos los componentes consumen los tokens definidos en el general style guideline (colores, tipografía, espaciado).
+
+**1. Botones**
+
+En la aplicación web hay cinco tipos de botón, cada uno con un rol definido, y todos comparten los mismos estados (hover, focus, activo, deshabilitado) para que el usuario sepa en todo momento que la interfaz está respondiendo. Los CTA importantes siempre usan el verde oliva como color principal, porque es el color de la marca y el que el usuario aprende a reconocer como "acción principal".
+
+| Tipo | Fondo | Texto | Uso |
+|---|---|---|---|
+| Primario | `#4B5320` | Blanco | Acción principal |
+| Secundario | Borde `#4B5320` | `#4B5320` | Acción alternativa |
+| Texto | Sin fondo | `#4B5320` | Acción terciaria |
+| Peligro | `#EB5757` | Blanco | Eliminar, cancelar |
+| Deshabilitado | `#EAEAEA` | `#8892A0` | No disponible |
+
+<br>
+
+**Estados:**
+
+| Estado | Comportamiento |
+|---|---|
+| Normal | Color base |
+| Hover | Oscurecer 10% |
+| Focus | Borde 2 px `#C9A87C` |
+| Active | Oscurecer 15% |
+| Disabled | 40% de opacidad |
+
+<br>
+
+**Tokens aplicados:**
+
+| Propiedad | Token | Valor |
+|---|---|---|
+| Padding horizontal | `lg` | 24 px |
+| Padding vertical | `sm` | 8 px |
+| Radio de borde | ninguno | 8 px |
+| Tipografía | ninguno | Inter SemiBold 14 px |
