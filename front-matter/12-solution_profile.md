@@ -1,6 +1,6 @@
-# 1.2. Solution Profile
+## 1.2. Solution Profile
 
-## 1.2.1. Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática
 
 Según [Javier Borda (2012)](https://repositorio.uni.edu.pe/handle/20.500.14076/1347?utm_source), las empresas del sector textil y confecciones en el Perú (sobre todo MYPES) enfrentan dificultades para mantener un control eficiente de sus procesos productivos y de calidad, evidenciándose brechas de calidad dentro del sector. La falta de una gestión digital y centralizada de la información puede dificultar el seguimiento de rendimiento de las máquinas, asi como el registro de control de calidad de las telas y trazabilidad de lotes producidos. Esto puede generar dificultades para identificar problemas durante la producción, aumentar los tiempos y costos asociados a errores y limitar la disponibilidad de información para una adecuada toma de decisiones [(INEI, 2023)](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.inei.gob.pe/media/inei_en_los_medios/06-jun-el-peruano-8-9.pdf?utm_source).
 
@@ -46,13 +46,13 @@ Como consecuencia, las empresas pueden presentar reprocesos, mermas, retrasos y 
 
 La problemática puede generar un impacto económico en las MYPE textiles, principalmente por los gastos relacionados con desperdicios y productos que necesitan ser corregidos. Según [Elsie Bonilla (2017)](https://repositorio.ulima.edu.pe/item/8e63e69e-f96c-ce8d-e050-007f0100075d), quien analizó 27 MYPE de confección textil de Lima y Callao, existe una relación entre una mejor gestión de calidad y una reducción de los costos por desechos y desperdicios. Este estudio encontró que por cada 1 % de mejora en la gestión de calidad, los costos de producción podían disminuir aproximadamente 0.08 %.
 
-## 1.2.2. Lean UX Process
+### 1.2.2. Lean UX Process
 
-### 1.2.2.1. Lean UX Problem Statement
+#### 1.2.2.1. Lean UX Problem Statement
 
 Actualmente, en el sector textil y de confecciones de Lima, especialmente en las MYPE, el control de la producción y la calidad se centra en registrar información sobre lotes, defectos y rendimiento de las máquinas, pero estos datos pueden encontrarse dispersos o registrarse manualmente, dificultando su seguimiento y análisis. Las soluciones existentes no siempre permiten reunir esta información en un solo lugar y relacionarla para identificar problemas a tiempo. **Fabric** busca cubrir esta necesidad mediante una aplicación web que centralice los registros, permita hacer seguimiento de los lotes, registrar defectos y consultar indicadores para facilitar la toma de decisiones. Nuestro enfoque inicial estará dirigido a MYPE textiles y de confecciones de Lima, especialmente aquellas ubicadas en Gamarra. Sabremos que la solución es exitosa cuando los usuarios registren de forma constante sus procesos y controles de calidad, consulten los indicadores para detectar problemas y logren reducir la cantidad de defectos, desperdicios y reprocesos.
 
-### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
 Business Assumptions: <br>
 > * Creemos que las MYPE textiles de Lima Metropolitana, especialmente las ubicadas en Gamarra, enfrentan problemas operativos relacionados con el seguimiento de producción y control de calidad, y que estarían abiertas a adoptar una solución digital si esta se adapta a sus necesidades y capacidades técnicas.
@@ -82,14 +82,14 @@ Feature Assumptions:<br>
 > * Creemos que la visualización de indicadores clave (como porcentaje de defectos, eficiencia por máquina o cumplimiento de plazos) será útil para que los usuarios tomen decisiones basadas en datos concretos.
 > * Creemos que un módulo de control de calidad que permita registrar inspecciones, seleccionar tipos de defecto (falla de material, falla de medida, falla en accesorios), cantidades afectadas y asociarlos a un lote específico ayudará a los encargados a mantener un registro detallado y trazable de los problemas de calidad.
 
-### 1.2.2.3. Lean UX Hyphotesis Statement
+#### 1.2.2.3. Lean UX Hyphotesis Statement
 
 > * Creemos que lograremos una reducción de al menos un 20% en los retrasos de producción y una mejor trazabilidad de los lotes si los supervisores de producción y control de calidad logran conocer el estado actual de cada lote, identificar retrasos o desviaciones en las fechas de entrega, y mantener un registro organizado de todos los lotes de producción con un módulo que permita crear lotes, registrar cantidades, fechas de inicio y entrega, etapa actual y actualizar el estado a lo largo del proceso productivo.
 > * Creemos que lograremos un mejor seguimiento de los problemas de calidad y una reducción de los costos por reprocesos si el personal de control de calidad y los supervisores de producción logran registrar inspecciones, asociar defectos a lotes específicos y mantener un historial de calidad trazable con una función de control de calidad que permita registrar inspecciones, seleccionar tipos de defecto y agregar observaciones.
 > * Creemos que lograremos la identificación de problemas recurrentes y el análisis de causa raíz si los supervisores de producción y los gerentes de calidad logran consultar registros de producción anteriores, detectar patrones en los defectos, identificar qué máquinas o procesos generan más problemas y analizar el historial para tomar decisiones informadas con una función de consulta y filtrado que permita revisar registros anteriores y filtrar por fecha, lote, etapa o tipo de defecto.
 > * Creemos que lograremos una toma de decisiones basada en datos precisos y una detección más rápida de problemas si los gerentes de producción y dueños de negocio logran visualizar indicadores clave de rendimiento y monitorear tendencias de calidad con un dashboard que muestre porcentaje de defectos, eficiencia por máquina y cumplimiento de plazos de entrega. 
 
-### 1.2.2.4. Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas
 
 |**1. Business Problem**           | **2. Business Outcomes** | 
 |:---------------------------------|---------------------------|
