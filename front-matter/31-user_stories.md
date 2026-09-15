@@ -357,19 +357,6 @@
 
 <tr>
 <td colspan="2" style="vertical-align: top;">US022</td>
-<td colspan="4" style="vertical-align: top;">Visualización de la propuesta de valor</td>
-<td colspan="2" style="vertical-align: top;">Como visitante, quiero conocer la propuesta de valor de Fabric, para comprender cómo puede ayudar a mejorar la gestión de producción y calidad en una empresa textil.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1 - Visualización de la propuesta de valor </b>Dado que el visitante accede a la Landing Page de Fabric, cuando visualiza la sección principal, entonces la página muestra de forma clara el nombre de Fabric y su propuesta de valor.</li>
-    <li><b>Escenario 2 - Comprensión de la solución </b>Dado que el visitante se encuentra en la sección principal, cuando continúa explorando el contenido, entonces puede visualizar información que explique cómo Fabric contribuye al seguimiento de la producción, control de calidad y trazabilidad.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP006</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US023</td>
 <td colspan="4" style="vertical-align: top;">Visualización de funcionalidades</td>
 <td colspan="2" style="vertical-align: top;">Como visitante, quiero conocer las principales funcionalidades de Fabric, para identificar las herramientas que ofrece la plataforma para la gestión de los procesos textiles.</td>
 <td colspan="2" style="vertical-align: top;">
@@ -382,7 +369,7 @@
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">US024</td>
+<td colspan="2" style="vertical-align: top;">US023</td>
 <td colspan="4" style="vertical-align: top;">Visualización de beneficios</td>
 <td colspan="2" style="vertical-align: top;">Como visitante, deseo conocer los principales beneficios de Fabric, para comprender cómo la solución puede contribuir a la gestión de una empresa textil.</td>
 <td colspan="2" style="vertical-align: top;">
@@ -395,7 +382,7 @@
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">US025</td>
+<td colspan="2" style="vertical-align: top;">US024</td>
 <td colspan="4" style="vertical-align: top;">Navegación por la Landing Page</td>
 <td colspan="2" style="vertical-align: top;">Como visitante, deseo navegar fácilmente por las secciones de la Landing Page, para encontrar rápidamente la información que deseo conocer sobre Fabric.</td>
 <td colspan="2" style="vertical-align: top;">
@@ -408,7 +395,7 @@
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">US026</td>
+<td colspan="2" style="vertical-align: top;">US025</td>
 <td colspan="4" style="vertical-align: top;">Visualización del equipo</td>
 <td colspan="2" style="vertical-align: top;">Como visitante, deseo conocer al equipo detrás de Fabric, para identificar a las personas responsables del desarrollo de la solución.</td>
 <td colspan="2" style="vertical-align: top;">
@@ -421,7 +408,7 @@
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">US027</td>
+<td colspan="2" style="vertical-align: top;">US026</td>
 <td colspan="4" style="vertical-align: top;">Envío de Formulario de Solicitud de Demo</td>
 <td colspan="2" style="vertical-align: top;">Como visitante, deseo completar un formulario para solicitar una demostración, para recibir información personalizada sobre Fabric y conocer cómo puede aplicarse en una empresa textil.</td>
 <td colspan="2" style="vertical-align: top;">
@@ -434,7 +421,7 @@
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">US028</td>
+<td colspan="2" style="vertical-align: top;">US027</td>
 <td colspan="4" style="vertical-align: top;">Acceso a Términos y Condiciones</td>
 <td colspan="2" style="vertical-align: top;">Como visitante, deseo acceder a los Términos y Condiciones de Fabric, para conocer las condiciones de uso de la plataforma.</td>
 <td colspan="2" style="vertical-align: top;">
@@ -447,7 +434,7 @@
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">US029</td>
+<td colspan="2" style="vertical-align: top;">US028</td>
 <td colspan="4" style="vertical-align: top;"></td>
 <td colspan="2" style="vertical-align: top;"></td>
 <td colspan="2" style="vertical-align: top;">
@@ -460,7 +447,7 @@
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">US030</td>
+<td colspan="2" style="vertical-align: top;">US029</td>
 <td colspan="4" style="vertical-align: top;"></td>
 <td colspan="2" style="vertical-align: top;"></td>
 <td colspan="2" style="vertical-align: top;">
