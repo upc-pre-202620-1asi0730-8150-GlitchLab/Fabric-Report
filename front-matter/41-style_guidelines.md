@@ -291,3 +291,89 @@ En la aplicación web hay cinco tipos de botón, cada uno con un rol definido, y
 | Padding vertical | `sm` | 8 px |
 | Radio de borde | ninguno | 8 px |
 | Tipografía | ninguno | Inter SemiBold 14 px |
+
+<br>
+
+**2. Inputs y formularios**
+
+ Todos los campos siguen la misma estructura: etiqueta arriba, input en el centro y un mensaje debajo cuando algo falla.
+
+ **Elementos:**
+
+| Elemento | Descripción |
+|---|---|
+| Label | Encima del input, Inter Regular 14 px, `#1A1A1A` |
+| Input | 40 px de alto, borde `#EAEAEA`, radio 8 px |
+| Placeholder | Texto de ayuda, `#8892A0` |
+| Mensaje de error | Debajo, `#EB5757`, 12 px |
+| Texto de ayuda | Debajo, `#8892A0`, 12 px |
+
+<br>
+
+
+**Estados:**
+
+| Estado | Comportamiento |
+|---|---|
+| Normal | Borde `#EAEAEA` |
+| Focus | Borde 2 px `#4B5320` |
+| Error | Borde 2 px `#EB5757` |
+| Disabled | Fondo `#F5F7FA`, texto `#8892A0` |
+
+<br>
+
+
+**Tokens aplicados:**
+
+| Propiedad | Token | Valor |
+|---|---|---|
+| Separación entre campos | `md` | 16 px |
+| Separación entre secciones | `lg` | 24 px |
+| Padding interno | `md` | 16 px |
+
+<br>
+
+Los inputs recibiran información tanto de registro de datos sobre lotes como del Login principal. En la vista móvil, cada campo ocupará el ancho completo de la pantalla.
+
+<br>
+
+**3. Badges y estados**
+
+Los badges comunican el estado de un lote o inspección en un solo vistazo. Siempre tienen un texto, nunca solo color.
+
+**Estados:**
+
+| Estado | Fondo | Texto |
+|---|---|---|
+| En producción | `#4B5320` | Blanco |
+| Completado | `#27AE60` | Blanco |
+| Retrasado | `#EB5757` | Blanco |
+| En riesgo | `#F2C94C` | `#1A1A1A` |
+| En pausa | `#EAEAEA` | `#8892A0` |
+
+<br>
+
+**4. Sidebar**
+
+Es la columna de navegación fija que acompaña al usuario en todas las pantallas.
+
+**Elementos:**
+
+| Elemento | Descripción |
+|---|---|
+| Logo | Arriba, altura 64 px |
+| Navegación | Lista con ícono + texto |
+| Sección activa | Fondo `#4B5320`, texto blanco |
+| Sección inactiva | Texto `#8892A0`, hover `#F5F7FA` |
+| Footer | Usuario, rol, cerrar sesión |
+
+<br>
+
+**Dimensiones:**
+
+| Contexto | Ancho |
+|---|---|
+| Desktop expandido | 240 px |
+| Desktop colapsado | 64 px |
+| Tablet | 64 px |
+| Móvil | Oculto (menú overlay) |
