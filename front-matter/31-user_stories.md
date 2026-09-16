@@ -21,19 +21,19 @@
 <tr>
 <td colspan="2" style="vertical-align: top;">EP002</td>
 <td colspan="4" style="vertical-align: top;">Quality Inspection</td>
-<td colspan="2" style="vertical-align: top;">Como inspector de calidad, quiero hacer un registro de las inspecciones de los rollos de tela que recibimos antes del tendido y corte para asegurar la calidad de los materiales.</td>
+<td colspan="2" style="vertical-align: top;">Como inspector de calidad, quiero registrar las inspecciones de los rollos de tela que recibimos antes del tendido y corte para asegurar la calidad de los materiales.</td>
 </tr>
 
 <tr>
 <td colspan="2" style="vertical-align: top;">EP003</td>
 <td colspan="4" style="vertical-align: top;">Quality Assurance and Defect Management</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de calidad, quiero registrar, clasificar y vincular los defectos encontrados en las prendas a lotes, máquinas y operarios para agilizar las búsquedas de problemas y evitar rehacer los productos.</td>
+<td colspan="2" style="vertical-align: top;">Como supervisor de calidad, quiero registrar, clasificar y vincular los defectos encontrados en las prendas a lotes, máquinas y operarios para agilizar la búsqueda de problemas y evitar rehacer los productos.</td>
 </tr>
 
 <tr>
 <td colspan="2" style="vertical-align: top;">EP004</td>
 <td colspan="4" style="vertical-align: top;">Sewing Machinery Tracking</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor en producción, quiero registrar las fallas en la maquinaria y calcular los tiempos muertos acumulados para evitar cuellos de botella y gestionar los mantenimientos preventivos de forma adecuada.</td>
+<td colspan="2" style="vertical-align: top;">Como supervisor de producción, quiero registrar las fallas en la maquinaria y calcular los tiempos muertos acumulados para evitar cuellos de botella y gestionar los mantenimientos preventivos de forma adecuada.</td>
 </tr>
 
 <tr>
@@ -43,433 +43,62 @@
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">Ep006</td>
-<td colspan="4" style="vertical-align: top;">Titulo</td>
-<td colspan="2" style="vertical-align: top;">Descripcion</td>
+<td colspan="2" style="vertical-align: top;">EP006</td>
+<td colspan="4" style="vertical-align: top;">Landing Page</td>
+<td colspan="2" style="vertical-align: top;">Como visitante, quiero conocer la propuesta de valor, funcionalidades y beneficios de Fabric, para comprender cómo la plataforma puede ayudar a mejorar la gestión de producción y calidad de una empresa textil.</td>
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">Ep007</td>
-<td colspan="4" style="vertical-align: top;">Titulo</td>
-<td colspan="2" style="vertical-align: top;">Descripcion</td>
+<td colspan="2" style="vertical-align: top;">EP007</td>
+<td colspan="4" style="vertical-align: top;">User Management and Authentication</td>
+<td colspan="2" style="vertical-align: top;">Como usuario, quiero registrarme, iniciar sesión y gestionar mi cuenta para acceder a las funcionalidades de Fabric según mi rol dentro del taller.</td>
 </tr>
 
 <tr>
-<td colspan="2" style="vertical-align: top;">Ep008</td>
+<td colspan="2" style="vertical-align: top;">EP008</td>
 <td colspan="4" style="vertical-align: top;">Titulo</td>
 <td colspan="2" style="vertical-align: top;">Descripcion</td>
 </tr>
 
 </table>
 
-* **User Stories**
+## 3.1.2. User Stories
 
-<table style="border-collapse: collapse; width: 100%;">
-
-<tr>
-<th colspan="2" style="vertical-align: top;">Story ID</th>
-<th colspan="4" style="vertical-align: top;">Titulo</th>
-<th colspan="2" style="vertical-align: top;">Descripcion</th>
-<th colspan="2" style="vertical-align: top;">Criterios de Aceptacion</th>
-<th colspan="2" style="vertical-align: top;">Relacionado con (Epic ID)</th>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US001</td>
-<td colspan="4" style="vertical-align: top;">Creación y asignación de ID a lote de producción</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor, quiero crear un nuevo lote de producción ingresando el modelo de prenda, cantidad proyectada y ficha técnica para asignarle un ID único y dar inicio a su trazabilidad en el taller.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1:</b> Dado que el supervisor se encuentra en el módulo de lotes y completa los campos obligatorios como el modelo, cantidad estimada y fecha de entrega, cuando hace clic en "Crear Lote", entonces el sistema genera un ID único, guarda el lote en estado "Pendiente de Corte" y realiza una confirmación en pantalla.</li>
-    <li><b>Escenario 2:</b> Dado que el supervisor intenta guardar un lote omitiendo campos requeridos como la cantidad o el modelo, cuando presiona "Crear Lote", entonces el sistema bloquea el guardado, resalta los campos vacíos en color rojo y muestra el mensaje de advertencia "Complete todos los campos requeridos".</li>
-  </ul></td>
-<td colspan="2" style="vertical-align: top;">EP001</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US002</td>
-<td colspan="4" style="vertical-align: top;">Actualización y transición de etapas operativas del lote</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de producción, quiero registrar la transición del lote entre etapas indicando las cantidades procesadas para monitorear el avance real y detectar retenciones.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1:</b> Dado que un lote se encuentra en estado "En Corte" con 500 piezas finalizadas, cuando el supervisor haga clic en "Enviar a Confección" e ingrese la cantidad recibida en costura, entonces el estado del lote cambia a "En Confección" y se registran las fechas y horas exactas del traslado.</li>
-    <li><b>Escenario 2:</b> Dado que el supervisor ingresa una cantidad de piezas superior a las cortadas originalmente en la etapa anterior, cuando pulsa "Confirmar Transición", entonces el sistema muestra una advertencia de inconsistencia cuantitativa y solicita rectificar el conteo antes de autorizar el pase.</li>
-  </ul></td>
-<td colspan="2" style="vertical-align: top;">EP001</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US003</td>
-<td colspan="4" style="vertical-align: top;">Registro e inspección inicial de rollos de tela entrantes</td>
-<td colspan="2" style="vertical-align: top;">Como inspector de calidad, quiero registrar los datos de cada rollo de tela recibido para verificar su conformidad inicial antes de autorizar su tendido en la mesa de corte.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1:</b> Dado que el inspector revisa un rollo de tela y constata que el tono y la textura coinciden con la muestra del cliente, cuando registra los datos del rollo y hace clic en "Conforme", entonces el sistema lo almacena en estado "Disponible para Corte" y le genera una etiqueta digital.</li>
-    <li><b>Escenario 2:</b> Dado que el inspector detecta variaciones severas de matiz o huecos en la trama, cuando marca el rollo como "Observado" e ingresa el motivo, entonces el sistema bloquea su asignación a lotes de corte y notifica a la administración para coordinar con el proveedor.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP002</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US004</td>
-<td colspan="4" style="vertical-align: top;">Registro de prueba de encogimiento y lavado de muestra de tela</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de calidad, quiero registrar los resultados de las pruebas de encogimiento porcentual de una muestra de tejido para asegurar que cumple con las tolerancias de la ficha técnica antes de cortar.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1:</b> Dado que el inspector introduce las dimensiones previas y posteriores al lavado de una probeta de 50x50 cm, cuando el sistema calcula automáticamente un encogimiento dentro del rango permitido (menor o igual al 5%), entonces la prueba se guarda como "Aprobada" y habilita el rollo para patronaje.</li>
-    <li><b>Escenario 2:</b> Dado que la contracción calculada supera el margen estipulado en la ficha técnica, cuando el usuario guarda el resultado, entonces el sistema marca la tela como "No Conforme" y genera una sugerencia de recalibración de moldes o cambio de partida.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP002</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US005</td>
-<td colspan="4" style="vertical-align: top;">Registro y clasificación de defectos en prendas confeccionadas</td>
-<td colspan="2" style="vertical-align: top;">Como auditor de calidad, quiero registrar las prendas con fallas detectadas en línea vinculándolas al lote y máquina responsable para identificar rápidamente la causa del defecto.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1:</b> Dado que el auditor identifica una prenda con puntadas abiertas en el lote activo, cuando accede al formulario rápido de calidad, elige el tipo de defecto, la máquina asociada y la cantidad de prendas observadas; entonces el sistema descuenta las unidades de las prendas aprobadas y actualiza la tasa de defectos del lote.</li>
-    <li><b>Escenario 2:</b> Dado que se detecta una mancha de origen impreciso, cuando el auditor registra la prenda marcando "Origen Desconocido", entonces el registro se guarda con la etiqueta "En Evaluación" para su posterior revisión conjunta con la jefatura de planta.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP003</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US006</td>
-<td colspan="4" style="vertical-align: top;">Destino de prendas defectuosas a reproceso o merma definitiva</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de calidad, quiero dictaminar si una prenda observada puede ser reparada o quede para descarte para cuantificar los costos de corrección y ajustar la liquidación final del lote.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1:</b> Dado que la prenda tiene una costura remediable, cuando el supervisor pulsa "Enviar a Reproceso" e indica la estación de corrección asignada, entonces la prenda se agrega a la cola de prendas pendientes de ajuste sin darse de baja del inventario final proyectado.</li>
-    <li><b>Escenario 2:</b> Dado que la tela sufrió un rasgado irreparable durante la costura, cuando el supervisor pulsa "Descartar", entonces el sistema descuenta la prenda del saldo comercializable del lote y suma el costo a las pérdidas acumuladas por merma.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP003</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US007</td>
-<td colspan="4" style="vertical-align: top;">Reporte de averías e interrupción operativa de máquinas de confección</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de producción, quiero registrar la detención de una máquina de coser especificando el código de máquina, tipo de falla o avería y hora de paro para solicitar asistencia técnica inmediata.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1:</b> Dado que una máquina remalladora presenta rotura de aguja o traba mecánica, cuando el supervisor ingresa su código, selecciona el tipo de falla y pulsa "Registrar Parada", entonces el sistema cambia el estado de la máquina a "En Mantenimiento", activa el contador de tiempo muerto y notifica al área técnica.</li>
-    <li><b>Escenario 2:</b> Dado que el supervisor intenta registrar la detención sin especificar el origen de la avería, cuando pulsa guardar, el sistema impide la acción y exige seleccionar al menos una categoría de falla técnica.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP004</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US008</td>
-<td colspan="4" style="vertical-align: top;">Reanudación de operatividad y registro del tiempo muerto de máquina</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor, quiero registrar la reanudación de actividades de una máquina intervenida indicando las piezas sustituidas o calibradas para calcular el tiempo muerto acumulado y evaluar el rendimiento mecánico.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1:</b> Dado que el técnico concluye la calibración y prueba la máquina, cuando el supervisor presiona "Reanudar Operación" e ingresa la solución aplicada, entonces el sistema detiene el temporizador, guarda los minutos de inactividad registrados y restablece la máquina al estado "Operativa".</li>
-    <li><b>Escenario 2:</b> Dado que el supervisor ingresa al detalle de una máquina recurrente en fallas, cuando solicita ver su histórico semanal, entonces el sistema lista cronológicamente todas las paradas, la causa de cada falla y el total acumulado de horas no productivas.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP004</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US009</td>
-<td colspan="4" style="vertical-align: top;">Visualización de métricas de avance y productividad diaria en Dashboard</td>
-<td colspan="2" style="vertical-align: top;">Como administrador del taller o supervisor general, quiero visualizar en un panel centralizado las prendas producidas por hora, el avance de lotes y el porcentaje de cumplimiento diario para tomar decisiones operativas sin recurrir a cuadernos o conteos físicos.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1:</b> Dado que el usuario accede a la vista principal de Fabric, cuando la página carga, entonces se muestran tarjetas con indicadores actualizados: total de prendas elaboradas en el día, promedio de prendas por hora y cantidad de lotes por etapa operativa.</li>
-    <li><b>Escenario 2:</b> Dado que el usuario necesita analizar el rendimiento de un lote o día anterior, cuando aplica los filtros de búsqueda correspondientes, los gráficos y contadores del dashboard se recalculan dinámicamente mostrando exclusivamente los datos seleccionados.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP005</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US010</td>
-<td colspan="4" style="vertical-align: top;">Alertas visuales de mermas y cuellos de botella</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de planta, quiero recibir alertas visuales cuando la tasa de reprocesos, mermas o tiempos muertos supere los umbrales de tolerancia para intervenir a tiempo en la línea productiva.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1:</b> Dado que el porcentaje acumulado de prendas defectuosas en un lote supera el umbral máximo tolerado (ej. mayor al 5%), cuando se registra una nueva prenda defectuosa, entonces el sistema cambia el indicador del lote a color rojo y despliega un banner de alerta crítica en el panel.</li>
-    <li><b>Escenario 2:</b> Dado que un lote mantiene una tasa de reprocesos controlada (menor al 2%), cuando se consulta su ficha en el panel de control, entonces se visualiza con distintivo verde indicando flujo de confección óptimo.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP005</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US011</td>
-<td colspan="4" style="vertical-align: top;">Consulta del historial de trazabilidad del lote</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de producción, quiero consultar el historial de movimientos de un lote junto con las fechas, cantidades y responsables involucrados, para identificar dónde y cuándo se produce una diferencia durante el proceso productivo.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1 - Consulta exitosa: </b>Dado que el lote tiene movimientos registrados en diferentes etapas de producción, cuando el supervisor consulta su historial de trazabilidad, entonces el sistema registra y retorna los movimientos asociados indicando la etapa, cantidad, fecha, hora y responsable de cada movimiento.</li>
-    <li><b>Escenario 2 - Detección de diferencias: </b>Dado que existen diferencias entre las cantidades registradas en dos etapas consecutivas, cuando el supervisor consulta el historial del lote, entonces el sistema identifica la diferencia y relaciona las cantidades registradas en ambas etapas.</li>
-    <li><b>Escenario 3 - Lote sin historial: </b>Dado que el lote no tiene movimientos registrados, cuando el supervisor consulta su historial de trazabilidad, entonces el sistema retorna que el lote no posee movimientos registrados.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP001</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US012</td>
-<td colspan="4" style="vertical-align: top;">Búsqueda y filtrado de lotes de producción</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de producción, quiero buscar y filtrar los lotes registrados por diferentes criterios, para localizar rápidamente una orden específica y revisar su información operativa.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1 - Búsqueda por amplificador: </b>Dado que existen múltiples lotes registrados, cuando el supervisor consulta un identificador de lote válido, entonces el sistema retorna únicamente el lote asociado a dicho identificador.</li>
-    <li><b>Escenario 2 - Aplicación de filtros: </b>Dado que existen lotes con diferentes estados, fechas y modelos de prenda, cuando el supervisor establece uno o más criterios de búsqueda, entonces el sistema retorna únicamente los lotes que cumplen con dichos criterios.</li>
-    <li><b>Escenario 3 - Sin coincidencias: </b>Dado que ningún lote cumple con los criterios de búsqueda establecidos, cuando el supervisor realiza la consulta, entonces el sistema retorna un conjunto vacío de resultados.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP001</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US013</td>
-<td colspan="4" style="vertical-align: top;">Registro de resultados y parámetros de inspección del rollo</td>
-<td colspan="2" style="vertical-align: top;">Como inspector de calidad, quiero registrar los parámetros evaluados durante la inspección de un rollo de tela, para conservar evidencia de las condiciones en las que fue recibido el material.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1 - Registro exitoso: </b>Dado que el rollo está registrado y los parámetros obligatorios de inspección son válidos, cuando el inspector registra los resultados de tono, ancho, longitud y defectos, entonces el sistema almacena los valores asociados al rollo.</li>
-    <li><b>Escenario 2 Parámetros incompletos: </b>Dado que uno o más parámetros obligatorios no están registrados, cuando el inspector intenta completar la inspección, entonces el sistema rechaza el registro y no almacena la inspección incompleta.</li>
-    <li><b>Escenario 1 - Valores inválidos: </b>Dado que el inspector registra un valor de longitud o ancho igual o menor que cero, cuando intenta completar la inspección, entonces el sistema rechaza el registro y no almacena los valores inválidos.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP002</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US014</td>
-<td colspan="4" style="vertical-align: top;">Consulta de resultados históricos de inspecciones de tela</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de calidad, quiero consultar los resultados históricos de las inspecciones realizadas a los rollos de tela, para identificar materiales que presentan problemas recurrentes.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1 - Consulta exitosa: </b>Dado que existen inspecciones registradas para diferentes rollos, cuando el supervisor consulta el historial, entonces el sistema retorna los resultados asociados a cada inspección, incluyendo fecha, rollo y observaciones.</li>
-    <li><b>Escenario 2 - Filtrado de inspecciones: </b>Dado que existen inspecciones correspondientes a diferentes proveedores, lotes y resultados, cuando el supervisor establece uno o más criterios de búsqueda, entonces el sistema retorna únicamente las inspecciones que cumplen con dichos criterios.</li>
-    <li><b>Escenario 3 - Sin coincidencias: </b>Dado que ninguna inspección cumple con los criterios establecidos, cuando el supervisor realiza la consulta, entonces el sistema retorna un conjunto vacío de resultados.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP002</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US015</td>
-<td colspan="4" style="vertical-align: top;">Asociación de evidencias a defectos de calidad</td>
-<td colspan="2" style="vertical-align: top;">Como auditor de calidad, quiero asociar evidencias a los defectos encontrados en las prendas, para facilitar su revisión y respaldar las acciones correctivas tomadas.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1 - Evidencia registrada: </b>Dado que existe un defecto registrado, cuando el auditor asocia una fotografía válida como evidencia, entonces el sistema almacena la evidencia vinculada al defecto correspondiente.</li>
-    <li><b>Escenario 2 - Defecto sin evidencia: </b>Dado que existe un defecto que no tiene evidencias asociadas, cuando el supervisor consulta su información, entonces el sistema identifica que el defecto no posee evidencias registradas.</li>
-    <li><b>Escenario 3 - Archivo no válido: </b>Dado que el auditor proporciona un archivo cuyo formato no corresponde a los formatos de evidencia permitidos, cuando intenta asociarlo al defecto, entonces el sistema rechaza el archivo y no lo almacena.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP003</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US016</td>
-<td colspan="4" style="vertical-align: top;">Identificación de defectos recurrentes por lote y máquina</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de calidad, quiero consultar los defectos registrados agrupados por tipo, lote y máquina, para identificar patrones recurrentes y priorizar acciones correctivas.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1 - Agrupación de defectos: </b>Dado que existen múltiples defectos registrados, cuando el supervisor consulta los defectos de un período determinado, entonces el sistema calcula y retorna la cantidad de incidencias agrupadas por tipo de defecto.</li>
-    <li><b>Escenario 2 - Asociación con maquinaria: </b>Dado que existen defectos asociados a diferentes máquinas y lotes, cuando el supervisor consulta los defectos correspondientes a una máquina determinada, entonces el sistema retorna únicamente las incidencias asociadas a dicha máquina y sus tipos de defecto.</li>
-    <li><b>Escenario 3 - Sin registros coincidentes: </b>Dado que no existen defectos asociados a los criterios de búsqueda establecidos, cuando el supervisor realiza la consulta, entonces el sistema retorna un conjunto vacío de resultados.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP003</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US017</td>
-<td colspan="4" style="vertical-align: top;">Consulta del estado actual de las máquinas de confección</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de producción, quiero consultar el estado operativo de las máquinas de confección, para identificar cuáles se encuentran disponibles, detenidas o en mantenimiento.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1 - Consulta exitosa: </b>Dado que existen máquinas registradas, cuando el supervisor consulta su estado operativo, entonces el sistema retorna el estado actual de cada máquina registrada.</li>
-    <li><b>Escenario 2 - Máquina detenida: </b>Dado que una máquina tiene una interrupción operativa registrada, cuando el supervisor consulta su estado, entonces el sistema retorna dicha máquina como detenida y la relaciona con la incidencia correspondiente.</li>
-    <li><b>Escenario 3 - Máquina no registrada: </b>Dado que no existe una máquina asociada al código consultado, cuando el supervisor realiza la consulta, entonces el sistema retorna que no existe una máquina registrada con dicho código.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP004</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US018</td>
-<td colspan="4" style="vertical-align: top;">Registro y consulta del historial de mantenimiento</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de producción, quiero registrar y consultar los mantenimientos realizados a cada máquina, para conocer las intervenciones efectuadas y apoyar la planificación del mantenimiento preventivo.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1 - Registro exitoso: </b>Dado que una máquina está registrada y requiere una intervención, cuando el supervisor registra el mantenimiento realizado, entonces el sistema almacena la intervención asociada a la máquina, incluyendo la fecha y las observaciones correspondientes.</li>
-    <li><b>Escenario 2 - Consulta del historial: </b>Dado que una máquina posee intervenciones de mantenimiento registradas, cuando el supervisor consulta su historial, entonces el sistema retorna las intervenciones ordenadas cronológicamente con sus fechas y observaciones.</li>
-    <li><b>Escenario 3 - Datos incompletos: </b>Dado que el registro de mantenimiento no contiene la máquina o la fecha de intervención, cuando el supervisor intenta registrar el mantenimiento, entonces el sistema rechaza el registro y no almacena información incompleta.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP004</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US019</td>
-<td colspan="4" style="vertical-align: top;">Visualización de indicadores de defectos, reprocesos y merma</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de calidad, quiero consultar indicadores relacionados con defectos, reprocesos y merma, para evaluar el comportamiento de la calidad de los lotes y detectar áreas que requieren atención.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1 - Consulta de indicadores: </b>Dado que existen registros de defectos, reprocesos y merma durante un período determinado, cuando el supervisor consulta los indicadores, entonces el sistema calcula y retorna los valores correspondientes al período.</li>
-    <li><b>Escenario 2 - Consulta por lote: </b>Dado que existen registros asociados a diferentes lotes, cuando el supervisor establece un lote como criterio de consulta, entonces el sistema calcula y retorna únicamente los indicadores correspondientes a dicho lote.</li>
-    <li><b>Escenario 3 - Sin información: </b>Dado que no existen registros de defectos, reprocesos o merma para el período o lote consultado, cuando el supervisor solicita los indicadores, entonces el sistema retorna que no existen datos disponibles para realizar el cálculo.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP005</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US020</td>
-<td colspan="4" style="vertical-align: top;">Generación de alertas por acumulación de tiempo muerto</td>
-<td colspan="2" style="vertical-align: top;">Como supervisor de producción, quiero recibir alertas cuando una máquina acumule un tiempo muerto superior al límite establecido, para identificar posibles problemas recurrentes y tomar acciones preventivas.</td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1 - Generación de alerta: </b>Dado que una máquina tiene establecido un límite máximo de tiempo muerto, cuando el tiempo muerto acumulado supera dicho límite, entonces el sistema genera una alerta asociada a la máquina e identifica el tiempo acumulado.</li>
-    <li><b>Escenario 2 - Tiempo dentro del límite: </b>Dado que una máquina mantiene su tiempo muerto acumulado dentro del límite establecido, cuando el sistema evalúa su tiempo muerto, entonces el sistema no genera una alerta por exceso de tiempo.</li>
-    <li><b>Escenario 3 - Máquina sin registros: </b>Dado que una máquina no posee registros de paradas o tiempos muertos, cuando el sistema evalúa su tiempo muerto, entonces el sistema no genera una alerta por exceso y determina que no existen datos suficientes para realizar la evaluación.</li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;">EP005</td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US021</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;"></td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US022</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;"></td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US023</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;"></td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US024</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;"></td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US025</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;"></td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US026</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;"></td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US027</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;"></td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US028</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;"></td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US029</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;"></td>
-</tr>
-
-<tr>
-<td colspan="2" style="vertical-align: top;">US030</td>
-<td colspan="4" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;"></td>
-<td colspan="2" style="vertical-align: top;">
-  <ul>
-    <li><b>Escenario 1: </b></li>
-    <li><b>Escenario 2: </b></li>
-  </ul>
-</td>
-<td colspan="2" style="vertical-align: top;"></td>
-</tr>
-</table>
-
+| Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---|---|---|---|---|
+| US001 | Creación y asignación de ID a lote de producción | Como supervisor, quiero crear un nuevo lote de producción ingresando el modelo de prenda, cantidad proyectada y ficha técnica para asignarle un ID único y dar inicio a su trazabilidad en el taller. | **Escenario 1:** Dado que el supervisor completa los campos obligatorios del lote (modelo, cantidad estimada y fecha de entrega), cuando confirma la creación del lote, entonces el sistema genera un ID único, registra el lote en estado "Pendiente de Corte" y confirma la operación.<br><br>**Escenario 2:** Dado que el supervisor omite uno o más campos obligatorios, cuando intenta crear el lote, entonces el sistema rechaza la operación e indica los campos faltantes. | EP001 |
+| US002 | Actualización y transición de etapas operativas del lote | Como supervisor de producción, quiero registrar la transición del lote entre etapas indicando las cantidades procesadas para monitorear el avance real y detectar retenciones. | **Escenario 1:** Dado que un lote se encuentra en la etapa "Corte" con 500 piezas finalizadas, cuando el supervisor registra su paso a la etapa "Confección" indicando la cantidad recibida, entonces el sistema actualiza la etapa del lote y registra la fecha y hora del cambio.<br><br>**Escenario 2:** Dado que el supervisor ingresa una cantidad de piezas superior a la registrada en la etapa anterior, cuando confirma la transición, entonces el sistema advierte la inconsistencia y solicita rectificar el conteo antes de autorizar el cambio. | EP001 |
+| US003 | Registro e inspección inicial de rollos de tela entrantes | Como inspector de calidad, quiero registrar los datos de cada rollo de tela recibido para verificar su conformidad inicial antes de autorizar su tendido en la mesa de corte. | **Escenario 1:** Dado que el inspector verifica que un rollo de tela cumple con la muestra del cliente, cuando registra los datos del rollo y lo declara conforme, entonces el sistema lo marca como "Disponible para Corte".<br><br>**Escenario 2:** Dado que el inspector detecta variaciones severas de matiz o huecos en la trama, cuando marca el rollo como observado e ingresa el motivo, entonces el sistema bloquea su asignación a lotes de corte y registra la observación asociada al rollo. | EP002 |
+| US004 | Registro de prueba de encogimiento y lavado de muestra de tela | Como supervisor de calidad, quiero registrar los resultados de las pruebas de encogimiento porcentual de una muestra de tejido para asegurar que cumple con las tolerancias de la ficha técnica antes de cortar. | **Escenario 1:** Dado que el inspector registra las dimensiones previas y posteriores al lavado de una probeta, cuando el sistema calcula un encogimiento menor o igual al 5%, entonces la prueba se marca como "Aprobada" y el rollo queda habilitado para patronaje.<br><br>**Escenario 2:** Dado que el encogimiento calculado supera el margen definido en la ficha técnica, cuando el inspector registra el resultado, entonces el sistema marca la tela como "No Conforme" y registra la observación correspondiente. | EP002 |
+| US005 | Registro y clasificación de defectos en prendas confeccionadas | Como auditor de calidad, quiero registrar las prendas con fallas detectadas en línea vinculándolas al lote y máquina responsable para identificar rápidamente la causa del defecto. | **Escenario 1:** Dado que el auditor identifica una prenda con puntadas abiertas en el lote activo, cuando registra el tipo de defecto, la máquina asociada y la cantidad de prendas observadas, entonces el sistema descuenta la cantidad observada del total de prendas aprobadas del lote y actualiza su tasa de defectos.<br><br>**Escenario 2:** Dado que el auditor detecta una mancha de origen impreciso, cuando registra la prenda marcando "Origen Desconocido", entonces el sistema guarda el registro con la etiqueta "En Evaluación" para su posterior revisión. | EP003 |
+| US006 | Destino de prendas defectuosas a reproceso o merma definitiva | Como supervisor de calidad, quiero dictaminar si una prenda observada puede ser reparada o queda para descarte para cuantificar los costos de corrección y ajustar la liquidación final del lote. | **Escenario 1:** Dado que la prenda tiene una costura remediable, cuando el supervisor registra la prenda para reproceso e indica la estación de corrección asignada, entonces el sistema agrega la prenda a la cola de pendientes de ajuste sin darla de baja del inventario final proyectado.<br><br>**Escenario 2:** Dado que la tela sufrió un rasgado irreparable durante la costura, cuando el supervisor registra la prenda como descartada, entonces el sistema descuenta la prenda del saldo comercializable del lote y registra su costo en el total de mermas acumuladas. | EP003 |
+| US007 | Reporte de averías e interrupción operativa de máquinas de confección | Como supervisor de producción, quiero registrar la detención de una máquina de coser especificando el código de máquina, tipo de falla y hora de paro para solicitar asistencia técnica inmediata. | **Escenario 1:** Dado que una máquina presenta rotura de aguja o traba mecánica, cuando el supervisor registra su código, selecciona el tipo de falla y confirma la parada, entonces el sistema cambia el estado de la máquina a "En Mantenimiento", activa el contador de tiempo muerto y notifica al área técnica.<br><br>**Escenario 2:** Dado que el supervisor intenta registrar la detención sin especificar el origen de la avería, cuando confirma el registro, entonces el sistema impide la acción y exige seleccionar al menos una categoría de falla técnica. | EP004 |
+| US008 | Reanudación de operatividad y registro del tiempo muerto de máquina | Como supervisor, quiero registrar la reanudación de actividades de una máquina intervenida indicando las piezas sustituidas o calibradas para calcular el tiempo muerto acumulado y evaluar el rendimiento mecánico. | **Escenario 1:** Dado que el técnico concluye la calibración y prueba la máquina, cuando el supervisor registra la reanudación e ingresa la solución aplicada, entonces el sistema detiene el temporizador, guarda los minutos de inactividad y restablece la máquina al estado "Operativa".<br><br>**Escenario 2:** Dado que el supervisor accede al detalle de una máquina con fallas recurrentes, cuando solicita su histórico semanal, entonces el sistema lista cronológicamente las paradas, la causa de cada falla y el total acumulado de horas no productivas. | EP004 |
+| US009 | Visualización de métricas de avance y productividad diaria en Dashboard | Como administrador del taller o supervisor general, quiero visualizar en un panel centralizado las prendas producidas por hora, el avance de lotes y el porcentaje de cumplimiento diario para tomar decisiones operativas sin recurrir a cuadernos o conteos físicos. | **Escenario 1:** Dado que el usuario accede al dashboard de Fabric, cuando la vista carga, entonces el sistema muestra los indicadores: total de prendas elaboradas en el día, promedio de prendas por hora y cantidad de lotes por etapa operativa.<br><br>**Escenario 2:** Dado que el usuario necesita analizar el rendimiento de un lote o de un día anterior, cuando aplica los filtros de búsqueda, entonces el sistema recalcula los indicadores y muestra únicamente los datos seleccionados. | EP005 |
+| US010 | Alertas visuales de mermas y cuellos de botella | Como supervisor de planta, quiero recibir alertas cuando la tasa de reprocesos, mermas o tiempos muertos supere los umbrales de tolerancia para intervenir a tiempo en la línea productiva. | **Escenario 1:** Dado que el porcentaje acumulado de prendas defectuosas en un lote supera el umbral máximo tolerado (mayor al 5%), cuando se registra una nueva prenda defectuosa, entonces el sistema marca el lote como crítico y genera una alerta en el panel.<br><br>**Escenario 2:** Dado que un lote mantiene una tasa de reprocesos menor al 2%, cuando el supervisor consulta su ficha en el panel de control, entonces el sistema lo muestra con indicador de flujo óptimo. | EP005 |
+| US011 | Consulta del historial de trazabilidad del lote | Como supervisor de producción, quiero consultar el historial de movimientos de un lote junto con las fechas, cantidades y responsables involucrados, para identificar dónde y cuándo se produce una diferencia durante el proceso productivo. | **Escenario 1:** Dado que el lote tiene movimientos registrados en diferentes etapas de producción, cuando el supervisor consulta su historial de trazabilidad, entonces el sistema retorna los movimientos asociados indicando etapa, cantidad, fecha, hora y responsable.<br><br>**Escenario 2:** Dado que existen diferencias entre las cantidades registradas en dos etapas consecutivas, cuando el supervisor consulta el historial del lote, entonces el sistema identifica la diferencia y relaciona las cantidades registradas en ambas etapas.<br><br>**Escenario 3:** Dado que el lote no tiene movimientos registrados, cuando el supervisor consulta su historial de trazabilidad, entonces el sistema indica que el lote no posee movimientos registrados. | EP001 |
+| US012 | Búsqueda y filtrado de lotes de producción | Como supervisor de producción, quiero buscar y filtrar los lotes registrados por diferentes criterios para localizar rápidamente una orden específica y revisar su información operativa. | **Escenario 1:** Dado que existen múltiples lotes registrados, cuando el supervisor consulta un identificador de lote válido, entonces el sistema retorna únicamente el lote asociado a dicho identificador.<br><br>**Escenario 2:** Dado que existen lotes con diferentes estados, fechas y modelos de prenda, cuando el supervisor establece uno o más criterios de búsqueda, entonces el sistema retorna únicamente los lotes que cumplen con dichos criterios.<br><br>**Escenario 3:** Dado que ningún lote cumple con los criterios de búsqueda establecidos, cuando el supervisor realiza la consulta, entonces el sistema retorna un conjunto vacío de resultados. | EP001 |
+| US013 | Registro de resultados y parámetros de inspección del rollo | Como inspector de calidad, quiero registrar los parámetros evaluados durante la inspección de un rollo de tela para conservar evidencia de las condiciones en las que fue recibido el material. | **Escenario 1:** Dado que el rollo está registrado y los parámetros obligatorios de inspección son válidos, cuando el inspector registra los resultados de tono, ancho, longitud y defectos, entonces el sistema almacena los valores asociados al rollo.<br><br>**Escenario 2:** Dado que uno o más parámetros obligatorios no están registrados, cuando el inspector intenta completar la inspección, entonces el sistema rechaza el registro y no almacena la inspección incompleta.<br><br>**Escenario 3:** Dado que el inspector registra un valor de longitud o ancho igual o menor que cero, cuando intenta completar la inspección, entonces el sistema rechaza el registro y no almacena los valores inválidos. | EP002 |
+| US014 | Consulta de resultados históricos de inspecciones de tela | Como supervisor de calidad, quiero consultar los resultados históricos de las inspecciones realizadas a los rollos de tela para identificar materiales que presentan problemas recurrentes. | **Escenario 1:** Dado que existen inspecciones registradas para diferentes rollos, cuando el supervisor consulta el historial, entonces el sistema retorna los resultados asociados a cada inspección, incluyendo fecha, rollo y observaciones.<br><br>**Escenario 2:** Dado que existen inspecciones correspondientes a diferentes proveedores, lotes y resultados, cuando el supervisor establece uno o más criterios de búsqueda, entonces el sistema retorna únicamente las inspecciones que cumplen con dichos criterios.<br><br>**Escenario 3:** Dado que ninguna inspección cumple con los criterios establecidos, cuando el supervisor realiza la consulta, entonces el sistema retorna un conjunto vacío de resultados. | EP002 |
+| US015 | Asociación de evidencias a defectos de calidad | Como auditor de calidad, quiero asociar evidencias a los defectos encontrados en las prendas para facilitar su revisión y respaldar las acciones correctivas tomadas. | **Escenario 1:** Dado que existe un defecto registrado, cuando el auditor asocia un archivo en formato JPG o PNG de máximo 5 MB como evidencia, entonces el sistema almacena la evidencia vinculada al defecto correspondiente.<br><br>**Escenario 2:** Dado que existe un defecto que no tiene evidencias asociadas, cuando el supervisor consulta su información, entonces el sistema indica que el defecto no posee evidencias registradas.<br><br>**Escenario 3:** Dado que el auditor proporciona un archivo cuyo formato o tamaño no corresponde a los permitidos, cuando intenta asociarlo al defecto, entonces el sistema rechaza el archivo y no lo almacena. | EP003 |
+| US016 | Identificación de defectos recurrentes por lote y máquina | Como supervisor de calidad, quiero consultar los defectos registrados agrupados por tipo, lote y máquina para identificar patrones recurrentes y priorizar acciones correctivas. | **Escenario 1:** Dado que existen múltiples defectos registrados, cuando el supervisor consulta los defectos de un período determinado, entonces el sistema calcula y retorna la cantidad de incidencias agrupadas por tipo de defecto.<br><br>**Escenario 2:** Dado que existen defectos asociados a diferentes máquinas y lotes, cuando el supervisor consulta los defectos correspondientes a una máquina determinada, entonces el sistema retorna únicamente las incidencias asociadas a dicha máquina y sus tipos de defecto.<br><br>**Escenario 3:** Dado que no existen defectos asociados a los criterios de búsqueda establecidos, cuando el supervisor realiza la consulta, entonces el sistema retorna un conjunto vacío de resultados. | EP003 |
+| US017 | Consulta del estado actual de las máquinas de confección | Como supervisor de producción, quiero consultar el estado operativo de las máquinas de confección para identificar cuáles se encuentran disponibles, detenidas o en mantenimiento. | **Escenario 1:** Dado que existen máquinas registradas, cuando el supervisor consulta su estado operativo, entonces el sistema retorna el estado actual de cada máquina registrada.<br><br>**Escenario 2:** Dado que una máquina tiene una interrupción operativa registrada, cuando el supervisor consulta su estado, entonces el sistema retorna dicha máquina como detenida y la relaciona con la incidencia correspondiente.<br><br>**Escenario 3:** Dado que no existe una máquina asociada al código consultado, cuando el supervisor realiza la consulta, entonces el sistema indica que no existe una máquina registrada con dicho código. | EP004 |
+| US018 | Registro y consulta del historial de mantenimiento | Como supervisor de producción, quiero registrar y consultar los mantenimientos realizados a cada máquina para conocer las intervenciones efectuadas y apoyar la planificación del mantenimiento preventivo. | **Escenario 1:** Dado que una máquina está registrada y requiere una intervención, cuando el supervisor registra el mantenimiento realizado, entonces el sistema almacena la intervención asociada a la máquina, incluyendo fecha y observaciones.<br><br>**Escenario 2:** Dado que una máquina posee intervenciones de mantenimiento registradas, cuando el supervisor consulta su historial, entonces el sistema retorna las intervenciones ordenadas cronológicamente con sus fechas y observaciones.<br><br>**Escenario 3:** Dado que el registro de mantenimiento no contiene la máquina o la fecha de intervención, cuando el supervisor intenta registrar el mantenimiento, entonces el sistema rechaza el registro y no almacena información incompleta. | EP004 |
+| US019 | Visualización de indicadores de defectos, reprocesos y merma | Como supervisor de calidad, quiero consultar indicadores relacionados con defectos, reprocesos y merma para evaluar el comportamiento de la calidad de los lotes y detectar áreas que requieren atención. | **Escenario 1:** Dado que existen registros de defectos, reprocesos y merma durante un período determinado, cuando el supervisor consulta los indicadores, entonces el sistema calcula y retorna los valores correspondientes al período.<br><br>**Escenario 2:** Dado que existen registros asociados a diferentes lotes, cuando el supervisor establece un lote como criterio de consulta, entonces el sistema calcula y retorna únicamente los indicadores correspondientes a dicho lote.<br><br>**Escenario 3:** Dado que no existen registros de defectos, reprocesos o merma para el período o lote consultado, cuando el supervisor solicita los indicadores, entonces el sistema indica que no existen datos disponibles para realizar el cálculo. | EP005 |
+| US020 | Generación de alertas por acumulación de tiempo muerto | Como supervisor de producción, quiero recibir alertas cuando una máquina acumule un tiempo muerto superior al límite establecido para identificar posibles problemas recurrentes y tomar acciones preventivas. | **Escenario 1:** Dado que una máquina tiene un límite máximo de tiempo muerto configurado, cuando el tiempo muerto acumulado supera dicho límite, entonces el sistema genera una alerta asociada a la máquina e identifica el tiempo acumulado.<br><br>**Escenario 2:** Dado que una máquina mantiene su tiempo muerto acumulado dentro del límite establecido, cuando el sistema evalúa su tiempo muerto, entonces no genera una alerta por exceso de tiempo.<br><br>**Escenario 3:** Dado que una máquina no posee registros de paradas o tiempos muertos, cuando el sistema evalúa su tiempo muerto, entonces no genera una alerta y determina que no existen datos suficientes para la evaluación. | EP005 |
+| US021 | Visualización de Hero Section | Como visitante, quiero visualizar un mensaje claro sobre el valor de Fabric acompañado de una imagen representativa para comprender rápidamente qué ofrece la solución. | **Escenario 1:** Dado que el visitante ingresa a la Landing Page, cuando la página carga, entonces se muestra el nombre de Fabric y una frase que resume su propuesta de valor.<br><br>**Escenario 2:** Dado que el visitante visualiza el Hero Section, cuando la página carga, entonces se muestra una imagen representativa del producto junto al mensaje principal. | EP006 |
+| US022 | Visualización de la propuesta de valor | Como visitante, quiero conocer la propuesta de valor de Fabric para comprender cómo puede ayudar a mejorar la gestión de producción y calidad en una empresa textil. | **Escenario 1:** Dado que el visitante accede a la Landing Page de Fabric, cuando visualiza la sección principal, entonces la página muestra el nombre de Fabric y su propuesta de valor.<br><br>**Escenario 2:** Dado que el visitante se encuentra en la sección principal, cuando continúa explorando el contenido, entonces puede visualizar información que explica cómo Fabric contribuye al seguimiento de la producción, control de calidad y trazabilidad. | EP006 |
+| US023 | Visualización de funcionalidades | Como visitante, quiero conocer las principales funcionalidades de Fabric para identificar las herramientas que ofrece la plataforma para la gestión de los procesos textiles. | **Escenario 1:** Dado que el visitante llega a la sección de funcionalidades, cuando visualiza su contenido, entonces se muestran las principales funcionalidades de Fabric.<br><br>**Escenario 2:** Dado que el visitante revisa las funcionalidades, cuando visualiza cada una, entonces se muestra su nombre acompañado de una breve descripción. | EP006 |
+| US024 | Visualización de beneficios | Como visitante, quiero conocer los principales beneficios de Fabric para comprender cómo la solución puede contribuir a la gestión de una empresa textil. | **Escenario 1:** Dado que el visitante llega a la sección de beneficios, cuando visualiza su contenido, entonces se muestran los principales beneficios de Fabric.<br><br>**Escenario 2:** Dado que el visitante se encuentra en la sección de beneficios, cuando revisa la información presentada, entonces cada beneficio se muestra acompañado de un ícono o imagen representativa que facilite su comprensión. | EP006 |
+| US025 | Navegación por la Landing Page | Como visitante, quiero navegar fácilmente por las secciones de la Landing Page para encontrar rápidamente la información que deseo conocer sobre Fabric. | **Escenario 1:** Dado que el visitante se encuentra en la Landing Page, cuando selecciona una opción del menú de navegación, entonces la página lo dirige a la sección correspondiente.<br><br>**Escenario 2:** Dado que el visitante se encuentra visualizando una sección, cuando selecciona otra opción del menú, entonces la página se desplaza hacia la sección seleccionada. | EP006 |
+| US026 | Visualización del equipo | Como visitante, quiero conocer al equipo detrás de Fabric para identificar a las personas responsables del desarrollo de la solución. | **Escenario 1:** Dado que el visitante llega a la sección del equipo, cuando visualiza su contenido, entonces se muestran los integrantes de GlitchLab.<br><br>**Escenario 2:** Dado que el visitante revisa la sección del equipo, cuando visualiza a cada integrante, entonces se muestra su nombre acompañado de la información definida para su presentación. | EP006 |
+| US027 | Envío de formulario de solicitud de demo | Como visitante, quiero completar un formulario para solicitar una demostración y recibir información personalizada sobre Fabric. | **Escenario 1:** Dado que el visitante accede al formulario de solicitud de demo, cuando completa los campos obligatorios (Nombre, Correo electrónico, Teléfono y Empresa) y confirma el envío, entonces el sistema registra la solicitud y muestra un mensaje de confirmación.<br><br>**Escenario 2:** Dado que el visitante se encuentra en el formulario de solicitud de demo, cuando intenta enviarlo sin completar uno o más campos obligatorios, entonces el sistema no permite el envío e indica los campos requeridos. | EP006 |
+| US028 | Acceso a Términos y Condiciones | Como visitante, quiero acceder a los Términos y Condiciones de Fabric para conocer las condiciones de uso de la plataforma. | **Escenario 1:** Dado que el visitante se encuentra en la Landing Page, cuando llega al Footer, entonces visualiza el enlace "Términos y Condiciones" disponible para su acceso.<br><br>**Escenario 2:** Dado que el visitante visualiza el enlace "Términos y Condiciones" en el Footer, cuando hace clic en él, entonces se muestra el contenido completo de los Términos y Condiciones de Fabric. | EP006 |
+| US029 | Visualización de la sección de problema | Como visitante, quiero conocer la problemática que enfrentan las MYPE textiles para entender por qué Fabric es una solución relevante. | **Escenario 1:** Dado que el visitante accede a la sección de problema, cuando visualiza su contenido, entonces la página describe la problemática de la gestión de producción y calidad en las MYPE textiles.<br><br>**Escenario 2:** Dado que el visitante revisa la sección de problema, cuando continúa leyendo, entonces la página presenta datos o contexto sobre la situación del sector textil en Lima. | EP006 |
+| US030 | Visualización de la sección de solución | Como visitante, quiero conocer cómo Fabric resuelve la problemática del sector textil para evaluar si la plataforma se adapta a mis necesidades. | **Escenario 1:** Dado que el visitante accede a la sección de solución, cuando visualiza su contenido, entonces la página describe cómo Fabric centraliza la información de producción y calidad.<br><br>**Escenario 2:** Dado que el visitante revisa la sección de solución, cuando compara el contenido con la sección de problema, entonces la página muestra la relación entre la problemática descrita y la solución propuesta. | EP006 |
+| US031 | Visualización de la Landing Page para el segmento supervisores de producción | Como visitante del segmento supervisores de producción, quiero conocer cómo Fabric facilita el seguimiento de lotes y la detección de retrasos para evaluar si la plataforma se adapta a mi rol. | **Escenario 1:** Dado que el visitante del segmento supervisores de producción accede a la Landing Page, cuando visualiza el contenido, entonces la página presenta información relacionada con el seguimiento de lotes y la detección de retrasos.<br><br>**Escenario 2:** Dado que el visitante del segmento supervisores de producción revisa los beneficios, cuando visualiza su contenido, entonces la página muestra beneficios asociados a la trazabilidad y al control de la producción. | EP006 |
+| US032 | Visualización de la Landing Page para el segmento encargados de calidad | Como visitante del segmento encargados de calidad, quiero conocer cómo Fabric facilita el registro de inspecciones y la identificación de defectos para evaluar si la plataforma se adapta a mi rol. | **Escenario 1:** Dado que el visitante del segmento encargados de calidad accede a la Landing Page, cuando visualiza el contenido, entonces la página presenta información relacionada con el registro de inspecciones y la clasificación de defectos.<br><br>**Escenario 2:** Dado que el visitante del segmento encargados de calidad revisa los beneficios, cuando visualiza su contenido, entonces la página muestra beneficios asociados a la reducción de reprocesos y mermas. | EP006 |
+| US033 | Visualización de la Landing Page para el segmento dueños de MYPE | Como visitante del segmento dueños de MYPE, quiero conocer cómo Fabric contribuye a reducir costos operativos y mejorar la toma de decisiones para evaluar si la plataforma se adapta a mi negocio. | **Escenario 1:** Dado que el visitante del segmento dueños de MYPE accede a la Landing Page, cuando visualiza el contenido, entonces la página presenta información relacionada con la reducción de costos y la mejora en la toma de decisiones.<br><br>**Escenario 2:** Dado que el visitante del segmento dueños de MYPE revisa los beneficios, cuando visualiza su contenido, entonces la página muestra beneficios asociados al ahorro económico y a la eficiencia operativa. | EP006 |
+| US034 | Solicitud de demo desde el CTA final | Como visitante, quiero acceder al formulario de solicitud de demo desde el CTA final de la Landing Page para iniciar el contacto con el equipo de Fabric. | **Escenario 1:** Dado que el visitante llega al final de la Landing Page, cuando selecciona la opción de solicitar una demo, entonces la página lo dirige al formulario de solicitud.<br><br>**Escenario 2:** Dado que el visitante se encuentra en cualquier sección de la Landing Page, cuando selecciona la opción de solicitar una demo, entonces la página lo dirige al formulario de solicitud. | EP006 |
+| US035 | Visualización de video about the product | Como visitante, quiero visualizar un video demostrativo de Fabric para comprender de forma rápida y visual cómo funciona la plataforma en un contexto real de taller textil. | **Escenario 1:** Dado que el visitante llega a la sección de video, cuando la sección carga, entonces el sistema muestra un reproductor de video con el contenido demostrativo de Fabric.<br><br>**Escenario 2:** Dado que el visitante visualiza el video, cuando selecciona la opción de reproducir, entonces el sistema reproduce el video demostrativo.<br><br>**Escenario 3:** Dado que el video no está disponible, cuando el visitante accede a la sección, entonces el sistema muestra un mensaje indicando que el contenido no está disponible en ese momento. | EP006 |
+| US036 | Soporte de internacionalización | Como visitante, quiero que la Landing Page esté disponible en  idiomas como inglés y español, teniendo el idioma inglés por defecto, para comprender el contenido de Fabric en el idioma que mejor manejo. | **Escenario 1:** Dado que el visitante accede a la Landing Page por primera vez, cuando la página carga, entonces el sistema muestra el contenido en inglés como idioma por defecto.<br><br>**Escenario 2:** Dado que el visitante desea cambiar el idioma, cuando selecciona un idioma disponible (español o inglés), entonces el sistema actualiza todo el contenido de la Landing Page al idioma seleccionado.<br><br>**Escenario 3:** Dado que el visitante ya seleccionó un idioma en una visita anterior, cuando vuelve a acceder a la Landing Page, entonces el sistema muestra el contenido en el idioma previamente seleccionado.<br><br>**Escenario 4:** Dado que una traducción no está disponible para un texto específico, cuando el visitante accede a esa sección, entonces el sistema muestra el contenido en inglés como idioma de respaldo. | EP006 |
