@@ -70,8 +70,6 @@
 
 **Segmento Objetivo 1**
 
-**Segmento Objetivo 1**
-
 **Nombre:** Maribel
 **Edad:** 41
 **Ciudad:** Lima
