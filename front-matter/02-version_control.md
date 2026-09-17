@@ -2,5 +2,5 @@
 
 | **Versión** | **Fecha** | **Autor**  |   **Descripción**  |
 | ----------- | --------- |----------- |--------------------|
-| AV1 | 20/04/2026 | Tello Palacios, Fabrizio Rafael <br> <br> Flores Martinez, Ricardo Andres |  Creacion de estructura de informe en github |
-| AV1 | 08/09/2026 | Estupiñan Olortegui, Juan Sebastian | Realización de entrevistas y análisis en Segmento Objetivo 2 |
+| AV1 | 10/09/2026 <br> <br> <br>  12/09/2026| Tello Palacios, Fabrizio Rafael <br> <br> Flores Martinez, Ricardo Andres , Rafael <br> <br> Estupiñan Olortegui, Juan Sebastian |  Creacion de estructura de informe en github  <br> <br> <br>  Correcion de estructura del informe. |
+
