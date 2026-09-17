@@ -133,4 +133,12 @@ Actualmente, gran parte del seguimiento se hace de forma manual. Los defectos se
 
 Los indicadores que considera más relevantes son el porcentaje de reprocesos por lote, la merma irrecuperable de tela y el tiempo de inactividad de las máquinas críticas, ya que permiten medir el impacto de los problemas en la rentabilidad del lote. Luciana considera que una plataforma digital permitiría pasar de una reacción posterior a un control preventivo, sobre todo mediante alertas cuando una máquina o rollo acumula múltiples prendas observadas. Entre las funciones indispensables están el registro de inspecciones de tela, la trazabilidad entre rollos y lotes, el registro rápido de fallas, un tablero visual con el avance de las órdenes y la información sobre las paradas de máquinas.
 
-FALTA 
+
+**Nombre:** Luis
+**Edad:** 54
+**Ciudad:** Huaral
+
+Entrevista completa: [aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223405_upc_edu_pe/IQDNMJo77aYGSod5zZJzMReOAffpojMVnzjg39E7u8k452w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e5wIca)
+
+**Resumen de la entrevista:**
+Luis refleja la tensión operativa del supervisor que lucha a diario con la confección de telas técnicas y la dependencia de servicios tercerizados como estampado y bordado sin trazabilidad digital. Aquí subraya la urgencia de contar con una herramienta ágil que frene el extravío de piezas entre talleres externos y alerte a tiempo sobre fallas mecánicas en maquinaria especializada, evitando que los retrasos y mermas terminen liquidando el margen del pedido.
