@@ -70,11 +70,16 @@
 
 **Segmento Objetivo 1**
 
+**Segmento Objetivo 1**
+
 **Nombre:** Maribel
 **Edad:** 41
 **Ciudad:** Lima
 
-Entrevista completa: [https://shorturl.at/bXqB4](https://shorturl.at/bXqB4)
+**Minuto Inicio:** 00:00
+**Minuto Final:** 04:53
+
+Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
 Maribel, encargada de la empresa Creaciones Flores, dedicada a la confección de prendas de vestir como poleras, polos, pantalonetas y shorts, explicó que su proceso productivo inicia con el corte de las telas, continúa con la confección mediante las máquinas y finaliza con la distribución de las prendas a las tiendas.
@@ -91,7 +96,10 @@ Maribel considera que una plataforma digital podría facilitar la gestión de la
 **Edad:** 40
 **Ciudad:** Lima
 
-Entrevista completa: [https://shorturl.at/fr8yY](https://shorturl.at/fr8yY)
+**Minuto Inicio:** 04:54
+**Minuto Final:** 08:24
+
+Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
 José del Carmen, indicó que su empresa se dedica principalmente a la confección de pantalones de vestir. El proceso de producción se encuentra organizado de manera familiar y el seguimiento de los productos se realiza de acuerdo con los pedidos que reciben de los clientes. Del mismo modo, las órdenes de producción se gestionan según las cantidades solicitadas.
@@ -103,6 +111,28 @@ El control de calidad se realiza principalmente de manera interna y con apoyo de
 Respecto al impacto de los productos defectuosos, desperdicios o reprocesos, se indicó que actualmente no representa un problema frecuente, aunque anteriormente podían presentarse casos relacionados con trabajadores aprendices. Para registrar información de la producción utilizan ocasionalmente calculadoras. Asimismo, no se identificaron dificultades importantes relacionadas con la consulta de información sobre lotes.
 
 Como principal indicador para verificar que el proceso funciona adecuadamente, consideran la revisión completa de los productos antes de realizar la entrega. Finalmente, antes de implementar una plataforma digital, consideran importante tener en cuenta las características y condiciones de las telas que adquieren para la producción.
+
+**Nombre:** Julio Sanchez
+**Edad:** 43
+**Ciudad:** Lima
+
+**Minuto Inicio:** 08:24
+**Minuto Final:** 11:56
+
+
+Entrevista completa:  [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
+
+**Resumen de la entrevista:**
+Julio Sánchez, encargado de la empresa Decoración en Marimelo, dedicada a la decoración textil mediante la elaboración de fundas para mesas, sillas y otros productos, explicó que su proceso productivo está organizado de manera familiar y se desarrolla de acuerdo con los pedidos de los clientes.
+
+Actualmente, el seguimiento de la producción se realiza mediante el conteo de productos y considerando las cantidades solicitadas en cada pedido. Los lotes u órdenes de producción son identificados mediante códigos. Para realizar el seguimiento del rendimiento y funcionamiento de las máquinas, se toma como referencia el trabajo realizado por el personal.
+
+Entre los principales problemas identificados se encuentran la falta de personal y situaciones en las que se altera el orden del proceso productivo. En cuanto al control de calidad, los productos son revisados antes de ser entregados. Jorge indicó que normalmente no se presentan defectos, aunque algunos problemas pueden estar relacionados con fallas de las máquinas o con la utilización de colores similares.
+
+Cuando se presentan problemas de calidad, uno de los principales impactos para la empresa son las devoluciones de productos. Actualmente, la información de producción y calidad se registra mediante un cuaderno. Sin embargo, Julio no identifica dificultades importantes para consultar o reunir la información, debido a que considera que actualmente el proceso se encuentra conforme.
+
+Para evaluar el funcionamiento de la producción, considera importante conocer la cantidad producida diariamente por cada trabajador. Antes de implementar una plataforma digital, considera necesario verificar que las telas utilizadas se encuentren en buen estado y que no presenten fallas.
+
 
 **Segmento Objetivo 2**
 
