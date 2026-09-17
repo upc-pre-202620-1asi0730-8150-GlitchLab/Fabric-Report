@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/readme/upc-logo.png" alt="UPC_logo" width="150"></img>
+<img src="../assets/readme/upc-logo.png" alt="UPC_logo" width="150"></img>
 
 # Universidad Peruana de Ciencias Aplicadas
 
@@ -28,8 +28,8 @@
 |-------------------------------------|------------|
 | Tello Palacios, Fabrizio Rafael     | U202113310 |
 | Flores Martinez, Ricardo Andres     | U202423162 
-| Estupiñan Olortegui, Juan Sebastián | U202223405 |
 | Reátegui Galarcep, Diego Sebastián  | U20201F165 |
+| Estupiñan Olortegui, Juan Sebastian | U202223405 |
 | Silva Hualpa, Rosangela Karen       | U20241B885 |
 
 
@@ -38,4 +38,3 @@
 **Mes y año:** Setiembre 2026
 
 </div>
-
