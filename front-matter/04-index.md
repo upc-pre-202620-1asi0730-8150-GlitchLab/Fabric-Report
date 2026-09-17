@@ -1,7 +1,7 @@
 # Table of Contents
 ## Capítulo I: Introducción
 
-- [1.1. Startup Profile](#11-startup-profile).
+- [1.1. Startup Profile](#11-startup_profile.md).
     - [1.1.1. Descripción de la Startup](#12-startup-description).
     - [1.1.2. Perfiles de integrantes del equipo](#12-startup-description).
 - [1.2. Solution Profile](#11-startup-profile).
