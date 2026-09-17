@@ -36,5 +36,3 @@
 
 
 **Mes y año:** Setiembre 2026
-
-</div>
