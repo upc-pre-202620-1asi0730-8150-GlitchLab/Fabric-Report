@@ -2,6 +2,34 @@
 
 ### 4.6.1. Design-Level Storming
 
+Se muestra el Design-Level Event Storming de nuestra aplicación. En esta sección se profundizó a mayor detalle nuestro Big Picture Event Storming, enfocandonos en la arquitectura interna, componentes y resultados finales.
+
+**Paso 1: Definition of Commands and Actors**
+
+Identificamos las acciones específicas (Comandos) que disparan los procesos en cada sub-dominio y  a los actores (usuarios o sistemas) responsables de ejecutar dichas acciones.
+
+<div align="center"><img src="../assets/domain-level_event_storming/Step 1 - Actorsand Commands.jpg" width ="100%"></div>
+
+**Paso 2: Policy Design and Inter-Context Orchestration**
+
+Establecemos con paciencia las Policies para gestionar el comportamiento reactivo y la comunicación entre los Bounded Contexts.
+
+<div align="center"><img src="../assets/domain-level_event_storming/Step 2 - Policies.jpg" width ="100%"></div>
+
+**Paso 3: Aggregate Modeling and Business Logic Rules**
+
+Introducimos los Agregados para definir las fronteras de consistencia, agrupando los comandos y eventos bajo entidades lógicas.
+
+<div align="center"><img src="../assets/domain-level_event_storming/Step 3 - Aggregates.jpg" width ="100%"></div>
+
+<div align="center"><img src="../assets/domain-level_event_storming/Step 3 - Relacion Bounded Context.jpg" width ="100%"></div>
+
+**Paso 4: Identification of External Systems, Read Models and Attribute Refinement**
+
+Por último, integramos los sistemas externos que el actor necesita visualizar antes de ejecutar un comando, asegurando una interfaz informada, incorporamos los Read Models y desglosamos los atributos técnicos dentro de cada aggregate para descartar ambigüedades.
+
+<div align="center"><img src="../assets/domain-level_event_storming/Step 4 - Design-Level Event Storming.jpg" width ="100%"></div>
+
 ### 4.6.2. Software Architecture Context Diagrams
 
 El diagrama de contexto presenta a Fabric como un sistema central que interactúa con dos segmentos objetivo: supervisores de producción y encargados de calidad de MYPE textiles. Ambos acceden a la plataforma vía HTTPS para gestionar lotes, registrar inspecciones y consultar indicadores. 
