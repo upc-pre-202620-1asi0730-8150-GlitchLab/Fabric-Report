@@ -14,6 +14,7 @@ El wireframe de la Landing Page de Fabric inicia con un encabezado que contiene 
 <div align="center"><img src="../assets/landing_Page/wireframe7.png" width ="100%"></div>
 <div align="center"><img src="../assets/landing_Page/wireframe8.png" width ="100%"></div>
 <div align="center"><img src="../assets/landing_Page/wireframe9.png" width ="100%"></div>
+<div align="center"><img src="../assets/landing_Page/wireframe11.png" width ="100%"></div>
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -27,3 +28,4 @@ El mockup de la Landing Page de Fabric muestra el diseño final de la página a 
 <div align="center"><img src="../assets/landing_Page/mockup7.png" width ="100%"></div>
 <div align="center"><img src="../assets/landing_Page/mockup8.png" width ="100%"></div>
 <div align="center"><img src="../assets/landing_Page/mockup9.png" width ="100%"></div>
+<div align="center"><img src="../assets/landing_Page/mockup10.png" width ="100%"></div>
