@@ -45,3 +45,16 @@
 | 41 | US019 | Visualización de indicadores de defectos, reprocesos y merma | Como supervisor de calidad, quiero consultar indicadores relacionados con defectos, reprocesos y merma para evaluar el comportamiento de la calidad de los lotes y detectar áreas que requieren atención. | 5 |
 | 42 | US020 | Generación de alertas por acumulación de tiempo muerto | Como supervisor de producción, quiero recibir alertas cuando una máquina acumule un tiempo muerto superior al límite establecido para identificar posibles problemas recurrentes y tomar acciones preventivas. | 3 |
 | 43 | US042 | Exportación de reportes de producción y calidad | Como supervisor o dueño de MYPE, quiero exportar reportes de producción y calidad en formato PDF o Excel para compartirlos con otros responsables o conservarlos como respaldo. | 5 |
+
+
+<br>
+
+# Captura de pantalla de Product Backlog hecho en Jira
+
+<div align="center">
+    <img src="../assets/product_backlog/jira.png" alt="jira image" witdh="750">
+</div>
+
+<br>
+
+**Link de Jira:** https://colmop1548.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNzE0ZGM3NTQwYTdmNDY3ZGJlNzBkY2YxNGMzYTZjOWIiLCJwIjoiaiJ9
