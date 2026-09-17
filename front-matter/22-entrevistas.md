@@ -106,6 +106,8 @@ Como principal indicador para verificar que el proceso funciona adecuadamente, c
 
 **Segmento Objetivo 2**
 
+**Entrevistas completas:** [Video completo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223405_upc_edu_pe/IQDTb8o_i89yTqbE9f67aJlzAf_eIL71NuT22ra5DxwZz7U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AeMa8X)
+
 **Nombre:** Betsabé
 **Edad:** 52
 **Ciudad:** Chancay
