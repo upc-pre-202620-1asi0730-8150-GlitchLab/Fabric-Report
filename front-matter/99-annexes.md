@@ -8,3 +8,5 @@ Link de Jira:
 https://colmop1548.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNDQwYmJlNTcwNjRhNDliY2JmZDExNjA0ZDY5ZGY5NzkiLCJwIjoiaiJ9
 
 
+Link Landing Page: 
+https://upc-pre-202620-1asi0730-8150-glitchlab.github.io/Fabric-web-site/
