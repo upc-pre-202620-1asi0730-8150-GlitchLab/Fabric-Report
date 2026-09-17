@@ -238,7 +238,8 @@ Para la elaboración de los Empathy Maps, se analizaron las entrevistas de cada 
 
 ### 2.3.5. As-Is Scenario Mapping
 
-#### User Persona 1: 
+#### User Persona 1: Maribel
+![As-Is Scenario Mapping - Segmento 1](assets/images/cap-02/as-is-scenariomapping1.png)
 
 #### User Persona 2: Betsabé
 
