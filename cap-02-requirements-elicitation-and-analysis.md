@@ -159,6 +159,25 @@ Respecto al impacto de los productos defectuosos, desperdicios o reprocesos, se 
 
 Como principal indicador para verificar que el proceso funciona adecuadamente, consideran la revisión completa de los productos antes de realizar la entrega. Finalmente, antes de implementar una plataforma digital, consideran importante tener en cuenta las características y condiciones de las telas que adquieren para la producción.
 
+**Nombre:** Julio Sanchez
+**Edad:** 43
+**Ciudad:** Lima
+
+
+Entrevista completa:  [https://shorturl.at/6Qa7q](https://shorturl.at/6Qa7q)
+
+**Resumen de la entrevista:**
+Julio Sánchez, encargado de la empresa Decoración en Marimelo, dedicada a la decoración textil mediante la elaboración de fundas para mesas, sillas y otros productos, explicó que su proceso productivo está organizado de manera familiar y se desarrolla de acuerdo con los pedidos de los clientes.
+
+Actualmente, el seguimiento de la producción se realiza mediante el conteo de productos y considerando las cantidades solicitadas en cada pedido. Los lotes u órdenes de producción son identificados mediante códigos. Para realizar el seguimiento del rendimiento y funcionamiento de las máquinas, se toma como referencia el trabajo realizado por el personal.
+
+Entre los principales problemas identificados se encuentran la falta de personal y situaciones en las que se altera el orden del proceso productivo. En cuanto al control de calidad, los productos son revisados antes de ser entregados. Jorge indicó que normalmente no se presentan defectos, aunque algunos problemas pueden estar relacionados con fallas de las máquinas o con la utilización de colores similares.
+
+Cuando se presentan problemas de calidad, uno de los principales impactos para la empresa son las devoluciones de productos. Actualmente, la información de producción y calidad se registra mediante un cuaderno. Sin embargo, Julio no identifica dificultades importantes para consultar o reunir la información, debido a que considera que actualmente el proceso se encuentra conforme.
+
+Para evaluar el funcionamiento de la producción, considera importante conocer la cantidad producida diariamente por cada trabajador. Antes de implementar una plataforma digital, considera necesario verificar que las telas utilizadas se encuentren en buen estado y que no presenten fallas.
+
+
 **Segmento Objetivo 2**
 
 **Nombre:** Betsabé
