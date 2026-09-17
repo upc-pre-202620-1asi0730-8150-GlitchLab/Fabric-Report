@@ -1,4 +1,4 @@
-## 2.5 Ubiquitous language
+## 2.5. Ubiquitous language
 
 En esta sección reuniremos los términos del dominio textil y de confecciones que se usan de manera recurrente en Fabric, tanto de la documentación como de la interfaz del producto. El propósito es que todos los miembros del equipo, stakeholders y usuarios comprendan el vocabulario y asi evitar ambiguedades al referirse a procesos u objetos de negocio.
 
