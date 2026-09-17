@@ -1546,3 +1546,509 @@ La siguiente figura muestra una vista previa del prototipo:
 Se desarrolló un prototipo interactivo que simula los flujos principales de la aplicación.
 La siguiente figura muestra una vista previa del prototipo:
 <div align="center"><img src="../assets/landing_page/applications-prototyping.png" width ="100%"></div>
+
+## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Design-Level Storming
+
+Se muestra el Design-Level Event Storming de nuestra aplicación. En esta sección se profundizó a mayor detalle nuestro Big Picture Event Storming, enfocandonos en la arquitectura interna, componentes y resultados finales.
+
+**Paso 1: Definition of Commands and Actors**
+
+Identificamos las acciones específicas (Comandos) que disparan los procesos en cada sub-dominio y  a los actores (usuarios o sistemas) responsables de ejecutar dichas acciones.
+
+<div align="center"><img src="../assets/domain-level_event_storming/Step 1 - Actorsand Commands.jpg" width ="100%"></div>
+
+**Paso 2: Policy Design and Inter-Context Orchestration**
+
+Establecemos con paciencia las Policies para gestionar el comportamiento reactivo y la comunicación entre los Bounded Contexts.
+
+<div align="center"><img src="../assets/domain-level_event_storming/Step 2 - Policies.jpg" width ="100%"></div>
+
+**Paso 3: Aggregate Modeling and Business Logic Rules**
+
+Introducimos los Agregados para definir las fronteras de consistencia, agrupando los comandos y eventos bajo entidades lógicas.
+
+<div align="center"><img src="../assets/domain-level_event_storming/Step 3 - Aggregates.jpg" width ="100%"></div>
+
+<div align="center"><img src="../assets/domain-level_event_storming/Step 3 - Relacion Bounded Context.jpg" width ="100%"></div>
+
+**Paso 4: Identification of External Systems, Read Models and Attribute Refinement**
+
+Por último, integramos los sistemas externos que el actor necesita visualizar antes de ejecutar un comando, asegurando una interfaz informada, incorporamos los Read Models y desglosamos los atributos técnicos dentro de cada aggregate para descartar ambigüedades.
+
+<div align="center"><img src="../assets/domain-level_event_storming/Step 4 - Design-Level Event Storming.jpg" width ="100%"></div>
+
+### 4.6.2. Software Architecture Context Diagrams
+
+El diagrama de contexto presenta a Fabric como un sistema central que interactúa con dos segmentos objetivo: supervisores de producción y encargados de calidad de MYPE textiles. Ambos acceden a la plataforma vía HTTPS para gestionar lotes, registrar inspecciones y consultar indicadores. 
+
+<div align="center">
+    <img src="../assets/domain_c4/system_context.png" alt="diagrama de contexto" witdh="500">
+</div>
+
+<br>
+
+### 4.6.3. Software Architecture Container Diagrams
+
+El diagrama de contenedores muestra cómo está armado **Fabric**. Tiene tres partes: **la Landing Page**, que es la página web donde se presenta el producto y se pide una demo; **la Web Application**, que es el sistema principal donde los usuarios gestionan la producción y la calidad; y la **Base de Datos**, donde se guarda toda la información. Además, Fabric se conecta con tres servicios externos: el **Sensor IoT**, que mide la temperatura y humedad del almacén; Mercado Pago, que cobra las suscripciones; y Gmail, que envía los correos.
+
+<div align="center">
+    <img src="../assets/domain_c4/container.png" alt="diagrama de contexto" witdh="500">
+</div>
+
+<br>
+
+### 4.6.4. Software Architecture Component Diagrams
+
+El diagrama de componentes muestra cómo está organizada la aplicación web de Fabric por dentro. Cada bounded context está agrupado y separado en tres capas: un Controller que recibe las peticiones, un Service que aplica las reglas de negocio, y un Repository que se conecta a la base de datos.
+
+<div align="center">
+    <img src="../assets/domain_c4/components.png" alt="diagrama de contexto" witdh="500">
+</div>
+
+<br>
+
+
+## 4.7. Software Object-Oriented design
+
+### 4.7.1. Class Diagrams
+
+### Subscription Plan Bounded Context
+
+En este contexto se gestiona el modelo de negocio de Fabric: los planes de suscripción que las MYPE textiles contratan para usar la plataforma. Incluye la definición de planes, la suscripción activa de una empresa, los pagos asociados y el estado de facturación.
+
+
+<div align="center">
+    <img src="../assets/class_diagrams/subscription_bounded.png" alt="Suscription plan" width="770">
+</div>
+
+<br>
+
+**Diccionario de Clases de Dominio**
+
+**Aggregate Roots**
+- **Subscription**: suscripción de una compañía a un plan. `id, companyId, planId, status, billingCycle, startDate, nextBillingDate, autoRenew` - `Activate(), Cancel(), Renew(), ChangePlan()`
+- **SubscriptionPlan**: plan comercial disponible. `id, name, description, monthlyPrice, maxUsers, maxMachines, isActive` - `Activate(), Deactivate(), UpdatePrice()`
+- **Payment**: pago asociado a una suscripción. `id, subscriptionId, amount, status, paymentDate, transactionReference` - `Confirm(), Reject()`
+
+ **Value Objects**
+- **SubscriptionId**, **PaymentId**: `Value: string {readonly}` - composición con su agregado dueño
+- **PlanId**, **CompanyId**: `Value: string {readonly}` - referencias por ID entre agregados
+
+<br>
+
+### Production Tracking Bounded Context
+
+En este contexto se controla el seguimiento de lotes de producción de prendas, desde su creación hasta su finalización.
+
+<div align="center">
+    <img src="../assets/class_diagrams/tracking.png" alt="Production tracking" width="770">
+</div>
+
+<br>
+
+ **Aggregate Root**
+- **ProductionBatch**: lote de producción con su etapa y estado. `id, model, quantity, stage, status, technicalSheet, createdDate` - `Id(), Stage(), Status(), AddMovement(), UpdateStage(), AssignTechnicalSheet(), IsCompleted()`
+
+**Entities**
+- **LotMovement**: movimiento registrado sobre un lote. `id, quantity, date, responsible, observation` - `Id(), Quantity()`
+- **TechnicalSheet**: ficha técnica asociada al modelo del lote. `id, model, fabricType, measurements, tolerances` - `Id(), Model()`
+
+**Value Objects**
+- **BatchId**, **MovementId**, **SheetId**: `Value: string {readonly}` - identificadores únicos
+- **Model**, **Stage**: `Name: string {readonly}`
+- **Quantity**: `Value: int {readonly}`
+- **ProductionDate**: `Value: string {readonly}` - definido en el paquete `Shared`, compartido entre `ProductionBatch` y `LotMovement`
+
+<br>
+
+### Quality Management Bounded Context
+
+En este contexto se gestiona la inspección de rollos de tela entrantes y la calidad de las prendas producidas, registrando defectos, clasificándolos y vinculándolos a lotes y máquinas. El objetivo es asegurar que tanto la materia prima como el producto final cumplan con los estándares definidos por el taller.
+
+<div align="center">
+    <img src="../assets/class_diagrams/quality.png" alt="Quality management" width="770">
+</div>
+
+<br>
+
+**Aggregate Roots**
+- **FabricRoll**: rollo de tela recibido de un proveedor, con su estado de aprobación. `id, supplier, fabricType, length, status, receivedDate, inspection` — `Id(), Status(), Approve(), Reject(), RegisterInspection(), IsAvailableForCutting()`
+- **QualityInspection**: inspección de calidad realizada sobre un lote/máquina, con sus defectos registrados. `id, batchId, machineId, inspectedDate, totalInspected, defectRecords` — `Id(), AddDefectRecord(), CalculateDefectRate(), DefectRateExceedsThreshold()`
+
+**Entities**
+- **FabricInspection**: inspección física del rollo de tela (tono, ancho, largo, defectos). `id, tone, width, length, defectsFound, result, inspectedDate` - `Id(), Result()`
+- **DefectRecord**: registro individual de un defecto detectado. `id, defectType, quantity, origin, description, registeredDate` - `Id(), Type()`
+
+**Value Objects**
+- **RollId**, **InspectionId**, **QualityInspectionId**, **DefectRecordId**: `Value: string {readonly}` - identificadores propios
+- **BatchId**, **MachineId**: `Value: string {readonly}` - referencias a agregados externos
+- **SupplierName**, **FabricType**: `Value: string {readonly}`
+- **RollLength**: `Value: decimal {readonly}`
+- **RecordDate**: `Value: string {readonly}` - definido en `Shared`, compartido entre `FabricRoll`, `FabricInspection`, `QualityInspection` y `DefectRecord`
+
+<br>
+
+### Machine Registry Bounded Context
+
+En este contexto se modela la lógica de negocio que permite a las MYPE textiles registrar y hacer seguimiento al estado operativo de sus máquinas de confección.
+
+<div align="center">
+    <img src="../assets/class_diagrams/registry.png" alt="machine registry" width="770">
+</div>
+
+<br>
+
+**Aggregate Root**
+- **Machine**: máquina registrada, con su estado operativo, paradas y mantenimientos. `id, code, type, status, location, acquiredDate, downtimes, maintenances` - `Id(), Status(), ReportDowntime(), StartMaintenance(), CompleteMaintenance(), ResumeOperation(), AccumulatedDowntime()`
+
+**Entities**
+- **MachineDowntime**: registro de una parada de la máquina. `id, reason, startTime, endTime, durationMinutes` - `Id(), Duration(), Finalize()`
+- **MaintenanceRecord**: registro de un mantenimiento realizado. `id, technician, maintenanceType, description, performedDate` - `Id(), Type()`
+
+**Value Objects**
+- **MachineId**, **DowntimeId**, **MaintenanceId**: `Value: string {readonly}` - identificadores propios
+- **MachineCode**: `Value: string {readonly}`
+- **RecordDate**: `Value: string {readonly}` - definido en `Shared` (Shared Kernel), compartido entre `Machine`, `MachineDowntime` y `MaintenanceRecord`
+
+<br>
+
+### Reporting & Analytics Bounded Context
+
+En este contexto se modela la lógica de negocio que permite a las MYPE textiles generar reportes y análisis a partir de los datos de producción, calidad y máquinas.
+
+<div align="center">
+    <img src="../assets/class_diagrams/report.png" alt="Report and analytics" width="770">
+</div>
+
+<br>
+
+**Aggregate Root**
+- **Report**: reporte generado a partir de métricas del sistema. `id, type, dateRange, format, generatedDate, requestedBy, status, metrics` - `Id(), Status(), Generate(), Export(), AddMetric(), IsReady()`
+
+**Entity**
+- **MetricSnapshot**: captura puntual de una métrica dentro de un reporte. `id, name, value, unit, capturedDate` - `Id(), Name(), Value()`
+
+**Value Objects**
+- **ReportId**, **MetricSnapshotId**: `Value: string {readonly}` - identificadores propios
+- **DateRange**: `StartDate: RecordDate {readonly}, EndDate: RecordDate {readonly}` - rango de fechas del reporte
+- **MetricName**: `Value: string {readonly}`
+- **MetricValue**: `Value: decimal {readonly}`
+- **RecordDate**: `Value: string {readonly}` - definido en `Shared` (Shared Kernel), compartido entre `Report`, `MetricSnapshot` y `DateRange`
+
+## 4.8. Database design
+
+
+
+![Database](../assets/class_diagrams/database.png)
+
+
+
+
+<br>
+
+# Capítulo V: Product Implementation, Validation and Deployment
+
+## 5.1. Software configuration management
+
+### 5.1.1. Software Development Environment Configuration.
+
+Para trabajar en el desarrollo del producto de manera colaborativo hicimos uso de herramientas digitales basadas en la nube. Lo que nos permitio un avanzar distintas fases de la web site con constante integración.
+
+## Github
+
+Usado para almacenar el desarrollo y almacenamiento de código fuente y el reporte, nos permite realizar trabajo colaborativo facilitando control de versiones e integración de distintas fases y funciones del desarrollo.
+
+<div align="center">
+    <img src="../assets/environments/github.png" alt="github" witdh="500">
+</div>
+
+<br>
+
+
+
+## Miro
+
+Espacio colaborativo usado para la organización de ideas, propuestas, definición de alcance del proyecto y brainstorming.
+
+<div align="center">
+    <img src="../assets/environments/miro.png" alt="github" witdh="500">
+</div>
+
+<br>
+
+## UXpressia
+
+Entorno colaborativo usaso para los entregables UX, es una herramienta muy sencilla y completa para este tipo de gráficos.
+
+<div align="center">
+    <img src="../assets/environments/uxpressia.png" alt="uxpressia" witdh="500">
+</div>
+
+<br>
+
+
+## VScode
+
+Entorno de trabajo usado para ir avanzando e integrando distintas funciones o versiones de la app y del reporte. 
+
+<div align="center">
+    <img src="../assets/environments/vscode.png" alt="vscode" witdh="500">
+</div>
+
+<br>
+
+## Figma
+
+Entorno de trabajo usado para diseñar los mockups, wireframes y prototipo del producto final. 
+
+<div align="center">
+    <img src="../assets/environments/figma.png" alt="figma" witdh="500">
+</div>
+
+<br>
+
+### 5.1.2. Source Code Management
+
+El código fuente fue desarrollado y almacenado en github, el cuel nos permitió llevar el control de versiones y dar segumiento a cambios hechos durante el desarrollo.
+
+Actualmente, nuestro proyecto tiene 2 repositorios principales:
+
+- Repositorio del informe: https://github.com/upc-pre-202620-1asi0730-8150-GlitchLab/Fabric-Report
+
+- Repositorio de la Landing Page: https://github.com/upc-pre-202620-1asi0730-8150-GlitchLab/Fabric-web-site
+
+## Gitflow Workflow
+
+Para mantener un desarrollo ordenado y un mejor control de flujo, utilizamos gitflow, para estructurar mejor el trabajo en equipo e integrar funciones organizadamente.
+
+**Ramas usadas**
+
+- main: es la versión realese del producto
+- develop: es la versión de etapa temprana para el dearrollo.
+
+**Convención de rama**
+
+Se usó la siguiente convención para el nombramiento de ramas.
+
+ - Future branch: feature/nombre-funcionalidad
+
+ejemplo: feature/user-stories
+
+Estas ramas permiten desarrollar funcionalidades de manera independiente sin afectar la estabilidad del proyecto.
+
+**Semantic versioning**
+
+El Semantic Versioning (SemVer) es un estándar para numerar versiones de software de forma clara y predecible. Se usa el formato MAJOR.MINOR.PATCH, donde cada número tiene un significado específico:
+
+- MAJOR → se incrementa cuando se hacen cambios incompatibles con versiones anteriores.
+
+- MINOR → se incrementa cuando se agrega una funcionalidad nueva de forma compatible.
+
+- PATCH → se incrementa cuando se hacen correcciones de errores compatibles.
+
+<br>
+
+**Conventional Commits**
+
+Los Conventional Commits son una convención para escribir mensajes de commit de forma clara y estructurada. Sirven para que el historial del repositorio sea legible, automatizable y fácil de entender por cualquier miembro del equipo.
+
+Los tipos de commits son:
+
+- feat: nuevas funcionalidades
+- docs: cambios en documentación
+- fix: corrección de errores
+- chore: tareas menores o mantenimiento
+
+
+A continuación una imagen que muestra algunos ejemplos de conventional commits.
+
+
+<div align="center">
+    <img src="../assets/environments/commits.png" alt="figma" witdh="500">
+</div>
+
+<br>
+
+### 5.1.3. Source Code Style Guide and Conventions
+
+Para mantener la consistencia y legbilidad del proyecto, definimo un estandar de tecnologias a usar para desarrollar la landing page. 
+
+Esta elección de tecnologías nos permite mantener un código consistente, ordenado y comprensible para todos los miembros del equipo.
+
+### HTML
+
+Para la estructura del documento HTML se establecieron las siguientes convenciones:
+
+- Uso de `button` para acciones y `a` solo para navegación.
+- Uso de kebab-case para nombres de clases y IDs (`lot-card`, `no lotCard ni lot_card`).
+- Estructura semántica: `header`, `nav`, `main`, `section`, `article`, `footer`.
+- Los atributos `data-*` se usan solo para JavaScript (por ejemplo, `data-i18n`, `data-lang`). 
+- Inclusión de atributos `alt`en imágenes para mejorar la accesibilidad.
+
+```html
+<section>
+  <h1>Informacion textil</h1>
+  <p>Trazabilidad de produccion</p>
+</section>
+```
+<br>
+
+### CSS
+
+Para los estilos se definieron las siguientes convenciones:
+
+- Los nombres de clases son descriptivos y en inglés (`quality-card`, `no tarjeta`).
+- Uso de kebab-case para nombres de clases.
+- Los selectores no superan las 3 palabras (`.card__title`, no `.main` `.section` `.card` `.title`).
+- Las media queries van al final del archivo, agrupadas por breakpoint.
+- Los valores de espaciado siguen una escala definida (4, 8, 16, 24, 32, 48, 64 px).
+
+ejemplo: 
+
+```
+.card {
+  background: #FFFFFF;
+  border-radius: var(--radius);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-sm);
+}
+```
+<br>
+
+### Javascript
+
+Para la lógica de la landing page y la web application se establecieron las siguientes convenciones:
+
+- Uso de `const` por defecto; `let` solo cuando el valor cambia; `var` nunca.
+- Uso de UPPER_SNAKE_CASE para constantes globales (`MAX_RETRIES`, `API_BASE_URL`).
+- Uso de dataset para leer atributos `data-*` (`element`.`dataset.i18n`).
+- Los nombres de archivos van en kebab-case (`lot-service.js`, `no LotService.js`).
+
+ejemplo:
+
+```
+  document.addEventListener('DOMContentLoaded', () => {
+  const menuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+```
+### 5.1.4. Software Deployment Configuration
+
+A continuación, especificaremos la configuración y los pasos necesarios que seguimos para el despliegue de la landing page. 
+
+## Despliegue de Landing Page
+
+1. Dentro de la organización de GlitchLab, se creó un repositorio público para la Landing Page. 
+
+<div align="center">
+    <img src="../assets/environments/repositorio.png" alt="repositorio" witdh="500">
+</div>
+
+<br>
+
+2. Publicamos el código de la Landing Page en el repositorio, posteriormente se hizo un release a main para luego ser desplegado. 
+
+<div align="center">
+    <img src="../assets/environments/main.png" alt="main" witdh="500">
+</div>
+
+<br>
+
+3. Hosting: Se publica la Landing Page a través de github pages. 
+
+<div align="center">
+    <img src="../assets/environments/despliegue.png" alt="main" witdh="500">
+</div>
+
+<br>
+
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
+
+Para este primer sprint, nos enfocamos en organizar los requsiitos funcionales de la Landing Page. Con el fin de poder asignar a cada miembro del equipo de a 1 a 3 requisitos funcionales para el desarrollo de la landing page.
+
+#### 5.2.1.1. Sprint Planning 1
+
+Durante esta iteración, la reunión de Sprint Planning nos sirve para revisar la velocidad alcanzada en el sprint anterior y establecer los objetivos técnicos de esta nueva etapa. En este espacio, el equipo prioriza las historias de usuario del backlog, calcula el esfuerzo requerido y distribuye las tareas entre los integrantes. La meta es conservar la coordinación del equipo y asegurar que las nuevas funcionalidades se integren sin contratiempos, dejando definido un plan de trabajo claro para el sprint.
+
+| Campo / Sección | Detalle |
+| :--- | :--- |
+| Sprint # | Sprint 1 |
+| Date | 2026-09-11 |
+| Time | 7:30 PM |
+| Location | Google meet |
+| Prepared By | Tello Palacios, Fabrizio Rafael |
+| Attendees (to planning meeting) | Silva Hualpa, Rosángela Karen / Flores Martinez, Ricardo Andres / Estupiñan Olortegui, Juan Sebastián / Reátegui Galarcep, Diego Sebastián / Tello Palacios, Fabrizio Rafael |
+| Sprint 1  Review Summary | Como se trata del primer sprint del proyecto, no se cuenta con una revisión de una iteración previa. El equipo arrancó a partir de la aprobación del Product Backlog inicial, centrándose en las Historias de Usuario de mayor prioridad, vinculadas al registro de empresas (Enterprise), la configuración de planes y los aspectos de seguridad. |
+| Sprint 1  Retrospective Summary | Al tratarse también del arranque del proyecto, se definieron las pautas de trabajo del equipo: reuniones de seguimiento diarias (Daily Stand-ups) a través de Meet, el uso de herramientas ágiles para el control de tareas, y la importancia de mantener una comunicación constante para evitar bloqueos técnicos durante el desarrollo del backend. |
+| Sprint 1 Goal |Nuestro objetivo es dar a conocer la propuesta de valor de la plataforma a quienes visitan la Landing Page. Consideramos que esto dará como resultado una Landing Page atractiva, con información real que capte el interés de los visitantes. Sabremos que lo logramos cuando los visitantes exploren la Landing Page y muestren interés en suscribirse haciendo clic en el botón de Acceso al Dashboard, incluso si este aún no es funcional. |
+| Sprint 1 Velocity | El equipo ha establecido un Velocity de 30 Story Points, que representa la capacidad máxima de esfuerzo que los developers pueden aceptar de manera realista para este Sprint 1. |
+| Sum of Story Points | 27 |
+
+<br>
+
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección el equipo presenta el artefacto Leadership-and-Collaboration Matrix (LACX) correspondiente al Sprint 1 de Fabric. El objetivo de esta matriz es identificar, para cada aspecto dentro del alcance del Sprint, quién actúa como líder y quiénes como colaboradores, con el fin de brindar mayor claridad y efectividad en la comunicación interna del equipo.
+
+| Team Member (Last Name, First Name) | GitHub Username | UX/UI Design | Landing Page | Documentation | Modeling |
+|------------------------------------|----------------|-------------|-------------|--------------|----------|
+| Tello Palacios, Fabrizio Rafael | F4bris | C | L | L | L |
+| Flores Martinez, Ricardo Andres | Nitoryu28 | C | C | C | C |
+| Estupiñan Olortegui, Juan Sebastián	 | JuanSEstupinan | C | L | C | C |
+| Reátegui Galarcep, Diego Sebastián | Diego201101 | L | C | C | C |
+| Silva Hualpa, Rosangela Karen | amazcofee2-spec | L | C | C | C |
+
+
+
+#### 5.2.1.3. Sprint Backlog 1
+
+Nuestro objetivo para este primer sprint fue el desarrollar la Landing Page para Fabric, nuestra intención es comunicar a los visitantes nuestra propuesta de valor de manera simple y precisa. 
+
+Durante este sprint, se trabajaron las funciones mas escenciales para cumplir con el propósito de landing page.
+
+<div align="center">
+    <img src="../assets/environments/sprint1.png" alt="alterno 1">
+</div>
+
+<br>
+
+## Conclusiones
+
+- El uso de un lenguaje ubicuo facilitó la comunicación entre negocio y desarrollo: definir términos como lote, defecto, merma, avío o trazabilidad, y usarlos de forma consistente en la documentación, el código y la interfaz, permitió que todos los integrantes del equipo entendieran el dominio del negocio y evitaran ambigüedades durante el desarrollo.
+
+- La validación temprana con usuarios permitió ajustar el rumbo del proyecto, las entrevistas de validación y la evaluación heurística mostraron que ciertos supuestos iniciales debían corregirse, y que algunas funcionalidades requerían simplificarse para adaptarse al nivel de digitalización real de las MYPE textiles.
+
+
+<br>
+
+## Bibliografia
+
+- Empresa peruana Trento revoluciona la industria textil con IA y medición digital de huella de carbono. (s/f). Gob.pe. Recuperado el 17 de septiembre de 2026, de https://www.gob.pe/institucion/produce/noticias/1355837-empresa-peruana-trento-revoluciona-la-industria-textil-con-ia-y-medicion-digital-de-huella-de-carbono
+
+- Durante el 2024 más de 2 600 empresas del rubro indumentaria fueron asistidas por la Unidad Técnica Textil y Confecciones del ITP. (s/f). Gob.pe. Recuperado el 17 de septiembre de 2026, de https://www.gob.pe/institucion/itp/noticias/1091822-durante-el-2024-mas-de-2-600-empresas-del-rubro-indumentaria-fueron-asistidas-por-la-unidad-tecnica-textil-y-confecciones-del-itp
+
+- Rosales Utrilla, K. G. D., & Urbano Pardo, K. L. (2020). Contribución de la digitalización de los procesos operativos en la productividad de las pequeñas empresas del sector textil confección. Pontificia Universidad Católica del Perú.
+
+- Andina, A. (2025, abril 18). Gamarra genera más de 75,000 empleos y producción representa 0.4% del PBI. Agencia Andina. https://andina.pe/agencia/noticia-gamarra-genera-mas-75000-empleos-y-produccion-representa-04-del-pbi-1026269.aspx
+
+
+
+<br>
+
+## Anexos
+
+Link de Miro:
+https://miro.com/app/board/uXjVHmBBq68=/?share_link_id=127923281999
+
+
+Link de Jira:
+https://colmop1548.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNDQwYmJlNTcwNjRhNDliY2JmZDExNjA0ZDY5ZGY5NzkiLCJwIjoiaiJ9
+
+
+Link Landing Page: 
+https://upc-pre-202620-1asi0730-8150-glitchlab.github.io/Fabric-web-site/
