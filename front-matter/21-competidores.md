@@ -135,7 +135,7 @@ Las métricas analizadas incluyen el perfil del producto, mercado objetivo, estr
 
 El análisis competitivo realizado ha permitido identificar las principales fortalezas, debilidades, oportunidades y amenazas del mercado, lo que nos ha llevado a definir las siguientes estrategias y tácticas para posicionar a Fabric de manera competitiva frente a SI-TEXT Perú, Datatex y Trama.
 
-#### Estrategias
+#### 2.1.2. Estrategias
 
 1. **Reducción de incidencias durante la producción:** Posicionar a Fabric como una herramienta que permita identificar oportunamente problemas durante el proceso productivo, estableciendo como objetivo contribuir a reducir en un 20% las incidencias asociadas a máquinas y procesos mediante el seguimiento de indicadores y registros de producción.
 
