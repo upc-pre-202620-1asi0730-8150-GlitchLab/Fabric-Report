@@ -1,6 +1,6 @@
 ### 3.3. Product Backlog
 
-| N° de Orden (Rank) | Story ID | Título | Descripción | Story Points |
+| N° de Orden (Rank) | Story ID | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
 | :---: | :---: | :--- | :--- | :---: |
 | 1 | US021 | Visualización de Hero Section | Como visitante, quiero visualizar un mensaje claro sobre el valor de Fabric acompañado de una imagen representativa para comprender rápidamente qué ofrece la solución. | 1 |
 | 2 | US022 | Visualización de la propuesta de valor general | Como visitante, quiero conocer la propuesta de valor general de Fabric para comprender qué problema resuelve y a quién está dirigida la solución. | 2 |
