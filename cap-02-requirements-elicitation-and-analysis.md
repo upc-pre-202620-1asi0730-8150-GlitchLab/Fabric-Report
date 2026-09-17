@@ -129,7 +129,10 @@ El análisis competitivo realizado ha permitido identificar las principales fort
 **Edad:** 41
 **Ciudad:** Lima
 
-Entrevista completa: [https://shorturl.at/bXqB4](https://shorturl.at/bXqB4)
+**Minuto Inicio:** 00:00
+**Minuto Final:** 04:53
+
+Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
 Maribel, encargada de la empresa Creaciones Flores, dedicada a la confección de prendas de vestir como poleras, polos, pantalonetas y shorts, explicó que su proceso productivo inicia con el corte de las telas, continúa con la confección mediante las máquinas y finaliza con la distribución de las prendas a las tiendas.
@@ -146,7 +149,10 @@ Maribel considera que una plataforma digital podría facilitar la gestión de la
 **Edad:** 40
 **Ciudad:** Lima
 
-Entrevista completa: [https://shorturl.at/fr8yY](https://shorturl.at/fr8yY)
+**Minuto Inicio:** 04:54
+**Minuto Final:** 08:24
+
+Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
 José del Carmen, indicó que su empresa se dedica principalmente a la confección de pantalones de vestir. El proceso de producción se encuentra organizado de manera familiar y el seguimiento de los productos se realiza de acuerdo con los pedidos que reciben de los clientes. Del mismo modo, las órdenes de producción se gestionan según las cantidades solicitadas.
@@ -163,8 +169,11 @@ Como principal indicador para verificar que el proceso funciona adecuadamente, c
 **Edad:** 43
 **Ciudad:** Lima
 
+**Minuto Inicio:** 08:24
+**Minuto Final:** 11:56
 
-Entrevista completa:  [https://shorturl.at/6Qa7q](https://shorturl.at/6Qa7q)
+
+Entrevista completa:  [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
 Julio Sánchez, encargado de la empresa Decoración en Marimelo, dedicada a la decoración textil mediante la elaboración de fundas para mesas, sillas y otros productos, explicó que su proceso productivo está organizado de manera familiar y se desarrolla de acuerdo con los pedidos de los clientes.
