@@ -9,5 +9,17 @@ En conjunto, el diseño busca centralizar la información del proceso productivo
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+Los Wireflow Diagrams de Fabric representan de forma visual la navegación entre las principales interfaces de la aplicación web. Para ello, se utilizan los wireframes desarrollados previamente y se conectan mediante flechas que muestran las acciones y recorridos que puede realizar el usuario.
+El wireflow inicia desde el acceso al sistema y continúa hacia el Dashboard, desde donde el usuario puede ingresar a módulos como Production Batches, Quality, Machinery y Alerts. A partir de estas vistas se muestran los accesos a funcionalidades específicas, como la trazabilidad de lotes, inspecciones de calidad, registro de defectos, historial de mantenimiento y gestión de alertas.
+<div align="center"><img src="../assets/landing_page/wireflow-principal.png" width ="100%"></div>
+
+
 ### 4.4.3. Web Applications Mock-ups
 <div align="center"><img src="../assets/landing_page/mockups.png" width ="100%"></div>
+
+### 4.4.4. Web Applications User Flow Diagrams
+#### User Flow 1: Registro de inspección de tela
+<div align="center"><img src="../assets/landing_page/userflow1.png" width ="100%"></div>
+
+#### User Flow 2: Consulta de trazabilidad de lote
+<div align="center"><img src="../assets/landing_page/userflow2.png" width ="100%"></div>
