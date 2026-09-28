@@ -2,40 +2,47 @@
 
 <img src="../assets/readme/upc-logo.png" alt="UPC_logo" width="150"></img>
 
-# Universidad Peruana de Ciencias Aplicadas
+## Universidad Peruana de Ciencias Aplicadas
 
-**Facultad:** Ingeniería
+#### Carrera de ingeniería de software
 
-**Ingeniería de Software**
+1ASI0730
 
-**Ciclo:** 2026-2
+**Aplicaciones Web**
 
-1ASI0730 - Aplicaciones Web
+NRC
 
-**NRC:** 8150
+**8150**
 
-**Profesor:** Velasquez Nuñez, Angel Augusto
+Docente
 
-### Informe de trabajo final
+**Velasquez Nuñez, Angel Augusto**
 
-**Nombre del Startup:** GlitchLab
+<br>
 
-**Nombre del producto:** Fabric
+Equipo    
+
+ **GlitchLab**
+
+ Proyecto
+
+**Fabric**
 
 #### Relación de integrantes
 
-| Integrante                          | Código     |
+| Código             | Apellidos y Nombres     |
 |-------------------------------------|------------|
-| Tello Palacios, Fabrizio Rafael     | U202113310 |
-| Flores Martinez, Ricardo Andres     | U202423162 
-| Reátegui Galarcep, Diego Sebastián  | U20201F165 |
-| Estupiñan Olortegui, Juan Sebastian | U202223405 |
-| Silva Hualpa, Rosangela Karen       | U20241B885 |
+|  U202113310 |  Tello Palacios, Fabrizio Rafael  |
+|     U202423162   |  Flores Martinez, Ricardo Andres |
+|  U20201F165 | Reátegui Galarcep, Diego Sebastián |
+| U202223405 | Estupiñan Olortegui, Juan Sebastian |
+|    U20241B885    | Silva Hualpa, Rosangela Karen |
 
+<br>
 
+**Periodo 202620**
 
-
-**Mes y año:** Setiembre 2026
+**Setiembre 2026**
 
 </div>
 <br>
