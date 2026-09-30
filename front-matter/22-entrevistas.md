@@ -77,6 +77,8 @@
 **Minuto Inicio:** 00:00
 **Minuto Final:** 04:53
 
+![User Persona - Segmento 1](../assets/user_persona/evidencia_entrevista1.png)
+
 Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
@@ -96,6 +98,8 @@ Maribel considera que una plataforma digital podría facilitar la gestión de la
 
 **Minuto Inicio:** 04:54
 **Minuto Final:** 08:24
+
+![User Persona - Segmento 1](../assets/user_persona/evidencia_entrevista2.png)
 
 Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
@@ -117,6 +121,7 @@ Como principal indicador para verificar que el proceso funciona adecuadamente, c
 **Minuto Inicio:** 08:24
 **Minuto Final:** 11:56
 
+![User Persona - Segmento 1](../assets/user_persona/evidencia_entrevista3.png)
 
 Entrevista completa:  [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
