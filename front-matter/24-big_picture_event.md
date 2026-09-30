@@ -59,7 +59,7 @@ Estos dos procesos son muy similares. La parte que tienen en común, y de la que
 Ahora surge otra pregunta fundamental: ¿cómo se controla la calidad durante la producción? Este proceso lo comparten todos los lotes, pero no lo conocemos en detalle. Lo modelamos así:
 
 <div align="center">
-    <img src="../assets/big_picture/bP5.jpg" alt="recepcion de tela" witdh="350">
+    <img src="../assets/big_picture/bp5.jpg" alt="recepcion de tela" witdh="350">
 </div>
 
 <br>
@@ -75,7 +75,7 @@ Ahora surge otra pregunta fundamental: ¿cómo se controla la calidad durante la
 Aqui establecemos algunas deficiones para entender con claridad este proceso:
 
 <div align="center">
-    <img src="../assets/big_picture/bP6.jpg" alt="recepcion de tela" witdh="350">
+    <img src="../assets/big_picture/bp6.jpg" alt="recepcion de tela" witdh="350">
 </div>
 
 <br>
