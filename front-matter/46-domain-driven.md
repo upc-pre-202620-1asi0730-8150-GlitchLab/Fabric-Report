@@ -32,7 +32,7 @@ Por último, integramos los sistemas externos que el actor necesita visualizar a
 
 ### 4.6.2. Software Architecture Context Diagrams
 
-El diagrama de contexto presenta a Fabric como un sistema central que interactúa con tres actores humanos y tres sistemas externos. En este nivel podemos visualizar el alcance del sistema sin entrar en detalles de implementación, mostrando únicamente las relaciones de alto nivel entre el sistema y su entorno.
+El diagrama de contexto presenta a Fabric como un sistema central que interactúa con dos actores humanos y tres sistemas externos. En este nivel podemos visualizar el alcance del sistema sin entrar en detalles de implementación, mostrando únicamente las relaciones de alto nivel entre el sistema y su entorno.
 
 <div align="center">
     <img src="../assets/domain_c4/context_diagram.png" alt="diagrama de contexto" witdh="500">
@@ -40,101 +40,22 @@ El diagrama de contexto presenta a Fabric como un sistema central que interactú
 
 <br>
 
+### 4.6.3. Software Architecture Container Diagram
 
-
-### 4.6.3. Software Architecture Container Diagrams
-
-Fabric está compuesto por tres contenedores principales: la Landing Page (HTML, CSS y JavaScript) que presenta la propuesta de valor y capta leads; la Web Application (Vue.js), una SPA que concentra la lógica de negocio organizada en seis bounded contexts (Auth, Production Tracking, Quality Management, Machine Registry, Subscription & Payment, Reporting & Analytics); y la Base de Datos. El sistema se integra con tres servicios externos: Culqi (pasarela de pagos peruana), Gmail (notificaciones por correo) y un Sensor IoT (lecturas de temperatura y humedad vía MQTT). Los actores acceden al sistema mediante HTTPS, mientras que los módulos internos se comunican entre sí y persisten datos en la base de datos, dando soporte a los procesos de producción y control de calidad de las MYPE textiles.
+Fabric está compuesto por un solo contenedor monolítico, el cual está conformado por: Landing Page (HTML, CSS y JavaScript) que presenta la propuesta de valor y capta leads; la Web Application (Vue.js) que muestra todas las funcionalidades, Fabric API que concentra la lógica de negocio organizada en seis bounded contexts (Auth, Production Tracking, Quality Management, Machine Registry, Subscription & Payment, Reporting & Analytics); y la Base de Datos. El sistema se integra con tres servicios externos: Culqi (pasarela de pagos peruana), Google Identify (notificaciones por correo) y un Sensor IoT Milesight (lecturas de temperatura y humedad vía MQTT). Los actores acceden al sistema mediante HTTPS, mientras que los módulos internos se comunican entre sí y persisten datos en la base de datos, dando soporte a los procesos de producción y control de calidad de las MYPE textiles.
 
 <div align="center">
-    <img src="../assets/domain_c4/components_diagram.png" alt="diagrama de contexto" witdh="500">
+    <img src="../assets/domain_c4/container_diagram.png" alt="diagrama de contexto" witdh="500">
 </div>
 
 <br>
 
-<div align="center">
-    <img src="../assets/domain_c4/container1.png" alt="diagrama de contexto" witdh="500">
-</div>
+### 4.6.4. Software Architecture Component Diagram
 
-<br>
+La arquitectura interna de Fabric, representada mediante el diagrama de componentes, está estructurada como un conjunto de módulos desarrollados en ASP.NET Core Web API, los cuales residen dentro del contenedor Fabric API y mantienen comunicación con distintos servicios y sistemas externos. En el centro de esta solución, los módulos principales Machine Registry, Quality Management, Production Tracking y Reporting and Analytics se encargan de coordinar la lógica del negocio, interactuando entre sí y apoyándose en un componente compartido de Database Connection que almacena la información en una base de datos MySQL. Por otro lado, el módulo Subscription and Payment establece conexión con la pasarela de pagos Culqui para gestionar las transacciones, mientras Auth and User Management administra la autenticación de los usuarios a través de Google Identify. Finalmente, con el propósito de capturar e integrar datos en tiempo real provenientes de la planta textil, el componente de gestión de calidad se comunica con los sensores IoT de Milesight, permitiendo el envío y la recepción de información operativa.
 
 <div align="center">
-    <img src="../assets/domain_c4/container2.png" alt="diagrama de contexto" witdh="500">
-</div>
-
-<br>
-
-<div align="center">
-    <img src="../assets/domain_c4/container3.png" alt="diagrama de contexto" witdh="500">
-</div>
-
-<br>
-
-### 4.6.4. Software Architecture Component Diagrams
-
-El diagrama de componentes muestra cómo está organizada la aplicación web de Fabric por dentro. Cada bounded context está agrupado y separado en tres capas: un Controller que recibe las peticiones, un Service que aplica las reglas de negocio, y un Repository que se conecta a la base de datos.
-
-**Subscription and Payment**
-
-Visualizamos los componentes internos del bounded context **suscripciones y pagos**, implementado en Vue.js. Se identifican cinco componentes: PlanView, que muestra los planes comerciales disponibles; SubscriptionView, que permite gestionar la suscripción activa de la empresa; SubscriptionStore, que gestiona el estado global de las suscripciones mediante Pinia; SubscriptionService, que consume los endpoints REST de planes y suscripciones; y PaymentService, que se integra con la pasarela de pagos p **"Culqi"** para procesar los pagos mensuales. Este módulo gestiona el modelo de negocio de Fabric, permitiendo a las MYPE textiles contratar, renovar o cancelar su suscripción en nuestra plataforma.
-
-<div align="center">
-    <img src="../assets/domain_c4/subscription_component.png" alt="diagrama de contexto" witdh="500">
-</div>
-
-<br>
-<br>
-
-**Auth and User Management**
-
-Este diagrama detalla los componentes internos del bounded context **autenticación y gestión de usuarios**, implementado en Vue.js. Se identifican cuatro componentes principales: LoginView, que constituye la vista de inicio de sesión y registro; AuthStore, que gestiona el estado global del usuario autenticado con el uso de Pinia; AuthService, que consume los endpoints REST del backend para autenticar y validar credenciales; y AuthRouter, que define las rutas protegidas y los guards de navegación de la aplicación. Este bounded es transversal a los demás bounded contexts, ya que valida la identidad del usuario antes de permitir el acceso a las funcionalidades de producción, calidad, máquinas, suscripciones y reportes.
-
-<div align="center">
-    <img src="../assets/domain_c4/auth_component.png" alt="diagrama de componente auth" witdh="500">
-</div>
-
-<br>
-<br>
-
-**Production Tracking**
-
-Visualisamos los componentes internos del bounded context **seguimiento de producción**. Identificamos seis componentes: BatchListView, que muestra el listado de lotes con filtros y búsqueda; BatchDetailView, que presenta el detalle del lote y su historial de movimientos; BatchFormView, que permite crear y editar lotes; BatchStore, que gestiona el estado global de los lotes mediante Pinia; BatchService, que consume los endpoints REST de lotes; y MovementService, que registra las transiciones de etapas del lote. Este módulo permite a los supervisores de producción realizar un seguimiento ordenado y completo de cada lote, conocer su estado actual, identificar retrasos y mantener un historial organizado de toda la producción.
-
-<div align="center">
-    <img src="../assets/domain_c4/production_component.png" alt="diagrama de componente production tracking" witdh="500">
-</div>
-
-<br>
-<br>
-
-**Quality Management**
-
-Este diagrama detalla los componentes internos del bounded context **control de calidad**. Se identifican cinco componentes: InspectionView, que permite registrar las inspecciones de los rollos de tela recibidos; DefectView, que permite registrar y clasificar los defectos encontrados en las prendas; QualityStore, que gestiona el estado global de la calidad mediante Pinia; QualityService, que consume los endpoints REST de inspecciones y defectos; y EvidenceUploader, que permite adjuntar evidencias fotográficas (JPG/PNG) a los defectos registrados. Este módulo permite a los encargados de calidad mantener un registro detallado y trazable de todas las inspecciones y defectos, asociándolos a lotes, etapas y máquinas específicas.
-
-<div align="center">
-    <img src="../assets/domain_c4/quality_component.png" alt="diagrama de componente quality" witdh="500">
-</div>
-
-<br>
-<br>
-
-**Machine Registry**
-
-Este diagrama detalla los componentes internos del bounded context **registro y monitoreo de máquinas**, implementado en Vue.js. Identificamos cuatro componentes: MachineListView, que muestra el listado de máquinas con su estado operativo; MachineDetailView, que presenta el detalle de una máquina, sus paradas y su historial de mantenimiento; MachineStore, que gestiona el estado global de las máquinas usando Pinia; y MachineService, que consume los endpoints REST de máquinas, paradas y mantenimientos. Este módulo permite a los supervisores de producción conocer el estado actual de las máquinas, identificar tiempos muertos acumulados y gestionar el mantenimiento preventivo de los equipos del taller.
-
-<div align="center">
-    <img src="../assets/domain_c4/machine_component.png" alt="diagrama de componente machine registry" witdh="500">
-</div>
-
-<br>
-<br>
-
-**Reporting and Analytics**
-
-Este diagrama detalla los componentes internos del bounded context **reportes y analítica**. Se identifican cinco componentes: DashboardView, que muestra el panel principal con los KPIs de producción y calidad; ReportView, que permite generar y exportar reportes en PDF o Excel; ReportStore, que gestiona el estado global de los reportes mediante Pinia; ReportService, que consume los endpoints REST de reportes y métricas; y ChartComponent, que renderiza los gráficos de indicadores utilizando una librería como Chart.js. Este módulo permite a los dueños y administradores de las MYPE textiles visualizar el rendimiento de su negocio, identificar tendencias y tomar decisiones basadas en datos consolidados de producción, calidad y máquinas.
-
-<div align="center">
-    <img src="../assets/domain_c4/report_component.png" alt="diagrama de componente reports and analytics" witdh="500">
+    <img src="../assets/domain_c4/component_diagram.png" alt="diagrama de componente reports and analytics" witdh="500">
 </div>
 
 <br>
