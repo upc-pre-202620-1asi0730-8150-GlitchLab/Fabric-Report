@@ -77,18 +77,29 @@
 **Minuto Inicio:** 00:00
 **Minuto Final:** 04:53
 
+![User Persona - Segmento 1](../assets/user_persona/evidencia_entrevista1.png)
+
 Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
 Maribel, encargada de la empresa Creaciones Flores, dedicada a la confección de prendas de vestir como poleras, polos, pantalonetas y shorts, explicó que su proceso productivo inicia con el corte de las telas, continúa con la confección mediante las máquinas y finaliza con la distribución de las prendas a las tiendas.
 
-Actualmente, el seguimiento de la producción se realiza principalmente mediante agendas, cuadernos y hojas de cálculo, donde registran la cantidad de prendas producidas y las que salen hacia las tiendas. El mantenimiento de las máquinas se realiza aproximadamente cada seis meses e incluye cambio de aceite y revisiones generales. Cuando una máquina presenta una falla, se contacta a un técnico para evitar retrasos en la producción.
+Actualmente, el seguimiento de la producción se realiza principalmente mediante agendas, cuadernos y hojas de cálculo, donde registran la cantidad de prendas producidas y las que salen hacia las tiendas. El mantenimiento de las máquinas se realiza aproximadamente cada seis meses e incluye cambio de aceite y
+revisiones generales. Cuando una máquina presenta una falla, se contacta a un técnico para evitar retrasos en la producción.
 
-Entre los principales problemas identificados se encuentran las fallas en el garfio, motores y agujas, además de problemas ocasionados por una incorrecta manipulación de las máquinas. En cuanto al control de calidad, se cuenta con una persona encargada de revisar las costuras, puntadas y estado de las prendas. Los defectos más frecuentes son las telas manchadas y las costuras incorrectas, como puntadas abiertas o demasiado cerradas. Las prendas defectuosas son separadas y no se incluyen en la venta, lo que representa una pérdida económica para la empresa.
+Entre los principales problemas identificados se encuentran las fallas en el garfio, motores y agujas, además de problemas ocasionados por una incorrecta manipulación de las máquinas. En cuanto al control de calidad, se cuenta con una persona encargada de revisar las costuras, puntadas y estado de las prendas.
+Los defectos más frecuentes son las telas manchadas y las costuras incorrectas, como puntadas abiertas o demasiado cerradas. Las prendas defectuosas son separadas y no se incluyen en la venta, lo que representa una pérdida económica para la empresa.
 
-Una de las principales dificultades es el manejo de grandes cantidades de producción y mercadería, especialmente cuando no se cuenta con suficiente personal para realizar los conteos. Esto puede ocasionar diferencias entre las cantidades registradas y las que finalmente llegan a las tiendas. Para evaluar el funcionamiento de la producción, consideran importantes los pedidos y opiniones de los clientes, ya que una buena calidad permite recibir nuevos pedidos y aumentar la producción.
+Una de las principales dificultades es el manejo de grandes cantidades de producción y mercadería, especialmente cuando no se cuenta con suficiente personal para realizar los conteos. Esto puede ocasionar diferencias entre las cantidades registradas y las que finalmente llegan a las tiendas. Para evaluar el
+funcionamiento de la producción, consideran importantes los pedidos y opiniones de los clientes, ya que una buena calidad permite recibir nuevos pedidos y aumentar la producción.
 
 Maribel considera que una plataforma digital podría facilitar la gestión de la producción y el control de calidad, siempre que sea sencilla de utilizar. También considera importante contar con información clara y un manual que explique cómo acceder y utilizar correctamente el software dentro del taller.
+
+**Análisis de la entrevista:**
+La entrevista permitió identificar que uno de los principales problemas del taller es el control de la producción cuando se manejan grandes cantidades de prendas y no se cuenta con suficiente personal. El uso de agendas, cuadernos y hojas de cálculo puede generar diferencias entre las cantidades producidas y las
+entregadas a las tiendas. Además, las fallas de las máquinas pueden ocasionar retrasos en la producción, mientras que los defectos de calidad generan reprocesos y pérdidas económicas. Por ello, se evidencia la necesidad de centralizar la información de producción, máquinas y calidad en una herramienta sencilla
+que facilite el seguimiento y permita detectar problemas oportunamente.
+
 
 **Nombre:** José del Carmen
 **Edad:** 40
@@ -97,18 +108,29 @@ Maribel considera que una plataforma digital podría facilitar la gestión de la
 **Minuto Inicio:** 04:54
 **Minuto Final:** 08:24
 
+![User Persona - Segmento 1](../assets/user_persona/evidencia_entrevista2.png)
+
 Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
-José del Carmen, indicó que su empresa se dedica principalmente a la confección de pantalones de vestir. El proceso de producción se encuentra organizado de manera familiar y el seguimiento de los productos se realiza de acuerdo con los pedidos que reciben de los clientes. Del mismo modo, las órdenes de producción se gestionan según las cantidades solicitadas.
+José del Carmen, indicó que su empresa se dedica principalmente a la confección de pantalones de vestir. El proceso de producción se encuentra organizado de manera familiar y el seguimiento de los productos se realiza de acuerdo con los pedidos que reciben de los clientes. Del mismo modo, las órdenes de
+producción se gestionan según las cantidades solicitadas.
 
 Antes de iniciar la producción, se revisan las máquinas con el objetivo de prevenir fallas y asegurar que el proceso se desarrolle correctamente. Sin embargo, se señaló que en algunas ocasiones pueden presentarse fallas mecánicas debido a que no se realiza el mantenimiento necesario antes de comenzar a trabajar.
 
-El control de calidad se realiza principalmente de manera interna y con apoyo de los integrantes de la familia, quienes revisan las prendas para verificar que se encuentren en buenas condiciones antes de ser entregadas. José indica que actualmente no se presentan muchos problemas de calidad debido a que los productos son revisados antes de su entrega. Cuando se identifica algún defecto, este se atribuye principalmente a errores del personal y no necesariamente a fallas de las máquinas o de las telas.
+El control de calidad se realiza principalmente de manera interna y con apoyo de los integrantes de la familia, quienes revisan las prendas para verificar que se encuentren en buenas condiciones antes de ser entregadas. José indica que actualmente no se presentan muchos problemas de calidad debido a que los
+productos son revisados antes de su entrega. Cuando se identifica algún defecto, este se atribuye principalmente a errores del personal y no necesariamente a fallas de las máquinas o de las telas.
 
-Respecto al impacto de los productos defectuosos, desperdicios o reprocesos, se indicó que actualmente no representa un problema frecuente, aunque anteriormente podían presentarse casos relacionados con trabajadores aprendices. Para registrar información de la producción utilizan ocasionalmente calculadoras. Asimismo, no se identificaron dificultades importantes relacionadas con la consulta de información sobre lotes.
+Respecto al impacto de los productos defectuosos, desperdicios o reprocesos, se indicó que actualmente no representa un problema frecuente, aunque anteriormente podían presentarse casos relacionados con trabajadores aprendices. Para registrar información de la producción utilizan ocasionalmente calculadoras.
+Asimismo, no se identificaron dificultades importantes relacionadas con la consulta de información sobre lotes.
 
-Como principal indicador para verificar que el proceso funciona adecuadamente, consideran la revisión completa de los productos antes de realizar la entrega. Finalmente, antes de implementar una plataforma digital, consideran importante tener en cuenta las características y condiciones de las telas que adquieren para la producción.
+Como principal indicador para verificar que el proceso funciona adecuadamente, consideran la revisión completa de los productos antes de realizar la entrega. Finalmente, antes de implementar una plataforma digital, consideran importante tener en cuenta las características y condiciones de las telas que adquieren
+para la producción.
+
+**Análisis de la entrevista:**
+La entrevista permitió identificar que el taller realiza un seguimiento de la producción principalmente en función de los pedidos y las cantidades solicitadas. Aunque actualmente no presenta problemas frecuentes de calidad, se identificó que las fallas mecánicas pueden aparecer cuando no se realiza un
+mantenimiento adecuado antes de iniciar la producción. Asimismo, el control de la información se realiza mediante herramientas básicas como calculadoras y revisiones manuales. Esto evidencia una oportunidad para mejorar el registro del mantenimiento, el estado de las máquinas y el seguimiento de la producción
+mediante una herramienta digital que facilite el control preventivo.
 
 **Nombre:** Julio Sanchez
 **Edad:** 43
@@ -117,20 +139,28 @@ Como principal indicador para verificar que el proceso funciona adecuadamente, c
 **Minuto Inicio:** 08:24
 **Minuto Final:** 11:56
 
+![User Persona - Segmento 1](../assets/user_persona/evidencia_entrevista3.png)
 
 Entrevista completa:  [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
 Julio Sánchez, encargado de la empresa Decoración en Marimelo, dedicada a la decoración textil mediante la elaboración de fundas para mesas, sillas y otros productos, explicó que su proceso productivo está organizado de manera familiar y se desarrolla de acuerdo con los pedidos de los clientes.
 
-Actualmente, el seguimiento de la producción se realiza mediante el conteo de productos y considerando las cantidades solicitadas en cada pedido. Los lotes u órdenes de producción son identificados mediante códigos. Para realizar el seguimiento del rendimiento y funcionamiento de las máquinas, se toma como referencia el trabajo realizado por el personal.
+Actualmente, el seguimiento de la producción se realiza mediante el conteo de productos y considerando las cantidades solicitadas en cada pedido. Los lotes u órdenes de producción son identificados mediante códigos. Para realizar el seguimiento del rendimiento y funcionamiento de las máquinas, se toma como
+referencia el trabajo realizado por el personal.
 
-Entre los principales problemas identificados se encuentran la falta de personal y situaciones en las que se altera el orden del proceso productivo. En cuanto al control de calidad, los productos son revisados antes de ser entregados. Jorge indicó que normalmente no se presentan defectos, aunque algunos problemas pueden estar relacionados con fallas de las máquinas o con la utilización de colores similares.
+Entre los principales problemas identificados se encuentran la falta de personal y situaciones en las que se altera el orden del proceso productivo. En cuanto al control de calidad, los productos son revisados antes de ser entregados. Jorge indicó que normalmente no se presentan defectos, aunque algunos problemas
+pueden estar relacionados con fallas de las máquinas o con la utilización de colores similares.
 
-Cuando se presentan problemas de calidad, uno de los principales impactos para la empresa son las devoluciones de productos. Actualmente, la información de producción y calidad se registra mediante un cuaderno. Sin embargo, Julio no identifica dificultades importantes para consultar o reunir la información, debido a que considera que actualmente el proceso se encuentra conforme.
+Cuando se presentan problemas de calidad, uno de los principales impactos para la empresa son las devoluciones de productos. Actualmente, la información de producción y calidad se registra mediante un cuaderno. Sin embargo, Julio no identifica dificultades importantes para consultar o reunir la información,
+debido a que considera que actualmente el proceso se encuentra conforme.
 
 Para evaluar el funcionamiento de la producción, considera importante conocer la cantidad producida diariamente por cada trabajador. Antes de implementar una plataforma digital, considera necesario verificar que las telas utilizadas se encuentren en buen estado y que no presenten fallas.
 
+**Análisis de la entrevista:**
+La entrevista permitió identificar que el taller realiza el seguimiento de la producción mediante el conteo de productos y códigos para identificar los lotes u órdenes. La producción se encuentra organizada de manera familiar y uno de los indicadores considerados importantes es la cantidad
+producida diariamente por cada trabajador. Aunque actualmente no presenta dificultades importantes para consultar la información, se identificaron problemas relacionados con la falta de personal y la alteración del orden del proceso productivo. Además, los problemas de calidad pueden ocasionar devoluciones. 
+Por ello, existe una oportunidad para mejorar el seguimiento de la producción, el control por lotes y el registro de cantidades producidas mediante una plataforma digital.
 
 **Segmento Objetivo 2**
 
@@ -143,12 +173,19 @@ Para evaluar el funcionamiento de la producción, considera importante conocer l
 Entrevista completa: [https://shorturl.at/mHlW6](https://shorturl.at/mHlW6)
 
 **Resumen de la entrevista:**
-Betsabé, supervisora de planta y encargada del control de calidad en un taller de confecciones, coordina las labores de confección, acabados y operarios, además de verificar que las prendas cumplan con las medidas y fichas técnicas. Para el seguimiento de la producción utiliza hojas de control, pizarras acrílicas y registros manuales, junto con recorridos periódicos por las estaciones para revisar el avance, detectar operaciones críticas y verificar el estado de las máquinas.
+Betsabé, supervisora de planta y encargada del control de calidad en un taller de confecciones, coordina las labores de confección, acabados y operarios, además de verificar que las prendas cumplan con las medidas y fichas técnicas. Para el seguimiento de la producción utiliza hojas de control, pizarras acrílicas
+y registros manuales, junto con recorridos periódicos por las estaciones para revisar el avance, detectar operaciones críticas y verificar el estado de las máquinas.
 
-Entre las principales dificultades destacan la dependencia de registros físicos, la información desactualizada, la pérdida o deterioro de documentos y la necesidad de recopilar datos de distintas fuentes para investigar problemas. La detección de fallas en las máquinas se apoya principalmente en la observación visual, la comunicación con los operarios y la revisión de los defectos producidos. Ante una incidencia, recopilar la información necesaria puede tomar entre 40 minutos y 2 horas, debido a la búsqueda de hojas de corte, archivadores y consultas al personal.
+Entre las principales dificultades destacan la dependencia de registros físicos, la información desactualizada, la pérdida o deterioro de documentos y la necesidad de recopilar datos de distintas fuentes para investigar problemas. La detección de fallas en las máquinas se apoya principalmente en la observación
+visual, la comunicación con los operarios y la revisión de los defectos producidos. Ante una incidencia, recopilar la información necesaria puede tomar entre 40 minutos y 2 horas, debido a la búsqueda de hojas de corte, archivadores y consultas al personal.
 
-Betsabé considera clave indicadores como el porcentaje de merma y reproceso por lote, las prendas aprobadas por hora y el tiempo muerto por fallas mecánicas. Por ello, estima que una herramienta digital debería permitir registrar rápidamente fallas asociadas a máquinas o lotes, hacer seguimiento visual de las incidencias, recibir alertas tempranas sobre cuellos de botella y paradas de máquinas, y consultar métricas claras del día. Para ella, la herramienta debe ser rápida, sencilla y funcionar bien en las computadoras disponibles en el piso de planta.
+Betsabé considera clave indicadores como el porcentaje de merma y reproceso por lote, las prendas aprobadas por hora y el tiempo muerto por fallas mecánicas. Por ello, estima que una herramienta digital debería permitir registrar rápidamente fallas asociadas a máquinas o lotes, hacer seguimiento visual de las
+incidencias, recibir alertas tempranas sobre cuellos de botella y paradas de máquinas, y consultar métricas claras del día. Para ella, la herramienta debe ser rápida, sencilla y funcionar bien en las computadoras disponibles en el piso de planta.
 
+**Análisis de la entrevista:**
+La entrevista con Betsabé identificar que una de las principales dificultades del taller es la dependencia de registros físicos y la dispersión de la información. La búsqueda de datos ante una incidencia puede tomar entre 40 minutos y 2 horas, debido a que es necesario revisar hojas, archivadores y
+consultar al personal. Además, las fallas de las máquinas se detectan principalmente mediante observación y comunicación con los operarios. Por ello, se evidencia la necesidad de centralizar la información de producción, máquinas y calidad, permitiendo registrar incidencias rápidamente y consultar indicadores
+como merma, reproceso, producción y tiempo muerto. La herramienta también debe ser sencilla y rápida para facilitar su uso directamente en planta.
 
 **Nombre:** Luciana
 **Edad:** 19
@@ -163,6 +200,10 @@ Actualmente, gran parte del seguimiento se hace de forma manual. Los defectos se
 
 Los indicadores que considera más relevantes son el porcentaje de reprocesos por lote, la merma irrecuperable de tela y el tiempo de inactividad de las máquinas críticas, ya que permiten medir el impacto de los problemas en la rentabilidad del lote. Luciana considera que una plataforma digital permitiría pasar de una reacción posterior a un control preventivo, sobre todo mediante alertas cuando una máquina o rollo acumula múltiples prendas observadas. Entre las funciones indispensables están el registro de inspecciones de tela, la trazabilidad entre rollos y lotes, el registro rápido de fallas, un tablero visual con el avance de las órdenes y la información sobre las paradas de máquinas.
 
+**Análisis de la entrevista:**
+La entrevista permitió identificar que el proceso de control de calidad requiere realizar un seguimiento constante desde la recepción de los rollos de tela hasta el despacho de las prendas. Actualmente, la información se encuentra distribuida entre hojas físicas, etiquetas, cuadernos, fotografías de
+whatsApp y hojas de cálculo, lo que puede generar errores de conteo, información desactualizada y dificultades para determinar dónde se originó una desviación. La investigación de una incidencia puede tomar entre una y dos horas. Por ello, se identifica la necesidad de contar con una plataforma que centralice la
+trazabilidad de rollos y lotes, registre las inspecciones y fallas, permita visualizar el avance de las órdenes y genere alertas ante problemas recurrentes.
 
 **Nombre:** Luis
 **Edad:** 54
@@ -172,3 +213,8 @@ Entrevista completa: [aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 
 **Resumen de la entrevista:**
 Luis refleja la tensión operativa del supervisor que lucha a diario con la confección de telas técnicas y la dependencia de servicios tercerizados como estampado y bordado sin trazabilidad digital. Aquí subraya la urgencia de contar con una herramienta ágil que frene el extravío de piezas entre talleres externos y alerte a tiempo sobre fallas mecánicas en maquinaria especializada, evitando que los retrasos y mermas terminen liquidando el margen del pedido.
+
+**Análisis de la entrevista:**
+La entrevista permitió identificar dificultades relacionadas con el seguimiento de la producción y la coordinación con servicios externos de estampado y bordado. La falta de trazabilidad digital puede ocasionar el extravío de piezas durante el traslado entre talleres, mientras que las fallas de maquinaria
+especializada pueden generar retrasos y mermas que afectan el margen de los pedidos. Por ello, se evidencia la necesidad de una herramienta ágil que permita realizar seguimiento al estado y ubicación de las piezas, controlar las actividades tercerizadas y registrar oportunamente las fallas de las máquinas para
+reducir retrasos y mejorar el control de los pedidos.
