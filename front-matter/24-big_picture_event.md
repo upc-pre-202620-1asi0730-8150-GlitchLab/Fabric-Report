@@ -4,58 +4,79 @@ En esta sección presentamos el Big Picture Event Storming, es una sesión colab
 
 <br>
 
-**1. Domain events**
+Iniciamos la exploración del dominio con notas adhesivas y un rotulador. Lo que resultó ser el primer descubrimiento fue el proceso de **recepción y aprobación de un rollo de tela**
 
 <div align="center">
-    <img src="../assets/big_picture/domain_events.jpg" alt="domain events" width="770">
+    <img src="../assets/big_picture/bp1.png" alt="recepcion de tela" witdh="350">
+</div>
+
+Todo empieza cuando llega la tela al taller. El **inspector de calidad** recibe el rollo y lo revisa antes de que se use en corte. Si el rollo cumple con los estándares (tono, ancho, largo, sin defectos graves) se **aprueba** y queda disponible para producción. Si no cumple, se **rechaza**.
+
+<br>
+
+A nivel general el proceso parece claro, pero no todos interpretamos igual cada palabra. Por eso establecimos algunas definiciones:
+
+<div align="center">
+    <img src="../assets/big_picture/bp2.jpg" alt="recepcion de tela" witdh="350">
 </div>
 
 <br>
 
-En esta primera parte, nos reunimos para identificar los principales eventos que conforman todos los procesos de confección, teniendo en cuenta situaciones en las que el proceso se finaliza con éxito y cuando se presentan incovenientes con máquinas o mala calidad de tela que afectan a la producción textil. Estos eventos fueron revisados por el equipo y corroborados por personas que trabajan en el sector para así conservar los eventos que realmente impactan en el proceso de confección. 
-
-<br>
-
-**2. Orden Cronológico de Domain Events**
+Descubrimientos similares se hicieron en torno al proceso de creación del lote de producción:
 
 <div align="center">
-    <img src="../assets/big_picture/orden_cronologico.jpg" alt="domain events" width="770">
+    <img src="../assets/big_picture/bp3.jpg" alt="recepcion de tela" witdh="350">
 </div>
 
 <br>
 
-Luego, ordenamos los procesos que se siguen según el protocolo de producción en confección de telas. Formando así cuatro bloques principales que representan la **recepción e inspección de telas**, **Creación y ejecución del lote**, **Control de calidad y defectos en máquinas o rollos** y la **gestión de máquinas**.
+- Un cliente puede hacer un pedido al taller
+- Un supervisor de producción puede crear un lote a partir de ese pedido
+- El lote se crea con un ID único y queda en estado "Pendiente de corte"
+- El cliente puede cancelar el pedido antes de que inicie la producción
+- Cuando hay varios pedidos activos, no sabemos cómo se priorizan (marcado como hot spot).
 
 <br>
+<br>
 
-**3. Incorporación de Commands**
+Estos dos procesos son muy similares. La parte que tienen en común, y de la que aún no sabemos nada, es el proceso de producción:
 
 <div align="center">
-    <img src="../assets/big_picture/commands.jpg" alt="domain events" width="770">
+    <img src="../assets/big_picture/b4.jpg" alt="recepcion de tela" witdh="350">
 </div>
 
 <br>
 
-Una vez ordenados los domain events cronológicamente, identificamos los Commands que los disparan. Un Command representa una acción explícita que un actor del negoci o acción del sistema ejecuta, y que tiene como consecuencia uno o más domain events. En el tablero de flujo, los Commands se representan con post-its azules y se colocan antes de los eventos que producen, con una flecha que indica la relación causal. 
+- Un supervisor de producción monitorea el avance del lote durante su proceso productivo
+- El lote puede retrasarse respecto a la fecha de entrega comprometida
+- Cada nuevo día se revisa el avance de los lotes activos para detectar problemas
+- Si las piezas que salen de una etapa no coinciden con las que entraron, se registra un descuadre
+- Los detalles internos de cada etapa (corte, confección, acabado) aún no se conocen y se marcaron como hot spot
 
 <br>
+<br>
 
-**4. Incorporación de Actors**
+Ahora surge otra pregunta fundamental: ¿cómo se controla la calidad durante la producción? Este proceso lo comparten todos los lotes, pero no lo conocemos en detalle. Lo modelamos así:
 
 <div align="center">
-    <img src="../assets/big_picture/actors.jpg" alt="domain events" width="770">
+    <img src="../assets/big_picture/bP5.jpg" alt="recepcion de tela" witdh="350">
 </div>
 
 <br>
 
-En esta etapa identificamos a los actores que son responsables de la ejecución de los principales Commands.Los Actors están representados por posts-its de color amarillo y ubicados sobre los commands correspondientes, de esta manera podemos visualizar con precisión a los actores que intervienen en cada uno de los procesos.
+- Un auditor de calidad inspecciona las prendas durante o después de la confección
+- Si encuentra un defecto, lo registra y lo clasifica según su tipo
+- El defecto se asocia a un lote específico y, si es posible, a una máquina
+- Si la prenda puede repararse, se marca para reproceso; si no, se descarta como merma
+- El supervisor de calidad calcula la tasa de defectos del lote
+- Si la tasa supera el umbral permitido, se genera una alerta
 
-**5. Incorporación de Business Policies**
+
+Aqui establecemos algunas deficiones para entender con claridad este proceso:
 
 <div align="center">
-    <img src="../assets/big_picture/policies.jpg" alt="domain events" width="770">
+    <img src="../assets/big_picture/bP6.jpg" alt="recepcion de tela" witdh="350">
 </div>
 
 <br>
 
-Por último, incluimos los business policies, estan representadas por post-its morados. En conjunto, estas policies garantizan que el flujo de creación y actualización de lotes sea consistente, trazable y validado, reduciendo la dependencia de verificaciones manuales y evitando que se ejecuten transiciones con información incompleta o inconsistente.
