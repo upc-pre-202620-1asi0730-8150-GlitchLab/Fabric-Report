@@ -56,4 +56,14 @@ Este diagrama estructura la persistencia de las máquinas de confección utiliza
 *   **Columnas principales:** `code`, `type`, `status`, `location` y `acquired_date` en las máquinas; `machine_id`, `reason`, `start_time`, `end_time` y `duration_minutes` en las paradas; `machine_id`, `technician`, `maintenance_type`, `description` y `performed_date` en los registros de mantenimiento.
 *    **Constraints o Relaciones:** La tabla `machine` utiliza `id` como llave primaria (`PK`) y mantiene una relación de uno a muchos con `machine_downtime` mediante la llave foránea (`FK`) `machine_id`. De manera similar, `maintenance_record` utiliza `machine_id` para registrar los mantenimientos realizados sobre una máquina. Esto permite mantener el historial operativo de cada máquina y registrar tanto sus periodos de inactividad como las actividades de mantenimiento efectuadas.
 
+#### 5. Bounded Context: Reporting & Analytics
 
+Este diagrama define la persistencia de la información utilizada para generar reportes y análisis relacionados con la producción, calidad y desempeño de las máquinas de las MYPE textiles.
+
+![Database](../assets/class_diagrams/database_reporting.png)
+
+**Explicación del esquema:**
+
+*   **Tablas:** `report` y `metric_snapshot`, además de las estructuras correspondientes a los tipos, formatos y estados de los reportes.
+*   **Columnas principales:** `type`, `date_range`, `format`, `generated_date`, `requested_by`, `status` y `metrics` en los reportes; `metric_name`, `value`, `unit` y `captured_date` en los registros de métricas.
+*   **Constraints o Relaciones:** La tabla `report` utiliza `id` como llave primaria (`PK`) y mantiene una relación de uno a muchos con `metric_snapshot`. Cada registro de `metric_snapshot` utiliza `report_id` como llave foránea (`FK`) para asociarse con el reporte correspondiente. Esto permite almacenar múltiples métricas para un mismo reporte y facilita la persistencia de los resultados utilizados posteriormente para el análisis de producción, calidad y desempeño operativo.
