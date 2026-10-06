@@ -34,6 +34,8 @@
 
 15. ¿Qué funcionalidades les gustaría encontrar en una plataforma que les permita gestionar mejor la producción, las máquinas, los lotes y los controles de calidad?
     
+16. ¿Qué dispositivos utilizan con mayor frecuencia en su trabajo (PC, laptop, tablet o celular) y qué navegador suelen utilizar para acceder a páginas o sistemas web?
+    
 **Segmento Objetivo 2: Supervisores y responsables de producción y calidad**
 
 1. ¿Cuál es su función dentro del proceso de producción o control de calidad y cuáles son sus principales responsabilidades?
@@ -82,24 +84,20 @@
 Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
-Maribel, encargada de la empresa Creaciones Flores, dedicada a la confección de prendas de vestir como poleras, polos, pantalonetas y shorts, explicó que su proceso productivo inicia con el corte de las telas, continúa con la confección mediante las máquinas y finaliza con la distribución de las prendas a las tiendas.
+Maribel, de 41 años y residente en Lima, es encargada de la empresa Creaciones Flores, dedicada a la confección de prendas de vestir como poleras, polos, pantalonetas y shorts. El proceso productivo de la empresa inicia con el corte de las telas, continúa con la confección mediante máquinas
+y finaliza con la distribución de las prendas hacia las tiendas.
 
-Actualmente, el seguimiento de la producción se realiza principalmente mediante agendas, cuadernos y hojas de cálculo, donde registran la cantidad de prendas producidas y las que salen hacia las tiendas. El mantenimiento de las máquinas se realiza aproximadamente cada seis meses e incluye cambio de aceite y
-revisiones generales. Cuando una máquina presenta una falla, se contacta a un técnico para evitar retrasos en la producción.
+Actualmente, realiza el seguimiento de la producción principalmente mediante agendas, cuadernos y hojas de cálculo, donde registra las cantidades de prendas producidas y las que son enviadas a las tiendas. El mantenimiento de las máquinas se realiza aproximadamente cada seis meses e incluye
+cambios de aceite y revisiones generales. Cuando se presenta una falla, se contacta a un técnico para evitar retrasos en la producción.
 
-Entre los principales problemas identificados se encuentran las fallas en el garfio, motores y agujas, además de problemas ocasionados por una incorrecta manipulación de las máquinas. En cuanto al control de calidad, se cuenta con una persona encargada de revisar las costuras, puntadas y estado de las prendas.
-Los defectos más frecuentes son las telas manchadas y las costuras incorrectas, como puntadas abiertas o demasiado cerradas. Las prendas defectuosas son separadas y no se incluyen en la venta, lo que representa una pérdida económica para la empresa.
+Entre los principales problemas identificados se encuentran las fallas en el garfio, motores y agujas, además de inconvenientes ocasionados por una incorrecta manipulación de las máquinas. Para el control de calidad cuenta con una persona encargada de revisar las costuras, puntadas y estado
+general de las prendas. Los defectos más frecuentes son las telas manchadas y las costuras incorrectas, como puntadas abiertas o demasiado cerradas. Cuando una prenda presenta defectos, es separada y no se incluye en la venta, generando pérdidas económicas.
 
-Una de las principales dificultades es el manejo de grandes cantidades de producción y mercadería, especialmente cuando no se cuenta con suficiente personal para realizar los conteos. Esto puede ocasionar diferencias entre las cantidades registradas y las que finalmente llegan a las tiendas. Para evaluar el
-funcionamiento de la producción, consideran importantes los pedidos y opiniones de los clientes, ya que una buena calidad permite recibir nuevos pedidos y aumentar la producción.
+Maribel señala que una de las principales dificultades se presenta al manejar grandes cantidades de producción y mercadería cuando no se cuenta con suficiente personal para realizar los conteos. Esta situación puede ocasionar diferencias entre las cantidades registradas y las que finalmente
+llegan a las tiendas. Para evaluar el funcionamiento de la producción considera importantes los pedidos y las opiniones de los clientes, debido a que una buena calidad permite recibir nuevos pedidos y aumentar la producción.
 
-Maribel considera que una plataforma digital podría facilitar la gestión de la producción y el control de calidad, siempre que sea sencilla de utilizar. También considera importante contar con información clara y un manual que explique cómo acceder y utilizar correctamente el software dentro del taller.
-
-**Análisis de la entrevista:**
-La entrevista permitió identificar que uno de los principales problemas del taller es el control de la producción cuando se manejan grandes cantidades de prendas y no se cuenta con suficiente personal. El uso de agendas, cuadernos y hojas de cálculo puede generar diferencias entre las cantidades producidas y las
-entregadas a las tiendas. Además, las fallas de las máquinas pueden ocasionar retrasos en la producción, mientras que los defectos de calidad generan reprocesos y pérdidas económicas. Por ello, se evidencia la necesidad de centralizar la información de producción, máquinas y calidad en una herramienta sencilla
-que facilite el seguimiento y permita detectar problemas oportunamente.
-
+Respecto al uso de una plataforma digital, considera que podría facilitar la gestión de la producción y el control de calidad, siempre que sea sencilla de utilizar. También considera importante contar con información clara y un manual que explique cómo acceder y utilizar correctamente el
+software dentro del taller.
 
 **Nombre:** José del Carmen
 **Edad:** 40
@@ -113,24 +111,20 @@ que facilite el seguimiento y permita detectar problemas oportunamente.
 Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
-José del Carmen, indicó que su empresa se dedica principalmente a la confección de pantalones de vestir. El proceso de producción se encuentra organizado de manera familiar y el seguimiento de los productos se realiza de acuerdo con los pedidos que reciben de los clientes. Del mismo modo, las órdenes de
-producción se gestionan según las cantidades solicitadas.
+José del Carmen, de 40 años y residente en Lima, pertenece a una empresa dedicada principalmente a la confección de pantalones de vestir. El proceso de producción se encuentra organizado de manera familiar y el seguimiento de los productos se realiza de acuerdo con los pedidos recibidos de
+los clientes. Las órdenes de producción se gestionan considerando las cantidades solicitadas.
 
-Antes de iniciar la producción, se revisan las máquinas con el objetivo de prevenir fallas y asegurar que el proceso se desarrolle correctamente. Sin embargo, se señaló que en algunas ocasiones pueden presentarse fallas mecánicas debido a que no se realiza el mantenimiento necesario antes de comenzar a trabajar.
+Antes de iniciar la producción se revisan las máquinas con el objetivo de prevenir fallas y asegurar el correcto desarrollo del proceso. Sin embargo, pueden presentarse fallas mecánicas cuando no se realiza el mantenimiento necesario antes de comenzar las actividades. El control de calidad
+se realiza principalmente de manera interna y con apoyo de los integrantes de la familia, quienes revisan las prendas antes de su entrega.
 
-El control de calidad se realiza principalmente de manera interna y con apoyo de los integrantes de la familia, quienes revisan las prendas para verificar que se encuentren en buenas condiciones antes de ser entregadas. José indica que actualmente no se presentan muchos problemas de calidad debido a que los
-productos son revisados antes de su entrega. Cuando se identifica algún defecto, este se atribuye principalmente a errores del personal y no necesariamente a fallas de las máquinas o de las telas.
+José señala que actualmente no se presentan muchos problemas de calidad debido a las revisiones realizadas antes de entregar los productos. Cuando se identifica algún defecto, este se atribuye principalmente a errores del personal y no necesariamente a fallas de las máquinas o de las telas.
+Asimismo, indicó que los productos defectuosos, desperdicios o reprocesos no representan actualmente un problema frecuente.
 
-Respecto al impacto de los productos defectuosos, desperdicios o reprocesos, se indicó que actualmente no representa un problema frecuente, aunque anteriormente podían presentarse casos relacionados con trabajadores aprendices. Para registrar información de la producción utilizan ocasionalmente calculadoras.
-Asimismo, no se identificaron dificultades importantes relacionadas con la consulta de información sobre lotes.
+Para registrar información relacionada con la producción utiliza ocasionalmente calculadoras y no identifica dificultades importantes para consultar información sobre los lotes. Como principal indicador para verificar que el proceso funciona adecuadamente considera la revisión completa de
+los productos antes de realizar la entrega.
 
-Como principal indicador para verificar que el proceso funciona adecuadamente, consideran la revisión completa de los productos antes de realizar la entrega. Finalmente, antes de implementar una plataforma digital, consideran importante tener en cuenta las características y condiciones de las telas que adquieren
-para la producción.
-
-**Análisis de la entrevista:**
-La entrevista permitió identificar que el taller realiza un seguimiento de la producción principalmente en función de los pedidos y las cantidades solicitadas. Aunque actualmente no presenta problemas frecuentes de calidad, se identificó que las fallas mecánicas pueden aparecer cuando no se realiza un
-mantenimiento adecuado antes de iniciar la producción. Asimismo, el control de la información se realiza mediante herramientas básicas como calculadoras y revisiones manuales. Esto evidencia una oportunidad para mejorar el registro del mantenimiento, el estado de las máquinas y el seguimiento de la producción
-mediante una herramienta digital que facilite el control preventivo.
+Antes de implementar una plataforma digital, considera importante tener en cuenta las características y condiciones de las telas utilizadas para la producción. La información obtenida muestra que actualmente mantiene una gestión sencilla y principalmente manual, apoyada en la organización
+familiar y en la revisión directa de los productos y máquinas.
 
 **Nombre:** Julio Sanchez
 **Edad:** 43
@@ -144,18 +138,20 @@ mediante una herramienta digital que facilite el control preventivo.
 Entrevista completa:  [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
-Julio Sánchez, encargado de la empresa Decoración en Marimelo, dedicada a la decoración textil mediante la elaboración de fundas para mesas, sillas y otros productos, explicó que su proceso productivo está organizado de manera familiar y se desarrolla de acuerdo con los pedidos de los clientes.
+Julio Sánchez, de 43 años y residente en Lima, es encargado de la empresa Decoración en Marimelo, dedicada a la decoración textil mediante la elaboración de fundas para mesas, sillas y otros productos. El proceso productivo se encuentra organizado de manera familiar y se desarrolla
+principalmente de acuerdo con los pedidos de los clientes.
 
-Actualmente, el seguimiento de la producción se realiza mediante el conteo de productos y considerando las cantidades solicitadas en cada pedido. Los lotes u órdenes de producción son identificados mediante códigos. Para realizar el seguimiento del rendimiento y funcionamiento de las máquinas, se toma como
-referencia el trabajo realizado por el personal.
+El seguimiento de la producción se realiza mediante el conteo de productos y considerando las cantidades solicitadas en cada pedido. Los lotes u órdenes de producción son identificados mediante códigos. Para realizar el seguimiento del rendimiento y funcionamiento de las máquinas se toma
+como referencia el trabajo realizado por el personal.
 
-Entre los principales problemas identificados se encuentran la falta de personal y situaciones en las que se altera el orden del proceso productivo. En cuanto al control de calidad, los productos son revisados antes de ser entregados. Jorge indicó que normalmente no se presentan defectos, aunque algunos problemas
-pueden estar relacionados con fallas de las máquinas o con la utilización de colores similares.
+Entre los principales problemas identificados se encuentran la falta de personal y algunas situaciones en las que se altera el orden del proceso productivo. Los productos son revisados antes de ser entregados y, según lo indicado durante la entrevista, normalmente no se presentan defectos.
+Sin embargo, algunos problemas pueden estar relacionados con fallas de las máquinas o con la utilización de colores similares.
 
-Cuando se presentan problemas de calidad, uno de los principales impactos para la empresa son las devoluciones de productos. Actualmente, la información de producción y calidad se registra mediante un cuaderno. Sin embargo, Julio no identifica dificultades importantes para consultar o reunir la información,
-debido a que considera que actualmente el proceso se encuentra conforme.
+Cuando se presentan problemas de calidad, uno de los principales impactos para la empresa son las devoluciones de productos. Actualmente, la información de producción y calidad se registra mediante un cuaderno. Julio no identifica dificultades importantes para consultar o reunir esta
+información, debido a que considera que actualmente el proceso se encuentra conforme.
 
-Para evaluar el funcionamiento de la producción, considera importante conocer la cantidad producida diariamente por cada trabajador. Antes de implementar una plataforma digital, considera necesario verificar que las telas utilizadas se encuentren en buen estado y que no presenten fallas.
+Para evaluar el funcionamiento de la producción considera importante conocer la cantidad producida diariamente por cada trabajador. Antes de implementar una plataforma digital, considera necesario verificar que las telas utilizadas se encuentren en buen estado y que no presenten fallas. En
+general, la información obtenida evidencia un proceso de gestión principalmente manual, basado en el conteo de productos, códigos de identificación y registros en cuadernos.
 
 **Análisis de la entrevista:**
 La entrevista permitió identificar que el taller realiza el seguimiento de la producción mediante el conteo de productos y códigos para identificar los lotes u órdenes. La producción se encuentra organizada de manera familiar y uno de los indicadores considerados importantes es la cantidad
