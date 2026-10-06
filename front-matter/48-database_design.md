@@ -33,10 +33,17 @@ Este diagrama estructura el almacenamiento necesario para realizar el seguimient
 *   **Columnas principales:** `id`, `model`, `quantity`, `stage`, `status`, `technical_sheet_id` y `created_date` en los lotes; `model`, `fabric_type`, `measurements` y `tolerances` en la ficha técnica; `batch_id`, `quantity`, `date`, `responsible` y `observation` en los movimientos.
 *    **Constraints o Relaciones:** La tabla `production_batch` utiliza `id` como llave primaria (`PK`) y `technical_sheet_id` como llave foránea (`FK`) hacia `technical_sheet`. Esto permite asociar la información técnica correspondiente a un lote de producción. Asimismo, `lot_movement` utiliza `batch_id` como llave foránea para registrar los diferentes movimientos asociados a un lote. De esta manera, un `production_batch` puede contener múltiples registros de movimiento, manteniendo la trazabilidad del proceso productivo.
 
+#### 3. Bounded Context: Quality Management
 
+Este diagrama define la persistencia de la información relacionada con la recepción e inspección de rollos de tela, las inspecciones de calidad realizadas sobre la producción y los defectos identificados durante dichas inspecciones.
 
+![Database](../assets/class_diagrams/database_quality.png)
 
+**Explicación del esquema:**
 
+*   **Tablas:** `fabric_roll`, `fabric_inspection`, `quality_inspection` y `defect_record`, además de las estructuras correspondientes a los tipos, estados y resultados de inspección.
+*   **Columnas principales:** `supplier`, `fabric_type`, `length`, `status`, `received_date` e `inspection` en los rollos; `tone`, `width`, `length`, `defects_found`, `result` e `inspected_date` en las inspecciones físicas; `batch_id`, `machine_id`, `inspected_date` y `total_inspected` en las inspecciones de calidad; `defect_type`, `quantity`, `origin`, `description` y `registered_date` en los registros de defectos.
+*    **Constraints o Relaciones:** Cada agregado posee su identificador configurado como llave primaria (`PK`). La tabla `fabric_inspection` se relaciona con `fabric_roll` mediante `roll_id`, permitiendo registrar la inspección correspondiente a cada rollo. Por otro lado, `defect_record` utiliza `quality_inspection_id` como llave foránea (`FK`) para asociar cada defecto con la inspección en la que fue registrado. Los atributos `batch_id` y `machine_id` representan referencias mediante identificadores hacia agregados pertenecientes a otros Bounded Contexts, manteniendo el desacoplamiento entre los contextos.
 
 
 
