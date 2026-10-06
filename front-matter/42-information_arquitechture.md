@@ -96,4 +96,3 @@ El sistema de navegación de Fabric está diseñado para que visitantes y usuari
 >
 > * **Navegación de Salida:** El Footer de la Landing Page proporciona accesos complementarios como "Terms & Conditions" e información relacionada con Fabric y GlitchLab.
 
-De esta manera, los sistemas de navegación mantienen una estructura consistente entre las diferentes experiencias de Fabric y permiten que cada usuario acceda a la información y funcionalidades necesarias según el contexto de uso.
