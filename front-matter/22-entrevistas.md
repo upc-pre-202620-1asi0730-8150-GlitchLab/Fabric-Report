@@ -149,7 +149,8 @@ utiliza principalmente Google Chrome.
 Antes de implementar una plataforma digital, considera necesario verificar que las telas utilizadas se encuentren en buen estado y que no presenten fallas. En general, la información obtenida evidencia un proceso de gestión principalmente manual, basado en el conteo de productos, códigos de
 identificación y registros en cuadernos.
 
-**Análisis de la entrevista:**
+**Análisis de la entrevista - Segmento 1:**
+
 A partir de las tres entrevistas realizadas a representantes de MYPES textiles y de confecciones de Lima, se identificaron características comunes relacionadas con la gestión de la producción, el control de calidad y el uso de herramientas tecnológicas.
 
 El 100 % de los entrevistados (3 de 3) desarrolla sus actividades de producción de manera principalmente manual y realiza seguimiento mediante el conteo de productos, pedidos o registros físicos. Asimismo, el 100 % (3 de 3) realiza algún tipo de revisión de las prendas o productos antes de
@@ -203,7 +204,7 @@ Actualmente, gran parte del seguimiento se hace de forma manual. Los defectos se
 
 Los indicadores que considera más relevantes son el porcentaje de reprocesos por lote, la merma irrecuperable de tela y el tiempo de inactividad de las máquinas críticas, ya que permiten medir el impacto de los problemas en la rentabilidad del lote. Luciana considera que una plataforma digital permitiría pasar de una reacción posterior a un control preventivo, sobre todo mediante alertas cuando una máquina o rollo acumula múltiples prendas observadas. Entre las funciones indispensables están el registro de inspecciones de tela, la trazabilidad entre rollos y lotes, el registro rápido de fallas, un tablero visual con el avance de las órdenes y la información sobre las paradas de máquinas.
 
-**Análisis de la entrevista-Segmento Objetivo 1:**
+**Análisis de la entrevista**
 La entrevista permitió identificar que el proceso de control de calidad requiere realizar un seguimiento constante desde la recepción de los rollos de tela hasta el despacho de las prendas. Actualmente, la información se encuentra distribuida entre hojas físicas, etiquetas, cuadernos, fotografías de
 whatsApp y hojas de cálculo, lo que puede generar errores de conteo, información desactualizada y dificultades para determinar dónde se originó una desviación. La investigación de una incidencia puede tomar entre una y dos horas. Por ello, se identifica la necesidad de contar con una plataforma que centralice la
 trazabilidad de rollos y lotes, registre las inspecciones y fallas, permita visualizar el avance de las órdenes y genere alertas ante problemas recurrentes.
