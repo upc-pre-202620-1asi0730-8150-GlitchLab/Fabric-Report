@@ -45,7 +45,12 @@
 | 41 | US038 | Inicio de sesión de usuario registrado | Como usuario registrado, quiero iniciar sesión con mis credenciales para acceder a las funcionalidades de Fabric según mi rol. | 3 |
 | 42 | US039 | Cierre de sesión de usuario autenticado | Como usuario registrado, quiero cerrar sesión de forma segura para evitar que terceros accedan a mi cuenta en el mismo dispositivo. | 1 |
 | 43 | US043 | Actualización de datos del perfil del usuario | Como usuario registrado, quiero actualizar mis datos personales (nombre, teléfono y rol) para mantener mi información vigente en el sistema. | 2 |
-
+| 44 | TS001 | API para gestión de lotes de producción | Como Developer, quiero disponer de endpoints REST para gestionar los lotes de producción para que las aplicaciones cliente puedan registrar y consultar la información de los lotes. | 5 |
+| 45 | TS002 | API para gestión de inspecciones de calidad | Como Developer, quiero disponer de endpoints REST para gestionar las inspecciones de calidad para que las aplicaciones cliente puedan registrar y consultar los resultados de las inspecciones realizadas. | 3 |
+| 46 | TS003 | API para gestión de defectos de calidad | Como Developer, quiero disponer de endpoints REST para gestionar los defectos detectados en las prendas para que las aplicaciones cliente puedan registrar y consultar las incidencias de calidad. | 3 |
+| 47 | TS004 | API para gestión de maquinaria | Como Developer, quiero disponer de endpoints REST para gestionar la información y estado de las máquinas para que las aplicaciones cliente puedan registrar y consultar su condición operativa. | 3 |
+| 48 | TS005 | API para indicadores y alertas | Como Developer, quiero disponer de endpoints REST para consultar indicadores y alertas de producción para que las aplicaciones cliente puedan utilizar información actualizada en el seguimiento de las operaciones. | 5 |
+| 49 | TS006 | API para gestión de usuarios | Como Developer, quiero disponer de endpoints REST para gestionar los datos de los usuarios para que las aplicaciones cliente puedan registrar, consultar y actualizar la información necesaria de cada usuario. | 3 |
 
 <br>
 
