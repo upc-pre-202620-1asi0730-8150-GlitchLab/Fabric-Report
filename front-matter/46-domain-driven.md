@@ -42,7 +42,7 @@ El diagrama de contexto presenta a Fabric como un sistema central que interactú
 
 ### 4.6.3. Software Architecture Container Diagram
 
-Fabric está compuesto por un solo contenedor monolítico, el cual está conformado por: Landing Page (HTML, CSS y JavaScript) que presenta la propuesta de valor y capta leads; la Web Application (Vue.js) que muestra todas las funcionalidades, Fabric API que concentra la lógica de negocio organizada en seis bounded contexts (Auth, Production Tracking, Quality Management, Machine Registry, Subscription & Payment, Reporting & Analytics); y la Base de Datos. El sistema se integra con tres servicios externos: Culqi (pasarela de pagos peruana), Google Identify (notificaciones por correo) y un Sensor IoT Milesight (lecturas de temperatura y humedad vía MQTT). Los actores acceden al sistema mediante HTTPS, mientras que los módulos internos se comunican entre sí y persisten datos en la base de datos, dando soporte a los procesos de producción y control de calidad de las MYPE textiles.
+Este diagrama descompone el sistema Fabric en sus principales unidades desplegables o contenedores. En él se distinguen dos contenedores públicos: la Landing Page, que actúa como sitio de presentación, y la Single Page Application (SPA), que ofrece una experiencia interactiva a los visitantes. Para los usuarios internos, como el Supervisor de Producción y el Inspector de Calidad, se dispone de la Web Application, desarrollada en Vue.js. Esta aplicación se comunica con el Fabric API, un backend en ASP.NET Core que centraliza la lógica de negocio. A su vez, el API se apoya en una base de datos MySQL para la persistencia y se integra con sistemas externos como Google Identity, Culqui y Milesight. El flujo de comunicación se aprecia con claridad: los actores acceden a las interfaces web, estas consumen el API, y el API gestiona tanto la lógica como la comunicación con la base de datos y los servicios de terceros.
 
 <div align="center">
     <img src="../assets/domain_c4/container_diagram.png" alt="diagrama de contexto" witdh="500">
@@ -50,14 +50,22 @@ Fabric está compuesto por un solo contenedor monolítico, el cual está conform
 
 <br>
 
-### 4.6.4. Software Architecture Component Diagram
+### 4.6.4. Software Architecture Components Diagrams
 
-La arquitectura interna de Fabric, representada mediante el diagrama de componentes, está estructurada como un conjunto de módulos desarrollados en ASP.NET Core Web API, los cuales residen dentro del contenedor Fabric API y mantienen comunicación con distintos servicios y sistemas externos. En el centro de esta solución, los módulos principales Machine Registry, Quality Management, Production Tracking y Reporting and Analytics se encargan de coordinar la lógica del negocio, interactuando entre sí y apoyándose en un componente compartido de Database Connection que almacena la información en una base de datos MySQL. Por otro lado, el módulo Subscription and Payment establece conexión con la pasarela de pagos Culqui para gestionar las transacciones, mientras Auth and User Management administra la autenticación de los usuarios a través de Google Identify. Finalmente, con el propósito de capturar e integrar datos en tiempo real provenientes de la planta textil, el componente de gestión de calidad se comunica con los sensores IoT de Milesight, permitiendo el envío y la recepción de información operativa.
+El primer diagrama detalla la estructura interna del contenedor Fabric API. Aquí se visualizan los componentes modulares que dan soporte a la lógica de negocio, como Auth and User Management, Machine Registry, Quality Management, Production Tracking, Reporting & Analytics, Subscription and Payment, y el componente central Database Connection. El diagrama muestra cómo la Web Application externa consume estos componentes a través de peticiones JSON/HTTPS, cómo interactúan entre ellos, y cómo se comunican con los sistemas externos y la base de datos a través de la capa de conexión.
 
 <div align="center">
-    <img src="../assets/domain_c4/component_diagram.png" alt="diagrama de componente reports and analytics" witdh="500">
+    <img src="../assets/domain_c4/components_diagram1.png" alt="diagrama de componente FabricAPI" witdh="500">
 </div>
 
 <br>
 <br>
 
+El segundo diagrama desglosa la estructura interna del contenedor Web Application, desarrollado en Vue.js. Muestra los componentes de la interfaz de usuario divididos por dominios o Bounded Contexts: Auth & User UI, Machine Registry UI, Quality Management UI, Production Tracking UI, Reporting & Analytics UI y Subscription & Payment UI. El diagrama ilustra cómo la Single Page Application (SPA) externa consume estos componentes de UI, y cómo cada uno de ellos se comunica directamente con el contenedor Fabric API para obtener o enviar datos.
+
+<div align="center">
+    <img src="../assets/domain_c4/components_diagram2.png" alt="diagrama de componente WebApplication" witdh="500">
+</div>
+
+<br>
+<br>
