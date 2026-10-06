@@ -21,4 +21,25 @@ Este diagrama define la persistencia de los planes comerciales disponibles para 
 *   **Columnas principales:** `name`, `description`, `monthly_price`, `max_users` y `max_machines` en el plan; `company_id`, `plan_id`, `status`, `billing_cycle`, `start_date`, `next_billing_date` y `auto_renew` en la subscripción; `subscription_id`, `amount`, `status`, `payment_day` y `transaction_reference` en los pagos.
 *   **Constraints o Relaciones:** Cada tabla posee su identificador `id` configurado como llave primaria (`PK`). La tabla `subscription` utiliza la llave foránea (`FK`) `plan_id` para relacionarse con `subscription_plan`, estableciendo que un plan puede estar asociado a múltiples suscripciones. Asimismo, `payment` utiliza `subscription_id` como llave foránea para relacionarse con la suscripción correspondiente, permitiendo registrar múltiples pagos para una misma suscripción. El atributo `company_id` representa la referencia hacia la compañía mediante su identificador, manteniendo la separación con otros contextos.
 
+#### 2. Bounded Context: Production Tracking
+
+Este diagrama estructura el almacenamiento necesario para realizar el seguimiento de los lotes de producción de prendas, incluyendo sus fichas técnicas y los movimientos registrados durante el proceso productivo.
+
+![Database](../assets/class_diagrams/database_production.png)
+
+**Explicación del esquema:**
+
+*   **Tablas:** `production_batch`, `technical_sheet`, `lot_movement`, además de las estructuras correspondientes a los estados de los lotes.
+*   **Columnas principales:** `id`, `model`, `quantity`, `stage`, `status`, `technical_sheet_id` y `created_date` en los lotes; `model`, `fabric_type`, `measurements` y `tolerances` en la ficha técnica; `batch_id`, `quantity`, `date`, `responsible` y `observation` en los movimientos.
+*    **Constraints o Relaciones:** La tabla `production_batch` utiliza `id` como llave primaria (`PK`) y `technical_sheet_id` como llave foránea (`FK`) hacia `technical_sheet`. Esto permite asociar la información técnica correspondiente a un lote de producción. Asimismo, `lot_movement` utiliza `batch_id` como llave foránea para registrar los diferentes movimientos asociados a un lote. De esta manera, un `production_batch` puede contener múltiples registros de movimiento, manteniendo la trazabilidad del proceso productivo.
+
+
+
+
+
+
+
+
+
+
 
