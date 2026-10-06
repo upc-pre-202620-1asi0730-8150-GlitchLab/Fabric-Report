@@ -22,7 +22,7 @@ Además, la limitada incorporación de tecnologías de información reduce la ca
 
 ### Who? (¿A quiénes afecta?)
 
-Esta problemática afecta principalmente las MYPES del sector textil y de confecciones, involucrando directamente a propietarios y administradores, supervisores y responsables de producción, personal encargado del control de calidad y operarios que participan directamente en los procesos productivos. Asimismo, puede agectar a otros actores relacionados con la cadena de suministro, como proveedores, distribuidores y clientes, debido a problemas asociados con retrasos, defectos de calidad o dificultades en el seguimiento de los productos y lotes fabricados.
+Esta problemática afecta principalmente las MYPES del sector textil y de confecciones, involucrando directamente a propietarios y administradores, supervisores y responsables de producción, personal encargado del control de calidad y operarios que participan directamente en los procesos productivos. Asimismo, puede afectar a otros actores relacionados con la cadena de suministro, como proveedores, distribuidores y clientes, debido a problemas asociados con retrasos, defectos de calidad o dificultades en el seguimiento de los productos y lotes fabricados.
 
 ### Where? (¿Dónde ocurre?)
 
