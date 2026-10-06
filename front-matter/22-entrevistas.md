@@ -84,8 +84,8 @@
 Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
-Maribel, de 41 años y residente en Lima, es encargada de la empresa Creaciones Flores, dedicada a la confección de prendas de vestir como poleras, polos, pantalonetas y shorts. El proceso productivo de la empresa inicia con el corte de las telas, continúa con la confección mediante máquinas
-y finaliza con la distribución de las prendas hacia las tiendas.
+Maribel, de 41 años y residente en Lima, es encargada de la empresa Creaciones Flores, dedicada a la confección de prendas de vestir como poleras, polos, pantalonetas y shorts. El proceso productivo inicia con el corte de las telas, continúa con la confección mediante máquinas y finaliza
+con la distribución de las prendas hacia las tiendas.
 
 Actualmente, realiza el seguimiento de la producción principalmente mediante agendas, cuadernos y hojas de cálculo, donde registra las cantidades de prendas producidas y las que son enviadas a las tiendas. El mantenimiento de las máquinas se realiza aproximadamente cada seis meses e incluye
 cambios de aceite y revisiones generales. Cuando se presenta una falla, se contacta a un técnico para evitar retrasos en la producción.
@@ -96,8 +96,8 @@ general de las prendas. Los defectos más frecuentes son las telas manchadas y l
 Maribel señala que una de las principales dificultades se presenta al manejar grandes cantidades de producción y mercadería cuando no se cuenta con suficiente personal para realizar los conteos. Esta situación puede ocasionar diferencias entre las cantidades registradas y las que finalmente
 llegan a las tiendas. Para evaluar el funcionamiento de la producción considera importantes los pedidos y las opiniones de los clientes, debido a que una buena calidad permite recibir nuevos pedidos y aumentar la producción.
 
-Respecto al uso de una plataforma digital, considera que podría facilitar la gestión de la producción y el control de calidad, siempre que sea sencilla de utilizar. También considera importante contar con información clara y un manual que explique cómo acceder y utilizar correctamente el
-software dentro del taller.
+En cuanto a la tecnología, utiliza una laptop y un celular para realizar sus actividades y consultas relacionadas con el trabajo. Para acceder a páginas y sistemas web utiliza principalmente Google Chrome. Respecto a una plataforma digital, considera que podría facilitar la gestión de la
+producción y el control de calidad, siempre que sea sencilla de utilizar. También considera importante contar con información clara y un manual que explique cómo acceder y utilizar correctamente el software dentro del taller.
 
 **Nombre:** José del Carmen
 **Edad:** 40
@@ -123,8 +123,8 @@ Asimismo, indicó que los productos defectuosos, desperdicios o reprocesos no re
 Para registrar información relacionada con la producción utiliza ocasionalmente calculadoras y no identifica dificultades importantes para consultar información sobre los lotes. Como principal indicador para verificar que el proceso funciona adecuadamente considera la revisión completa de
 los productos antes de realizar la entrega.
 
-Antes de implementar una plataforma digital, considera importante tener en cuenta las características y condiciones de las telas utilizadas para la producción. La información obtenida muestra que actualmente mantiene una gestión sencilla y principalmente manual, apoyada en la organización
-familiar y en la revisión directa de los productos y máquinas.
+En cuanto a la tecnología, utiliza una PC y un celular para sus actividades y consultas relacionadas con el trabajo. Para acceder a páginas y sistemas web utiliza principalmente Google Chrome. Antes de implementar una plataforma digital, considera importante tener en cuenta las
+características y condiciones de las telas utilizadas para la producción. La información obtenida muestra que actualmente mantiene una gestión sencilla y principalmente manual, apoyada en la organización familiar y en la revisión directa de los productos y máquinas.
 
 **Nombre:** Julio Sanchez
 **Edad:** 43
@@ -144,14 +144,17 @@ principalmente de acuerdo con los pedidos de los clientes.
 El seguimiento de la producción se realiza mediante el conteo de productos y considerando las cantidades solicitadas en cada pedido. Los lotes u órdenes de producción son identificados mediante códigos. Para realizar el seguimiento del rendimiento y funcionamiento de las máquinas se toma
 como referencia el trabajo realizado por el personal.
 
-Entre los principales problemas identificados se encuentran la falta de personal y algunas situaciones en las que se altera el orden del proceso productivo. Los productos son revisados antes de ser entregados y, según lo indicado durante la entrevista, normalmente no se presentan defectos.
-Sin embargo, algunos problemas pueden estar relacionados con fallas de las máquinas o con la utilización de colores similares.
+Entre los principales problemas identificados se encuentran la falta de personal y algunas situaciones en las que se altera el orden del proceso productivo. Los productos son revisados antes de ser entregados y normalmente no se presentan defectos. Sin embargo, algunos problemas pueden
+estar relacionados con fallas de las máquinas o con la utilización de colores similares.
 
 Cuando se presentan problemas de calidad, uno de los principales impactos para la empresa son las devoluciones de productos. Actualmente, la información de producción y calidad se registra mediante un cuaderno. Julio no identifica dificultades importantes para consultar o reunir esta
 información, debido a que considera que actualmente el proceso se encuentra conforme.
 
-Para evaluar el funcionamiento de la producción considera importante conocer la cantidad producida diariamente por cada trabajador. Antes de implementar una plataforma digital, considera necesario verificar que las telas utilizadas se encuentren en buen estado y que no presenten fallas. En
-general, la información obtenida evidencia un proceso de gestión principalmente manual, basado en el conteo de productos, códigos de identificación y registros en cuadernos.
+Para evaluar el funcionamiento de la producción considera importante conocer la cantidad producida diariamente por cada trabajador. En cuanto a la tecnología, utiliza una laptop y un celular para sus actividades y consultas relacionadas con el trabajo. Para acceder a páginas y sistemas web
+utiliza principalmente Google Chrome.
+
+Antes de implementar una plataforma digital, considera necesario verificar que las telas utilizadas se encuentren en buen estado y que no presenten fallas. En general, la información obtenida evidencia un proceso de gestión principalmente manual, basado en el conteo de productos, códigos de
+identificación y registros en cuadernos.
 
 **Análisis de la entrevista:**
 La entrevista permitió identificar que el taller realiza el seguimiento de la producción mediante el conteo de productos y códigos para identificar los lotes u órdenes. La producción se encuentra organizada de manera familiar y uno de los indicadores considerados importantes es la cantidad
