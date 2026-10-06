@@ -15,6 +15,10 @@ Este diagrama define la persistencia de los planes comerciales disponibles para 
 
 ![Database](../assets/class_diagrams/database_subscription.png)
 
+**Explicación del esquema:**
 
+*   **Tablas:** `subscription_plan`, `subscription`, `payment`.
+*   **Columnas principales:** `name`, `description`, `monthly_price`, `max_users` y `max_machines` en el plan; `company_id`, `plan_id`, `status`, `billing_cycle`, `start_date`, `next_billing_date` y `auto_renew` en la subscripción; `subscription_id`, `amount`, `status`, `payment_day` y `transaction_reference` en los pagos.
+*   **Constraints o Relaciones:** Cada tabla posee su identificador `id` configurado como llave primaria (`PK`). La tabla `subscription` utiliza la llave foránea (`FK`) `plan_id` para relacionarse con `subscription_plan`, estableciendo que un plan puede estar asociado a múltiples suscripciones. Asimismo, `payment` utiliza `subscription_id` como llave foránea para relacionarse con la suscripción correspondiente, permitiendo registrar múltiples pagos para una misma suscripción. El atributo `company_id` representa la referencia hacia la compañía mediante su identificador, manteniendo la separación con otros contextos.
 
 
