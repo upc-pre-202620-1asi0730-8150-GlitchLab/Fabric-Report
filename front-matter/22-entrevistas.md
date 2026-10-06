@@ -230,6 +230,7 @@ especializada pueden generar retrasos y mermas que afectan el margen de los pedi
 reducir retrasos y mejorar el control de los pedidos.
 
 **Análisis de la entrevista - Segmento 2:**
+
 Con estas tres entrevistas, el segmento objetivo está compuesto por supervisores y encargados de control de calidad en algunos talleres de confecciones de la región, con una distribución geográfica dividida entre Lima y las provincias de Chancay y Huaral. A pesar de la amplitud en el rango de edad, que abarca desde los 19 hasta los 54 años, este segmento muestra una homogeneidad del 100% en sus principales dificultades operativas, destacando una gestión dominada por la dispersión documental y la vulnerabilidad ante la pérdida de información y piezas.
 
 En el 100% de los talleres existe una dependencia crítica de soportes analógicos como fichas técnicas en papel, cuadernos y pizarras. Esta fragmentación de datos provoca que investigar una sola incidencia productiva tome entre 40 y 120 minutos por evento, debido a la necesidad de revisar archivadores y realizar consultas a los trabajadores. Asimismo, un 66.7% de los talleres recurre a canales informales como enviar fotos o videos por WhatsApp y hojas de cálculo desconectadas para intentar coordinar el avance, lo que genera desfases en los conteos, registros extraviados y dificultades para ubicar con precisión el origen de los defectos.
