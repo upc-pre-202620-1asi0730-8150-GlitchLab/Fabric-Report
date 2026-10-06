@@ -219,7 +219,7 @@ trazabilidad de rollos y lotes, registre las inspecciones y fallas, permita visu
 
 ![User Persona - Segmento 1](../assets/user_persona/Entrevistado3.png)
 
-Entrevista completa: [aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223405_upc_edu_pe/IQDNMJo77aYGSod5zZJzMReOAffpojMVnzjg39E7u8k452w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e5wIca)
+Entrevista completa: [https://shorturl.at/8sJUw](https://shorturl.at/8sJUw)
 
 **Resumen de la entrevista:**
 Luis refleja la tensión operativa del supervisor que lucha a diario con la confección de telas técnicas y la dependencia de servicios tercerizados como estampado y bordado sin trazabilidad digital. Aquí subraya la urgencia de contar con una herramienta ágil que frene el extravío de piezas entre talleres externos y alerte a tiempo sobre fallas mecánicas en maquinaria especializada, evitando que los retrasos y mermas terminen liquidando el margen del pedido.
@@ -228,3 +228,10 @@ Luis refleja la tensión operativa del supervisor que lucha a diario con la conf
 La entrevista permitió identificar dificultades relacionadas con el seguimiento de la producción y la coordinación con servicios externos de estampado y bordado. La falta de trazabilidad digital puede ocasionar el extravío de piezas durante el traslado entre talleres, mientras que las fallas de maquinaria
 especializada pueden generar retrasos y mermas que afectan el margen de los pedidos. Por ello, se evidencia la necesidad de una herramienta ágil que permita realizar seguimiento al estado y ubicación de las piezas, controlar las actividades tercerizadas y registrar oportunamente las fallas de las máquinas para
 reducir retrasos y mejorar el control de los pedidos.
+
+**Análisis de la entrevista - Segmento 2:**
+Con estas tres entrevistas, el segmento objetivo está compuesto por supervisores y encargados de control de calidad en algunos talleres de confecciones de la región, con una distribución geográfica dividida entre Lima y las provincias de Chancay y Huaral. A pesar de la amplitud en el rango de edad, que abarca desde los 19 hasta los 54 años, este segmento muestra una homogeneidad del 100% en sus principales dificultades operativas, destacando una gestión dominada por la dispersión documental y la vulnerabilidad ante la pérdida de información y piezas.
+
+En el 100% de los talleres existe una dependencia crítica de soportes analógicos como fichas técnicas en papel, cuadernos y pizarras. Esta fragmentación de datos provoca que investigar una sola incidencia productiva tome entre 40 y 120 minutos por evento, debido a la necesidad de revisar archivadores y realizar consultas a los trabajadores. Asimismo, un 66.7% de los talleres recurre a canales informales como enviar fotos o videos por WhatsApp y hojas de cálculo desconectadas para intentar coordinar el avance, lo que genera desfases en los conteos, registros extraviados y dificultades para ubicar con precisión el origen de los defectos.
+
+El 100% de la muestra reporta que la detección de fallas mecánicas en maquinaria crítica ocurre de manera netamente reactiva mediante observación visual tardía, lo que eleva los tiempos muertos y compromete la rentabilidad del pedido. Frente a esto, existe un consenso unánime del 100% en los indicadores indispensables que deben centralizarse: el porcentaje de merma y reproceso por lote, el tiempo de inactividad de las máquinas y el avance continuo de las órdenes. Además, la totalidad del segmento demanda que una herramienta tecnológica opere de forma rápida en computadoras de planta, genere alertas tempranas preventivas y que pueda garantizar una trazabilidad integral que conecte tanto el rollo de tela con el lote de corte como las piezas enviadas a talleres externos de bordado y estampado.
