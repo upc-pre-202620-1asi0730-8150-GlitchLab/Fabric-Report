@@ -174,6 +174,8 @@ principalmente celulares y laptops, para complementar sus actividades. Estos res
 **Edad:** 52
 **Ciudad:** Chancay
 
+![User Persona - Segmento 1](../assets/user_persona/Entrevistada1.png)
+
 Entrevista completa: [https://shorturl.at/mHlW6](https://shorturl.at/mHlW6)
 
 **Resumen de la entrevista:**
@@ -195,6 +197,8 @@ como merma, reproceso, producción y tiempo muerto. La herramienta también debe
 **Edad:** 19
 **Ciudad:** Lima
 
+![User Persona - Segmento 1](../assets/user_persona/Entrevistada2.png)
+
 Entrevista completa: [https://shorturl.at/ZPY8m](https://shorturl.at/ZPY8m)
 
 **Resumen de la entrevista:**
@@ -212,6 +216,8 @@ trazabilidad de rollos y lotes, registre las inspecciones y fallas, permita visu
 **Nombre:** Luis
 **Edad:** 54
 **Ciudad:** Huaral
+
+![User Persona - Segmento 1](../assets/user_persona/Entrevistado3.png)
 
 Entrevista completa: [aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223405_upc_edu_pe/IQDNMJo77aYGSod5zZJzMReOAffpojMVnzjg39E7u8k452w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e5wIca)
 
