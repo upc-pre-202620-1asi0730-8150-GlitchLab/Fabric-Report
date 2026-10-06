@@ -45,8 +45,15 @@ Este diagrama define la persistencia de la información relacionada con la recep
 *   **Columnas principales:** `supplier`, `fabric_type`, `length`, `status`, `received_date` e `inspection` en los rollos; `tone`, `width`, `length`, `defects_found`, `result` e `inspected_date` en las inspecciones físicas; `batch_id`, `machine_id`, `inspected_date` y `total_inspected` en las inspecciones de calidad; `defect_type`, `quantity`, `origin`, `description` y `registered_date` en los registros de defectos.
 *    **Constraints o Relaciones:** Cada agregado posee su identificador configurado como llave primaria (`PK`). La tabla `fabric_inspection` se relaciona con `fabric_roll` mediante `roll_id`, permitiendo registrar la inspección correspondiente a cada rollo. Por otro lado, `defect_record` utiliza `quality_inspection_id` como llave foránea (`FK`) para asociar cada defecto con la inspección en la que fue registrado. Los atributos `batch_id` y `machine_id` representan referencias mediante identificadores hacia agregados pertenecientes a otros Bounded Contexts, manteniendo el desacoplamiento entre los contextos.
 
+#### 4. Bounded Context: Machine Registry
 
+Este diagrama estructura la persistencia de las máquinas de confección utilizadas por las MYPE textiles, incluyendo su estado operativo, los periodos de inactividad y los mantenimientos realizados.
 
+![Database](../assets/class_diagrams/database_machine.png)
 
+**Explicación del esquema:**
+*   **Tablas:** `machine`, `machine_downtime` y `maintenance_record`, acompañadas por las estructuras correspondientes a los catálogos de tipo, estado, motivo de parada y tipo de mantenimiento.
+*   **Columnas principales:** `code`, `type`, `status`, `location` y `acquired_date` en las máquinas; `machine_id`, `reason`, `start_time`, `end_time` y `duration_minutes` en las paradas; `machine_id`, `technician`, `maintenance_type`, `description` y `performed_date` en los registros de mantenimiento.
+*    **Constraints o Relaciones:** La tabla `machine` utiliza `id` como llave primaria (`PK`) y mantiene una relación de uno a muchos con `machine_downtime` mediante la llave foránea (`FK`) `machine_id`. De manera similar, `maintenance_record` utiliza `machine_id` para registrar los mantenimientos realizados sobre una máquina. Esto permite mantener el historial operativo de cada máquina y registrar tanto sus periodos de inactividad como las actividades de mantenimiento efectuadas.
 
 
