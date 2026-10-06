@@ -34,6 +34,8 @@
 
 15. ¿Qué funcionalidades les gustaría encontrar en una plataforma que les permita gestionar mejor la producción, las máquinas, los lotes y los controles de calidad?
     
+16. ¿Qué dispositivos utilizan con mayor frecuencia en su trabajo (PC, laptop, tablet o celular) y qué navegador suelen utilizar para acceder a páginas o sistemas web?
+    
 **Segmento Objetivo 2: Supervisores y responsables de producción y calidad**
 
 1. ¿Cuál es su función dentro del proceso de producción o control de calidad y cuáles son sus principales responsabilidades?
@@ -82,24 +84,20 @@
 Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
 
 **Resumen de la entrevista:**
-Maribel, encargada de la empresa Creaciones Flores, dedicada a la confección de prendas de vestir como poleras, polos, pantalonetas y shorts, explicó que su proceso productivo inicia con el corte de las telas, continúa con la confección mediante las máquinas y finaliza con la distribución de las prendas a las tiendas.
+Maribel, de 41 años y residente en Lima, es encargada de la empresa Creaciones Flores, dedicada a la confección de prendas de vestir como poleras, polos, pantalonetas y shorts. El proceso productivo de la empresa inicia con el corte de las telas, continúa con la confección mediante máquinas
+y finaliza con la distribución de las prendas hacia las tiendas.
 
-Actualmente, el seguimiento de la producción se realiza principalmente mediante agendas, cuadernos y hojas de cálculo, donde registran la cantidad de prendas producidas y las que salen hacia las tiendas. El mantenimiento de las máquinas se realiza aproximadamente cada seis meses e incluye cambio de aceite y
-revisiones generales. Cuando una máquina presenta una falla, se contacta a un técnico para evitar retrasos en la producción.
+Actualmente, realiza el seguimiento de la producción principalmente mediante agendas, cuadernos y hojas de cálculo, donde registra las cantidades de prendas producidas y las que son enviadas a las tiendas. El mantenimiento de las máquinas se realiza aproximadamente cada seis meses e incluye
+cambios de aceite y revisiones generales. Cuando se presenta una falla, se contacta a un técnico para evitar retrasos en la producción.
 
-Entre los principales problemas identificados se encuentran las fallas en el garfio, motores y agujas, además de problemas ocasionados por una incorrecta manipulación de las máquinas. En cuanto al control de calidad, se cuenta con una persona encargada de revisar las costuras, puntadas y estado de las prendas.
-Los defectos más frecuentes son las telas manchadas y las costuras incorrectas, como puntadas abiertas o demasiado cerradas. Las prendas defectuosas son separadas y no se incluyen en la venta, lo que representa una pérdida económica para la empresa.
+Entre los principales problemas identificados se encuentran las fallas en el garfio, motores y agujas, además de inconvenientes ocasionados por una incorrecta manipulación de las máquinas. Para el control de calidad cuenta con una persona encargada de revisar las costuras, puntadas y estado
+general de las prendas. Los defectos más frecuentes son las telas manchadas y las costuras incorrectas, como puntadas abiertas o demasiado cerradas. Cuando una prenda presenta defectos, es separada y no se incluye en la venta, generando pérdidas económicas.
 
-Una de las principales dificultades es el manejo de grandes cantidades de producción y mercadería, especialmente cuando no se cuenta con suficiente personal para realizar los conteos. Esto puede ocasionar diferencias entre las cantidades registradas y las que finalmente llegan a las tiendas. Para evaluar el
-funcionamiento de la producción, consideran importantes los pedidos y opiniones de los clientes, ya que una buena calidad permite recibir nuevos pedidos y aumentar la producción.
+Maribel señala que una de las principales dificultades se presenta al manejar grandes cantidades de producción y mercadería cuando no se cuenta con suficiente personal para realizar los conteos. Esta situación puede ocasionar diferencias entre las cantidades registradas y las que finalmente
+llegan a las tiendas. Para evaluar el funcionamiento de la producción considera importantes los pedidos y las opiniones de los clientes, debido a que una buena calidad permite recibir nuevos pedidos y aumentar la producción.
 
-Maribel considera que una plataforma digital podría facilitar la gestión de la producción y el control de calidad, siempre que sea sencilla de utilizar. También considera importante contar con información clara y un manual que explique cómo acceder y utilizar correctamente el software dentro del taller.
-
-**Análisis de la entrevista:**
-La entrevista permitió identificar que uno de los principales problemas del taller es el control de la producción cuando se manejan grandes cantidades de prendas y no se cuenta con suficiente personal. El uso de agendas, cuadernos y hojas de cálculo puede generar diferencias entre las cantidades producidas y las
-entregadas a las tiendas. Además, las fallas de las máquinas pueden ocasionar retrasos en la producción, mientras que los defectos de calidad generan reprocesos y pérdidas económicas. Por ello, se evidencia la necesidad de centralizar la información de producción, máquinas y calidad en una herramienta sencilla
-que facilite el seguimiento y permita detectar problemas oportunamente.
-
+Respecto al uso de una plataforma digital, considera que podría facilitar la gestión de la producción y el control de calidad, siempre que sea sencilla de utilizar. También considera importante contar con información clara y un manual que explique cómo acceder y utilizar correctamente el
+software dentro del taller.
 
 **Nombre:** José del Carmen
 **Edad:** 40
