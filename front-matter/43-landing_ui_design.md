@@ -68,9 +68,12 @@ La distribución Desktop mantiene una jerarquía visual clara mediante diferenci
 #### 4.3.2.2. Mobile Web Browser Mock-up
 
 La versión Mobile Web Browser adapta la propuesta visual de Fabric a dispositivos de menor tamaño manteniendo la identidad definida en el Design System. La información se reorganiza principalmente en un flujo vertical para favorecer la lectura, navegación e interacción mediante dispositivos táctiles.
-El encabezado se simplifica mediante un **menú hamburguesa**, conservando el logotipo de Fabric y el selector de idioma. En el Hero se prioriza la propuesta de valor, el botón **“Request a Demo”** y posteriormente la imagen relacionada con el entorno de producción textil.
+El encabezado se simplifica mediante un **menú hamburguesa**, conservando el logotipo de Fabric y el selector de idioma. En el Hero se prioriza la propuesta de valor, el botón **“Start App”** y posteriormente la imagen relacionada con el entorno de producción textil.
 
 
 <div align="center"><img src="../assets/landing_page/mockup-mobile1.png" width="40%"></div>
 <div align="center"><img src="../assets/landing_page/mockup-mobile2.png" width="40%"></div>
 <div align="center"><img src="../assets/landing_page/mockup-mobile3.png" width="40%"></div>
+
+### Link de la web site: 
+https://upc-pre-202620-1asi0730-8150-glitchlab.github.io/Fabric-web-site/
