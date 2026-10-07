@@ -2,5 +2,6 @@
 
 | **Versión** | **Fecha** | **Autor**  |   **Descripción**  |
 | ----------- | --------- |----------- |--------------------|
-| AV1 | 10/09/2026 <br> <br> <br>  12/09/2026| Tello Palacios, Fabrizio Rafael <br> <br> Flores Martinez, Ricardo Andres , Rafael <br> <br> Estupiñan Olortegui, Juan Sebastian |  Creacion de estructura de informe en github  <br> <br> <br>  Correcion de estructura del informe. |
+| AV1 | 10/09/2026 <br> <br> <br>  12/09/2026| Tello Palacios, Fabrizio Rafael <br> <br> Flores Martinez, Ricardo Andres , Rafael <br> <br> Estupiñan Olortegui, Juan Sebastian |  Creacion de estructura de informe en github  <br> <br> <br>  Correcion de estructura del informe. | 
+ TB1 | 30/09/2026 <br> <br> <br> 25/09/2026 | Tello palacios Fabrizio Rafael <br> <br> Reategui Galarcep Diego| Corrección de diagrama C4   <br> <br> <br>    Corrección de componentes c4 y product backlog
 
