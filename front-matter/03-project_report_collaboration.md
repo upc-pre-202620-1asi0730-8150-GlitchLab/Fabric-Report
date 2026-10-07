@@ -22,3 +22,19 @@ La siguiente imagen representa todos los commits realizados en el repositorio a 
 <div align="center">
     <img src="../assets/collaborators/last.png" alt="collaborators insights" witdh="600">
 </div>
+
+# TB1
+
+Para la entrega del Trabajo 1, se procede a mostrar el análisis de colaboración, el cual representa el número de contribuciones realizadas en el repositorio del informe.
+
+<div align="center">
+    <img src="../assets/collaborators/commits_tb1.png" alt="collaborators insights tb1" witdh="600">
+</div>
+
+<br>
+
+La siguiente imagen representa todos los commits realizados en el repositorio a lo largo del mes.
+
+<div align="center">
+    <img src="../assets/collaborators/last_tb1.png" alt="collaborators insights tb1" witdh="600">
+</div>
