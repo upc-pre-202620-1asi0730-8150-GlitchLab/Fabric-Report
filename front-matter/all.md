@@ -1539,10 +1539,10 @@ El wireflow inicia desde el acceso al sistema y continúa hacia el Dashboard, de
 
 ### 4.4.4. Web Applications User Flow Diagrams
 #### User Flow 1: Registro de inspección de tela
-<div align="center"><img src="../assets/landing_page/userflow1.png" width ="100%"></div>
+<div align="center"><img src="../assets/landing_page/UserFlow-1.png" width ="100%"></div>
 
 #### User Flow 2: Consulta de trazabilidad de lote
-<div align="center"><img src="../assets/landing_page/userflow2.png" width ="100%"></div>
+<div align="center"><img src="../assets/landing_page/userflow-2.png" width ="100%"></div>
 
 
 ## 4.5. Web Applications Prototyping

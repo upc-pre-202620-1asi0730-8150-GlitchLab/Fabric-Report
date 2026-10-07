@@ -12,6 +12,7 @@ La estructura de las vistas responde a la arquitectura de información definida 
 https://sl1nk.com/fosw8bt
 
 <div align="center"><img src="../assets/landing_page/wireframes.png" width ="100%"></div>
+<div align="center"><img src="../assets/landing_page/mobile.png" width ="100%"></div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -139,8 +140,148 @@ Además, se consideran criterios de **diseño inclusivo**, como textos legibles,
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-#### User Flow 1: Registro de inspección de tela
-<div align="center"><img src="../assets/landing_page/userflow1.png" width ="100%"></div>
 
-#### User Flow 2: Consulta de trazabilidad de lote
-<div align="center"><img src="../assets/landing_page/userflow2.png" width ="100%"></div>
+Los User Flow Diagrams representan los recorridos que realizan los usuarios para alcanzar los principales objetivos dentro de la aplicación web. Estos diagramas se derivan de los Wireflows definidos previamente y utilizan los mock-ups finales de la aplicación para representar las interfaces involucradas en cada proceso.
+
+---
+
+#### User Flow 1 – Registrar un nuevo lote de producción
+
+**User Persona:** Maribel – Supervisora de Producción
+
+**User Goal:** Registrar un nuevo lote de producción para iniciar su seguimiento dentro del proceso productivo.
+
+<div align="center">
+  <img src="../assets/landing_page/UserFlow-1.png" width="100%">
+</div>
+ 
+El flujo inicia cuando Maribel accede al módulo **Production Batches** y selecciona la opción **Create Batch**. El sistema muestra el formulario de creación, donde se registra la información correspondiente al nuevo lote. Al seleccionar **Create Batch**, el sistema verifica si los datos ingresados son válidos. Si la validación es correcta, el lote se registra y se muestra el mensaje **Batch Created Successfully**.
+**Unhappy Path:**  
+Si durante la validación se detecta información incompleta o incorrecta, el sistema muestra **Invalid Data**. Mediante la opción **Review Fields**, el usuario regresa al formulario para corregir la información y volver a intentar el registro.
+**Condición principal:**  
+La decisión **“Datos válidos?”** determina si el lote puede ser registrado o si el usuario debe corregir los datos ingresados.
+
+
+#### User Flow 2 – Consultar el avance y trazabilidad de un lote
+
+**User Persona:** Maribel – Supervisora de Producción
+
+**User Goal:** Consultar el estado, avance y trazabilidad de un lote para supervisar su progreso durante la producción.
+
+<div align="center">
+  <img src="../assets/landing_page/userflow-2.png" width="100%">
+</div>
+
+**Happy Path:**  
+El flujo inicia en **Production Batches**, donde Maribel busca o selecciona un lote. Si el lote existe, accede a **Batch Detail**, desde donde puede consultar su información y los movimientos registrados. Si existen registros de movimientos, el sistema muestra **Traceability History**, permitiendo revisar el historial del lote durante las diferentes etapas del proceso productivo.
+
+**Unhappy Paths:**  
+El primer flujo alternativo ocurre cuando el lote buscado no existe. En este caso, el sistema muestra **Batch Not Found**. El segundo ocurre cuando el lote existe, pero todavía no cuenta con movimientos registrados; en este escenario se muestra **No Traceability Records Found**.
+
+**Condiciones principales:**  
+La primera decisión verifica **“Does batch exist?”**. Si existe, se continúa con la consulta del lote. Posteriormente, la condición **“Does it have any recorded movements?”** determina si se puede mostrar el historial de trazabilidad.
+
+---
+
+#### User Flow 3 – Asignar operarios a un lote de producción
+
+**User Persona:** Maribel – Supervisora de Producción
+
+**User Goal:** Asignar operarios a un lote de producción para organizar a los responsables de su ejecución.
+
+<div align="center">
+  <img src="../assets/landing_page/userflow3.png" width="100%">
+</div>
+
+**Happy Path:**  
+Maribel accede a **Production Batches**, selecciona el lote correspondiente y visualiza **Batch Detail**. Posteriormente, ingresa a **Batch Operator Assignment**, donde selecciona la etapa productiva y los operarios que serán asignados. Si se seleccionaron correctamente los operarios, el sistema realiza la asignación y muestra **Operators Assigned Successfully**.
+
+**Unhappy Path:**  
+Si se intenta realizar la asignación sin haber seleccionado ningún operario, el sistema no completa la operación y muestra **Unable to Assign Operators**, indicando que se debe seleccionar al menos un operario antes de continuar.
+
+**Condición principal:**  
+La decisión **“Assigning operators?”** verifica que exista una selección válida de operarios antes de confirmar la asignación.
+
+---
+
+#### User Flow 4 – Registrar una inspección de tela
+
+**User Persona:** Betsabé – Encargada de Calidad
+
+**User Goal:** Registrar una inspección de tela para verificar su conformidad antes de ingresar al proceso productivo.
+
+<div align="center">
+  <img src="../assets/landing_page/userflow4.png" width="100%">
+</div>
+
+**Happy Path:**  
+El flujo inicia cuando Betsabé accede al módulo **Quality** y selecciona **Fabric Inspections**. Luego ingresa al formulario de inspección, donde registra la información del rollo y los resultados de la evaluación inicial. El sistema valida la información ingresada y, si es correcta, continúa con la evaluación del resultado de la inspección. Cuando el resultado es **Conforming**, el rollo queda en estado **Available for Cutting**, permitiendo su utilización en producción.
+
+**Unhappy Paths:**  
+Si los datos de la inspección son incorrectos o están incompletos, se muestra **Invalid Inspection Data**, permitiendo revisar los campos antes de guardar. Por otro lado, si los datos son válidos pero el resultado de la inspección determina que el rollo presenta observaciones, este pasa al estado **Roll Blocked from Cutting**, evitando su utilización en lotes de corte.
+
+**Condiciones principales:**  
+La primera condición **“Datos válidos?”** verifica que la información de la inspección sea correcta. Posteriormente, **“Inspection Result?”** determina si el rollo queda disponible para corte o bloqueado.
+
+---
+
+#### User Flow 5 – Registrar y consultar defectos de prendas
+
+**User Persona:** Betsabé – Encargada de Calidad
+
+**User Goal:** Registrar defectos encontrados en las prendas para mantener un control de los problemas de calidad detectados durante la producción.
+
+<div align="center">
+  <img src="../assets/landing_page/userflow5.png" width="100%">
+</div>
+
+**Happy Path:**  
+Betsabé accede al módulo **Quality** y selecciona la sección correspondiente a defectos. Desde esta interfaz ingresa a **Register Garment Defect**, donde registra el lote, tipo de defecto, cantidad afectada, máquina asociada y observaciones. Al seleccionar **Register Defect**, si la operación se ejecuta correctamente, el sistema muestra **Defect Registered**, confirmando que el defecto fue almacenado.
+
+**Unhappy Path:**  
+Si ocurre un problema durante el registro, el sistema muestra **Unable to Register Defect**. Desde esta interfaz el usuario puede seleccionar **Try Again** para regresar al formulario e intentar nuevamente el registro.
+
+**Condición principal:**  
+La decisión **“¿Registro exitoso?”** determina si el defecto fue almacenado correctamente o si se debe volver a intentar la operación.
+
+---
+
+#### User Flow 6 – Consultar el estado de las máquinas y registrar incidencias
+
+**User Persona:** Maribel – Supervisora de Producción
+
+**User Goal:** Consultar el estado de las máquinas y registrar incidencias para identificar problemas que puedan afectar la producción.
+
+<div align="center">
+  <img src="../assets/landing_page/userflow6.png" width="100%">
+</div>
+
+**Happy Path:**  
+El flujo comienza cuando Maribel accede al módulo **Machinery** y selecciona una máquina para visualizar **Machine Detail**. Desde esta pantalla accede a **Report Machine Breakdown**, donde registra la información relacionada con la avería. Si el reporte se registra correctamente, el sistema muestra **Breakdown Reported Successfully** y actualiza el estado de la máquina a **In Maintenance**.
+
+**Unhappy Path:**  
+Si ocurre un error durante el registro de la avería, el sistema muestra **Unable to Report Breakdown**. El usuario puede seleccionar **Try Again** para regresar al formulario y volver a intentar el registro.
+
+**Condición principal:**  
+La decisión **“¿Reporte registrado?”** verifica si la incidencia pudo almacenarse correctamente. Un resultado positivo actualiza el estado de la máquina, mientras que un resultado negativo permite volver a intentar la operación.
+
+---
+
+#### User Flow 7 – Consultar indicadores y alertas
+
+**User Persona:** Maribel – Supervisora de Producción / Betsabé – Encargada de Calidad
+
+**User Goal:** Consultar indicadores y alertas para identificar desviaciones en la producción y calidad que requieran atención.
+
+<div align="center">
+  <img src="../assets/landing_page/userflow7.png" width="100%">
+</div>
+
+**Happy Path:**  
+El flujo inicia en el **Dashboard**, donde el usuario puede visualizar los principales indicadores relacionados con la producción. Posteriormente, accede al módulo **Alerts**, donde se muestran las alertas generadas por el sistema. Si se encuentra una alerta relacionada con los criterios seleccionados, se muestra **Alert Found** y el usuario puede seleccionar **Review Alert** para acceder a **Alert Detail**, donde consulta información detallada sobre la situación detectada.
+
+**Unhappy Path:**  
+Si no existen alertas que coincidan con los criterios o filtros utilizados, el sistema muestra **No Alerts Found**. Desde esta interfaz el usuario puede seleccionar **Clear Filters** para eliminar los filtros aplicados y regresar a la consulta de alertas.
+
+**Condición principal:**  
+La decisión **“Alert found?”** determina si el sistema muestra el detalle de una alerta encontrada o informa que no existen resultados para los criterios seleccionados.
