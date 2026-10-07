@@ -2,6 +2,5 @@
 
 | **Versión** | **Fecha** | **Autor**  |   **Descripción**  |
 | ----------- | --------- |----------- |--------------------|
-| AV1 | 10/09/2026 <br> <br> <br>  12/09/2026| Tello Palacios, Fabrizio Rafael <br> <br> Flores Martinez, Ricardo Andres , Rafael <br> <br> Estupiñan Olortegui, Juan Sebastian |  Creacion de estructura de informe en github  <br> <br> <br>  Correcion de estructura del informe. | 
- TB1 | 30/09/2026 <br> <br> <br> 25/09/2026 | Tello palacios Fabrizio Rafael <br> <br> Reategui Galarcep Diego| Corrección de diagrama C4   <br> <br> <br>    Corrección de componentes c4 y product backlog
-
+| AV1 | 10/09/2026 <br> <br> <br>  12/09/2026| Tello Palacios, Fabrizio Rafael <br> <br> Flores Martinez, Ricardo Andres , Rafael <br> <br> Estupiñan Olortegui, Juan Sebastian <br> <br> Silva Hualpa, Rosangela Karen |  Creacion de estructura de informe en github  <br> <br> <br>  Correcion de estructura del informe. |
+| TB1 | 06/10/2026 | Tello Palacios, Fabrizio Rafael <br><br> Flores Martinez, Ricardo Andres <br><br> Estupiñan Olortegui, Juan Sebastian <br><br> Silva Hualpa, Rosangela Karen | Desarrollo de los entregables correspondientes a la TB1. Implementación del frontend de Fabric organizado según los Bounded Contexts definidos para la solución, incluyendo sus principales vistas, componentes y funcionalidades. Desarrollo y actualización de Wireframes, Wireflows, Mock-ups, User Flow Diagrams y prototipos de interacción para Desktop y Mobile Web Browser. Asimismo, se actualizó la documentación UX/UI y se realizaron correcciones y mejoras generales al informe y al proyecto. |
