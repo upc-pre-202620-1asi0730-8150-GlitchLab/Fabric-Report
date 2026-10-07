@@ -4,10 +4,10 @@ Para construir este mapa, se definieron metas de negocio bajo criterios SMART en
 Con estas metas, se estructuró el mapa identificando actores clave, correspondientes a nuestros User Personas: Maribel y Betsabé, cuyo desempeño contribuye al logro de los objetivos. Asimismo, se delimitaron los impactos esperados en el flujo de trabajo, los entregables funcionales que provee el sistema para materializar las mejoras y las User Stories bajo el formato “Como... quiero... para...
 ### User Persona 1: Maribel
 <p align = "left">
-  <img src="../assets/impact_mapping/3.2. Impact Mapping - Maribel.png">
+  <img src="../assets/impact_mapping/3.2. Impact Mapping - Maribel.jpg">
 </p>
 
 ### User Persona 2: Betsabé
 <p align = "left">
-  <img src="../assets/impact_mapping/3.2. Impact Mapping - Betsabe.png">
+  <img src="../assets/impact_mapping/3.2. Impact Mapping - Betsabe.jpg">
 </p>
