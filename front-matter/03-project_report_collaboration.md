@@ -22,3 +22,10 @@ La siguiente imagen representa todos los commits realizados en el repositorio a 
 <div align="center">
     <img src="../assets/collaborators/last.png" alt="collaborators insights" witdh="600">
 </div>
+
+<br>
+<br>
+
+# Trabajo Parcial (TB1)
+
+
