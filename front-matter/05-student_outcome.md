@@ -22,3 +22,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Reátegui Galarcep, Diego Sebastián  | U20201F165 |
 | Estupiñan Olortegui, Juan Sebastian | U202223405 |
 | Silva Hualpa, Rosangela Karen       | U20241B885 |
+
+
+</div>

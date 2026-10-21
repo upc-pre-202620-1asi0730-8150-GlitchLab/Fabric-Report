@@ -2,7 +2,7 @@
 
 ### 5.2.1. Sprint 1
 
-Para este primer sprint, nos enfocamos en organizar los requsiitos funcionales de la Landing Page. Con el fin de poder asignar a cada miembro del equipo de a 1 a 3 requisitos funcionales para el desarrollo de la landing page.
+Para este primer sprint, nos enfocamos en organizar los requisitos funcionales de la Landing Page. Con el fin de poder asignar a cada miembro del equipo de a 1 a 3 requisitos funcionales para el desarrollo de la landing page.
 
 #### 5.2.1.1. Sprint Planning 1
 
@@ -16,9 +16,9 @@ Durante esta iteración, la reunión de Sprint Planning nos sirve para revisar l
 | Location | Google meet |
 | Prepared By | Tello Palacios, Fabrizio Rafael |
 | Attendees (to planning meeting) | Silva Hualpa, Rosángela Karen / Flores Martinez, Ricardo Andres / Estupiñan Olortegui, Juan Sebastián / Reátegui Galarcep, Diego Sebastián / Tello Palacios, Fabrizio Rafael |
-| Sprint 1  Review Summary | Como se trata del primer sprint del proyecto, no se cuenta con una revisión de una iteración previa. El equipo arrancó a partir de la aprobación del Product Backlog inicial, centrándose en las Historias de Usuario de mayor prioridad, vinculadas al registro de empresas (Enterprise), la configuración de planes y los aspectos de seguridad. |
-| Sprint 1  Retrospective Summary | Al tratarse también del arranque del proyecto, se definieron las pautas de trabajo del equipo: reuniones de seguimiento diarias (Daily Stand-ups) a través de Meet, el uso de herramientas ágiles para el control de tareas, y la importancia de mantener una comunicación constante para evitar bloqueos técnicos durante el desarrollo del backend. |
-| Sprint 1 Goal |Nuestro objetivo es dar a conocer la propuesta de valor de la plataforma a quienes visitan la Landing Page. Consideramos que esto dará como resultado una Landing Page atractiva, con información real que capte el interés de los visitantes. Sabremos que lo logramos cuando los visitantes exploren la Landing Page y muestren interés en suscribirse haciendo clic en el botón de Acceso al Dashboard, incluso si este aún no es funcional. |
+| Sprint 0 Review Summary | Como se trata del primer sprint del proyecto, no se cuenta con una revisión de una iteración previa. El equipo arrancó a partir de la aprobación del Product Backlog inicial, centrándose en las User Stories de mayor prioridad vinculadas a la Landing Page: propuesta de valor, funcionalidades, beneficios, segmentos objetivo e internacionalización. |
+| Sprint 0 Retrospective Summary | Al tratarse también del arranque del proyecto, se definieron las pautas de trabajo del equipo: reuniones de seguimiento diarias (Daily Stand-ups) a través de Meet, el uso de Trello para el control de tareas en los estados To Do, In Process, To Review y Done, y la importancia de mantener una comunicación constante para evitar bloqueos durante el desarrollo de la Landing Page. |
+| Sprint 1 Goal | Nuestro enfoque está en desarrollar y desplegar la Landing Page de Fabric, comunicando la propuesta de valor, funcionalidades, beneficios y segmentos objetivo, con diseño responsive y soporte en inglés y español. Creemos que esto permitirá que dueños de MYPE, supervisores de producción y encargados de calidad del sector textil comprendan rápidamente cómo Fabric les ayuda a controlar su producción y calidad. Esto se confirmará cuando los visitantes naveguen por las secciones de la Landing Page desplegada en GitHub Pages, cambien de idioma sin errores y hagan clic en el botón "Start App" para acceder a la aplicación. |
 | Sprint 1 Velocity | El equipo ha establecido un Velocity de 30 Story Points, que representa la capacidad máxima de esfuerzo que los developers pueden aceptar de manera realista para este Sprint 1. |
 | Sum of Story Points | 27 |
 
@@ -41,17 +41,42 @@ En esta sección el equipo presenta el artefacto Leadership-and-Collaboration Ma
 
 #### 5.2.1.3. Sprint Backlog 1
 
-Nuestro objetivo para este primer sprint fue el desarrollar la Landing Page para Fabric, nuestra intención es comunicar a los visitantes nuestra propuesta de valor de manera simple y precisa. 
+Nuestro objetivo para este primer sprint fue desarrollar la Landing Page de Fabric, con la intención de comunicar a los visitantes nuestra propuesta de valor de manera simple y precisa. Para ello, las User Stories seleccionadas se descompusieron en Engineering Tasks estimadas entre 4 y 8 horas, con responsable asignado y estado. El seguimiento de las tareas se realizó en Trello mediante los estados To Do, In Process, To Review y Done.
 
-Durante este sprint, se trabajaron las funciones mas escenciales para cumplir con el propósito de landing page.
+| Sprint # | Sprint 1 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US021 | Visualización de Hero Section | T-01 | Maquetación del Hero Section | Implementar la sección Hero con titular, subtítulo, imagen representativa y botón CTA "Start App", con diseño responsive. | 4 | Estupiñan Olortegui, Juan Sebastian | Done |
+| US022 | Visualización de la propuesta de valor general | T-02 | Sección de propuesta de valor | Maquetar el bloque que explica el problema que resuelve Fabric y a quién está dirigida la solución, aplicando la style guide. | 4 | Silva Hualpa, Rosangela Karen | Done |
+| US023 | Visualización de funcionalidades | T-03 | Cards de funcionalidades | Desarrollar el grid de cards con íconos y descripción de los módulos de Fabric (lotes, calidad, máquinas, alertas). | 5 | Reátegui Galarcep, Diego Sebastián | Done |
+| US024 | Visualización de beneficios | T-04 | Sección de beneficios | Maquetar la sección de beneficios con íconos y textos orientados a la gestión de una empresa textil. | 4 | Flores Martinez, Ricardo Andres | Done |
+| US025 | Navegación por la Landing Page | T-05 | Navbar responsive | Implementar barra de navegación con scroll suave hacia cada sección y menú hamburguesa en dispositivos móviles. | 5 | Tello Palacios, Fabrizio Rafael | Done |
+| US026 | Visualización del equipo | T-06 | Sección del equipo | Maquetar las cards de los integrantes del equipo con foto, nombre y rol. | 4 | Flores Martinez, Ricardo Andres | Done |
+| US028 | Acceso a Términos y Condiciones | T-07 | Vista de Términos y Condiciones | Crear la vista de Términos y Condiciones y enlazarla desde el footer de la Landing Page. | 4 | Silva Hualpa, Rosangela Karen | Done |
+| US031 | Visualización de la Landing Page para el segmento supervisores de producción | T-08 | Bloque del segmento supervisores | Maquetar el bloque que muestra cómo Fabric facilita el seguimiento de lotes y la detección de retrasos. | 4 | Reátegui Galarcep, Diego Sebastián | Done |
+| US032 | Visualización de la Landing Page para el segmento encargados de calidad | T-09 | Bloque del segmento encargados de calidad | Maquetar el bloque que muestra el registro de inspecciones y la identificación de defectos. | 4 | Flores Martinez, Ricardo Andres | Done |
+| US033 | Visualización de la Landing Page para el segmento dueños de MYPE | T-10 | Bloque del segmento dueños de MYPE | Maquetar el bloque que muestra la reducción de costos operativos y la mejora en la toma de decisiones. | 4 | Estupiñan Olortegui, Juan Sebastian | Done |
+| US035 | Visualización de video about the product | T-11 | Sección de video del producto | Embeber el video demostrativo de Fabric de forma responsive con portada y controles de reproducción. | 4 | Tello Palacios, Fabrizio Rafael | Done |
+| US036 | Soporte de internacionalización | T-12 | Arquitectura i18n | Configurar la estructura de internacionalización con archivos de recursos en/es, inglés por defecto y selector de idioma en la navbar. | 8 | Tello Palacios, Fabrizio Rafael | Done |
+|  |  | T-13 | Traducción de contenidos | Traducir y revisar todos los textos de la Landing Page al español y validar el cambio de idioma en todas las secciones. | 4 | Flores Martinez, Ricardo Andres | Done |
+|  |  | T-14 | Despliegue en GitHub Pages | Configurar el despliegue de la Landing Page en GitHub Pages desde la rama main y verificar el funcionamiento en producción. | 4 | Estupiñan Olortegui, Juan Sebastian | Done |
+
+A continuación se muestra el tablero de Trello utilizado para el seguimiento de las tareas del Sprint 1:
 
 <div align="center">
-    <img src="../assets/environments/sprint1.png" alt="alterno 1">
+    <img src="../assets/environments/sprint1.png" alt="Tablero Trello Sprint 1">
 </div>
 
-#### 5.2.1.1. Sprint Planning 2
+Link del tablero de Trello: <!-- TODO: pegar link del tablero de Trello -->
 
-Durante la sesión de planificación del Sprint 2, el equipo evaluó los resultados y lecciones aprendidas de la entrega inicial para dimensionar adecuadamente la capacidad de trabajo y abordar la implementación de la lógica de negocio y persistencia de datos. Se desglosaron y estimaron las User Stories de mayor valor técnico y funcional según el Product Backlog.
+### 5.2.2. Sprint 2
+
+Para el segundo sprint, el equipo se enfocó en construir el frontend de la aplicación web de Fabric con Vue, implementando las funcionalidades core del negocio en los bounded contexts de Production Tracking, Quality Management y Machine Registry, consumiendo una API simulada con json-server.
+
+#### 5.2.2.1. Sprint Planning 2
+
+Durante la sesión de planificación del Sprint 2, el equipo evaluó los resultados y lecciones aprendidas del Sprint 1 para dimensionar adecuadamente la capacidad de trabajo. Se priorizaron las User Stories core del negocio según el orden del Product Backlog (gestión de lotes de producción, control de calidad de tela y prendas, y gestión de paradas de máquinas), las cuales se implementaron en el frontend de la aplicación web.
 
 | Campo / Sección | Detalle |
 | :--- | :--- |
@@ -61,70 +86,65 @@ Durante la sesión de planificación del Sprint 2, el equipo evaluó los resulta
 | Location | Discord |
 | Prepared By | Tello Palacios, Fabrizio Rafael |
 | Attendees (to planning meeting) | Silva Hualpa, Rosángela Karen / Flores Martinez, Ricardo Andres / Estupiñan Olortegui, Juan Sebastián / Reátegui Galarcep, Diego Sebastián / Tello Palacios, Fabrizio Rafael |
-| Sprint 2  Review Summary | Durante el Sprint 1 se concluyó con éxito el diseño, desarrollo y despliegue continuo de la Landing Page pública de Fabric en GitHub Pages, implementando arquitectura i18n, diseño responsive y componentes visuales basados en la style guidelines. El Product Owner validó la presentación de la propuesta de valor dirigida a las MYPE textiles. Se completaron 27 Story Points de los 30 planificados; las observaciones menores sobre ajuste de padding en pantallas ultra-anchas fueron solventadas en la rama develop. |
-| Sprint 2  Retrospective Summary | En el Sprint 1 se identificó como acierto la rápida coordinación del prototipo en Figma y el uso de Gitflow y Commits. Como oportunidades de mejora clave, se detectó que la integración de ramas feature a develop se concentró hacia el final de la iteración, generando cuellos de botella al resolver merge conflicts. Para el Sprint 2 se acordó desglosar tareas técnicas más granulares, implementar pull requests con revisión de código obligatoria entre pares y realizar reuniones de sincronización interdiarias para destrabar dependencias de backend/frontend. |
-| Sprint 2 Goal | Implementar la arquitectura base y el núcleo funcional de la aplicación web de Fabric, cubriendo la autenticación segura por roles, Production Batch Tracking, Quality Inspection y el registro operativo de máquinas. La métrica de cumplimiento es lograr el 100% de los endpoints REST documentados y probados, la persistencia relacional configurada sin fallas y los flujos de interfaz web conectados permitiendo crear un lote de producción y registrar una inspección de tela sin errores. |
-| Sprint 2 Velocity | 32 |
-| Sum of Story Points | 32 |
+| Sprint 1 Review Summary | Durante el Sprint 1 se concluyó con éxito el diseño, desarrollo y despliegue continuo de la Landing Page pública de Fabric en GitHub Pages, implementando arquitectura i18n, diseño responsive y componentes visuales basados en la style guidelines. El Product Owner validó la presentación de la propuesta de valor dirigida a las MYPE textiles. Se completaron 27 Story Points de los 30 planificados; las observaciones menores sobre ajuste de padding en pantallas ultra-anchas fueron solventadas en la rama develop. |
+| Sprint 1 Retrospective Summary | En el Sprint 1 se identificó como acierto la rápida coordinación del prototipo en Figma y el uso de GitFlow y Conventional Commits. Como oportunidad de mejora se detectó que la integración de ramas feature a develop se concentró hacia el final de la iteración, generando merge conflicts. Para el Sprint 2 se acordó descomponer las User Stories en tareas más granulares, realizar pull requests con revisión de código entre pares y sincronizar avances de forma interdiaria. |
+| Sprint 2 Goal | Nuestro enfoque está en implementar el frontend de la aplicación web de Fabric con las funcionalidades core del negocio: creación y seguimiento de lotes de producción por etapas, asignación de operarios, inspección de rollos de tela, pruebas de encogimiento, registro y destino de defectos en prendas, y reporte de paradas de máquinas, consumiendo una API simulada con json-server. Creemos que esto permitirá que supervisores de producción y encargados de calidad registren y consulten la información de su planta desde una interfaz clara e intuitiva. Esto se confirmará cuando un usuario pueda crear un lote, avanzarlo de etapa, registrar una inspección de tela y reportar la avería de una máquina desde la aplicación, visualizando los datos persistidos en la API simulada. |
+| Sprint 2 Velocity | El equipo estableció un Velocity de 32 Story Points para este Sprint 2. |
+| Sum of Story Points | 31 |
 
 <br>
 
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.2.2. Aspect Leaders and Collaborators
 
-A continuación se presenta la matriz Leadership-and-Collaboration Matrix (LACX) para el Sprint 2 de Fabric. En esta iteración de desarrollo de software, se definieron cinco aspectos clave del proyecto, asignando un rol de Liderazgo y Colaboración a cada miembro del equipo para asegurar la trazabilidad y la responsabilidad:
+A continuación se presenta la matriz Leadership-and-Collaboration Matrix (LACX) para el Sprint 2 de Fabric. En esta iteración se definieron cinco aspectos clave del frontend de la aplicación web, asignando un rol de Liderazgo (L) y Colaboración (C) a cada miembro del equipo para asegurar la trazabilidad y la responsabilidad:
 
-| Team Member (Last Name, First Name) | GitHub Username | Backend & REST API (Spring Boot / DDD) | Frontend Web App (UI / Components) | Database & Persistence (SQL / Migrations) | Testing & Software Quality |
-|------------------------------------|----------------|-------------|-------------|--------------|----------|
-| Tello Palacios, Fabrizio Rafael | F4bris | C | L | C | C |
-| Flores Martinez, Ricardo Andres | Nitoryu28 | L | C | C | C |
-| Estupiñan Olortegui, Juan Sebastián	 | JuanSEstupinan | C | C | L | C |
-| Reátegui Galarcep, Diego Sebastián | Diego201101 | C | C | C | L |
-| Silva Hualpa, Rosangela Karen | amazcofee2-spec | C | C | C | C |
+| Team Member (Last Name, First Name) | GitHub Username | Production Tracking (UI) | Quality Management (UI) | Machine Registry (UI) | Shared / Fake API (Router, Layout, json-server) | Testing & Documentation |
+|------------------------------------|----------------|-------------|-------------|--------------|----------|----------|
+| Tello Palacios, Fabrizio Rafael | F4bris | C | C | C | L | C |
+| Flores Martinez, Ricardo Andres | Nitoryu28 | C | C | C | C | L |
+| Estupiñan Olortegui, Juan Sebastián | JuanSEstupinan | L | C | C | C | C |
+| Reátegui Galarcep, Diego Sebastián | Diego201101 | C | C | L | C | C |
+| Silva Hualpa, Rosangela Karen | amazcofee2-spec | C | L | C | C | C |
 
-#### 5.2.1.3. Sprint Backlog 2
+#### 5.2.2.3. Sprint Backlog 2
 
-Para el Sprint 2 se seleccionaron 11 User Stories prioritarias del Product Backlog, totalizando 32 Story Points, las cuales fueron desglosadas en tareas de ingeniería de software con estimación en horas, responsable asignado y estado: 
+Para el Sprint 2 se seleccionaron 9 User Stories core del negocio del Product Backlog, totalizando 31 Story Points. El trabajo se centró exclusivamente en el frontend de la aplicación web desarrollado en Vue, consumiendo una API simulada con json-server. Las User Stories fueron descompuestas en Engineering Tasks estimadas entre 4 y 8 horas, con responsable asignado y estado. El seguimiento de las tareas se realizó en Jira mediante los estados To Do, In Process, To Review y Done.
 
 | Sprint # | Sprint 2 | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
 | **User Story** | | **Work-Item / Task** | | | | | |
 | **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| US001 | Creación y asignación de ID a lote de producción | T-01 | Agregado `ProductionBatch` en DDD | Modelar en Java el Aggregate Root `ProductionBatch` con Value Objects `BatchId`, `Model`, `Quantity` y estado `PendingCut`. | 6 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-02 | Persistencia de `lotes_produccion` | Crear migración de base de datos para la tabla `lotes_produccion` y función de generación de ID único con prefijo anual. | 4 | Reátegui Galarcep, Diego Sebastián | Done |
-| | | T-03 | Endpoint `POST /api/v1/batches` | Implementar `BatchController` y servicio para persistir nuevos lotes validando campos requeridos (modelo, cantidad, entrega). | 5 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-04 | Interfaz de creación de lote | Construir formulario modal para crear lotes de confección con selección de fechas e ingreso de modelo de prenda. | 6 | Tello Palacios, Fabrizio Rafael | Done |
-| | | T-05 | Pruebas de validación de lote | Realizar tests de integración verificando rechazo ante campos incompletos y generación correcta del ID de lote. | 3 | Flores Martinez, Ricardo Andres | Done |
-| US002 | Actualización y transición de etapas operativas del lote | T-06 | Lógica de transiciones y `LotMovement` | Implementar entidad `LotMovement` y reglas de cambio de etapa (`Corte`, `Confección`, `Acabado`, `Completado`). | 6 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-07 | Endpoint `PUT /api/v1/batches/{id}/stage` | Exponer endpoint para registrar transiciones verificando que la cantidad procesada no supere a la de la etapa previa. | 5 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-08 | Componente visual de transición de etapas | Desarrollar stepper interactivo con badges de estado que reflejen el avance operativo del lote en planta. | 5 | Tello Palacios, Fabrizio Rafael | Done |
-| | | T-09 | Pruebas de consistencia de cantidades | Validar mediante pruebas automatizadas que el sistema bloquee transiciones con exceso de prendas respecto al paso previo. | 3 | Flores Martinez, Ricardo Andres | Done |
-| US003 | Registro e inspección inicial de rollos de tela entrantes | T-10 | Agregado `FabricRoll` y persistencia | Implementar Aggregate Root `FabricRoll` y tabla `rollos_tela` con campos de metraje, proveedor, tono y estado inicial. | 4 | Reátegui Galarcep, Diego Sebastián | Done |
-| | | T-11 | Endpoint de recepción de tela | Implementar `POST /api/v1/fabric-rolls` permitiendo calificar el rollo como "Disponible para Corte" u "Observado". | 4 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-12 | Pantalla de inspección de tela | Diseñar vista de control de calidad de tela entrante con formulario para registrar metros, proveedor y observaciones. | 4 | Tello Palacios, Fabrizio Rafael | Done |
-| | | T-13 | Verificación de bloqueo de rollo | Probar que los rollos marcados como observados queden bloqueados e inaccesibles para el proceso de corte. | 2 | Flores Martinez, Ricardo Andres | Done |
-| US004 | Registro de prueba de encogimiento y lavado de muestra de tela | T-14 | Cálculo de encogimiento en backend | Implementar regla de negocio de encogimiento: marcar conforme si variación ≤ 5% y "No Conforme" si supera el umbral. | 3 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-15 | Endpoint `POST /api/v1/fabric-rolls/{id}/shrinkage` | Crear servicio para almacenar dimensiones antes y después del lavado de la probeta textil asociadas al rollo. | 3 | Silva Hualpa, Rosangela Karen | Done |
-| | | T-16 | Formulario de prueba de lavado | Crear interfaz interactiva con cálculo automático del porcentaje de variación de urdimbre y trama en tiempo real. | 3 | Tello Palacios, Fabrizio Rafael | Done |
-| US007 | Reporte de averías e interrupción operativa de máquinas de confección | T-17 | Agregado `Machine` y tabla `maquinas` | Modelar entidad `Machine` y tabla `eventos_maquinas` con tipos (recta, remalladora, recubridora) y estado operativo. | 3 | Reátegui Galarcep, Diego Sebastián | Done |
-| | | T-18 | Endpoint de reporte de avería | Crear `POST /api/v1/machines/{id}/downtimes` que cambia el estado a "En Mantenimiento" e inicia el tiempo muerto. | 4 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-19 | Botón y modal de reporte de paro | Diseñar componente en frontend para reportar paradas mecánicas seleccionando tipo de falla (aguja, motor, tensión). | 3 | Tello Palacios, Fabrizio Rafael | Done |
-| US008 | Reanudación de operatividad y registro del tiempo muerto de máquina | T-20 | Lógica de cierre de tiempo muerto | Implementar método `ResumeOperation()` en el modelo de dominio para calcular duración exacta en minutos del paro técnico. | 4 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-21 | Endpoint `PUT /api/v1/machines/{id}/resume` | Exponer endpoint para registrar solución técnica aplicada, repuestos y cambiar estado de máquina a "Operativa". | 3 | Silva Hualpa, Rosangela Karen | Done |
-| | | T-22 | UI de reanudación y tiempo acumulado | Desarrollar modal de fin de intervención y tarjeta de visualización de minutos inactivos acumulados por máquina. | 3 | Tello Palacios, Fabrizio Rafael | Done |
-| | | T-23 | Pruebas de cálculo de tiempo muerto | Ejecutar pruebas unitarias que garanticen el cálculo exacto de tiempos muertos entre fecha de inicio y fin de avería. | 3 | Flores Martinez, Ricardo Andres | Done |
-| US040 | Asignación de operarios a lotes de producción | T-24 | Tabla `asignaciones_operario_lote` | Diseñar la estructura de base de datos para la relación de operarios y lotes, vinculando ID de lote, operario y etapa. | 3 | Reátegui Galarcep, Diego Sebastián | Done |
-| | | T-25 | Endpoint de asignación de operarios | Crear `POST /api/v1/batches/{id}/operators` validando que un operario no sea duplicado en la misma etapa del lote. | 3 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-26 | Modal de asignación de personal | Desarrollar selector de operarios en la vista de detalle de lote permitiendo asignar personal por etapa de costura. | 3 | Tello Palacios, Fabrizio Rafael | Done |
-| US037 | Registro de nuevo usuario en la aplicación | T-27 | Modelado de entidad User y tabla `usuarios` | Crear la entidad JPA `User`, Value Objects y tabla relacional `usuarios` con hash BCrypt y roles (`Supervisor`, `Calidad`, `Admin`). | 4 | Reátegui Galarcep, Diego Sebastián | Done |
-| | | T-28 | Endpoint de registro de usuarios | Implementar `POST /api/v1/auth/register` en `AuthController` con validaciones de email único y fortaleza de contraseña. | 5 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-29 | Pantalla de registro de usuario | Desarrollar vista de registro en frontend con validación reactiva de formularios y feedback visual de errores. | 5 | Tello Palacios, Fabrizio Rafael | Done |
-| | | T-30 | Pruebas de integración de registro | Diseñar pruebas de integración para validar el registro exitoso, rechazo por correo duplicado y contraseña débil. | 3 | Flores Martinez, Ricardo Andres | Done |
-| US038 | Inicio de sesión de usuario registrado | T-31 | Implementación de seguridad y JWT | Configurar Spring Security, `JwtTokenProvider` y filtro de autenticación para generar token en `POST /api/v1/auth/login`. | 6 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-32 | Vista de Login y sesión frontend | Construir la vista de Login conectada al servicio de autenticación y almacenar el token en el cliente de forma segura. | 4 | Tello Palacios, Fabrizio Rafael | Done |
-| | | T-33 | Validación de intentos fallidos | Implementar control en backend y UI para bloquear temporalmente el acceso tras 5 intentos fallidos consecutivos. | 3 | Flores Martinez, Ricardo Andres | Done |
-| US043 | Actualización de datos del perfil del usuario | T-34 | Endpoint de perfil de usuario | Implementar `PUT /api/v1/users/{id}` para actualizar nombre y teléfono, restringiendo la edición de roles a usuarios no admin. | 3 | Estupiñan Olortegui, Juan Sebastian | Done |
-| | | T-35 | Formulario de perfil de usuario | Maquetar pantalla de perfil en frontend con precarga de datos actuales y validación de formato numérico de teléfono. | 3 | Tello Palacios, Fabrizio Rafael | Done |
-| | | T-36 | Pruebas de permisos de perfil | Ejecutar pruebas unitarias para asegurar que usuarios regulares no puedan autoasignarse rol de administrador. | 2 | Flores Martinez, Ricardo Andres | Done |
-| US039 | Cierre de sesión de usuario autenticado | T-37 | Mecanismo de Logout | Crear lógica de invalidación y limpieza de token en el almacenamiento local del cliente y control en backend. | 2 | Silva Hualpa, Rosangela Karen | Done |
-| | | T-38 | Protección de rutas (Route Guards) | Configurar guardias de navegación en frontend para impedir el acceso a vistas del sistema sin un token activo. | 2 | Tello Palacios, Fabrizio Rafael | Done |
+| US001 | Creación y asignación de ID a lote de producción | T-01 | Configuración de rutas y layout | Configurar Vue Router con las rutas de los bounded contexts y el layout principal con sidebar y toolbar de la aplicación. | 5 | Estupiñan Olortegui, Juan Sebastian | Done |
+|  |  | T-02 | Entidad `ProductionBatch` y assembler | Implementar la entidad `ProductionBatch` en la capa de dominio y su assembler para transformar las respuestas de la API simulada. | 4 | Estupiñan Olortegui, Juan Sebastian | Done |
+|  |  | T-03 | Servicio API de lotes con json-server | Crear la colección `batches` en `db.json` y el servicio `BatchesApi` con operaciones GET y POST mediante Axios. | 4 | Estupiñan Olortegui, Juan Sebastian | Done |
+|  |  | T-04 | Vista de creación de lote | Construir formulario de creación de lote (modelo de prenda, cantidad proyectada, fecha de entrega y ficha técnica) con validaciones y generación de ID con prefijo anual. | 6 | Tello Palacios, Fabrizio Rafael | Done |
+|  |  | T-05 | Listado de lotes de producción | Desarrollar la vista de listado de lotes con estado, cantidad y fecha de entrega, y navegación al detalle del lote. | 4 | Flores Martinez, Ricardo Andres | Done |
+| US002 | Actualización y transición de etapas operativas del lote | T-06 | Reglas de transición de etapas | Implementar en la entidad del lote la lógica de transición (Corte, Confección, Acabado, Completado) validando que la cantidad procesada no supere la de la etapa previa. | 5 | Estupiñan Olortegui, Juan Sebastian | Done |
+|  |  | T-07 | Stepper de etapas en detalle de lote | Desarrollar componente stepper con badges de estado que muestre el avance del lote y permita registrar el cambio de etapa. | 6 | Tello Palacios, Fabrizio Rafael | Done |
+|  |  | T-08 | Historial de movimientos del lote | Registrar cada transición como `LotMovement` en la API simulada y mostrar el historial de movimientos en el detalle del lote. | 4 | Flores Martinez, Ricardo Andres | Done |
+| US040 | Asignación de operarios a lotes de producción | T-09 | Modal de asignación de operarios | Desarrollar modal para asignar operarios por etapa del lote, validando que un operario no se duplique en la misma etapa. | 5 | Reátegui Galarcep, Diego Sebastián | Done |
+| US003 | Registro e inspección inicial de rollos de tela entrantes | T-10 | Entidad `FabricRoll` y servicio API | Implementar la entidad `FabricRoll`, la colección `fabric-rolls` en `db.json` y su servicio API. | 4 | Silva Hualpa, Rosangela Karen | Done |
+|  |  | T-11 | Vista de recepción e inspección de rollos | Construir vista para registrar metraje, proveedor, tono y observaciones del rollo, calificándolo como "Disponible para Corte" u "Observado". | 6 | Silva Hualpa, Rosangela Karen | Done |
+| US004 | Registro de prueba de encogimiento y lavado de muestra de tela | T-12 | Formulario de prueba de encogimiento | Crear formulario con cálculo automático del porcentaje de variación de urdimbre y trama, marcando "Conforme" si es ≤ 5% y "No Conforme" si lo supera. | 6 | Flores Martinez, Ricardo Andres | Done |
+| US005 | Registro y clasificación de defectos en prendas confeccionadas | T-13 | Entidad `Defect` y servicio API | Implementar la entidad `Defect` con tipo, severidad y cantidad, la colección `defects` en `db.json` y su servicio API. | 4 | Silva Hualpa, Rosangela Karen | Done |
+|  |  | T-14 | Vista de registro y clasificación de defectos | Desarrollar la vista para registrar defectos por lote y clasificarlos por tipo y severidad, con listado y filtros básicos. | 6 | Tello Palacios, Fabrizio Rafael | Done |
+| US006 | Destino de prendas defectuosas a reproceso o merma definitiva | T-15 | Flujo de destino de prendas defectuosas | Implementar acción para enviar prendas defectuosas a reproceso o merma definitiva, actualizando las cantidades del lote en la API simulada. | 5 | Flores Martinez, Ricardo Andres | Done |
+| US007 | Reporte de averías e interrupción operativa de máquinas de confección | T-16 | Entidad `Machine` y listado de máquinas | Implementar la entidad `Machine`, la colección `machines` en `db.json` y la vista de listado con tipo y estado operativo. | 5 | Reátegui Galarcep, Diego Sebastián | Done |
+|  |  | T-17 | Modal de reporte de avería | Desarrollar modal para reportar la parada de una máquina seleccionando tipo de falla (aguja, motor, tensión) y cambiar su estado a "En Mantenimiento". | 4 | Reátegui Galarcep, Diego Sebastián | Done |
+| US008 | Reanudación de operatividad y registro del tiempo muerto de máquina | T-18 | Reanudación y cálculo de tiempo muerto | Implementar modal de fin de intervención que registra la solución aplicada, cambia el estado a "Operativa" y calcula los minutos de tiempo muerto. | 5 | Reátegui Galarcep, Diego Sebastián | Done |
+|  |  | T-19 | Tarjeta de tiempo muerto acumulado | Desarrollar componente que muestre los minutos inactivos acumulados por máquina en la vista de detalle. | 4 | Silva Hualpa, Rosangela Karen | Done |
+
+A continuación se muestra la evolución del tablero de Jira durante el Sprint 2:
+
+<!-- TODO: agregar capturas del board de Jira (inicio, mitad y cierre del sprint)
+<div align="center">
+    <img src="../assets/environments/sprint2_board_inicio.png" alt="Tablero Jira Sprint 2 - inicio">
+</div>
+
+<div align="center">
+    <img src="../assets/environments/sprint2_board_cierre.png" alt="Tablero Jira Sprint 2 - cierre">
+</div>
+-->
+
+Link del tablero de Jira: https://colmop1548.atlassian.net/jira/software/projects/SCRUM/boards/1

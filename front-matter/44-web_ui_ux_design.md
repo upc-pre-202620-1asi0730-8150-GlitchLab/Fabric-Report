@@ -45,7 +45,7 @@ El flujo inicia cuando Maribel accede al módulo "Production Batches". Desde est
 
 **Wireflow:**
 
-<div align="center"><img src="../assets/landing_page/wireflow2.png" width ="100%"></div>
+<div align="center"><img src="../assets/landing_page/Wireflow2.png" width ="100%"></div>
 
 **Explicación del flujo:**
 
