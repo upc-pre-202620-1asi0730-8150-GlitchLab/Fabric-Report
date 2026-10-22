@@ -68,7 +68,7 @@ A continuación se muestra el tablero de Trello utilizado para el seguimiento de
     <img src="../assets/environments/sprint1.png" alt="Tablero Trello Sprint 1">
 </div>
 
-Link del tablero de Trello: <!-- TODO: pegar link del tablero de Trello -->
+Link del tablero de Trello: https://trello.com/invite/b/6a9cf4130bb90e06922d9844/ATTIe092cd72b0d71f4d22b7c0cf5cf3b8078F758F60/sprint-backlog-2
 
 ### 5.2.2. Sprint 2
 
@@ -109,7 +109,7 @@ A continuación se presenta la matriz Leadership-and-Collaboration Matrix (LACX)
 
 #### 5.2.2.3. Sprint Backlog 2
 
-Para el Sprint 2 se seleccionaron 9 User Stories core del negocio del Product Backlog, totalizando 31 Story Points. El trabajo se centró exclusivamente en el frontend de la aplicación web desarrollado en Vue, consumiendo una API simulada con json-server. Las User Stories fueron descompuestas en Engineering Tasks estimadas entre 4 y 8 horas, con responsable asignado y estado. El seguimiento de las tareas se realizó en Jira mediante los estados To Do, In Process, To Review y Done.
+Para el Sprint 2 se seleccionaron 9 User Stories core del negocio del Product Backlog, totalizando 31 Story Points. El trabajo se centró exclusivamente en el frontend de la aplicación web desarrollado en Vue, consumiendo una API simulada con json-server. Las User Stories fueron descompuestas en Engineering Tasks estimadas entre 4 y 8 horas, con responsable asignado y estado. El seguimiento de las tareas se realizó en Trello mediante los estados To Do, In Process, To Review y Done.
 
 | Sprint # | Sprint 2 | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
@@ -135,16 +135,12 @@ Para el Sprint 2 se seleccionaron 9 User Stories core del negocio del Product Ba
 | US008 | Reanudación de operatividad y registro del tiempo muerto de máquina | T-18 | Reanudación y cálculo de tiempo muerto | Implementar modal de fin de intervención que registra la solución aplicada, cambia el estado a "Operativa" y calcula los minutos de tiempo muerto. | 5 | Reátegui Galarcep, Diego Sebastián | Done |
 |  |  | T-19 | Tarjeta de tiempo muerto acumulado | Desarrollar componente que muestre los minutos inactivos acumulados por máquina en la vista de detalle. | 4 | Silva Hualpa, Rosangela Karen | Done |
 
-A continuación se muestra la evolución del tablero de Jira durante el Sprint 2:
+<br>
 
-<!-- TODO: agregar capturas del board de Jira (inicio, mitad y cierre del sprint)
-<div align="center">
-    <img src="../assets/environments/sprint2_board_inicio.png" alt="Tablero Jira Sprint 2 - inicio">
-</div>
+A continuación se muestra la evolución del tablero en Trello durante el Sprint 2:
 
-<div align="center">
-    <img src="../assets/environments/sprint2_board_cierre.png" alt="Tablero Jira Sprint 2 - cierre">
-</div>
--->
+<img src="../assets/product_backlog/sprint_backlog2.png">
 
-Link del tablero de Jira: https://colmop1548.atlassian.net/jira/software/projects/SCRUM/boards/1
+<br>
+
+Link del tablero de Jira: https://trello.com/invite/b/6a9cf4130bb90e06922d9844/ATTIe092cd72b0d71f4d22b7c0cf5cf3b8078F758F60/sprint-backlog-2
