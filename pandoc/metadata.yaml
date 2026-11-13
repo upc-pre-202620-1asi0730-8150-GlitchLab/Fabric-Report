@@ -1,0 +1,25 @@
+lang: es
+documentclass: article
+papersize: a4
+geometry: margin=2.2cm
+fontsize: 10pt
+mainfont: DejaVu Serif
+sansfont: DejaVu Sans
+monofont: DejaVu Sans Mono
+colorlinks: true
+linkcolor: blue
+urlcolor: blue
+header-includes:
+  - \usepackage{etoolbox}
+  - \AtBeginEnvironment{longtable}{\scriptsize}
+  - \renewcommand{\arraystretch}{1.25}
+  - \setcounter{tocdepth}{4}
+  - \setlength{\emergencystretch}{3em}
+  - \AtBeginDocument{\hypersetup{pdftitle={Fabric - Informe de trabajo final},pdfauthor={GlitchLab}}}
+  - \usepackage{titlesec}
+  - \titleformat{\paragraph}[hang]{\normalfont\normalsize\bfseries}{}{0pt}{}
+  - \titlespacing*{\paragraph}{0pt}{1.4ex plus .3ex}{0.6ex}
+  - \titleformat{\subparagraph}[hang]{\normalfont\small\bfseries\itshape}{}{0pt}{}
+  - \titlespacing*{\subparagraph}{0pt}{1.2ex plus .3ex}{0.5ex}
+  - \usepackage{float}
+  - \floatplacement{figure}{H}

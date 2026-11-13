@@ -45,12 +45,3 @@ Para la elaboración de los Empathy Maps, se analizaron las entrevistas de cada 
 #### User Persona 2: Betsabé
 ![Empathy Mapping - Segmento 2](../assets/empathy_maps/empathy-map2.png)
 
-### 2.3.5. As-Is Scenario Mapping
-
-#### User Persona 1: 
-
-![As-Is Scenario Mapping - Segmento 1](../assets/as-is_scenario_mapping/as-is1.png)
-
-#### User Persona 2:
-
-![As-Is Scenario Mapping - Segmento 2](../assets/as-is_scenario_mapping/as-is2.png)
