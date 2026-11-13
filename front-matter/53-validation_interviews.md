@@ -1,14 +1,62 @@
 ## 5.3. Validation Interviews
 
+## Preguntas para la entrevista
+
+- ¿Qué edad tienes?
+  
+-  ¿En que distrito/provincia resides actualmente?
+  
+-  ¿Cuál es tu cargo actual, cuántos años llevas en el rubro textil o de confección y cuántos trabajadores tiene tu empresa?
+  
+-  ¿Qué herramientas usas hoy para controlar producción o calidad (papel, Excel, WhatsApp, un ERP) y qué tan cómodo te sientes con ellas?
+  
+-  ¿Qué sistema operativo usas en la computadora de trabajo (Windows, macOS, Linux u otro) y qué navegador?
+
+**Landing page**
+
+-  ¿Qué entendiste que se puede hacer con Fabric y para quién está pensada? 
+   
+- ¿Qué tan fácil te resultó moverte entre secciones (menú lateral, nombres de las opciones, cambio de idioma)? ¿Algo te confundió?
+   
+-  ¿Qué opinas del diseño visual: colores, tamaño de letra, cantidad de información por pantalla?
+
+<br>
+
+**Supervisores de producción**
+-  Cuéntame qué harías con esta pantalla para decidir qué atender primero hoy.
+
+-   Mientras buscabas y creabas el lote, ¿qué fue lo que más te costó o lo que no esperabas encontrar?
+
+-  Con el historial del lote a la vista, ¿cómo explicarías qué pasó con las piezas desde que empezó?
+
+-  ¿En qué se parece o se diferencia este proceso de cómo asignas operarios y dejas notas hoy?
+
+- Al recorrer el caso de una máquina que falla, ¿en qué momento dudaste o no supiste qué hacer?
+
+- Al ver esta alerta, ¿qué harías primero?
+
+-  Digame cómo decidiría si este rollo puede pasar a corte, usando solo lo que ves en pantalla.
+
+**Inspectores de calidad**
+
+- ¿Qué mirarías primero al empezar tu turno con esta pantalla?
+
+- ¿Qué dato de tu trabajo real no encontraste dónde registrar?
+
+-  Cuéntame qué falta por hacer en este rollo y qué le pasaría a su estado según lo que registres.
+
+- Comparado con tu forma de trabajar hoy, ¿qué tan probable es que uses Fabric, del 1 al 10, y qué cambiarías primero?
+
 ### 5.3.1. Diseño de Entrevistas
 
 **Segmento 1: Supervisor de Producción**
 
 **Nombre:** Anderson
 **Edad:** 38
-**Ciudad:** Puno
+**Ciudad:** Lima
 
 **Minuto Inicio:** 00:00
+
 **Minuto Final:** 09:16
 
 Entrevista completa: [https://shorturl.at/jGYGK](https://shorturl.at/jGYGK)
@@ -59,10 +107,13 @@ En general, la entrevista indica que FABRIC cumple con su objetivo de presentar 
 ### Entrevista I
 
 **Nombre:** Adrian
+
 **Edad:** 34 años
+
 **Ciudad:** Magdalena
 
 **Minuto Inicio:** 09:16
+
 **Minuto Final:** 18:17
 
 Entrevista completa: [https://shorturl.at/jGYGK](https://shorturl.at/jGYGK)
@@ -103,10 +154,13 @@ En general, FABRIC tuvo una buena aceptación. Las principales oportunidades de 
 ### Entrevista II
 
 **Nombre:** Betsabé
+
 **Edad:** 53 años
+
 **Ciudad:** Chancay
 
 **Minuto Inicio:** 00:00
+
 **Minuto Final:** 12:13
 
 Entrevista completa: [https://bit.ly/3WKiQRO](https://bit.ly/3WKiQRO)
@@ -136,10 +190,13 @@ Aquí se representa al usuario técnico especializado en estándares textiles y 
 ### Entrevista III
 
 **Nombre:** Luciana
+
 **Edad:** 19 años
+
 **Ciudad:** Lima
 
 **Minuto Inicio:** 12:13
+
 **Minuto Final:** 24:03
 
 Entrevista completa: [https://bit.ly/3WKiQRO](https://bit.ly/3WKiQRO)
