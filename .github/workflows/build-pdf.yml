@@ -1,0 +1,32 @@
+name: Build report PDF
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - "front-matter/**"
+      - "assets/**"
+      - "pandoc/**"
+      - "build-pdf.sh"
+      - ".github/workflows/build-pdf.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-lang-spanish fonts-dejavu
+
+      - name: Build PDF
+        run: ./build-pdf.sh
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fabric-Report
+          path: build/Fabric-Report.pdf
