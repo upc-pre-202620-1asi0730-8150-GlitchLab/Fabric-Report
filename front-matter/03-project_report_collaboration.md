@@ -41,3 +41,44 @@ La siguiente imagen representa todos los commits realizados en el repositorio a 
 <div align="center">
     <img src="../assets/collaborators/last_tb1.png" alt="collaborators insights tb1" witdh="600">
 </div>
+
+<br>
+<br>
+
+# Avance 2
+
+Para la entrega del avance 2, se procede a mostrar el análisis de colaboración, el cual representa el número de contribuciones realizadas en el repositorio del informe, web aplication , web site y platform RESTFUL api.
+
+**Commits del repositorio de la web site**
+
+<div align="center">
+    <img src="../assets/collaborators/commit_landing.png" alt="collaborators insights tb1" witdh="600">
+</div>
+
+<div align="center">
+    <img src="../assets/collaborators/landing.png" alt="collaborators insights tb1" witdh="600">
+</div>
+
+<br>
+
+**Commits del repositorio de Fabric Platform**
+
+<div align="center">
+    <img src="../assets/collaborators/platform.png" alt="collaborators insights tb1" witdh="600">
+</div>
+
+<br>
+
+**Commits del repositorio de la Web application**
+
+<div align="center">
+    <img src="../assets/collaborators/application.png" alt="collaborators insights tb1" witdh="600">
+</div>
+
+<br>
+
+**Commits del repositorio del Reporte**
+
+<div align="center">
+    <img src="../assets/collaborators/report.png" alt="collaborators insights tb1" witdh="600">
+</div>
