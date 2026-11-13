@@ -19,7 +19,7 @@ Durante esta iteración, la reunión de Sprint Planning nos sirve para revisar l
 | Sprint 0 Review Summary | Como se trata del primer sprint del proyecto, no se cuenta con una revisión de una iteración previa. El equipo arrancó a partir de la aprobación del Product Backlog inicial, centrándose en las User Stories de mayor prioridad vinculadas a la Landing Page: propuesta de valor, funcionalidades, beneficios, segmentos objetivo e internacionalización. |
 | Sprint 0 Retrospective Summary | Al tratarse también del arranque del proyecto, se definieron las pautas de trabajo del equipo: reuniones de seguimiento diarias (Daily Stand-ups) a través de Meet, el uso de Trello para el control de tareas en los estados To Do, In Process, To Review y Done, y la importancia de mantener una comunicación constante para evitar bloqueos durante el desarrollo de la Landing Page. |
 | Sprint 1 Goal | Nuestro enfoque está en desarrollar y desplegar la Landing Page de Fabric, comunicando la propuesta de valor, funcionalidades, beneficios y segmentos objetivo, con diseño responsive y soporte en inglés y español. Creemos que esto permitirá que dueños de MYPE, supervisores de producción y encargados de calidad del sector textil comprendan rápidamente cómo Fabric les ayuda a controlar su producción y calidad. Esto se confirmará cuando los visitantes naveguen por las secciones de la Landing Page desplegada en GitHub Pages, cambien de idioma sin errores y hagan clic en el botón "Start App" para acceder a la aplicación. |
-| Sprint 1 Velocity | El equipo ha establecido un Velocity de 30 Story Points, que representa la capacidad máxima de esfuerzo que los developers pueden aceptar de manera realista para este Sprint 1. |
+| Sprint 1 Velocity | Establecimos un Velocity de 30 Story Points, que representa la capacidad máxima de esfuerzo que los developers pueden aceptar de manera realista para este Sprint 1. |
 | Sum of Story Points | 27 |
 
 <br>
@@ -143,4 +143,77 @@ A continuación se muestra la evolución del tablero en Trello durante el Sprint
 
 <br>
 
-Link del tablero de Jira: https://trello.com/invite/b/6a9cf4130bb90e06922d9844/ATTIe092cd72b0d71f4d22b7c0cf5cf3b8078F758F60/sprint-backlog-2
+Link del tablero de Trello: https://trello.com/invite/b/6a9cf4130bb90e06922d9844/ATTIe092cd72b0d71f4d22b7c0cf5cf3b8078F758F60/sprint-backlog-2
+
+
+### 5.2.3. Sprint 3
+
+Para el tercer sprint, el equipo se enfocó en construir el backend de Fabric como un servicio RESTful con ASP.NET Core y arquitectura DDD, organizado por bounded contexts (Production Batches, Quality Management y Machine Registry), e integrarlo con el frontend de la aplicación web, reemplazando la API simulada con json-server por la API real desplegada.
+
+#### 5.2.3.1. Sprint Planning 3
+
+Durante la sesión de planificación del Sprint 3, el equipo evaluó los resultados y lecciones del Sprint 2 y distribuyó el trabajo por bounded context, de modo que cada integrante liderara el backend de un contexto: Machinery, Batches, Quality, y Alerts and Report.
+
+| Campo / Sección | Detalle |
+| :--- | :--- |
+| Sprint # | Sprint 3 |
+| Date | 2026-11-02 |
+| Time | 02:30:20 |
+| Location | Discord |
+| Prepared By | Tello Palacios, Fabrizio Rafael |
+| Attendees (to planning meeting) | Flores Martinez, Ricardo Andres / Estupiñan Olortegui, Juan Sebastián / Reátegui Galarcep, Diego Sebastián / Tello Palacios, Fabrizio Rafael |
+| Sprint 2 Review Summary | Durante el Sprint 2 se implementó el frontend de la aplicación web de Fabric en Vue con las funcionalidades core de los bounded contexts Production Tracking, Quality Management y Machine Registry: creación y seguimiento de lotes por etapas, asignación de operarios, inspección de rollos de tela, pruebas de encogimiento, registro y destino de defectos, y reporte de paradas de máquinas con cálculo de tiempo muerto. Todas las tareas del Sprint Backlog 2 se completaron, es decir, los 31 Story Points planificados. Los datos se consumieron desde una API simulada con json-server, por lo que la información no persistía en un servicio real. |
+| Sprint 2 Retrospective Summary | Como acierto se destacó la organización del frontend por bounded contexts siguiendo DDD, que permitió dividir el trabajo entre los integrantes y avanzar en paralelo, y el uso de la API simulada para desarrollar las vistas sin depender del backend. Como oportunidad de mejora se identificó que la API simulada no reflejaba reglas de negocio reales ni persistencia, lo que obligaría a rehacer parte de la integración. Para el Sprint 3 se acordó implementar los RESTful Web Services en ASP.NET Core con la misma separación por bounded contexts, documentar los endpoints en Scalar y desplegar la API para que el frontend trabaje con datos reales. |
+| Sprint 3 Goal | Nuestro enfoque está en implementar los RESTful Web Services de Fabric en ASP.NET Core para la gestión de lotes, calidad de tela y prendas, y máquinas. Creemos que esto permitirá que la aplicación web trabaje con datos reales en lugar de la API simulada. Esto se confirmará cuando los endpoints estén documentados en Scalar y un supervisor pueda crear un lote, avanzarlo de etapa y registrar una parada de máquina con los datos guardados en la base de datos. |
+| Sprint 3 Velocity | Establecimos un Velocity de 23 Story Points para este Sprint 3. |
+| Sum of Story Points | 24 |
+
+<br>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Matriz Leadership-and-Collaboration Matrix (LACX) del Sprint 3. Cada aspecto corresponde a un bounded context del backend, con su liderazgo asignado.
+
+| Team Member (Last Name, First Name) | GitHub Username | Machinery | Batches | Quality | Alerts and Report | Testing & Documentation |
+|------------------------------------|----------------|-------------|-------------|--------------|----------|----------|
+| Tello Palacios, Fabrizio Rafael | F4bris | L | C | C | C | C |
+| Flores Martinez, Ricardo Andres | Nitoryu28 | C | C | C | L | C |
+| Estupiñan Olortegui, Juan Sebastián | JuanSEstupinan | C | C | L | C | C |
+| Reátegui Galarcep, Diego Sebastián | Diego201101 | C | L | C | C | C |
+
+
+#### 5.2.3.3. Sprint Backlog 3
+
+Para el Sprint 3 se seleccionaron 8 Technical Stories (24 Story Points) del Product Backlog correspondientes a cada bounded context, descompuestas en Engineering Tasks estimadas entre 4 y 8 horas, con responsable asignado y estado. El seguimiento se realizó en Trello mediante los estados To Do, In Process, To Review y Done.
+
+| Sprint # | Sprint 3 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| TS001 | API para gestión de lotes de producción | T-01 | Configuración del proyecto ASP.NET Core | Crear la solución ASP.NET Core con arquitectura por bounded contexts, Entity Framework Core, conexión a la base de datos relacional y Swagger/OpenAPI. | 6 | Tello Palacios, Fabrizio Rafael | Done |
+|  |  | T-02 | Aggregate ProductionBatch y repositorio | Modelar el aggregate ProductionBatch con sus value objects, su configuración en EF Core y el repositorio en la capa de infraestructura. | 5 | Estupiñan Olortegui, Juan Sebastian | Done |
+|  |  | T-03 | BatchesController y servicios de aplicación | Implementar command y query services y los endpoints GET /api/v1/batches, GET /api/v1/batches/{id} y POST /api/v1/batches con validaciones. | 5 | Estupiñan Olortegui, Juan Sebastian | Done |
+|  |  | T-04 | Documentación y pruebas de endpoints de lotes | Documentar en Swagger los endpoints de lotes con ejemplos de request/response y probar los escenarios de éxito y error (400, 404). | 4 | Flores Martinez, Ricardo Andres | Done |
+|  |  | T-17 | Despliegue de los Web Services | Configurar CORS para el frontend y desplegar la API y la base de datos en la nube, verificando Scalar. El despliegue se hizo en Render, usando Neon como soporte para PostgreSQL. | 6 | Tello Palacios, Fabrizio Rafael | Done |
+| TS009 | Servicio para trazabilidad y cambios de etapa de lotes de producción | T-05 | Entidad LotMovement y regla de transición | Implementar la entidad LotMovement y la regla de dominio que valida que la cantidad procesada no supere la de la etapa anterior. | 5 | Estupiñan Olortegui, Juan Sebastian | Done |
+|  |  | T-06 | Endpoints de cambio de etapa e historial | Exponer PATCH /api/v1/batches/{id}/stage y GET /api/v1/batches/{id}/movements para registrar transiciones y consultar el historial. | 5 | Reátegui Galarcep, Diego Sebastián | Done |
+| TS007 | Servicio de gestión y asignación de operarios en lotes de producción | T-07 | Endpoints de asignación de operarios | Implementar POST y GET /api/v1/batches/{id}/operators validando que un operario no se duplique en la misma etapa del lote. | 5 | Reátegui Galarcep, Diego Sebastián | Done |
+| TS019 | Servicio para registro de rollos de tela y control de disponibilidad para corte | T-08 | Aggregate FabricRoll y repositorio | Modelar el aggregate FabricRoll (metraje, proveedor, tono, estado) en el bounded context Quality Management con su repositorio. | 4 | Flores Martinez, Ricardo Andres | Done |
+|  |  | T-09 | FabricRollsController | Implementar POST y GET /api/v1/fabric-rolls permitiendo calificar el rollo como "Disponible para Corte" u "Observado". | 5 | Flores Martinez, Ricardo Andres | Done |
+| TS015 | Servicio para registro y cálculo de porcentaje de encogimiento en muestras textiles | T-10 | Servicio de pruebas de encogimiento | Implementar el cálculo del porcentaje de encogimiento (conforme si es ≤ 5 %) y el endpoint POST /api/v1/fabric-rolls/{id}/shrinkage-tests. | 6 | Tello Palacios, Fabrizio Rafael | Done |
+| TS003 | API para gestión de defectos de calidad | T-11 | Aggregate Defect y repositorio | Modelar el aggregate Defect con tipo, severidad, cantidad y lote asociado, con su configuración en EF Core. | 4 | Estupiñan Olortegui, Juan Sebastian | Done |
+|  |  | T-12 | DefectsController | Implementar POST /api/v1/defects y GET /api/v1/batches/{id}/defects con filtros por tipo y severidad. | 5 | Flores Martinez, Ricardo Andres | Done |
+| TS004 | API para gestión de maquinaria | T-13 | Aggregate Machine y repositorio | Modelar el aggregate Machine en el bounded context Machine Registry con su tipo, estado operativo y repositorio. | 4 | Tello Palacios, Fabrizio Rafael | Done |
+|  |  | T-14 | MachinesController | Implementar GET y POST /api/v1/machines y PATCH /api/v1/machines/{id}/status. | 5 | Tello Palacios, Fabrizio Rafael | Done |
+| TS010 | Servicio para registro de paradas y tiempos muertos de máquinas | T-15 | Entidad Downtime y cálculo de tiempo muerto | Implementar la entidad Downtime y el cálculo de los minutos de tiempo muerto entre el inicio y el fin de la avería. | 5 | Estupiñan Olortegui, Juan Sebastian | Done |
+|  |  | T-16 | Endpoints de paradas de máquina | Exponer POST /api/v1/machines/{id}/downtimes y PATCH /api/v1/machines/{id}/downtimes/{downtimeId}/resume. | 5 | Tello Palacios, Fabrizio Rafael | Done |
+
+<br>
+
+A continuación se muestra la evolución del tablero en Trello durante el Sprint 3:
+
+<img src="../assets/product_backlog/sprint3.png">
+
+<br>
+
+Link del tablero de Trello: https://trello.com/b/pyMIAVSi/sprint-backlog-3
