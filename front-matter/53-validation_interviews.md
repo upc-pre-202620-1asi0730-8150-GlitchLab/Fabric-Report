@@ -9,9 +9,9 @@
 **Ciudad:** Puno
 
 **Minuto Inicio:** 00:00
-**Minuto Final:** 04:53
+**Minuto Final:** 09:16
 
-Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
+Entrevista completa: [https://shorturl.at/jGYGK](https://shorturl.at/jGYGK)
 
 **Resumen de la entrevista:**
 
@@ -60,10 +60,10 @@ En general, la entrevista indica que FABRIC cumple con su objetivo de presentar 
 **Edad:** 34 años
 **Ciudad:** Magdalena
 
-**Minuto Inicio:** 00:00
-**Minuto Final:** 04:53
+**Minuto Inicio:** 09:16
+**Minuto Final:** 18:17
 
-Entrevista completa: [https://shorturl.at/pI0QC](https://shorturl.at/pI0QC)
+Entrevista completa: [https://shorturl.at/jGYGK](https://shorturl.at/jGYGK)
 
 **Resumen de la entrevista:**
 
