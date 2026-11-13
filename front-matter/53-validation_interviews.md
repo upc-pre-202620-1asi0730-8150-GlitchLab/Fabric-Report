@@ -56,6 +56,8 @@ En general, la entrevista indica que FABRIC cumple con su objetivo de presentar 
 
 **Segmento 2:  Inspector de calidad**
 
+### Entrevista I
+
 **Nombre:** Adrian
 **Edad:** 34 años
 **Ciudad:** Magdalena
@@ -98,6 +100,7 @@ En general, FABRIC tuvo una buena aceptación. Las principales oportunidades de 
 | Flexibilidad y eficiencia de uso | Parcial. El registro podría ser más rápido mediante la selección de múltiples defectos y categorías predefinidas para las observaciones. |
 | Diseño estético y minimalista | Parcial. Los colores y las fuentes fueron bien recibidos, pero el usuario indicó que algunas pantallas presentan demasiada información y necesitan una mejor distribución. |
 
+### Entrevista II
 
 **Nombre:** Betsabé
 **Edad:** 53 años
@@ -129,7 +132,8 @@ Aquí se representa al usuario técnico especializado en estándares textiles y 
 | Diseño estético y minimalista | Cumple. Presenta una interfaz limpia y bien dosificada que muestra los datos técnicos necesarios sin saturar la pantalla. |
 | Ayuda para reconocer y recuperarse de errores | Parcial. Permite registrar nuevas mediciones en el historial si se repite una prueba, pero carece de alertas visuales o bloqueos cuando un valor numérico excede la tolerancia. |
 
---
+
+### Entrevista III
 
 **Nombre:** Luciana
 **Edad:** 19 años
