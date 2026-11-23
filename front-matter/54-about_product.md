@@ -14,10 +14,10 @@ El video muestra:
 
 ### Enlaces
 
-- **YouTube:** [Link Youtube](https://youtu.be/yFTNUzASp3c)
-- **Microsoft Stream:** [Link Microsot Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQAbgrj0s-3pRaK5YrSAPRErAUfzzsT7n8epj3C3ssW01Hw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CH0vH3)
+- **YouTube:** [https://shorturl.at/9H2j9](https://shorturl.at/9H2j9)
+- **Microsoft Stream:** [https://shorturl.at/7whTx](https://shorturl.at/7whTx)
 - **Duración:** 19:57
-- **Nombre del archivo:** upc-pre-202620-1asi0730-8150-glitchlab-about-the-product-sprint-[PENDIENTE: n]
+- **Nombre del archivo:** upc-pre-202620-1asi0730-8150-glitchlab-about-the-product-sprint-3
 
 
 <br>
