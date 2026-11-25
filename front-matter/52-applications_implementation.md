@@ -87,15 +87,15 @@ Link del tablero de Trello: https://trello.com/invite/b/6a9cf4130bb90e06922d9844
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-
+Durante el Sprint, el trabajo se orientó principalmente a la creación de la landing page estática y al diseño del prototipo de la aplicación, por lo que todavía no se desarrollaron servicios web ni se elaboró documentación con OpenAPI. En consecuencia, esta fase aún no incluye documentación de Web Services, dado que dichos elementos están previstos para Sprints posteriores, en los cuales se llevará a cabo la implementación técnica del sistema y la integración de los servicios backend.
 
 #### 5.2.1.7. Software Deployment Documentation Evidence for Sprint Review
 
-
+Este apartado fue omitido deliberadamente en la entrega, devido a que el desarrollo de esta etapa se limitó exclusivamente al diseño de la Landing Page. La descripción detallada de la aplicación se incorporará en las entregas siguientes, conforme avance el proyecto.
 
 #### 5.2.1.8. Team Collaboration Insights During Sprint
 
-
+Para el desarrollo del primer sprint, todos los miembros del equipo colaboraros de forma activa y constante. De esta manera, se muestra como evidencia los insights de cada miembro de equipo.
 
 ### 5.2.2. Sprint 2
 
