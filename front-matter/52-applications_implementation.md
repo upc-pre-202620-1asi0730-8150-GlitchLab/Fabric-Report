@@ -72,7 +72,14 @@ Link del tablero de Trello: https://trello.com/invite/b/6a9cf4130bb90e06922d9844
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-
+| **Repository** | **Branch** | **Commit Ids** | **Commit Message** | **Commit Message Body** | **Commited On (Date)** |
+|----------------|------------|----------------|--------------------|-------------------------|------------------------|
+| Fabric-Report | develop | 7bb07cb69ee39ff5a668b4e9dab6d5bb5aa222f4 | docs: refactor user stories table for improved readability and structure |  | 16/09/2026 |
+| Fabric-Report | develop | d3cd6e0a6f18167ecc887348ab3117d565b75510 | docs: add wireframes and mockups |  | 16/09/2026 |
+| Fabric-Report | develop | df0be0175b3755354fb74678a56caae6e8e864eb | docs: add web wireframe and mockup |  | 16/09/2026 |
+| Fabric-Report | develop | 16dbb4d9f890ac7e5bac9f4f850c71bc08668f10 | docs: add prototyping |  | 17/09/2026 |
+| Fabric-Report | develop | 9e0edfa28eda616e14f096f63a9a446279b0f2a4 | docs: add diagrams and enhance documentation for Domain-Driven Software Architecture and Software Configuration Management |  | 17/09/2026 |
+| Fabric-Report | develop | 524b5a7c51b192687f312ce983afd494f57fccff | feat: add Design-Level Event Storming and Software Architecture diagrams to project report |  | 17/09/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -167,7 +174,7 @@ Link del tablero de Trello: https://trello.com/invite/b/6a9cf4130bb90e06922d9844
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-
+| **Repository** | **Branch** | **Commit Ids** | **Commit Message** | **Commit Message Body** | **Commited On (Date)** |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -259,7 +266,7 @@ Link del tablero de Trello: https://trello.com/b/pyMIAVSi/sprint-backlog-3
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-
+| **Repository** | **Branch** | **Commit Ids** | **Commit Message** | **Commit Message Body** | **Commited On (Date)** |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
