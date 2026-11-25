@@ -68,7 +68,7 @@ A continuación se muestra el tablero de Trello utilizado para el seguimiento de
     <img src="../assets/sprint_backlog/sprint1.png" alt="Tablero Trello Sprint 1">
 </div>
 
-Link del tablero de Trello: https://trello.com/invite/b/6a9cf4130bb90e06922d9844/ATTIe092cd72b0d71f4d22b7c0cf5cf3b8078F758F60/sprint-backlog-2
+Link del tablero de Trello: [https://shorturl.at/P00iy](https://shorturl.at/P00iy)
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -217,7 +217,7 @@ A continuación se muestra la evolución del tablero en Trello durante el Sprint
 
 <br>
 
-Link del tablero de Trello: https://trello.com/invite/b/6a9cf4130bb90e06922d9844/ATTIe092cd72b0d71f4d22b7c0cf5cf3b8078F758F60/sprint-backlog-2
+Link del tablero de Trello: [https://shorturl.at/xErzZ](https://shorturl.at/xErzZ)
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
@@ -310,7 +310,7 @@ A continuación se muestra la evolución del tablero en Trello durante el Sprint
 
 <br>
 
-Link del tablero de Trello: https://trello.com/b/pyMIAVSi/sprint-backlog-3
+Link del tablero de Trello: [https://shorturl.at/IqitJ](https://shorturl.at/IqitJ)
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
