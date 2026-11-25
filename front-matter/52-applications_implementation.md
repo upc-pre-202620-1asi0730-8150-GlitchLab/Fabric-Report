@@ -97,6 +97,11 @@ Este apartado fue omitido deliberadamente en la entrega, devido a que el desarro
 
 Para el desarrollo del primer sprint, todos los miembros del equipo colaboraros de forma activa y constante. De esta manera, se muestra como evidencia los insights de cada miembro de equipo.
 
+<p align= "left">
+    <img src="../assets/insights/collaboration1.png">
+    <img src="../assets/insights/collaborators1.png">
+</p>
+
 ### 5.2.2. Sprint 2
 
 Para el segundo sprint, el equipo se enfocó en construir el frontend de la aplicación web de Fabric con Vue, implementando las funcionalidades core del negocio en los bounded contexts de Production Tracking, Quality Management y Machine Registry, consumiendo una API simulada con json-server.
