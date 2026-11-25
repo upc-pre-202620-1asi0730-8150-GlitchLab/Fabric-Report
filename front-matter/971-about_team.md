@@ -4,8 +4,8 @@ El video *About-The-Team* resume el proceso de trabajo que el equipo siguió par
 
 ### Enlaces
 
-- **YouTube :** [Link Youtube](https://www.youtube.com/watch?v=spj55GCCFxk)
-- **Microsoft Stream:** [Link Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQBWJbhJh9hzTpFRN3ch95bIAdZQlLhwy5skqNIuESWEUqY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nDdmAi)
+- **YouTube :** [https://shorturl.at/jlXWw](https://shorturl.at/jlXWw)
+- **Microsoft Stream:** [https://shorturl.at/CaSQL](https://shorturl.at/CaSQL)
 - **Nombre del archivo:** upc-pre-202620-1asi0730-8150-glitchlab-about-the-team-sprint-3
 - **Duración total:** 10:01
 
