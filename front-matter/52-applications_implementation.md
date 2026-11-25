@@ -223,6 +223,14 @@ Link del tablero de Trello: [https://shorturl.at/xErzZ](https://shorturl.at/xErz
 
 | **Repository** | **Branch** | **Commit Ids** | **Commit Message** | **Commit Message Body** | **Commited On (Date)** |
 |----------------|------------|----------------|--------------------|-------------------------|------------------------|
+| Fabric-WebApplication | develop | 836076702791a473e3154322b90f74f808967473 | feat(shared): build sidebar with options using routes and vue components |  | 02/10/2026 |
+| Fabric-WebApplication | develop | 2b22b6db5457057f88787386efa519203884b426 | feat(machine-registration): machine-registration main screen with data table, form and list for machines |  | 04/10/2026 |
+| Fabric-WebApplication | develop | e533351b8f02cea06d6cc3e000cdefd2ae9220d4 | feat(components): add productionchart component |  | 05/10/2026 |
+| Fabric-WebApplication | develop | 1f5ebb9daa5cc9bdf6843cd35293dd9c1afe98d1 | feat(presentation-view): Creating component for home screen of quality module |  | 06/10/2026 |
+| Fabric-WebApplication | develop | 3b28326e3ed29fc77dc86f7fa5a776a27133d1bf | feat: putting alerts and dashboard into domain-driven design |  | 06/10/2026 |
+| Fabric-WebApplication | develop | 9504b8b0a3ed51372840ea382a2cac77966cb0c1 | feat(server): Correcting and implementing server options for database and new options |  | 06/10/2026 |
+| Fabric-WebApplication | develop | d5b20b8769bf7d6633fb9da22cb1cd2cb97c7d6f | feat: added production batches directory, edited main.js and router.js |  | 06/10/2026 |
+| Fabric-WebApplication | develop | d709347841982f828e17a1fd5f4b892b875b087e | feat(server): connecting fakeAPI with frontend |  | 06/10/2026 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
