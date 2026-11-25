@@ -234,7 +234,71 @@ Link del tablero de Trello: [https://shorturl.at/xErzZ](https://shorturl.at/xErz
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+En esta seccion se presentan evidencias de la implementacion de la aplicación web desarrollada durante el sprint
 
+**Figura 1. Dashboard Principal**
+
+La figura muestra el panel de control general de Fabric, donde se aprecian los indicadores clave de producción diaria (prendas fabricadas, promedio por hora y porcentaje de cumplimiento), el gráfico de producción temporal y el avance por lotes y etapas.
+
+<p align= "center">
+    <img src="../assets/evidence/figura6.png">
+</p>
+
+**Figura 2. Sección de Lotes de Producción**
+
+La figura muestra el módulo de gestión de lotes de producción (Production Batches), que permite filtrar y buscar órdenes de trabajo y presenta en una tabla paginada el código del lote, el modelo de prenda, la cantidad proyectada, la etapa actual, el porcentaje de progreso y la fecha de entrega estimada.
+
+<p align= "center">
+    <img src="../assets/evidence/figura7.png">
+</p>
+
+**Figura 3. Sección de Calidad**
+
+La figura muestra la interfaz principal del módulo de control de calidad (Quality), que resume las métricas de rollos registrados, conformes, observados y pruebas pendientes, junto con el listado detallado de inspecciones y sus estados de aprobación y acciones operativas.
+
+<p align= "center">
+    <img src="../assets/evidence/figura8.png">
+</p>
+
+**Figura 4. Sección de Maquinaria**
+
+La figura presenta el panel de monitoreo de maquinaria (Machinery), que centraliza el estado operativo de los equipos del taller (total, en operación o en mantenimiento) y muestra la tabla de control con la ubicación, el tipo de máquina, los tiempos muertos acumulados y el registro de averías.
+
+<p align= "center">
+    <img src="../assets/evidence/figura9.png">
+</p>
+
+**Figura 5. Sección de Alertas**
+
+La figura muestra el sistema de gestión de alertas de producción (Alerts), que clasifica y notifica automáticamente incidencias críticas, lotes en riesgo de incumplimiento y flujos óptimos de trabajo, mediante filtros por estado, lote y tipo de alerta.
+
+<p align= "center">
+    <img src="../assets/evidence/figura10.png">
+</p>
+
+**Figura 6. Sección de Inspección de Rollo**
+
+La figura muestra el formulario de registro e inspección inicial de rollos de tela (New roll inspection), en el que se ingresan los datos de recepción del proveedor (metraje, muestra del cliente y tono) y se evalúa la conformidad del tejido antes de autorizar su pase a corte.
+
+<p align= "center">
+    <img src="../assets/evidence/figura11.png">
+</p>
+
+**Figura 7. Parámetros de Inspección**
+
+La figura muestra la vista para el registro de parámetros evaluados durante la inspección técnica (Inspection parameters), que permite capturar datos dimensionales (ancho y largo), variaciones de tono, tipo de defectos detectados y observaciones generales del material recibido.
+
+<p align= "center">
+    <img src="../assets/evidence/figura12.png">
+</p>
+
+**Figura 8. Prueba de Encogimiento**
+
+La figura presenta la interfaz para la ejecución y el registro de la prueba de encogimiento (Shrinkage test), que permite calcular la variación dimensional de una muestra textil antes y después del lavado, con el fin de validar su cumplimiento con la tolerancia técnica del taller antes del tendido.
+
+<p align= "center">
+    <img src="../assets/evidence/figura13.png">
+</p>
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
