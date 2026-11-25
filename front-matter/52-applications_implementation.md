@@ -83,7 +83,49 @@ Link del tablero de Trello: https://trello.com/invite/b/6a9cf4130bb90e06922d9844
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+En esta sección se muestran evidencias de la ejecucion de la landing page desarrollada durante el Sprint.
 
+Las capturas presentadas a continuación evidencian la interacción del usuario con las distintas secciones de la landing page, lo que permite verificar la estructura de la información, la propuesta de valor y la navegación establecida para el sistema Fabric.
+
+**Figura 1. Sección principal de la landing page**
+
+En la figura se muestra la sección principal de la landing page, en la cual se expone la propuesta de valor del sistema Fabric, acompañada de un llamado a la acción orientado al usuario.
+
+<p align= "center">
+    <img src="../assets/evidence/figura1.png">
+</p>
+
+**Figura 2. Sección de solución**
+
+La figura presenta la propuesta de solución que ofrece la plataforma Fabric ante las dificultades operativas del taller textil, organizando la transformación del seguimiento de la producción, el control de calidad y la visibilidad operativa a través de procesos digitales y trazables.
+
+<p align= "center">
+    <img src="../assets/evidence/figura2.png">
+</p>
+
+**Figura 3. Sección de funcionalidades y beneficios**
+
+La figura muestra las funcionalidades clave de la plataforma (gestión de lotes, control de calidad, maquinaria y reportes) y sus principales beneficios operativos, como una mayor trazabilidad, un mejor control de los recursos y la centralización digital de la información.
+
+<p align= "center">
+    <img src="../assets/evidence/figura3.png">
+</p>
+
+**Figura 4. Sección de evidencia de beneficios**
+
+La figura presenta capturas de los módulos del sistema en funcionamiento (Dashboard, Lotes de Producción, Control de Calidad, Maquinaria y Alertas), lo que evidencia visualmente el control integral y la interfaz intuitiva que la plataforma ofrece para la gestión MYPE.
+
+<p align= "center">
+    <img src="../assets/evidence/figura4.png">
+</p>
+
+**Figura 5. Sección final y llamado a la acción**
+
+La figura muestra el cierre de la landing page, donde se resaltan las ventajas del servicio junto a un botón destacado de llamado a la acción que invita al usuario a iniciar la aplicación.
+
+<p align= "center">
+    <img src="../assets/evidence/figura5.png">
+</p>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -180,6 +222,7 @@ Link del tablero de Trello: https://trello.com/invite/b/6a9cf4130bb90e06922d9844
 #### 5.2.2.4. Development Evidence for Sprint Review
 
 | **Repository** | **Branch** | **Commit Ids** | **Commit Message** | **Commit Message Body** | **Commited On (Date)** |
+|----------------|------------|----------------|--------------------|-------------------------|------------------------|
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -272,6 +315,7 @@ Link del tablero de Trello: https://trello.com/b/pyMIAVSi/sprint-backlog-3
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 | **Repository** | **Branch** | **Commit Ids** | **Commit Message** | **Commit Message Body** | **Commited On (Date)** |
+|----------------|------------|----------------|--------------------|-------------------------|------------------------|
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
