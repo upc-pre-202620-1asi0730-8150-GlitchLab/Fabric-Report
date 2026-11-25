@@ -65,10 +65,30 @@ Nuestro objetivo para este primer sprint fue desarrollar la Landing Page de Fabr
 A continuación se muestra el tablero de Trello utilizado para el seguimiento de las tareas del Sprint 1:
 
 <div align="center">
-    <img src="../assets/environments/sprint1.png" alt="Tablero Trello Sprint 1">
+    <img src="../assets/sprint_backlog/sprint1.png" alt="Tablero Trello Sprint 1">
 </div>
 
 Link del tablero de Trello: https://trello.com/invite/b/6a9cf4130bb90e06922d9844/ATTIe092cd72b0d71f4d22b7c0cf5cf3b8078F758F60/sprint-backlog-2
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+
+
+#### 5.2.1.7. Software Deployment Documentation Evidence for Sprint Review
+
+
+
+#### 5.2.1.8. Team Collaboration Insights During Sprint
+
+
 
 ### 5.2.2. Sprint 2
 
@@ -139,11 +159,30 @@ Para el Sprint 2 se seleccionaron 9 User Stories core del negocio del Product Ba
 
 A continuación se muestra la evolución del tablero en Trello durante el Sprint 2:
 
-<img src="../assets/product_backlog/sprint_backlog2.png">
+<img src="../assets/sprint_backlog/sprint_backlog2.png">
 
 <br>
 
 Link del tablero de Trello: https://trello.com/invite/b/6a9cf4130bb90e06922d9844/ATTIe092cd72b0d71f4d22b7c0cf5cf3b8078F758F60/sprint-backlog-2
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+
+#### 5.2.2.7. Software Deployment Documentation Evidence for Sprint Review
+
+
+
+#### 5.2.2.8. Team Collaboration Insights During Sprint
+
 
 
 ### 5.2.3. Sprint 3
@@ -212,8 +251,62 @@ Para el Sprint 3 se seleccionaron 8 Technical Stories (24 Story Points) del Prod
 
 A continuación se muestra la evolución del tablero en Trello durante el Sprint 3:
 
-<img src="../assets/product_backlog/sprint3.png">
+<img src="../assets/sprint_backlog/sprint3.png">
 
 <br>
 
 Link del tablero de Trello: https://trello.com/b/pyMIAVSi/sprint-backlog-3
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+
+#### 5.2.3.7. Software Deployment Documentation Evidence for Sprint Review
+
+
+
+#### 5.2.3.8. Team Collaboration Insights During Sprint
+
+
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+
+
+#### 5.2.4.3. Sprint Backlog 4
+
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+
+
+#### 5.2.4.7. Software Deployment Documentation Evidence for Sprint Review
+
+
+
+#### 5.2.4.8. Team Collaboration Insights During Sprint
+
+
