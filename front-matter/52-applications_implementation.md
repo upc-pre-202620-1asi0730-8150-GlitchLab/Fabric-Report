@@ -302,15 +302,118 @@ La figura presenta la interfaz para la ejecución y el registro de la prueba de 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+Dentro del alcance del presente Sprint 2, el equipo no llevó a cabo la implementación de un Web Service propio que contara con documentación bajo OpenAPI/Scalar, debido a que el backend formal desarrollado en ASP.NET Core está previsto como un entregable posterior (AV2/TB2). No obstante, el frontend de Fabric integró llamadas HTTP para lotes de producción, operarios, trazabilidad, observaciones, maquinaria, alertas, analítica y control de calidad. La aplicación emplea Axios y, en desarrollo, configura la API en http://localhost:3000; el README identifica dicha API como un mock con JSON Server.
 
+**Servicio FakeAPI: `https://fabric-platform.onrender.com/api/v1`**
+
+| **Endpoint** | **Verbo HTTP** | **Descripción** | **Parámetros** | **Ejemplo Respuesta** |
+|--------------|----------------|-----------------|----------------|-----------------------|
+| `/batches` | GET | Lista los lotes de producción. | Ninguno. | `[{"id":"1","batchNumber":"LOT-024","currentStage":"Sewing","status":"In Production"}]` |
+| `/batches` | POST | Crea un lote. | Cuerpo: `garmentModel`, `projectedQuantity`, `deliveryDate`, `notes`. | `{"id":"7","batchNumber":"LOT-029","garmentModel":"Hoodie","projectedQuantity":500}` |
+| `/batches/{id}` | GET | Obtiene un lote por identificador. | Ruta: `id`. | `{"id":"1","batchNumber":"LOT-024","currentStage":"Sewing"}` |
+| `/batches/{id}` | PUT | Actualiza datos o etapa de un lote. | Ruta: `id`. Cuerpo: campos del lote, como `currentStage` o `processedQuantity`. | `{"id":"1","currentStage":"Finishing","processedQuantity":492}` |
+| `/traceabilityHistory/{batchId}` | GET | Obtiene movimientos de trazabilidad asociados a un lote. | Ruta: `batchId`. | `[{"id":"1","batchId":"1","stageName":"Sewing","qtyIn":500,"qtyOut":492}]` |
+| `/operators` | GET | Lista los operarios disponibles. | Ninguno. | `[{"id":"1","name":"Carlos Mendoza","specialty":"Overlock"}]` |
+| `/assignedOperators/{batchId}` | GET | Consulta las asignaciones de operarios de un lote. | Ruta: `batchId`. | `[{"id":"1","batchId":"1","operatorName":"Carlos Mendoza","stage":"Sewing"}]` |
+| `/assignedOperators` | POST | Asigna un operario a un lote. | Cuerpo: `batchId`, `operatorName`, `specialty`, `stage`, `assignedAt`. | `{"id":"2","batchId":"1","operatorName":"Ana Torres","stage":"Sewing"}` |
+| `/observations/{batchId}` | GET | Consulta observaciones de un lote. | Ruta: `batchId`. | `[{"id":"1","batchId":"1","authorName":"Rosangela Silva","content":"Producción pausada","createdAt":"16/09/2026"}]` |
+| `/observations` | POST | Registra una observación para un lote. | Cuerpo: `batchId`, `timestamp`, `text`, `author`. | `{"id":"2","batchId":"1","text":"Revisión completada","author":"Registered by Supervisor"}` |
+| `/machines` | GET | Lista las máquinas. | Ninguno. | `[{"id":"1","type":"overlock","status":"operational","batchId":"LOT-023"}]` |
+| `/machines` | POST | Registra una máquina. | Cuerpo: datos de la máquina. | `{"id":"2","type":"overlock","status":"operational"}` |
+| `/machines/{id}` | GET | Obtiene una máquina por identificador. | Ruta: `id`. | `{"id":"1","type":"overlock","status":"operational"}` |
+| `/machines/{id}/status` | PUT | Actualiza el estado de una máquina. | Ruta: `id`. Cuerpo: nuevo estado. | `{"id":"1","status":"in-maintenance"}` |
+| `/machines/{machineId}/downtimes` | GET | Consulta las paradas de una máquina. | Ruta: `machineId`. | `[{"id":"1","machineId":"1","cause":"mechanical-jam","resumedAt":null}]` |
+| `/machines/{machineId}/downtimes` | POST | Registra una parada de máquina. | Ruta: `machineId`. Cuerpo: causa, descripción y hora de parada. | `{"id":"2","machineId":"1","cause":"mechanical-jam","stoppedAt":"2026-11-25T10:00:00Z"}` |
+| `/machines/{machineId}/downtimes/{downtimeId}/resumption` | PUT | Registra la reanudación de una parada. | Ruta: `machineId`, `downtimeId`. Cuerpo: hora de reanudación. | `{"id":"2","resumedAt":"2026-11-25T10:35:00Z"}` |
+| `/machines/{machineId}/maintenances` | GET | Consulta mantenimientos de una máquina. | Ruta: `machineId`. | `[{"id":"1","machineId":"1","maintenanceType":"preventive","technician":"Alan"}]` |
+| `/machines/{machineId}/maintenances` | POST | Registra un mantenimiento. | Ruta: `machineId`. Cuerpo: datos del mantenimiento. | `{"id":"3","machineId":"1","maintenanceType":"corrective","technician":"Diego"}` |
+| `/alerts` | GET | Lista las alertas. | Ninguno. | `[{"id":"1","status":"CRITICAL","type":"Machine Downtime","reference":"MC-014"}]` |
+| `/dashboard-metrics` | GET | Obtiene métricas del tablero para una fecha. | Consulta opcional: `date`. | `{"date":"2026-11-25","totalProduced":1450,"averagePerHour":181,"dailyCompliance":92}` |
+| `/dashboard-metrics/history` | GET | Consulta el historial de métricas. | Ninguno. | `[{"date":"2026-10-04","totalProduced":1450,"dailyCompliance":92}]` |
+| `/defects` | GET | Lista defectos, con filtro opcional por lote. | Consulta opcional: `batchId`. | `[{"id":"1","batchId":"1","description":"Costura defectuosa"}]` |
+| `/defects` | POST | Registra un defecto. | Cuerpo: datos del defecto. | `{"id":"1","batchId":"1","description":"Costura defectuosa"}` |
+| `/defects/{defectId}` | PUT | Actualiza un defecto. | Ruta: `defectId`. Cuerpo: campos a actualizar. | `{"id":"1","status":"resolved"}` |
+| `/suppliers` | GET | Lista proveedores. | Ninguno. | `[{"id":"1","name":"Textile A"}]` |
+| `/fabric-samples` | GET | Lista muestras de tela. | Ninguno. | `[{"id":"1","name":"T-Shirt Basic","shrinkageTolerance":5}]` |
+| `/fabric-inspections` | GET | Lista inspecciones de tela. | Ninguno. | `[{"id":1,"rollId":"12","supplier":"Textile A","rollStatus":"Blocked"}]` |
+| `/fabric-inspections` | POST | Crea una inspección de tela. | Cuerpo: datos de la inspección. | `{"id":4,"rollId":"13","supplier":"Supplier B","rollStatus":"Available for Cutting"}` |
+| `/fabric-inspections/{inspectionId}` | GET | Consulta una inspección. | Ruta: `inspectionId`. | `{"id":1,"rollId":"12","sample":"Hoodie","rollStatus":"Blocked"}` |
+| `/fabric-inspections/{inspectionId}` | PUT | Actualiza una inspección. | Ruta: `inspectionId`. Cuerpo: campos actualizados. | `{"id":1,"rollId":"12","observation":"Revisión realizada"}` |
+| `/fabric-inspections/{inspectionId}/status` | PUT | Actualiza el estado del rollo inspeccionado. | Ruta: `inspectionId`. Cuerpo: `rollStatus`. | `{"id":1,"rollStatus":"Available for Cutting"}` |
 
 #### 5.2.2.7. Software Deployment Documentation Evidence for Sprint Review
 
+A lo largo del Sprint 2, el equipo llevó a cabo el despliegue de la primera versión funcional de la Frontend Web Application de Fabric en Firebase Hosting, la plataforma de alojamiento en la nube proporcionada por Google. En las líneas siguientes se detallan los pasos que se siguieron para completar dicho despliegue.
 
+**1. Configuración del proyecto en Firebase**
+
+Se inició el proyecto...
+
+```bash
+firebase login
+firebase init hosting
+```
+
+**2. Configuración del firebase.json**
+
+Se configuró el archivo firebase.json con las reglas de reescritura necesarias para el routing de Vue Router:
+
+```json
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+```
+
+**3. Build y Despliegue**
+
+Se generó el build de producción con Vite y se desplegó con los siguientes comandos:
+
+```bash
+npm run build
+firebase deploy
+```
+
+**4. URL de la Aplicación**
+
+La aplicación quedó publicada en:
+
+🔗 INSERTAR LINK SIN SHORTENED
+
+**5. Variables de Entorno**
+
+Las variables de entorno requeridas para la conexión con las APIs externas fueron configuradas de manera local en el archivo `.env`.
+
+```
+VITE
+```
+
+**6. Versiones Desplegadas**
+
+El panel de Firebase Hosting muestra el historial de versiones correspondiente al Sprint 2, en el que se evidencian las iteraciones de despliegue efectuadas a lo largo del desarrollo.
+
+| **Versión** | **Fecha** | **Descripción** |
+|-------------|-----------|-----------------|
 
 #### 5.2.2.8. Team Collaboration Insights During Sprint
 
+Para el desarrollo del primer sprint, todos los miembros del equipo colaboraros de forma activa y constante. De esta manera, se muestra como evidencia los insights de cada miembro de equipo.
 
+<p align= "left">
+    <img src="../assets/insights/insights_WEBaPP.png">
+</p>
 
 ### 5.2.3. Sprint 3
 
