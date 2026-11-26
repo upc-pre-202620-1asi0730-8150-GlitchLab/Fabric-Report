@@ -343,11 +343,77 @@ Dentro del alcance del presente Sprint 2, el equipo no llevó a cabo la implemen
 
 #### 5.2.2.7. Software Deployment Documentation Evidence for Sprint Review
 
+A lo largo del Sprint 2, el equipo llevó a cabo el despliegue de la primera versión funcional de la Frontend Web Application de Fabric en Firebase Hosting, la plataforma de alojamiento en la nube proporcionada por Google. En las líneas siguientes se detallan los pasos que se siguieron para completar dicho despliegue.
 
+**1. Configuración del proyecto en Firebase**
+
+Se inició el proyecto...
+
+```bash
+firebase login
+firebase init hosting
+```
+
+**2. Configuración del firebase.json**
+
+Se configuró el archivo firebase.json con las reglas de reescritura necesarias para el routing de Vue Router:
+
+```json
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+```
+
+**3. Build y Despliegue**
+
+Se generó el build de producción con Vite y se desplegó con los siguientes comandos:
+
+```bash
+npm run build
+firebase deploy
+```
+
+**4. URL de la Aplicación**
+
+La aplicación quedó publicada en:
+
+🔗 INSERTAR LINK SIN SHORTENED
+
+**5. Variables de Entorno**
+
+Las variables de entorno requeridas para la conexión con las APIs externas fueron configuradas de manera local en el archivo `.env`.
+
+```
+VITE
+```
+
+**6. Versiones Desplegadas**
+
+El panel de Firebase Hosting muestra el historial de versiones correspondiente al Sprint 2, en el que se evidencian las iteraciones de despliegue efectuadas a lo largo del desarrollo.
+
+| **Versión** | **Fecha** | **Descripción** |
+|-------------|-----------|-----------------|
 
 #### 5.2.2.8. Team Collaboration Insights During Sprint
 
+Para el desarrollo del primer sprint, todos los miembros del equipo colaboraros de forma activa y constante. De esta manera, se muestra como evidencia los insights de cada miembro de equipo.
 
+<p align= "left">
+    <img src="../assets/insights/insights_WEBaPP.png">
+</p>
 
 ### 5.2.3. Sprint 3
 
